@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+<!--
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmddyyso++//////++++osyhdmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhyo+///////+++oooooo+++///////+sydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNdyo+////+osyhdmNNNNNNMMMNNNNNmdhyo+////++ydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMmhs+////oshmNNMMMMMMMMMMMMMMMMMMMMMMMMNNdyo+///+sdNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMy+///oydNNMMMMMMMMMNNmmdddddddmmmNMMMMMMMMMMNdy+///+yMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMNyshmNMMMMMMMMmdhso++///////////+++sydmNMMMMMMMNmy++sMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmds++//+osyhdmmmmmmmmdhyoo+//+ohmMMMMMMMNNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyo//+oydmNMMMMMMMMMMMMMMMMMNNmyo+//oymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMd+/oydNMMMMMMMMMMMNNNNNNMMMMMMMMMMNds+//yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmMMMMMMMMMNmhysoooooooosydmNMMMMMMMNhhmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmho++osyddmmmmdhys++oymNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo+oydNMMMMMMMMMMMMMMmho/+hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdmMMMMMMMMMMMMMMMMMMMMMmyhMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmysssydMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs///////oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh/////////sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh/////////yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy+////////yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy//////shmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////+yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////+///ohMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////dMdy+///ymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////hMMMMMNdyo++yhdmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////yMMMMMMMMMMMNdh//dMMMNmdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd/////////hMMMNmdhyysoooo//oso+///yMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMNdhhhhhhhho/////////ys+////////////////////yMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNo//////////////////////////////////////////yMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMs////////////////////////////////////////ohhmMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMmhyo/////////////////////////////////////oy///dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMdo+//////////////////////////////////////+hNMh///dNmmddmmNMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMmo/////////////////////////////////////hmmmNMMMMh///+//////+oymMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMy///////oydmmy//+///////////////////////mMMMMMMMh+////+yyyys+///odMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMNo/////smMMMNN+/+Nms/////////////////////NMMMMMNo///so//dMMMMNms///sNMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMNNN////hMMMho++//yMMMy///////////////////:MMMMMMo///hMNo//sydNMMMd///sMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMmsso////ssso///////syhy///////////////////oMMMMMd///sMMN+/////+mMMMh///mMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMNNd///+mmm+///////oddh////sssssssssssssydNMMMMMh///hMMh///////yMMMd///dMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMM+///hMMmo/////omMMy///oMMMMMMMMMMMMmmmmmmmmMm///oMMNs+////oNMMMs///NMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMd////yNMMmdhdmMMms////mMMMMMMMMMMMMMMMMMMMMMMs///omMMmdddmMMMNs///yMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMd+////ohdmmmdyo////omMMMMMMMMMMNNNNNNNNNNNNMMy////sdNNNNNNds+///hMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMNh+/////////////ohMMMMMMMMNNNNNNNmmmmmmmmmNNMms+////++++////+smMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMmhso++/++oshmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdyo+///++oydNMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+If you're looking, we're hiring :) - work+source@go-jek.com
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>
+        GO-JEK
+    </title>
+    <link href="../assets/images/logo.png" rel="icon" type="image/png" />
+    <!-- Preemptively open up connections for external assets -->
+    <link rel="preconnect" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
+    <link href="../assets/styles/index.css" rel="stylesheet" />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@GO-JEK">
+    <meta name="twitter:domain" content="www.gojekengineering.com">
+    <meta name="twitter:creator" content="@GO-JEK">
+    <meta name="twitter:title" content="GO-JEK">
+    <meta name="twitter:image" content="www.gojekengineering.com/assets/images/logo.png">
+
+    <meta property="og:url" content="http://gojekengineering.com" />
+    <meta property="og:type" content="Engineering Website" />
+    <meta property="og:title" content="GO-JEK" />
+    <meta property="og:description" content="GO-JEK is Indonesia’s first unicorn is currently the fastest growing start-up in South Asia and the largest in Indonesia in terms of valuation, funding raised and a number of transactions." />
+    <meta property="og:image" content="www.gojekengineering.com/assets/images/logo.png" />
+
+    <meta name="apple-mobile-web-app-title" content="GO-JEK">
+    <meta name="description" content="GO-JEK is Indonesia’s first unicorn is currently the fastest growing start-up in South Asia and the largest in Indonesia in terms of valuation, funding raised and a number of transactions.">
+    <link rel="canonical" href="http://gojekengineering.com">
+	
+	<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '298192794028685'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=298192794028685&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+</head>
+
+<body class="careers careers_index">
+    <div class="navbar">
+    <div class="container">
+        <a href="/"><img src="../assets/images/logo.svg" class="navbar__logo" alt="Logo" /></a>
+        <div class="navbar__menu">
+            <!--li class="navbar__menu__item ">
+                <a href="../about">About</a>
+            </li-->
+            <li class="navbar__menu__item ">
+                <a href=".">Careers</a>
+            </li>
+            <li class="navbar__menu__item ">
+                <a href="https://blog.gojekengineering.com" target="_blank">Blog</a>
+            </li>
+            <li class="navbar__menu__item ">
+                <a href="https://github.com/gojek-engineering" target="_blank">Open Source</a>
+            </li>
+            <li class="navbar__menu__item ">
+                <a href="../news">News</a>
+            </li>
+            <li class="navbar__menu__item ">
+                <a href="../contact">contact</a>
+            </li>
+        </div>
+        <div class="navbar__menu__slider">
+            <p class="menu-button" data-activates="slideout">
+                <img src="../assets/images/menu.svg" class="menu-image" alt="Menu" />
+            </p>
+            <div class="slider slider--right" id="slideout">
+                <ul class="menu">
+                    <!--li class="navbar__menu__item ">
+                        <a href="../about">About</a>
+                    </li-->
+                    <li class="navbar__menu__item ">
+                        <a href=".">Careers</a>
+                    </li>
+                    <li class="navbar__menu__item ">
+                        <a href="https://blog.gojekengineering.com" target="_blank">Blog</a>
+                    </li>
+                    <li class="navbar__menu__item ">
+                        <a href="https://github.com/gojek-engineering" target="_blank">Open Source</a>
+                    </li>
+                    <li class="navbar__menu__item ">
+                        <a href="../news">News</a>
+                    </li>
+                    <li class="navbar__men xbu__item ">
+                        <a href="../contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="careerpage p-t-160">
+    <div class="container">
+        <p class="heading heading--l text-center ">WE LOVE BUILDING BEAUTIFUL THINGS</p>
+        <p class="text-center m-b-90"><!-- Secondary Copy --></p>
+        <div class="careerpage__cover m-b-120"></div>
+        <p class="heading">Life at GO-JEK</p>
+        <p class="m-b-60"><!-- Secondary Copy --></p>
+        <div class="m-b-90">
+            <div class="pure-g pure-g--gutter_wide">
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                    <img src="../assets/images/careerpage/image1.jpg" class="go-life__image" alt="Image1" />
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                    <img src="../assets/images/careerpage/image2.jpg" class="go-life__image" alt="Image2" />
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                    <img src="../assets/images/careerpage/image3.jpg" class="go-life__image" alt="Image3" />
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                    <img src="../assets/images/careerpage/image4.jpg" class="go-life__image" alt="Image4" />
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                    <img src="../assets/images/careerpage/image5.jpg" class="go-life__image" alt="Image5" />
+                </div>
+                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                    <img src="../assets/images/careerpage/image6.jpg" class="go-life__image" alt="Image6" />
+                </div>
+            </div>
+        </div>
+        <p class="heading">Open positions</p>
+        <p class="m-b-30">We're looking for passionate, opinionated and hands-on makers.</p>
+        <div class="m-b-90">
+            <div class="pure-g pure-g--gutter">
+                  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                      <p class="heading m-b-10 text-cap">Full Stack Engineer</p>
+                      <p class="m-b-30 text-cap">bangalore</p>
+                      <a class="button m-b-60 full-stack" name="full-stack">View</a>
+                      <div class="modal" id="full-stack">
+                          <div class="container modal__box">
+                              <img src="../assets/images/closebutton.svg" class="modal__close modal__close__button pull-right" alt="Closebutton" />
+                              <div class="job-detail">
+                                  <div class="job-detail__header text-center m-b-90">
+                                      <p class="heading m-0 text-cap">Full Stack Engineer</p>
+                                      <p class="m-b-30 text-cap">bangalore</p>
+                                      <a href="mailto:work+website@go-jek.com?Subject=Full Stack Engineer" class="button button--primary">Apply</a>
+                                  </div>
+                                  <div class="job-detail__responsibility m-b-60">
+                                      <p class="heading--s">Responsibilities</p>
+                                      <ul>
+                                          <li>Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns.</li>
+                                          <li>Translate business requirements into scalable and extensible design.</li>
+                                          <li>Pair with team members on functional and nonfunctional requirements and spread design philosophy and goals across the team.</li>
+                                          <li>Partner with the product management team to define and execute the feature roadmap.</li>
+                                          <li>Coordinate with cross functional teams (Mobile, DevOps, Data, UX, QA etc.) on planning and execution.</li>
+                                          <li>Continuously improve code quality, product execution and customer delight.</li>
+                                          <li>Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies.</li>
+                                          <li>Communicate, collaborate and work effectively across distributed teams in a global environment.</li>
+                                          <li>Building and managing fully automated build/test/deployment environments.</li>
+                                          <li>An innate desire to deliver and a strong sense of accountability for your work.</li>
+                                          <li>Willingness to learn new languages and methodologies.</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <div class="job-detail__requirement m-b-60">
+                                      <p class="heading--s">About You</p>
+                                      <ul>
+                                          <li>You greatly value humility.</li>
+                                          <li>You understand the dangers associated with being attached to your code.</li>
+                                          <li>You write code because you like to. You never stop wanting to get better at it.</li>
+                                          <li>A strong sense of ownership.</li>
+                                          <li>A passion for crafting delightful customer experiences.</li>
+                                          <li>A desire to be part of a team that delivers impactful results every day.</li>
+                                          <li>A commitment to writing understandable, maintainable, and reusable software.</li>
+                                          <li>4+ years of experience in software development or a serious open source track record</li>
+                                          <li>2+ years of hands-on experience in designing, developing, testing and deploying applications large scale applications in any language or stack</li>
+                                          <li>2+ years of hands-on experience working on one or more front end technologies - Web, Android or iOS - and understand their nuances</li>
+                                          <li>Deep knowledge of Linux as a production environment</li>
+                                          <li>Proficiency in OOP, including design patterns. Experience with functional programming is a plus.</li>
+                                          <li>Data modelling experience in both Relational and NoSQL databases.</li>
+                                          <li>Ability to understand and implement Continuous Integration and Continuous Delivery.</li>
+                                          <li>Well versed with Lean methodologies, TDD and Test Engineering and Automation.</li>
+                                          <li>Ability to design and implement low latency RESTful services.</li>
+                                          <li>Experience troubleshooting server performance ­memory issues, GC tuning, resource leaks etc.</li>
+                                          <li>Excellent understanding of interactive application development paradigm, memory management, performance/resource optimisations, database interactions, network programming, concurrency and multithreading, fault tolerance, monitoring, security and operability of systems.</li>
+                                          <li>Continuously refactor applications and architectures to maintain high quality levels.</li>
+                                          <li>Ability to plan, prioritise, estimate and execute releases with a high degree of consistency.</li>
+                                          <li>Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks.</li>
+                                          <li>Passion for learning new things, solving challenging problems.</li>
+                                          <li>We primarily use Clojure, Golang, Ruby, Kotlin, Swift and Java. Familiarity with one or more is a plus.</li>
+                                          <li>Prior experience being a founder is a huge plus.</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <a href="mailto:work@go-jek.com?Subject=Full Stack Engineer" class="button button--primary">Apply</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                      <p class="heading m-b-10 text-cap">Software Engineering Lead</p>
+                      <p class="m-b-30 text-cap">Bangalore</p>
+                      <a class="button m-b-60 software-engineering-lead" name="software-engineering-lead">View</a>
+                      <div class="modal" id="software-engineering-lead">
+                          <div class="container modal__box">
+                              <img src="../assets/images/closebutton.svg" class="modal__close modal__close__button pull-right" alt="Closebutton" />
+                              <div class="job-detail">
+                                  <div class="job-detail__header text-center m-b-90">
+                                      <p class="heading m-0 text-cap">Software Engineering Lead</p>
+                                      <p class="m-b-30 text-cap">Bangalore</p>
+                                      <a href="mailto:work+website@go-jek.com?Subject=Software Engineering Lead" class="button button--primary">Apply</a>
+                                  </div>
+                                  <div class="job-detail__responsibility m-b-60">
+                                      <p class="heading--s">Responsibilities</p>
+                                      <ul>
+                                          <li>Lead one or more teams of talented engineers who like to ship code and tackle hard engineering problems.</li>
+                                          <li>Mentor and guide the professional and technical development of your team members. Help develop their careers, and assign them to projects tailored to their skill levels, personalities, work styles, and professional goals.</li>
+                                          <li>Build teams that are collaborative, inclusive, and respectful of each other.</li>
+                                          <li>Provide continuous feedback, address underperformance, and recognize the individual strengths and contributions of your team members.</li>
+                                          <li>Create plans for prioritizing technical and resourcing challenges in your organization.</li>
+                                          <li>Maintain a balance between building sustainable, high-impact projects and shipping things quickly.</li>
+                                          <li>Instill a spirit of continuous improvement in the team’s code, architecture, and processes.</li>
+                                          <li>Work closely with the GO-JEK recruiting team to hire high potential candidates from diverse backgrounds.</li>
+                                          <li>Work with your engineers and/or product managers to maintain a prioritized backlog and create short term and long term goals.</li>
+                                          <li>Own your team’s deliverables and ensure we continue to ship scalable, highly-available products that delight our passengers and drivers.</li>
+                                          <li>Help your team build relationships across functions with Support, Marketing, Ops, BizDev, or other teams to ensure GO-JEK’s continuing success.</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <div class="job-detail__requirement m-b-60">
+                                      <p class="heading--s">About You</p>
+                                      <ul>
+                                          <li>You greatly value humility.</li>
+                                          <li>You prefer to spend 20-30% of your time writing production grade code with your team.</li>
+                                          <li>You have an empirical approach to improving team productivity.</li>
+                                          <li>You enjoy fast moving, rapidly evolving environments and problems.</li>
+                                          <li>You consciously avoid zero and negative sum solutions to problems.</li>
+                                          <li>You have a firm grasp of software engineering principles, both for code and for people.</li>
+                                          <li>You have a technical background and are able to contribute to planning and design discussions.</li>
+                                          <li>You are steadfastly focused on your customers, whether they are drivers, passengers, or other GO-JEK employees.</li>
+                                          <li>You have experience leading a team of engineers and guiding them through their career development.</li>
+                                          <li>You believe in building both teams and products that scale.</li>
+                                          <li>You enjoy working in a collaborative environment, and you’re committed to driving projects to completion creatively.</li>
+                                          <li>You can motivate and instill a strong sense of ownership in your team.</li>
+                                          <li>You have experience guiding teams through planning, prioritization, and execution of work.</li>
+                                          <li>You think ahead and build for the future.</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <a href="mailto:work@go-jek.com?Subject=Software Engineering Lead" class="button button--primary">Apply</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                      <p class="heading m-b-10 text-cap">Data Scientist</p>
+                      <p class="m-b-30 text-cap">bangalore</p>
+                      <a class="button m-b-60 data-scientist" name="data-scientist">View</a>
+                      <div class="modal" id="data-scientist">
+                          <div class="container modal__box">
+                              <img src="../assets/images/closebutton.svg" class="modal__close modal__close__button pull-right" alt="Closebutton" />
+                              <div class="job-detail">
+                                  <div class="job-detail__header text-center m-b-90">
+                                      <p class="heading m-0 text-cap">Data Scientist</p>
+                                      <p class="m-b-30 text-cap">bangalore</p>
+                                      <a href="mailto:work+website@go-jek.com?Subject=Data Scientist" class="button button--primary">Apply</a>
+                                  </div>
+                                  <div class="job-detail__responsibility m-b-60">
+                                      <p class="heading--s">Responsibilities</p>
+                                      <ul>
+                                          <li>Selecting features, building and optimizing machine learning models.</li>
+                                          <li>Data mining using state-of-the-art methods.</li>
+                                          <li>Extending company’s data with third party sources of information when needed.</li>
+                                          <li>Enhancing data collection procedures to include information that is relevant for building analytic systems.</li>
+                                          <li>Processing, cleansing, and verifying the integrity of data used for analysis.</li>
+                                          <li>Doing ad-hoc analysis and presenting results in a clear manner.</li>
+                                          <li>Building continuous deployments and productionizing machine learning models.</li>
+                                          <li>A/B Testing for models evaluation.</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <div class="job-detail__requirement m-b-60">
+                                      <p class="heading--s">About You</p>
+                                      <ul>
+                                          <li>At least 1-2 years of experience in a data science role working with large data sets.</li>
+                                          <li>Self-driven and entrepreneurial with a strong sense of ownership.</li>
+                                          <li>Excellent understanding of machine learning techniques and algorithms.</li>
+                                          <li>Experience with common data science toolkits, such as Scikit-Learn, R, Weka, MatLab, etc</li>
+                                          <li>Great communication skills.</li>
+                                          <li>Possess good understanding of design thinking, solid CS fundamentals</li>
+                                          <li>Strong applied statistics skills, such as distributions, statistical testing, regression, etc</li>
+                                          <li>Strong programming skills.</li>
+                                          <li>Experienced with Python, R , Golang, Scala, R and Shell.</li>
+                                          <li>Ability to whiteboard some theory while at the same time rolling up your sleeves and get coding Ability to work independently to solve problems and develop solutions</li>
+                                          <li>Experience with experimenting on different modelling techniques (supervised and unsupervised learning) and develop data visualisation for data stories</li>
+                                          <li>Kaggle/Hackathon experience a plus.</li>
+                                          <li>Prior experience being a founder is a huge plus.</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <a href="mailto:work@go-jek.com?Subject=Data Scientist" class="button button--primary">Apply</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                      <p class="heading m-b-10 text-cap">iOS Engineer</p>
+                      <p class="m-b-30 text-cap">bangalore</p>
+                      <a class="button m-b-60 mobile-ios" name="mobile-ios">View</a>
+                      <div class="modal" id="mobile-ios">
+                          <div class="container modal__box">
+                              <img src="../assets/images/closebutton.svg" class="modal__close modal__close__button pull-right" alt="Closebutton" />
+                              <div class="job-detail">
+                                  <div class="job-detail__header text-center m-b-90">
+                                      <p class="heading m-0 text-cap">iOS Engineer</p>
+                                      <p class="m-b-30 text-cap">bangalore</p>
+                                      <a href="mailto:work+website@go-jek.com?Subject=iOS Engineer" class="button button--primary">Apply</a>
+                                  </div>
+                                  <div class="job-detail__responsibility m-b-60">
+                                      <p class="heading--s">Responsibilities</p>
+                                      <ul>
+                                          <li>Design, build and improve the mobile experiences for one of the world’s fastest growing mobile app in travel</li>
+                                          <li>Lead, mentor and manage deliverables of a small team of iOS developers</li>
+                                          <li>Partner with the product management team to define and execute the feature roadmap</li>
+                                          <li>Coordinate with cross functional teams (Backend, DevOps, Design etc.) on planning and execution</li>
+                                          <li>Proactively manage stakeholders communication related to deliverables, risks, changes and dependencies</li>
+                                          <li>Provide technology leadership to the team and foster engineering excellence</li>
+                                          <li>Communicate, collaborate and work effectively across cross functional teams in a global Environment</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <div class="job-detail__requirement m-b-60">
+                                      <p class="heading--s">About You</p>
+                                      <ul>
+                                          <li>5+ years of experience in software development</li>
+                                          <li>2+ years of hands on experience in designing, developing and testing Apps on iOS for large scale applications (at least 500k MAU)</li>
+                                          <li>A willingness to expand into a full stack role, with an emphasis on iOS</li>
+                                          <li>Strong understanding of iOS Apps architecture and implementation</li>
+                                          <li>Proficient in OOPs, Design Patterns</li>
+                                          <li>Proficiency in Web Technologies will be a plus</li>
+                                          <li>Proficient in Objective­C programming, Cocoa, Xcode and the iOS SDK.</li>
+                                          <li>Ability to troubleshoot fuzzy problems across systems and subsystems effectively.</li>
+                                          <li>Ability to write model code for functional and nonfunctional requirements and help improve the code quality standard across the team</li>
+                                          <li>Excellent understanding of interactive application development paradigm, memory management, performance/resource optimizations, database interactions, network programming, concurrency and multithreading.</li>
+                                          <li>Ability to design systems/sub­systems, API contracts and enable platformization independently</li>
+                                          <li>Working experience with popular libraries for networking, async, image loading etc.</li>
+                                          <li>Ability to create extendable and reusable eco systems & platforms and mobile.</li>
+                                          <li>Well versed with Agile methodologies, TDD and Test Engineering and Automation.</li>
+                                          <li>Ability to understand and implement continuous Integration and Continuous Delivery principles.</li>
+                                          <li>Ability to plan, prioritize, estimate and execute releases with good degree of predictability.</li>
+                                          <li>Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks</li>
+                                          <li>Passion to learn new things, solve challenging problems.</li>
+                                          <li>Prior experience being a founder is a huge plus.</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <a href="mailto:work@go-jek.com?Subject=iOS Engineer" class="button button--primary">Apply</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-3">
+                      <p class="heading m-b-10 text-cap">Product Manager</p>
+                      <p class="m-b-30 text-cap">Bangalore</p>
+                      <a class="button m-b-60 product-manager" name="product-manager">View</a>
+                      <div class="modal" id="product-manager">
+                          <div class="container modal__box">
+                              <img src="../assets/images/closebutton.svg" class="modal__close modal__close__button pull-right" alt="Closebutton" />
+                              <div class="job-detail">
+                                  <div class="job-detail__header text-center m-b-90">
+                                      <p class="heading m-0 text-cap">Product Manager</p>
+                                      <p class="m-b-30 text-cap">Bangalore</p>
+                                      <a href="mailto:work+website@go-jek.com?Subject=Product Manager" class="button button--primary">Apply</a>
+                                  </div>
+                                  <div class="job-detail__responsibility m-b-60">
+                                      <p class="heading--s">Responsibilities</p>
+                                      <ul>
+                                          <li>Craft delightful product experiences.</li>
+                                          <li>Lead product strategy and execution to meet specific business targets.</li>
+                                          <li>Define and communicate your product’s vision, execution, goals, and own creating outcomes.</li>
+                                          <li>Continuously, iteratively improve the quality of both product and execution.</li>
+                                          <li>Cross-functional collaboration with engineering, product, design, marketing, sales and business to ensure seamless product iteration.</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <div class="job-detail__requirement m-b-60">
+                                      <p class="heading--s">About You</p>
+                                      <ul>
+                                          <li>You greatly value humility.</li>
+                                          <li>Passion for products. You’re doing this because you want to.</li>
+                                          <li>2 or more years of experience in building and shipping software products.</li>
+                                          <li>Strong analytical skills and a firm grasp of logic.</li>
+                                          <li>Clarity and precision in communication. Exceptional spoken and written English.</li>
+                                          <li>Comfortable with executing in chaotic, rapidly evolving markets and circumstances.</li>
+                                          <li>Experience with lean product execution philosophies.</li>
+                                          <li>Experience in collaborating with and helping co-ordinate fast moving engineering teams.</li>
+                                          <li>A thorough grasp of agile and lean engineering principles and their trade-offs.</li>
+                                          <li>A strong grasp UI/UX design practices.</li>
+                                          <li>Prior experience being a founder is a huge plus.</li>
+                                      </ul>
+                                      
+                                  </div>
+                                  <a href="mailto:work@go-jek.com?Subject=Product Manager" class="button button--primary">Apply</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <p class="heading text-center m-v-140">Your profile doesn't fit a box? Don't worry. <a href="../contact" class="flat-link">Drop us a message.</a></p>
+    </div>
+</div>
+<script type="text/javascript">
+    var ModalWindow = function() {
+    var modalWindow = function(targetElement, modalWindowId) {
+        this.targetElement = targetElement;
+        this.id = modalWindowId;
+        this.initialize();
+    };
+
+    modalWindow.prototype = {
+        initialize: function() {
+            this.closeButtonElement = this.targetElement.getElementsByClassName("modal__close")[0];
+            this.wireUpEvents();
+        },
+
+        open: function() {
+            this.targetElement.classList.add('show');
+            document.body.classList.add('overflow--hide');
+        },
+
+        close: function() {
+            this.targetElement.classList.remove('show');
+            document.body.classList.remove('overflow--hide');
+        },
+
+        wireUpEvents: function() {
+            var self = this;
+            self.closeButtonElement.onclick = function (event) {
+                self.close();
+            };
+        }
+    };
+
+    return modalWindow;
+}();
+
+var NullModalWindow = function() {
+    var nullModalWindow = function() {};
+
+    nullModalWindow.prototype = {
+        open: function() {},
+        close: function() {}
+    };
+
+    return nullModalWindow;
+}();
+
+
+var ModalWindows = function() {
+    var modalWindows = function(targetClassName) {
+        this.targetClassName = targetClassName;
+        this.modalWindows = {};
+        this.nowShowingModal = new NullModalWindow();
+        this.initialize();
+    };
+
+    modalWindows.prototype = {
+        initialize: function() {
+            this.modalWindowElements = document.getElementsByClassName(this.targetClassName);
+            this.setupModals();
+            this.ensureOpenModalClosesOnEsc();
+            this.openWindowIfSetInUrlHash();
+        },
+
+        setupModals: function() {
+            var self = this;
+            for (var i = 0; i < this.modalWindowElements.length; i++) {
+                var modalWindowElement = this.modalWindowElements[i];
+                var modalWindowId = modalWindowElement.getAttribute("id");
+                var openModalWindowElement = document.querySelector("a." + modalWindowId);
+                var modalWindow = new ModalWindow(modalWindowElement, modalWindowId);
+
+                self.modalWindows[modalWindowId] = modalWindow;
+
+                openModalWindowElement.onclick = function (event) {
+                    var anchorElement = this;
+                    event.stopPropagation();
+                    event.preventDefault();
+                    self.openWindow(anchorElement.getAttribute("name"));
+                };
+            }
+        },
+
+        openWindow: function(linkText) {
+            var self = this;
+            var modalWindow = self.modalWindows[linkText];
+            if(modalWindow !== undefined) {
+                window.location.hash = '#' + linkText;
+                modalWindow.open();
+                self.nowShowingModal = modalWindow;
+            }
+        },
+
+        openWindowIfSetInUrlHash: function() {
+            this.openWindow(window.location.hash.substr(1));
+        },
+
+        closeCurrentlyOpenWindow: function() {
+            this.nowShowingModal.close();
+            this.nowShowingModal = new NullModalWindow();
+        },
+
+        ensureOpenModalClosesOnEsc: function() {
+            var self = this;
+            document.addEventListener('keyup', function (e) {
+                if (e.keyCode === 27) {
+                    self.closeCurrentlyOpenWindow();
+                }
+            })
+        }
+    };
+
+    return modalWindows;
+}();
+
+    new ModalWindows("modal");
+</script>
+    <footer>
+    <div class="footer">
+        <div class="container">
+            <ul class="footer__menu__top">
+                <li class="footer__menu__item">
+                    <a href="../">home</a>
+                </li>
+                <!--li class="footer__menu__item">
+                    <a href="../about">About</a>
+                </li-->
+                <li class="footer__menu__item">
+                    <a href=".">careers</a>
+                </li>
+                <!--li class="footer__menu__item">
+                    <a href="/team.html">team</a>
+                </li-->
+                <li class="footer__menu__item">
+                    <a href="mailto:work+website@go-jek.com">work@go-jek.com</a>
+                </li>
+                <li class="footer__menu__item">
+                    <a href="../contact">contact</a>
+                </li>
+                <li class="footer__menu__item">
+                    <a href="https://blog.gojekengineering.com/" target="_blank">Blog</a>
+                </li>
+            </ul>
+            <div class="pure-g">
+                <div class="pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-3 pure-u-sm-1 pure-u-1">
+                    <ul class="footer__menu__bottom">
+                        <li class="footer__menu__item">
+                            <a href="/"><img src="../assets/images/logo.svg" class="navbar__logo" alt="Logo" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-3 pure-u-sm-1 pure-u-1">
+                    <ul class="footer__menu__bottom footer__apps">
+                        <li class="footer__menu__item footer__apps__title">Download app</li>
+                        <li class="footer__menu__item">
+                            <a href="https://play.google.com/store/apps/details?id=com.gojek.app" target="_blank"><img src="../assets/images/footer/playstore.svg" class="footer__icon" alt="Playstore" /></a>
+                        </li>
+                        <li class="footer__menu__item">
+                            <a href="https://itunes.apple.com/dm/app/go-jek/id944875099?mt=8" target="_blank"><img src="../assets/images/footer/apple.svg" class="footer__icon" alt="Apple" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-3 pure-u-sm-1 pure-u-1">
+                    <ul class="footer__menu__bottom footer__social">
+                        <li class="footer__menu__item">
+                            <a href="http://www.facebook.com/gojektech" target="_blank"><img src="../assets/images/social/facebook.svg" class="footer__social__icon" alt="Facebook" /></a>
+                        </li>
+                        <li class="footer__menu__item">
+                            <a href="http://www.twitter.com/gojektech" target="_blank"><img src="../assets/images/social/twitter.svg" class="footer__social__icon" alt="Twitter" /></a>
+                        </li>
+                        <li class="footer__menu__item">
+                            <a href="http://www.instagram.com/gojek.tech" target="_blank"><img src="../assets/images/social/instagram.svg" class="footer__social__icon" alt="Instagram" /></a>
+                        </li>
+                        <li class="footer__menu__item">
+                            <a href="https://www.linkedin.com/company/10670234/" target="_blank"><img src="../assets/images/social/linkedin.svg" class="footer__social__icon" alt="Linkedin" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80421053-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <script>
+    // Slider handler
+
+    function sliderHandler() {
+        var sliders = document.getElementsByClassName('slider');
+
+        for(var i = 0; i < sliders.length; i++) {
+            var slider_id =  sliders[i].getAttribute('id');
+            var action_button = document.querySelector('[data-activates=' + slider_id + ']');
+            action_button.onclick = function() {
+                event.stopPropagation();
+                var name = this.getAttribute('data-activates');
+                document.getElementById(name).classList.add('opened');
+                document.getElementById(name).style.transform = 'translateX(0)';
+                wnidowClickHandler();
+            };
+        }
+    }
+
+    function wnidowClickHandler() {
+        // when user click outside window close it
+        window.onclick = function(event) {
+            var element = document.getElementsByClassName('slider opened');
+            var name = element[0].getAttribute('id');
+            if(element.length) {
+                if (event.target !== element[0] && !element[0].contains(event.target)) {
+                    document.getElementById(name).classList.remove('opened');
+                    if (document.getElementById(name).classList.contains('slider--right')) {
+                        document.getElementById(name).style.transform = 'translateX(105%)';
+                    } else {
+                        document.getElementById(name).style.transform = 'translateX(-105%)';
+                    }
+                    window.onclick = null;
+                }
+            }
+        };
+    }
+
+
+    sliderHandler();
+</script>
+</body>
+
+</html>
