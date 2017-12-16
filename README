@@ -1,27 +1,26 @@
-<h1 id="go-jek-tech-team-website">GO-JEK Tech Team Website</h1>
+GO-JEK Tech Team Website
+========================
 
-<h2 id="description">Description</h2>
+Description
+-----------
+GO-JEK Tech Team Powered Website Shippers 👩🏻‍💻👨🏽‍💻⚡🕸🚢
 
-<p>GO-JEK Tech Team Powered Website Shippers 👩🏻‍💻👨🏽‍💻⚡🕸🚢</p>
+Building
+--------
+Please refer https://github.com/gojek/gojek
 
-<h2 id="building">Building</h2>
-<p>Please refer <a href="https://github.com/gojek/gojek">GO-JEK</a></p>
+License
+-------
+Copyright 2017, GO-JEK Tech Team (http://www.gojek.io)
 
-<h2 id="license">License</h2>
-
-<p>```
-Copyright 2017, GO-JEK Tech Team (http://www.gojek.io)</p>
-
-<p>Licensed under the Apache License, Version 2.0 (the "License");
+Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
-You may obtain a copy of the License at</p>
+You may obtain a copy of the License at
 
-<pre><code>http://www.apache.org/licenses/LICENSE-2.0
-</code></pre>
+    http://www.apache.org/licenses/LICENSE-2.0
 
-<p>Unless required by applicable law or agreed to in writing, software
+Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-```</p>
