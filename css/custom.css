@@ -1,0 +1,67 @@
+.slick-next {
+  right: 0px;
+}
+
+.slick-prev {
+  left: 0px;
+}
+
+.slick-next,
+.slick-prev {
+  z-index: 99;
+}
+
+.tech-facts-slider .slick-slide {
+  margin: 0px 5px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+  margin: 0px 20px;
+}
+
+.slick-active,
+.slick-current {
+  opacity: 1;
+}
+
+/*Careers page slider*/
+
+.go-jek-slider .slick-slide {
+  margin: 0px;
+}
+
+.go-jek-slider .slick-active {
+  opacity: 0.2;
+}
+
+.go-jek-slider .slick-current {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.impact-slider .slick-slide {
+  margin: 0px;
+}
+
+.impact-slider .slick-active {
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.impact-slider .slick-current {
+  opacity: 1;
+  pointer-events: visible;
+  cursor: pointer;
+
+}
+

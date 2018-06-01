@@ -76,10 +76,11 @@ If you're looking, we're hiring :) - work+source@go-jek.com
     <link rel="stylesheet" type="text/css" href="../css/slick.css" />
     <link rel="stylesheet" type="text/css" href="../css/slick-theme.css" />
 
-    <title>GO-JEK News</title>
+    <title>GO-JEK Blog</title>
 </head>
 
 <body>
+
     <!-- Navigation -->
     <nav class="navbar fixed-top bg-white navbar-expand-lg navbar-light neosans-bold text-uppercase px-4 py-2">
         <a class="navbar-brand" href="/">
@@ -96,170 +97,85 @@ If you're looking, we're hiring :) - work+source@go-jek.com
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="mx-3 nav-item">
-                    <a class="nav-link" href="/careers/">Careers
-
-                    </a>
+                    <a class="nav-link" href="/careers/">Careers</a>
                 </li>
-                <li class="mx-3 nav-item active">
-                    <a class="nav-link" href="#">News
-                        <span class="sr-only">(current)</span>
-                    </a>
+                <li class="mx-3 nav-item">
+                    <a class="nav-link" href="/news/">News</a>
                 </li>
                 <li class="mx-3 nav-item">
                     <a class="nav-link" href="/open-source/">Open Source</a>
                 </li>
-                <li class="mx-3 nav-item ">
-                    <a class="nav-link" href="/blog/">Blog
+                <li class="mx-3 nav-item active">
+                    <a class="nav-link" href="javascript:void(0);">Blog
+                        <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="mx-3 nav-item">
-                    <a class="btn btn-success rounded-1 neosans-bold green-apply-btn" href="/careers/">Apply</a>
+                    <a class="btn btn-success rounded-1 neosans-bold green-apply-btn " href="/careers/">Apply</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- End navigation -->
 
-    <section class="bg-green first-section">
+    <!-- Blog  cards -->
+    <section class="py-3 first-section">
         <div class="container">
-            <h1 class="h2 font-xl-x py-5 text-center text-white">In the News</h1>
-
+            <div class="row medium-blog">
+            </div>
         </div>
     </section>
+    <!-- end of blog cards -->
 
-    <section class="py-5 ">
+    <!-- Call to action -->
+    <!-- <section>
+            <div class="container pl-0 pr-0">
+                <div class="jumbotron jumbotron-fluid gray-bg">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h3 class="h3 text-center font-xl text-green neosans-bold">Want to make the world a better place
+                                <span>?</span> We’ve got the Source Code!</h3>
+
+                            <div class="text-center pt-3">
+                                <button type="button" class="rounded-0 text-cener btn btn-success neosans-bold text-uppercase green-apply-btn">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    <!-- end of Call to action -->
+
+    <!-- Blog section -->
+    <section class="py-3">
         <div class="container">
             <!-- <h1 class="h2 pl-0">Blogs</h1> -->
-            <div class="row">
-                <div class="col-md-8 col-sm-12 order-sm-2 pb-sm-2">
-                    <img class="img-fluid" src="../img/news-01.jpg">
-                </div>
-                <div class="col-md-4 col-sm-12 order-sm-1">
-                    <div class="card border-0">
-                        <p class="card-text text-success blog-date neosans-bold pt-2 text-center text-md-left">MAY 24, 2018</p>
-                        <div class="card-body px-0 text-center text-md-left text-black">
-                            <h5 class="card-title  neosans-bold">
-                                <a class=" font-lg text-black " target="_blank " href="https://www.go-jek.com/blog/go-jek-to-launch-international-expansion-into-four-new-markets/">GO-JEK to Launch International Expansion Into Four New Markets
-                                </a>
-                            </h5>
-                            <p class='font-xs-l font-neosans '>JAKARTA, INDONESIA – GO-JEK has confirmed that it is to invest $500 million in its international
-                                expansion strategy. The company will enter Vietnam, Thailand, Singapore and the Philippines
-                                within the next few months, starting with ride-hailing but ultimately aiming to replicate
-                                the multiple-service business model that has made it the market leader in Indonesia.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
+            <div id="jsonContent" class="row blog-slider">
             </div>
-            <div class="row pt-5">
-                <div class="col-md-4 col-sm-12">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" src="../img/news-02.jpg">
-                        <div class="card-body px-0 text-center text-md-left text-black">
-                            <p class="card-text text-success blog-date neosans-bold py-sm-2 ">DECEMBER 15, 2017</p>
-                            <h5 class="card-title  neosans-bold">
-                                <a class="  font-lg text-black " target="_blank" href="https://www.techinasia.com/go-jek-acquisition-kartuku-mapan-midtrans">GO-JEK buys 3 fintech firms to conquer Indonesia payments
-                                </a>
-                            </h5>
-                            <p class='font-xs-l font-neosans '>Ride-hailing service GO-JEK, Indonesia's first billion-dollar tech startup, has agreed to acquire
-                                three local fintech firms as it seeks to expand its grip on the digital payments market.
-                            </p>
-                            <p class='font-xs-l font-neosans '>
-                                The deals involve Kartuku, a leading offline payments processing company in Indonesia...
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" src="../img/news-03.jpg">
-                        <div class=" card-body px-0 text-center text-md-left text-black ">
-                            <p class="card-text text-success blog-date neosans-bold py-sm-2 ">DECEMBER 12, 2017</p>
-                            <h5 class="card-title neosans-bold ">
-                                <a class=" font-lg text-black " target="_blank " href="https://www.washingtonpost.com/business/techs-global-challenge-plays-out-in-a-jakarta-school-yard/2017/12/12/ac6d8328-df8a-11e7-b2e9-8c636f076c76_story.html?noredirect=on&utm_term=.a69d0afe56eb">Tech’s Global Challenge Plays Out in a Jakarta School Yard
-                                </a>
-                            </h5>
-                            <p class='font-xs-l font-neosans'>Uber Technologies Inc. has spent millions of dollars fighting politicians and business lobbies
-                                trying to scuttle the app everywhere from New York to London. For Indonesian ride-hailing
-                                and food-delivery startup GO-JEK, the push back is coming from the lunch ladies at Jakarta
-                                Intercultural School.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" src="../img/news-04.jpg">
-                        <div class=" card-body px-0 text-center text-md-left text-black ">
-                            <p class="card-text text-success blog-date neosans-bold py-sm-2 ">DECEMBER 8, 2017</p>
-                            <h5 class="card-title neosans-bold ">
-                                <a class=" font-lg text-black " target="_blank " href="https://www.nytimes.com/2017/12/08/technology/southeast-asia-ride-hailing.html">Southeast Asia's Ride-Hailing War is Being Waged on Motorbikes
-                                </a>
-                            </h5>
-                            <p class='font-xs-l font-neosans'>JAKARTA, Indonesia - On a recent morning driving his motorbike for one of Asia's fastest-growing
-                                tech start-ups, Nasrun picked up and dropped off four school-children, an office worker,
-                                medicine from a pharmacy, some dumplings with peanut sauce, a few documents and an order
-                                of Japanese food, the last of which he took to a woman at the Indonesia Stock Exchange
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" src="../img/news-05.jpg">
-                        <div class=" card-body px-0 text-center text-md-left text-black ">
-                            <p class="card-text text-success blog-date neosans-bold py-sm-2 ">NOVEMBER 21, 2017</p>
-                            <h5 class="card-title neosans-bold ">
-                                <a class=" font-lg text-black " target="_blank " href="https://www.techinasia.com/gojek-insider-account-of-scaling-900x-doubling">An insider's account of how GO-JEK hit 900x scale in 18 months and is still doubling
-                                </a>
-                            </h5>
-                            <p class='font-xs-l font-neosans'>GO-JEK scaled 900 times in the first 18 months after the launch of its mobile app in January
-                                2015. By June 2016, there were over 20 million bookings on GO-JEK about 667,000 rides per
-                                day. After that, the Indonesia startup turned into a unicorn, raising a funding round of
-                                US$550 million. It did all that with a team of less than 80 engineers.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" src="../img/news-06.jpg">
-                        <div class=" card-body px-0 text-center text-md-left text-black ">
-                            <p class="card-text text-success blog-date neosans-bold py-sm-2 ">OCTOBER 22, 2017</p>
-                            <h5 class="card-title neosans-bold ">
-                                <a class=" font-lg text-black " target="_blank " href="http://www.scmp.com/week-asia/business/article/2116287/how-indonesian-unicorn-go-jek-went-20-bikes-us25-billion-and-e">How Indonesian Unicorn GO-JEK went from 20 bikes to US $2.5 Billion & an e-money revolution
-                                </a>
-                            </h5>
-                            <p class='font-xs-l font-neosans'>Ten years ago, few could have predicted the mobile payment revolution in Indonesia would be driven
-                                not by the banking industry, but by a firm that started out as a motorcycle-taxi booking
-                                operation with just 20 riders.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" src="../img/AjayGore.jpg">
-                        <div class=" card-body px-0 text-center text-md-left text-black ">
-                            <p class="card-text text-success blog-date neosans-bold py-sm-2 ">MAY 9, 2017</p>
-                            <h5 class="card-title neosans-bold ">
-                                <a class=" font-lg text-black " target="_blank " href="https://yourstory.com/2017/05/techie-tuesdays-ajey-gore/">How a small-town commerce graduate became CTO of a multibillion-dollar company
-                                </a>
-                            </h5>
-                            <p class='font-xs-l font-neosans'>Ajey Gore, a commerce graduate from University of Allahabad, is a brilliant example that you
-                                don’t need a formal degree to chase your dreams. Hailing from Banda in Uttar Pradesh, today
-                                he’s the group CTO of Indonesia’s first unicorn, GO-JEK.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
     </section>
+    <!-- end of blog section -->
 
+    <!-- Heading - Want  to make -->
+    <section class="bg-green">
+        <div class="container">
+            <div class="row py-5 justify-content-center">
+                <!-- <div class="row justify-content-center"> -->
+                <div class="col-lg-9">
+                    <h3 class=" text-center font-xl-l text-white neosans-bold">Build the tech that powers an entire country.
+                        <br/> Soon: Singapore, Thailand, Vietnam &amp; Philippines.
+                    </h3>
 
-    <!-- Footer -->
+                    <div class="text-center pt-3">
+                        <a href="/careers/" class=" text-center btn bg-white text-green neosans-bold text-uppercase my-1 font-md challenging-button custom-btn">APPLY NOW </a>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- End heading  -->
+
     <footer class="bg-black text-white py-5">
         <div class="container">
             <div class="row text-uppercase">
@@ -290,7 +206,7 @@ If you're looking, we're hiring :) - work+source@go-jek.com
                                     <a href="/careers/">Careers</a>
                                 </li>
                                 <li class="pb-4">
-                                    <a href="#">News</a>
+                                    <a href="/news/">News</a>
                                 </li>
 
                             </ul>
@@ -298,7 +214,7 @@ If you're looking, we're hiring :) - work+source@go-jek.com
                         <div class="col-md-2 d-none d-md-block font-xs">
                             <ul class="list-unstyled">
                                 <li class="pb-4 ">
-                                    <a href="/blog/">Blog</a>
+                                    <a href="#">Blog</a>
                                 </li>
 
                             </ul>
@@ -365,13 +281,24 @@ If you're looking, we're hiring :) - work+source@go-jek.com
     </footer>
 
     <!-- JS files -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
-        crossorigin="anonymous "></script>
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin=" anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js " integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ "
-        crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js " integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm "
-        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="../js/slick.min.js"></script>
+    <script src="../js/media.js"></script>
+    <script>
+        $(document).ready(function () {
+            getMediumBlogs(9, false);
+        });
+    </script>
+
 </body>
+
+</html>

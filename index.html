@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <!--
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
@@ -55,386 +55,868 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
 If you're looking, we're hiring :) - work+source@go-jek.com
 -->
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-  <title>
-    GO-JEK Tech
-  </title>
-  <link href="assets/images/logo.png" rel="icon" type="image/png" />
-  <!-- Preemptively open up connections for external assets -->
-  <link rel="preconnect" href="//fonts.googleapis.com">
-  <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
-  <link href="assets/styles/index.css" rel="stylesheet" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@gojektech">
-  <meta name="twitter:creator" content="@gojektech">
-  <meta name="twitter:domain" content="www.gojek.io">
-  <meta name="twitter:title" content="GO-JEK Tech">
-  <meta name="twitter:image" content="http://www.gojek.io/assets/images/careerpage/cover.jpg">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-  <meta property="og:title" content="GO-JEK Tech" />
-  <meta property="og:type" content="Technology Website" />
-  <meta property="og:url" content="http://www.gojek.io" />
-  <meta property="og:description" content="GO-JEK Tech Team comprises of developers, data scientists, designers and product managers who work on product innovation, mining data and crafting consumer experiences. The company takes pride in its world-class product engineering team who have a deep-rooted passion for working with the engineering community in India on topics such as innovation and Open Source." />
-  <meta property="og:image" content="http://www.gojek.io/assets/images/careerpage/cover.jpg" />
+	<!-- Bootstrap assets -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+	 crossorigin="anonymous">
 
-  <meta name="apple-mobile-web-app-title" content="GO-JEK Tech">
-  <meta name="description" content="GO-JEK is Indonesia’s first unicorn is currently the fastest growing start-up in South Asia and the largest in Indonesia in terms of valuation, funding raised and a number of transactions.">
-  <link rel="canonical" href="http://www.gojek.io">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  
-  <!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window,document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
- fbq('init', '298192794028685'); 
-fbq('track', 'PageView');
-</script>
-<noscript>
- <img height="1" width="1" 
-src="https://www.facebook.com/tr?id=298192794028685&ev=PageView
-&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+	<link rel="stylesheet" href="css/custom.css">
+
+	<title>GO-JEK</title>
 </head>
 
-<body class="index">
-<div class="navbar">
-  <div class="container">
-    <a href="/"><img src="assets/images/logo.svg" class="navbar__logo" alt="Logo" /></a>
-    <div class="navbar__menu">
-      <!--li class="navbar__menu__item ">
-                <a href="/about.html">About</a>
-            </li-->
-      <li class="navbar__menu__item ">
-        <a href="careers">Careers</a>
-      </li>
-      <li class="navbar__menu__item ">
-        <a href="http://blog.gojek.io" target="_blank">Blog</a>
-      </li>
-      <li class="navbar__menu__item ">
-        <a href="http://code.gojek.io" target="_blank">Open Source</a>
-      </li>
-      <li class="navbar__menu__item ">
-        <a href="news">News</a>
-      </li>
-      <li class="navbar__menu__item ">
-        <a href="contact">contact</a>
-      </li>
-    </div>
-    <div class="navbar__menu__slider">
-      <p class="menu-button" data-activates="slideout">
-        <img src="assets/images/menu.svg" class="menu-image" alt="Menu" />
-      </p>
-      <div class="slider slider--right" id="slideout">
-        <ul class="menu">
-          <!--li class="navbar__menu__item ">
-                        <a href="/about.html">About</a>
-                    </li-->
-          <li class="navbar__menu__item ">
-            <a href="careers">Careers</a>
-          </li>
-          <li class="navbar__menu__item ">
-            <a href="http://blog.gojek.io" target="_blank">Blog</a>
-          </li>
-          <li class="navbar__menu__item ">
-            <a href="https://code.gojek.io" target="_blank">Open Source</a>
-          </li>
-          <li class="navbar__menu__item ">
-            <a href="news">News</a>
-          </li>
-          <li class="navbar__men xbu__item ">
-            <a href="contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar fixed-top bg-white navbar-expand-lg navbar-light neosans-bold text-uppercase px-4 py-2">
+		<a class="navbar-brand" href="#">
+			<img class="header-logo-width" src="img/gojek-logo.png" alt="GO-JEK Logo" title="GO-JEK">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
+		 aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-<div class="map-viz">
-  <p class="map-viz__title">Indonesia's <br /> first <br /> Unicorn</p>
-</div>
-<div class="homepage">
-  <div class="container">
-    <p class="heading text-center m-b-90">We build products that help millions of Indonesians commute, shop, eat and
-      pay, daily.</p>
-    <div class="pure-g pure-g--gutter_wide">
-      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
-        <div class="homepage__impacts">
-          <img src="assets/images/homepage/apiviz.svg" class="homepage__impacts__viz m-b-10" alt="Apiviz" />
-          <p class="text-center homepage__impacts__figure">100+ Million Monthly Orders</p>
-          <p class="text-center heading--m">~1000x growth in under 3 years</p>
-        </div>
-      </div>
-      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
-        <div class="homepage__impacts m-auto">
-          <img src="assets/images/homepage/distanceviz.png" class="homepage__impacts__viz m-b-10" alt="Distanceviz" />
-          <p class="text-center homepage__impacts__figure">16.5 million km covered daily</p>
-          <p class="text-center heading--m">That's 21 round trips to the moon every day</p>
-        </div>
-      </div>
-      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
-        <div class="homepage__impacts pull-right">
-          <img src="assets/images/homepage/allocationviz.svg" class="homepage__impacts__viz m-b-10" alt="Allocationviz" />
-          <p class="text-center homepage__impacts__figure">API calls</p>
-          <p class="text-center heading--m">140 Million connections per second at peak</p>		  
-        </div>
-      </div>
-    </div>
-    <div class="pure-g pure-g--gutter_wide">
-      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
-        <div class="homepage__impacts">
-          <img src="assets/images/homepage/distanceviz.png" class="homepage__impacts__viz m-b-10" alt="Distanceviz" />
-          <p class="text-center homepage__impacts__figure">Time Distance Computations</p>
-          <p class="text-center heading--m">1.2 Billion computations every day</p>		  
-        </div>
-      </div>
-      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
-        <div class="homepage__impacts m-auto">
-          <img src="assets/images/homepage/allocationviz.svg" class="homepage__impacts__viz m-b-10" alt="Allocationviz" />
-          <p class="text-center homepage__impacts__figure">90,000+ restaurants on GO-FOOD</p>
-          <p class="text-center heading--m">and 40,000 of them are SME's that sell Indonesian food</p>
-        </div>
-      </div>
-      <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3 pure-u-xl-1-3">
-        <div class="homepage__impacts pull-right">
-          <img src="assets/images/homepage/apiviz.svg" class="homepage__impacts__viz m-b-10" alt="Apiviz" />
-          <p class="text-center homepage__impacts__figure">US $5 million</p>
-          <p class="text-center heading--m">Amount of tips received by our drivers in a month</p>
-        </div>
-      </div>
-    </div>
-    <div class="homepage__indonesia m-v-140">
-      <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-1-2">
-          <div class="homepage__indonesia__info">
-            <p class="heading"><span class="">900,000</span> Drivers</p>
-            <p>Drivers' monthly income has gone up by 15% over the past year</p>
-          </div>
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-1-2">
-          <img src="assets/images/homepage/indonesia.png" class="homepage__indonesia__map" alt="Indonesia">
-        </div>
-      </div>
-    </div>
-    <div class="m-v-140">
-      <p class="heading text-center m-b-60">What's Life Without Limits</p>
-      <div class="pure-g pure-g--gutter_wide">
-        <div class="pure-u-1">
-          <div class="homepage__videos">
-            <div id="player2"></div>
-            <div class="playbutton playbutton--s" id="js-playbutton2" style="display: block;">
-              <img src="assets/images/playbutton.svg" class="" alt="Playbutton" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <p class="heading text-center m-v-140">
-      We are looking for opinionated and skilled designers, programmers, analysts, data scientists and product
-      managers to <a href="https://goo.gl/eLPAsY" class="flat-link">join us</a>.
-    </p>
-  </div>
-</div>
-<script>
-  // 1. This code loads the IFrame Player API code asynchronously.
-  var tag            = document.createElement('script');
-  tag.src            = "https://www.youtube.com/iframe_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+		<div class="collapse navbar-collapse" id="navbarToggler">
+			<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+				<li class="mx-3 nav-item active">
+					<a class="nav-link" href="javascript:void(0);">Home
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="mx-3 nav-item">
+					<a class="nav-link" href="/careers/">Careers</a>
+				</li>
+				<li class="mx-3 nav-item">
+					<a class="nav-link" href="/news/">News</a>
+				</li>
+				<li class="mx-3 nav-item">
+					<a class="nav-link" href="/open-source/">Open Source</a>
+				</li>
+				<li class="mx-3 nav-item">
+					<a class="nav-link" href="/blog/">Blog</a>
+				</li>
+				<li class="mx-3 nav-item">
+					<a class="btn btn-success rounded-1 neosans-bold green-apply-btn" href="/careers/">Apply</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- End navigation -->
 
-  // 2. This function creates an <iframe> (and YouTube player)
-  //    after the API code downloads.
-  var player1, player2, player3;
+	<!-- Main Banner -->
+	<section class="first-section">
+		<div id="go-jek-slider" class="carousel" data-ride="carousel">
+			<div class="d-none d-md-block indicators-align">
+				<ol class="carousel-indicators homepage-carousel-indicators  mx-0 col-xl-2 col-lg-2 col-md-3 ml-lg-5 ml-xl-5 mb-xl-5 pt-lg-4 justify-content-end">
+					<li data-target="#go-jek-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#go-jek-slider" data-slide-to="1"></li>
+					<li data-target="#go-jek-slider" data-slide-to="2"></li>
+					<li data-target="#go-jek-slider" data-slide-to="3"></li>
+				</ol>
+			</div>
+			<div class="carousel-inner ">
+				<div class="carousel-item active">
+					<picture>
+						<source class="relative-position" media="(max-width: 425px)" srcset="./img/Banner2-min-mobile.jpg">
+						<img class="img-fluid" src="./img/banner_1.jpg" alt="G0-JEK Developer">
+					</picture>
 
-  function onYouTubeIframeAPIReady() {
+					<div class="carousel-caption col-9 col-xl-6 col-md-8 col-lg-8 text-md-left text-center mt-md-5">
+						<p class="font-lg absolute-caption neosans-light text-white mb-0">
+							Our 12-person engineering team
+							<br> handles 1,000,000+ drivers.
+							<br>
+							<a class="banner-link text-white" href="http://bit.ly/gojekfeature" target="_blank">
+								<span class="font-lg neosans-bold py-1" style="border-bottom: 2px solid white">
+									Read: The story of our first ever team.
+								</span>
+							</a>
+						</p>
+					</div>
+				</div>
 
-    player2 = new YT.Player('player2', {
-      height : '100%',
-      width  : '100%',
-      videoId: '-0q65jLm1wA',
-      events : {
-        'onStateChange': onPlayerTwoChange
-      }
-    });
+				<div class="carousel-item">
 
-    player3 = new YT.Player('player3', {
-      height : '100%',
-      width  : '100%',
-      videoId: 'Jj7PK05_Ow4',
-      events : {
-        'onStateChange': onPlayerThreeChange
-      }
-    });
+					<picture>
+						<source media="(max-width: 425px)" srcset="./img/Banner3-min-mobile.jpg" alt="G0-JEK Developer">
+						<img class="img-fluid" src="./img/banner_2.jpg" alt="G0-JEK Developer">
+					</picture>
+					<div class="carousel-caption col-9 col-xl-7 col-md-9 col-lg-9   text-md-left text-center">
+						<p class="font-lg absolute-caption neosans-light  mb-0  mt-md-5 text-white">
+							We successfully launched our car rental service,
+							<br> GO-CAR in LESS THAN a month!
+							<br>
+							<a class="banner-link text-white" href="http://bit.ly/autogojek" target="_blank">
 
-    document.getElementById('js-playbutton2').onclick = function () {
-      player2.playVideo();
-      var state = this.style.display;
-      if (state === 'block') {
-        this.style.display = 'none';
-      } else {
-        this.style.display = 'block';
-      }
-    };
+								<span class="font-lg neosans-bold py-1" style="border-bottom: 2px solid white">
+									Read: Our emphasis on automation.
+								</span>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<picture>
+						<source media="(max-width: 425px)" srcset="./img/Banner1-min-mobile.jpg" alt="G0-JEK Developer">
+						<img class="img-fluid" src="./img/banner_3.jpg" alt="G0-JEK Developer">
+					</picture>
+					<div class="carousel-caption col-9 col-xl-6 col-md-8 col-lg-8 text-md-left text-center">
 
-    function onPlayerTwoChange(event) {
-      if (event.data == YT.PlayerState.PAUSED) {
-        document.getElementById('js-playbutton2').style.display = 'block';
-      }
-      if (event.data == YT.PlayerState.PLAYING) {
-        document.getElementById('js-playbutton2').style.display = 'none';
-      }
-    }
+						<p class="font-lg absolute-caption neosans-light text-white mb-0  mt-md-5">
 
-    document.getElementById('js-playbutton3').onclick = function () {
-      player1.playVideo();
-      var state = this.style.display;
-      if (state === 'block') {
-        this.style.display = 'none';
-      } else {
-        this.style.display = 'block';
-      }
-    };
+							Our 200+ engineers completed 100+ million
+							<br>monthly orders last year.
+							<br>
+							<a class="banner-link text-white" href="http://bit.ly/GOJEKImpactInIndonesia " target="_blank">
 
-    function onPlayerThreeChange(event) {
-      if (event.data == YT.PlayerState.PAUSED) {
-        document.getElementById('js-playbutton3').style.display = 'block';
-      }
-      if (event.data == YT.PlayerState.PLAYING) {
-        document.getElementById('js-playbutton3').style.display = 'none';
-      }
-    }
+								<span class="font-lg neosans-bold py-1" style="border-bottom: 2px solid white">
+									That’s about 500,000 orders per engineer.
+								</span>
+							</a>
 
-  }
-</script>
+						</p>
+					</div>
+				</div>
 
-<footer>
-  <div class="footer">
-    <div class="container">
-      <ul class="footer__menu__top">
-        <li class="footer__menu__item">
-          <a href="./">home</a>
-        </li>
-        <!--li class="footer__menu__item">
-                    <a href="/about.html">About</a>
-                </li-->
-        <li class="footer__menu__item">
-          <a href="careers">careers</a>
-        </li>
-        <!--li class="footer__menu__item">
-                    <a href="/team.html">team</a>
-                </li-->
-        <li class="footer__menu__item">
-          <a href="careers">apply</a>
-        </li>
-        <li class="footer__menu__item">
-          <a href="contact">contact</a>
-        </li>
-        <li class="footer__menu__item">
-          <a href="http://blog.gojek.io" target="_blank">Blog</a>
-        </li>
-      </ul>
-      <div class="pure-g">
-        <div class="pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-3 pure-u-sm-1 pure-u-1">
-          <ul class="footer__menu__bottom">
-            <li class="footer__menu__item">
-              <a href="/"><img src="assets/images/logo.svg" class="navbar__logo" alt="Logo" /></a>
-            </li>
-          </ul>
-        </div>
-        <div class="pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-3 pure-u-sm-1 pure-u-1">
-          <ul class="footer__menu__bottom footer__apps">
-            <li class="footer__menu__item footer__apps__title">Download app</li>
-            <li class="footer__menu__item">
-              <a href="https://play.google.com/store/apps/details?id=com.gojek.app" target="_blank"><img src="assets/images/footer/playstore.svg" class="footer__icon" alt="Playstore" /></a>
-            </li>
-            <li class="footer__menu__item">
-              <a href="https://itunes.apple.com/dm/app/go-jek/id944875099?mt=8" target="_blank"><img src="assets/images/footer/apple.svg" class="footer__icon" alt="Apple" /></a>
-            </li>
-          </ul>
-        </div>
-        <div class="pure-u-xl-1-3 pure-u-lg-1-3 pure-u-md-1-3 pure-u-sm-1 pure-u-1">
-          <ul class="footer__menu__bottom footer__social">
-            <li class="footer__menu__item">
-              <a href="http://www.facebook.com/gojektech" target="_blank"><img src="assets/images/social/facebook.svg" class="footer__social__icon" alt="Facebook" /></a>
-            </li>
-            <li class="footer__menu__item">
-              <a href="http://www.twitter.com/gojektech" target="_blank"><img src="assets/images/social/twitter.svg" class="footer__social__icon" alt="Twitter" /></a>
-            </li>
-            <li class="footer__menu__item">
-              <a href="http://www.instagram.com/gojek.tech" target="_blank"><img src="assets/images/social/instagram.svg" class="footer__social__icon" alt="Instagram" /></a>
-            </li>
-            <li class="footer__menu__item">
-              <a href="https://www.linkedin.com/company/10670234/" target="_blank"><img src="assets/images/social/linkedin.svg" class="footer__social__icon" alt="Linkedin" /></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+				<div class="carousel-item">
+					<picture>
+						<source media="(max-width: 425px)" srcset="./img/Banner4-min-mobile.jpg" alt="G0-JEK Developer">
+						<img class="img-fluid" src="./img/banner_4.jpg" alt="G0-JEK Developer">
+					</picture>
+					<div class="carousel-caption col-9 col-xl-6 col-md-8 col-lg-8 text-md-left text-center">
+						<p class="font-lg absolute-caption neosans-light text-white mb-0  mt-md-5">
+							GO-FOOD alone completes more orders
+							<br> in Indonesia than all Indian food tech startups combined. Hungry yet?
+						</p>
+					</div>
+				</div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+				<div class="carousel-caption py-0 carousel-btn text-uppercase">
+					<div class=" align-self-center text-md-left text-center">
+						<a href="/careers/" class="custom-btn text-center btn btn-success neosans-bold text-uppercase my-1 font-md  ">APPLY NOW</a>
+					</div>
+					<div class=" align-self-center text-md-left text-center">
+						<a href="/careers/#viewPosition" class="custom-btn btn btn-outline-light my-1 font-md neosans-bold"> VIEW OPEN POSITIONS</a>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev d-sm-none" href="#go-jek-slider" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next d-sm-none" href="#go-jek-slider" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</section>
+	<!-- end main banner -->
 
-  ga('create', 'UA-80421053-1', 'auto');
-  ga('send', 'pageview');
+	<!--GO-JEK Facts section(GO-JEK facts) for mobile view-->
+	<section class="py-5 my-lg-5 d-lg-none">
+		<div class="container-fluid">
+			<h2 class="font-xl-l  text-center neosans-bold mb-4 text-dark ">Work that speaks for itself</h2>
+			<div class="row numbers-slider neosans-bold text-white text-center">
+				<div class="numbers-card">
+					<div class="card-img-top dark-green-bg ">
+						<img class="img-fluid pt-5 m-auto" src="img/growth.gif" alt="GO-JEK Growth">
+					</div>
+					<div class="card-body developer-bg">
+						<p class="font-sm neosans-light">
+							<span class="font-lg neosans-bold">
+								6666x
+							</span>
+							<br> total order volume growth in 3 years
+						</p>
+					</div>
+				</div>
 
-</script>
-<script>
-  // Slider handler
+				<div class="numbers-card">
+					<div class="card-img-top order-bg">
+						<img class="img-fluid m-auto" src="img/Pizza01.gif" alt="3 million orders">
+					</div>
+					<div class="card-body developer-bg">
+						<p class="font-sm neosans-light">
+							<span class="font-lg neosans-bold">
 
-  function sliderHandler() {
-    var sliders = document.getElementsByClassName('slider');
+								3 million+ </span>
+							<br>orders every day
+						</p>
+					</div>
+				</div>
 
-    for (var i = 0; i < sliders.length; i++) {
-      var slider_id         = sliders[i].getAttribute('id');
-      var action_button     = document.querySelector('[data-activates=' + slider_id + ']');
-      action_button.onclick = function () {
-        event.stopPropagation();
-        var name = this.getAttribute('data-activates');
-        document.getElementById(name).classList.add('opened');
-        document.getElementById(name).style.transform = 'translateX(0)';
-        wnidowClickHandler();
-      };
-    }
-  }
+				<div class="numbers-card">
+					<div class="card-img-top rider-bg">
+						<img class="img-fluid mx-auto" src="img/Rider01.gif" alt="1 million drivers">
+					</div>
+					<div class="card-body order-bg ">
+						<p class="font-sm neosans-light">
+							<span class="font-lg neosans-bold">
 
-  function wnidowClickHandler() {
-    // when user click outside window close it
-    window.onclick = function (event) {
-      var element = document.getElementsByClassName('slider opened');
-      var name    = element[0].getAttribute('id');
-      if (element.length) {
-        if (event.target !== element[0] && !element[0].contains(event.target)) {
-          document.getElementById(name).classList.remove('opened');
-          if (document.getElementById(name).classList.contains('slider--right')) {
-            document.getElementById(name).style.transform = 'translateX(105%)';
-          } else {
-            document.getElementById(name).style.transform = 'translateX(-105%)';
-          }
-          window.onclick = null;
-        }
-      }
-    };
-  }
+								1 million+ </span>
+							<br> drivers. More daily rides than India's largest ride-sharing service
+						</p>
+					</div>
+				</div>
+				<div class="numbers-card ">
+					<div class="card-img-top developer-bg">
+						<img class="img-fluid pt-5 m-auto" src="img/Developer01.gif" alt="Go-JEK developer">
+					</div>
+					<div class="card-body order-bg">
+						<p class="font-sm neosans-light">
+							<span class="font-lg neosans-bold">
 
-  sliderHandler();
-</script>
+								18+</span> Products,
+							<br>
+							<span class="font-lg neosans-bold">
+								200+</span> engineers
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--GO-JEK Facts section(GO-JEK facts) Desktop view-->
+	<section class="py-5 my-lg-5 d-none d-lg-block text-white">
+		<div class="container">
+			<div class="text-center">
+				<h2 class="font-xl-l  neosans-bold mb-4 text-dark">Work that speaks for itself</h2>
+
+				<div class="row">
+					<div class="col-lg-5 d-flex dark-green-bg justify-content-around align-items-center">
+						<img class="img-fluid" src="img/growth.gif" alt="growth">
+					</div>
+
+					<div class="col-lg-5 d-flex justify-content-around align-items-center green-bg">
+						<p class="mb-0">
+							<span class="h2 font-xl mb-0 text-white">3 Million+</span>
+							<br>
+							<span class="font-neosans">orders everyday</span>
+						</p>
+					</div>
+					<div class="col-lg-2 d-flex justify-content-center align-items-center rider-bg">
+						<img class="img-fluid" src="img/Rider01.gif" alt="1 million drivers">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-5 d-flex justify-content-around align-items-center developer-bg">
+						<p class="mb-0">
+							<span class="h2 font-xl mb-0 text-white">6666x</span>
+							<br>
+							<span class="font-neosans">total order volume growth in 3 years</span>
+						</p>
+					</div>
+					<div class="col-lg-2 d-flex justify-content-around align-items-center order-bg">
+						<img class="img-fluid" src="img/Pizza01.gif" alt="3 million orders">
+					</div>
+					<div class="col-lg-5 d-flex justify-content-around align-items-center neosans-bold dark-green-bg">
+						<p class="mb-0">
+							<span class="h2 font-xl mb-0 text-white">1 million+ drivers</span>
+							<br>
+							<span class="font-neosans">More daily rides than India's largest ride-sharing service</span>
+						</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-7 d-flex justify-content-around align-items-center  dark-green-bg">
+						<p class="mb-0">
+							<span class="h2 font-xl mb-0 text-white">18+ Products, </span>
+							<br>
+							<span class="font-neosans">200+ engineers</span>
+							<br>
+						</p>
+					</div>
+
+					<div class="col-lg-5 developer-bg">
+						<img class="img-fluid " src="img/Developer01.gif" alt="Go-JEK developer">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end stats section -->
+
+	<!-- Call to action -->
+	<section class="pb-5">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<p class=" px-2 text-center font-xl-l  text-black neosans-bold">Help us build startups within a startup</p>
+
+					<div class="text-center pt-3">
+						<a href="/careers/" class="custom-btn text-center btn btn-success neosans-bold text-uppercase font-md">APPLY NOW</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end of Call to action -->
+
+	<!-- GO-JEK principles -->
+	<section class="py-5">
+		<div class="container pl-lg-0">
+			<div class="row mb-5">
+				<div class="col-md-4">
+					<div class="bg-101">
+						<h1 class="h2 font-xl-l ">GO-JEK
+							<br> Tech
+							<br> principles</h1>
+					</div>
+				</div>
+				<div class="col-md-8 font-xs-l text-gray text-justify">
+					<p>Working with GO-JEK means working with the best and brightest to solve some of the hardest problems in technology. Not
+						only is this extremely rewarding, it’s also immensely challenging.</p>
+					<p>Here are our guiding principles that serve as a great reference point to understand how we think of Engineering:
+					</p>
+				</div>
+			</div>
+
+			<div class="row slick-slider text-center text-md-left">
+				<div class="principles-card">
+					<img class="card-img-top img-fluid" src="img/EverybodyCodes01.gif" alt="GO-JEK Tech Principles - Eveyone codes">
+					<div class="card-body px-0">
+						<a class="text-dark transparent-outline-link" href="https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2"
+						 target="_blank">
+							<h4 class="card-title font-md">
+								Everyone
+								<br> Codes
+							</h4>
+						</a>
+
+						<p class="font-xs-l">At GO-JEK, writing software is at the very core of what we do. Because, leaders who code are better judges of technical
+							skill in people.</p>
+					</div>
+				</div>
+				<div class="principles-card">
+					<img class="card-img-top img-fluid" src="img/walkthetalk (1).gif" alt="GO-JEK Tech Principles - Walk the talk">
+					<div class="card-body px-0">
+						<a class="text-dark transparent-outline-link" href="https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2"
+						 target="_blank">
+							<h4 class="card-title font-md">
+								Walk
+								<br>the Talk
+							</h4>
+						</a>
+						<p class="font-xs-l">At GO-JEK, we expect people to get down in the trenches and take a hands-on approach to problem solving. Don’t tell,
+							show.
+						</p>
+					</div>
+				</div>
+				<div class="principles-card">
+					<img class="card-img-top img-fluid" src="img/leader-2.gif" alt="GO-JEK Tech Principles - Leaders are grown not made">
+					<div class="card-body px-0">
+						<a class="text-dark transparent-outline-link" href="https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2"
+						 target="_blank">
+							<h4 class="card-title font-md">
+								Leaders are grown.
+								<br>Not made.
+							</h4>
+						</a>
+						<p class="font-xs-l">At GO-JEK, you earn your leadership by proving your mettle, not by formal appointments.</p>
+					</div>
+				</div>
+				<div class="principles-card">
+					<img class="card-img-top img-fluid" src="img/PaorProgramming01.gif" alt="GO-JEK Tech Principles - Pair programming and TDD">
+					<div class="card-body px-0">
+						<a class="text-dark transparent-outline-link" href="https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2"
+						 target="_blank">
+							<h4 class="card-title font-md">
+								Pair Programming &amp;
+								<br>TDD Work
+							</h4>
+						</a>
+						<p class="font-xs-l">Pair Programming &amp; TDD are meant to be together! They help us build features faster, and mature teams organically.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end of GO-JEK principles -->
+
+	<!-- Tech facts section -->
+	<section class="py-5">
+		<div class="container">
+			<h1 class="h2 mb-4 font-xl-l text-center text-lg-left">Tech Facts</h1>
+		</div>
+		<div class="container-fluid pt-3 pb-3">
+			<div class="row tech-facts-slider text-lg-start text-center">
+				<div class="card rounded-0 border-0">
+					<img class="card-img-top" src="img/TechStack_Orders.jpg" alt="30 orders on an average every second">
+					<div class="card-body font-md">
+						<p class="custom-line-height">
+							We process an average of 35 orders every second.
+						</p>
+					</div>
+				</div>
+				<div class="card rounded-0 border-0">
+					<img class="card-img-top" src="img/TechStack_APIs.jpg" alt="200 million internel API calls per second">
+					<div class="card-body font-md">
+						<p class="custom-line-height">We process more than 350 million internal API calls per second.</p>
+					</div>
+				</div>
+
+				<div class="card rounded-0 border-0">
+					<img class="card-img-top " src="img/TechStack_GolangRubyJava.jpg" alt="Ruby, Java and Go clusters">
+					<div class="card-body font-md">
+						<p class="custom-line-height"> We run one of the largest JRuby, Java and Go clusters in Asia.
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+	<!-- end of tech facts section -->
+
+	<!-- Blog section -->
+	<section class="py-3">
+		<div class="container">
+			<div class="text-center text-lg-left font-xl-l">
+				<p class="h2">Read what we do</p>
+			</div>
+			<div id="jsonContent" class="row blog-slider pt-4">
+			</div>
+		</div>
+	</section>
+	<!-- end of blog section -->
+
+	<!-- Opensource section -->
+	<section class="py-5 bg-green">
+		<div class="container">
+			<h1 class="h2 pl-0 font-xl-l text-center text-white">We take Open Source seriously</h1>
+
+			<div id="opensourceCards" class="row justify-content-md-center pt-4"></div>
+
+			<!-- Tech Stack -->
+			<h1 class="h2 pt-3 font-xl-l text-center text-white">Tech Stack</h1>
+			<div class="container">
+				<div class="row pl-2 justify-content-center align-items-center">
+					<div class="col-md-3  col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 27.svg" title="New Relic" alt="New Relic">
+					</div>
+					<div class="col-md-3  col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 28.svg" title="Ruby on Rails" alt="Ruby on Rails">
+					</div>
+					<div class="col-md-3  col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 29.svg" title="Java" alt="Java">
+					</div>
+					<div class="col-md-3  col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 30.svg" title="Grafana" alt="Grafana">
+					</div>
+					<div class="col-md-3  col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 31.svg" title="Datadog" alt="Datadog">
+					</div>
+					<div class="col-md-3  col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 32.svg" title="Clojure" alt="Clojure">
+					</div>
+					<div class="col-md-3  col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 33.svg" title="Golang" alt="Golang">
+					</div>
+					<div class="col-md-3  col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 34.svg" title="PostgreSQL" alt="PostgreSQL">
+					</div>
+
+					<div class="col-md-3  col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 35.svg" title="RabbitMQ" alt="RabbitMQ" />
+					</div>
+					<div class="col-md-3   col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 36.svg" title="MySQL" alt="MySQL">
+					</div>
+					<div class="col-md-3   col-4 pt-4">
+						<img class="img-fluid mx-auto custom-logo-width" src="img/Asset 37.svg" title="MySQL" alt="MySQL">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- end of opensource section -->
+
+	<!-- Impact on Indonesia -->
+	<section class="py-5">
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<h1 class="col-12 neosans-bold text-black mb-3 font-xl-l">Our Social Impact Stories</h1>
+				<p class="font-xs-l mt-2 font-neosans px-1">
+					<span>
+						Since inception, GO-JEK has aimed to improve the economic growth of Indonesia. Using technology as a means of social impact,
+						GO-JEK has created jobs, improved livelihoods of multiple people and helped nudge micro-entrepreneurs.
+					</span>
+					<span>
+						Today, GO-JEK is a verb in Indonesia. About 200+ engineers make software decisions that trickle down to affect the lives
+						of 260+ million people in Indonesia. Watch their stories
+					</span>
+
+				</p>
+
+			</div>
+		</div>
+
+		<div class="container-fluid mt-3">
+			<div class="row impact-slider">
+				<div class="card rounded-0 border-0">
+					<div class="">
+						<a onclick="changeVideo('bdHfntRaAoo')">
+							<img class="img-fluid w-100 w-100" src="img/Arif.jpg">
+						</a>
+					</div>
+					<div class="card-body  text-md-left text-center">
+						<p class="neosans-bold text-black font-lg">Arif Fahroji - GO-JEK Driver</p>
+						<p class="font-neosans font-sm">A swimming coach, host and traditional artist is how Mr. Arif expresses his creativity. Let Mr. Arif inspire us to
+							consistently want to do the best for Indonesia.</p>
+					</div>
+				</div>
+
+				<div class="card rounded-0 border-0">
+					<div class="">
+						<a onclick="changeVideo('1kPYaBfgawI')">
+							<img class="img-fluid w-100" src="img/Sumani.jpg">
+						</a>
+					</div>
+					<div class="card-body   text-md-left text-center">
+						<p class="neosans-bold text-black font-lg">Sumani - GO-BOX Driver</p>
+						<p class="font-neosans font-sm">Despite the disability Mr. Sumani has, he is still consistent in helping other people. Let us learn from Mr. Sumani
+							that no matter what our weakness may be, we should always be willing to contribute to our surroundings..</p>
+					</div>
+				</div>
+				<div class="card rounded-0 border-0">
+					<div class="">
+						<a onclick="changeVideo('77YDzTh-_EA')">
+							<img class="img-fluid w-100" src="img/Nuridah.jpg">
+						</a>
+					</div>
+					<div class="card-body  text-md-left text-center">
+						<p class="neosans-bold text-black  font-lg">Nuridah - She joined as a GO-JEK Driver and in the same year she joined GO-CLEAN.</p>
+						<p class="font-neosans font-sm">Determination is the key for us to accomplish anything we want. Mrs. Nuridah is a good example of how determination
+							can help you accomplish your goals. Let us all have the same determination as Mrs. Nuridah for a better Indonesia.</p>
+					</div>
+				</div>
+				<div class="card rounded-0 border-0">
+					<div class="">
+						<a onclick="changeVideo('EKQxX5XZrr4')">
+							<img class="img-fluid w-100" src="img/Heru.jpg">
+						</a>
+					</div>
+					<div class="card-body  text-md-left text-center">
+						<p class="neosans-bold text-black font-lg ">Heru Widyanto - GO-MASSAGE</p>
+						<p class="font-neosans font-sm">Mr. Heru does not make his disability an excuse when it comes to helping other people. Our disabilities or weakness
+							should not stop us from accomplishing our goals or stop our efforts in helping people in need.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-body embed-responsive embed-responsive-21by9">
+
+						<iframe id="iframeYoutube" class="embed-responsive-item" src="https://www.youtube.com/embed/bdHfntRaAoo?rel=0&amp;showinfo=0"
+						 allowfullscreen></iframe>
+
+					</div>
+					<!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div> -->
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- end of impact on Indonesia section -->
+
+	<!-- Call to action -->
+	<section class="bg-green p-2">
+		<div class="container-fluid">
+			<div class="jumbotron jumbotron-fluid bg-green">
+				<div class="row justify-content-center">
+					<div class="col-lg-12">
+						<h3 class="h3 text-center text-white font-xl-l neosans-bold">We have no dearth of Hard Technical Problems&trade;, work with us.</h3>
+
+						<div class="text-center pt-3">
+							<a href="/careers/" class="btn text-center bg-white text-green neosans-bold text-uppercase custom-btn challenging-button">APPLY NOW</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end of call to action -->
+
+	<footer class="bg-black text-white py-5">
+		<div class="container">
+			<div class="row text-uppercase">
+				<div class="col-md-4">
+					<a href="/">
+						<img src="img/logo-footer.png" alt="GO-JEK LOGO" title="GO-JEK">
+					</a>
+				</div>
+				<div class="col-md-8">
+					<div class="row font-xs">
+						<div class="col-md-3 d-none d-md-block">
+							<ul class="list-unstyled">
+								<li class="pb-4">
+									<a href="#">Home</a>
+								</li>
+								<li class="pb-4">
+									<a href="/open-source/">Open Source</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3 d-none d-md-block">
+							<ul class="list-unstyled">
+
+								<!-- <li class="pb-4">
+                                    <a href="/about-us/">About</a>
+                                </li> -->
+								<li class="pb-4">
+									<a href="/careers/">Careers</a>
+								</li>
+								<li class="pb-4">
+									<a href="/news/">News</a>
+								</li>
+
+							</ul>
+						</div>
+						<div class="col-md-2 d-none d-md-block font-xs">
+							<ul class="list-unstyled">
+								<li class="pb-4 ">
+									<a href="/blog/">Blog</a>
+								</li>
+
+							</ul>
+						</div>
+						<div class="col-md-4  d-none d-md-block px-0">
+							<ul class="list-unstyled">
+								<li class="pb-4 text-left mx-0 ">
+									<a class="green-apply-btn btn btn-success neosans-bold rounded-1 text-white px-lg-5 px-md-3" href="/careers/#viewPosition">Open Positions</a>
+								</li>
+
+								<!-- <li class="pb-4">
+                                    <a class="text-opacity font-xs" href="/">FAQs</a>
+                                </li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<span class="copyright-text">Connect with us on</span>
+					<ul class="list-inline">
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com/gojektech
+                            " target="_blank">
+								<i class="fa fa-facebook-official" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://twitter.com/gojektech
+                            " target="_blank">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.linkedin.com/company/go-jek-india/
+                            " target="_blank">
+								<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.instagram.com/gojek.tech/
+                            " target="_blank">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.youtube.com/channel/UCRQzgsSnYyxzhYGxLddKgEw/featured
+                            " target="_blank">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-8 text-md-right text-left font-xs">
+					<span class="invisible">Copyright text</span>
+					<p class="text-uppercase align-middle copyright-text">
+						<strong>&copy; 2018 All rights reserved</strong>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JS files -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	 crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+	 crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="js/media.js"></script>
+	<script src="js/githubrepos.js"></script>
+	<script src="js/smooth-scroll.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			// Call Medium API to get blogs
+			getMediumBlogs(3, true);
+
+			// Call githubrepo API to get open source cards
+			getGithubRepo(10, true);
+
+
+			$(".slick-slider").slick({
+				arrows: true,
+				centerMode: false,
+				centerPadding: '40px',
+				dots: false,
+				infinite: true,
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				responsive: [{
+					breakpoint: 769,
+					settings: {
+						dots: false,
+						centerMode: true,
+						slidesToShow: 3
+					}
+				}, {
+					breakpoint: 577,
+					settings: {
+						dots: true,
+						slidesToShow: 1
+					}
+				}]
+			});
+			$(".impact-slider").slick({
+				infinite: true,
+				centerMode: true,
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				centerPadding: '0px',
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						dots: true,
+						arrows: true,
+						infinite: true,
+						centerMode: true,
+						slidesToShow: 1
+					}
+				}, {
+					breakpoint: 480,
+					settings: {
+						dots: true,
+						arrows: true,
+						infinite: true,
+						centerMode: true,
+						slidesToShow: 1
+					}
+				}]
+			});
+
+			$(".tech-facts-slider").slick({
+				arrows: true,
+				centerMode: false,
+				centerPadding: '40px',
+				dots: false,
+				infinite: true,
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				responsive: [{
+					breakpoint: 769,
+					settings: {
+						dots: false,
+						centerMode: true,
+						slidesToShow: 3
+					}
+				}, {
+					breakpoint: 577,
+					settings: {
+						dots: true,
+						slidesToShow: 1
+					}
+
+				}]
+			});
+
+			$(".numbers-slider").slick({
+				arrows: true,
+				slidesToShow: 1,
+				centerMode: false,
+				centerPadding: '40px',
+				responsive: [{
+					breakpoint: 769,
+					settings: {
+						dots: false,
+						centerMode: false,
+						slidesToShow: 2
+					}
+				}, {
+					breakpoint: 577,
+					settings: {
+						slidesToShow: 1
+					}
+				}]
+			});
+
+			$(".homepage-banner-slider").slick({
+				arrows: true,
+				slidesToShow: 1,
+				centerMode: false,
+				responsive: [{
+					breakpoint: 577,
+					settings: {
+						slidesToShow: 1,
+						centerMode: false,
+					}
+				}]
+			});
+
+			//Impact on indonesia
+			$("#myModal").on("hidden.bs.modal", function () {
+				$("#iframeYoutube").attr("src", "#");
+			})
+
+
+		});
+
+		function changeVideo(vId) {
+			var iframe = document.getElementById("iframeYoutube");
+			iframe.src = "https://www.youtube.com/embed/" + vId;
+
+			$("#myModal").modal("show");
+		}
+	</script>
 
 </body>
 

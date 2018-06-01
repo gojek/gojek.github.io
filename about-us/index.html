@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmddyyso++//////++++osyhdmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhyo+///////+++oooooo+++///////+sydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNdyo+////+osyhdmNNNNNNMMMNNNNNmdhyo+////++ydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMmhs+////oshmNNMMMMMMMMMMMMMMMMMMMMMMMMNNdyo+///+sdNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMy+///oydNNMMMMMMMMMNNmmdddddddmmmNMMMMMMMMMMNdy+///+yMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMNyshmNMMMMMMMMmdhso++///////////+++sydmNMMMMMMMNmy++sMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmds++//+osyhdmmmmmmmmdhyoo+//+ohmMMMMMMMNNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyo//+oydmNMMMMMMMMMMMMMMMMMNNmyo+//oymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMd+/oydNMMMMMMMMMMMNNNNNNMMMMMMMMMMNds+//yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmMMMMMMMMMNmhysoooooooosydmNMMMMMMMNhhmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmho++osyddmmmmdhys++oymNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo+oydNMMMMMMMMMMMMMMmho/+hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdmMMMMMMMMMMMMMMMMMMMMMmyhMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmysssydMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs///////oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh/////////sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh/////////yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy+////////yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy//////shmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////+yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////+///ohMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////dMdy+///ymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////hMMMMMNdyo++yhdmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs////////yMMMMMMMMMMMNdh//dMMMNmdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd/////////hMMMNmdhyysoooo//oso+///yMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMNdhhhhhhhho/////////ys+////////////////////yMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNo//////////////////////////////////////////yMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMs////////////////////////////////////////ohhmMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMmhyo/////////////////////////////////////oy///dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMdo+//////////////////////////////////////+hNMh///dNmmddmmNMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMmo/////////////////////////////////////hmmmNMMMMh///+//////+oymMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMy///////oydmmy//+///////////////////////mMMMMMMMh+////+yyyys+///odMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMNo/////smMMMNN+/+Nms/////////////////////NMMMMMNo///so//dMMMMNms///sNMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMNNN////hMMMho++//yMMMy///////////////////:MMMMMMo///hMNo//sydNMMMd///sMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMmsso////ssso///////syhy///////////////////oMMMMMd///sMMN+/////+mMMMh///mMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMNNd///+mmm+///////oddh////sssssssssssssydNMMMMMh///hMMh///////yMMMd///dMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMM+///hMMmo/////omMMy///oMMMMMMMMMMMMmmmmmmmmMm///oMMNs+////oNMMMs///NMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMd////yNMMmdhdmMMms////mMMMMMMMMMMMMMMMMMMMMMMs///omMMmdddmMMMNs///yMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMd+////ohdmmmdyo////omMMMMMMMMMMNNNNNNNNNNNNMMy////sdNNNNNNds+///hMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMNh+/////////////ohMMMMMMMMNNNNNNNmmmmmmmmmNNMms+////++++////+smMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMmhso++/++oshmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdyo+///++oydNMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+If you're looking, we're hiring :) - work+source@go-jek.com
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Bootstrap assets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>About GO-JEK</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top bg-white navbar-expand-lg navbar-light neosans-bold text-uppercase px-4 py-2">
+        <a class="navbar-brand" href="#">
+            <img class="header-logo-width" src="../img/gojek-logo.png" alt="GO-JEK Logo" title="GO-JEK">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="mx-3 nav-item">
+                    <a class="nav-link" href="/">Home
+                    </a>
+                </li>
+                <li class="mx-3 nav-item">
+                    <a class="nav-link" href="/careers/">Careers</a>
+                </li>
+                <li class="mx-3 nav-item active">
+                    <a class="nav-link" href="javascript:void(0);">About
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="mx-3 nav-item">
+                    <a class="nav-link" href="/open-source/">Open Source</a>
+                </li>
+                <li class="mx-3 nav-item">
+                    <a class="nav-link" href="/blog/">Blog</a>
+                </li>
+                <li class="mx-3 nav-item">
+                    <a class="btn btn-success rounded-1 neosans-bold green-apply-btn" href="/careers/">Apply</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End navigation -->
+    <!-- Go-Jek journey -->
+    <section class="first-section">
+        <div class="container-fluid egg-bg-color">
+            <div class="container ">
+                <div class="d-flex flex-row flex-wrap  justify-content-center align-items-center">
+
+                    <div class="col-md-12 col-lg-3 text-center pt-5 w3-animate-left w3-animate-opacity">
+                        <p class="neosans-bold text-white font-xxl-x text-lg-left text-center">
+                            The
+                            <br> GO-JEK Journey
+                        </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-9  text-white">
+                        <div class="d-flex flex-row flex-wrap text-md-left text-center align-items-center">
+                            <div class="col-md-6 col-sm-12 col-lg-6 text-center pt-4 transition-effect">
+                                <img class="img-fluid" src="../img/egg.gif">
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-lg-6 pt-2 transition-effect fade-right">
+                                <p class="neosans-bold font-lg">
+                                    A Revolution was Born.
+                                </p>
+                                <br>
+                                <p class="font-neosans font-xs-l">The GO-JEK App was launched in the beginning of 2015.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container relative-position pb-5 about-us-container-height">
+            <div class="d-none d-md-block">
+                <svg class="first-path about-us-path-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 254 425">
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                            <polyline points="247 0 247 418 0 418" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+
+            <div class="d-flex flex-row flex-wrap justify-content-start align-items-center pt-5 ">
+                <div class="col-md-5 offset-md-1 col-sm-12 transition-effect1">
+                    <img class="img-fluid" src="../img/scooter-dudes-noloop.gif" alt="1 million drivers">
+                </div>
+                <div class="col-md-4 offset-md-1 col-sm-12 text-dark pt-4 transition-effect1 fade-right1">
+                    <p class="font-lg neosans-bold">
+                        Growing Faster & Stronger. Day on Day.
+                    </p>
+                    <p class="font-xs-l font-neosans">
+                        Orders scale from 3,000 to 100,000 a day in few months
+                    </p>
+                </div>
+            </div>
+            <div class="d-none d-md-block">
+                <svg class="fourth-path about-us-path-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 149">
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                            <line x1="7" x2="7" y2="149" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+
+            <div class="d-flex flex-row flex-wrap align-items-center">
+                <div class="d-none d-md-block">
+                    <svg class="third-path about-us-path-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <path d="M233,0C233,128.68,128.68,233,0,233" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+
+
+                <div class="col-md-5 col-sm-12 order-sm-2 transition-effect2 pb-3">
+                    <img class="img-fluid " src="../img/robot-transparent.gif" alt="1 million drivers">
+                </div>
+
+                <div class="col-md-4 offset-md-2 col-sm-12 order-sm-1 text-dark  my-5  transition-effect2">
+                    <p class="font-lg neosans-bold fade-right ">
+                        Breaking Barriers. Quite Literally.</p>
+                    <p class="font-xs-l font-neosans fade-right">
+                        By end of 2015 - systems were crashing because of volumes
+                    </p>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="d-none d-md-block">
+                <svg class="second-path about-us-path-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 377 122">
+
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                            <polyline points="7 0 7 115 377 115" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="mt-5 transition-effect3">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L5FIAniosZU?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+                </div>
+                <p class="neosans-bold text-dark font-lg">Achieving the Impossible.</p>
+                <p class="font-neosans text-dark font-xs-l">Niranjan rewrote a key piece of tech in Golang in under 3 days</p>
+            </div>
+            <div class="py-4">
+
+            </div>
+            <div class="pb-5 transition-effect4">
+                <p class="h1 text-dark text-center font-lg m-0">
+                    In the last 36 months
+                </p>
+                <p class="h1 text-green text-center m-0 font-xxl count">3 </p>
+                <p class="h1 text-dark text-center font-lg m-0">growth in total order volume</p>
+            </div>
+
+            <div class="mt-5 d-none d-md-block">
+                <svg class="fifth-path about-us-path-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 149">
+
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                            <line x1="7" x2="7" y2="149" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Go-Jek journey Ends -->
+
+    <!-- Heading - Want  to make -->
+    <section class="bg-green ">
+        <div class="container">
+            <div class="row py-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h3 class="h3 text-center font-xl text-white neosans-bold">Want to make the world a better place
+                        <span>?</span> We’ve got the Source Code!</h3>
+                    <div class="text-center pt-3">
+                        <a href="/careers/" class="text-center btn bg-white text-green neosans-bold text-uppercase my-1 font-md challenging-button custom-btn">APPLY NOW </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End heading  -->
+
+
+    <footer class="bg-black text-white py-5">
+            <div class="container">
+                <div class="row text-uppercase">
+                    <div class="col-md-4">
+                        <a href="/">
+                            <img src="img/logo-footer.png" alt="GO-JEK LOGO" title="GO-JEK">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row font-xs">
+                            <div class="col-md-3 d-none d-md-block">
+                                <ul class="list-unstyled">
+                                    <li class="pb-4">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li class="pb-4">
+                                        <a href="/open-source/">Open Source</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 d-none d-md-block">
+                                <ul class="list-unstyled">
+    
+                                    <!-- <li class="pb-4">
+                                        <a href="/about-us/">About</a>
+                                    </li> -->
+                                    <li class="pb-4">
+                                        <a href="/careers/">Careers</a>
+                                    </li>
+                                    <li class="pb-4">
+                                        <a href="/news/">News</a>
+                                    </li>
+    
+                                </ul>
+                            </div>
+                            <div class="col-md-3 d-none d-md-block font-xs">
+                                <ul class="list-unstyled">
+                                    <li class="pb-4 ">
+                                        <a href="/blog/">Blog</a>
+                                    </li>
+    
+                                </ul>
+                            </div>
+                            <div class="col-md-3 d-none d-md-block">
+                                <ul class="list-unstyled">
+                                    <li class="pb-4 text-center mr-2">
+                                        <a class="green-apply-btn btn btn-success neosans-bold rounded-1 text-white px-lg-3 px-md-3" href="/careers/#viewPosition">Open Positions</a>
+                                    </li>
+                                    
+                                    <!-- <li class="pb-4">
+                                        <a class="text-opacity font-xs" href="/">FAQs</a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="copyright-text">Connect with us on</span>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/gojektech
+                                " target="_blank">
+                                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/gojektech
+                                " target="_blank">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/company/go-jek-india/
+                                " target="_blank">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/gojek.tech/
+                                " target="_blank">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/channel/UCRQzgsSnYyxzhYGxLddKgEw/featured
+                                " target="_blank">
+                                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 text-md-right text-left font-xs">
+                        <span class="invisible">Copyright text</span>
+                        <p class="text-uppercase align-middle copyright-text">
+                            <strong>&copy; 2018 All rights reserved</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- JS files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script src="../js/about-us.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).on('beforeunload', function() {
+                $(window).scrollTop(0);
+            });
+            run();
+
+            $(function() {
+                $(".transition-effect").each(function(i, e) {
+                    $(this).delay(i * 1500).fadeIn(100);
+                });
+                $(".fade-right").each(function(i, e) {
+
+                    $(this).animate({
+                        left: 10,
+                        opacity: "show"
+                    }, 500);
+
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
