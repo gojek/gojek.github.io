@@ -4,7 +4,7 @@ function getMediumBlogs(count, sliderBool) {
     rss_url: "https://blog.gojekengineering.com/feed"
   };
 
-  jQuery.get("https://api.rss2json.com/v1/api.json", data, function (response) {
+  $.get("https://api.rss2json.com/v1/api.json", data, function (response) {
     var output = "";
     $.each(response.items, function (k, item) {
       if (k < count) {
