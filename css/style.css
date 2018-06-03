@@ -2,22 +2,17 @@
 
 @font-face {
     font-family: NeoSansBold;
-    src: url("../fonts/NeoSans-Bold.otf");
+    src: url("../fonts/NeoSansPro-Bold.ttf");
 }
 
 @font-face {
     font-family: NeoSansLight;
-    src: url("../fonts/NeoSans-Light.otf");
+    src: url("../fonts/NeoSansPro-Light.ttf");
 }
 
 @font-face {
     font-family: NeoSans;
-    src: url("../fonts/NeoSans.otf");
-}
-
-@font-face {
-    font-family: NeoSansMedium;
-    src: url("../fonts/NeoSans-Medium.otf");
+    src: url("../fonts/NeoSansPro-Regular.ttf");
 }
 
 .neosans-bold {
