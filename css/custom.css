@@ -15,8 +15,14 @@
   margin: 0px 5px;
 }
 
-.slick-prev:before,
-.slick-next:before {
+#opensourceCards .slick-prev:before,
+#opensourceCards .slick-next:before{
+    color: white;
+    opacity: 1;
+}
+
+.custom-controls-light .slick-prev:before,
+.custom-controls-light .slick-next:before {
   color: black;
 }
 
@@ -65,3 +71,30 @@
 
 }
 
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .custom-controls-dark .slick-next,
+    .custom-controls-dark .slick-next:hover,
+    .custom-controls-dark .slick-next:focus,
+    .custom-controls-dark .slick-prev,
+    .custom-controls-dark .slick-prev:hover,
+    .custom-controls-dark .slick-prev:focus {
+        width: 30px;
+        height:30px;
+        background-color: #000;
+    }
+
+    .custom-controls-light .slick-next,
+    .custom-controls-light .slick-next:hover,
+    .custom-controls-light .slick-next:focus,
+    .custom-controls-light .slick-prev,
+    .custom-controls-light .slick-prev:hover,
+    .custom-controls-light .slick-prev:focus
+     {
+        width: 30px;
+        height:30px;
+        background-color: #fff;
+    }
+
+}
