@@ -6,6 +6,13 @@
   left: 0px;
 }
 
+.impact-slider .slick-next:before,
+.impact-slider .slick-prev:before,
+.go-jek-slider .slick-next:before,
+.go-jek-slider .slick-prev:before {
+    color: #000;
+}
+
 .slick-next,
 .slick-prev {
   z-index: 99;
@@ -73,7 +80,10 @@
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-
+    .custom-controls-dark .slick-next:before,
+    .custom-controls-dark .slick-prev:before {
+        color: #fff;
+    }
     .custom-controls-dark .slick-next,
     .custom-controls-dark .slick-next:hover,
     .custom-controls-dark .slick-next:focus,
