@@ -6,11 +6,21 @@
   left: 0px;
 }
 
-.impact-slider .slick-next:before,
-.impact-slider .slick-prev:before,
-.go-jek-slider .slick-next:before,
-.go-jek-slider .slick-prev:before {
-    color: #000;
+.lg-controls-dark .slick-next:before,
+.lg-controls-dark .slick-prev:before {
+    color: #fff;
+}
+
+.lg-controls-dark .slick-next,
+.lg-controls-dark .slick-next:hover,
+.lg-controls-dark .slick-next:focus,
+.lg-controls-dark .slick-prev,
+.lg-controls-dark .slick-prev:hover,
+.lg-controls-dark .slick-prev:focus
+{
+  width: 30px;
+  height:30px;
+  background-color: #000;
 }
 
 .slick-next,

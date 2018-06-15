@@ -17,15 +17,17 @@ function getGithubRepo(count, sliderBool) {
                     if (data[i].name === "heimdall" || data[i].name === "palantir" || data[i].name === "proctor" || data[i].name === "valkyrie") {
                         $("#opensourceCards").append(
                             '<div class="col-md-6 col-lg-5 rounded">' +
+                            '<a class="text-dark" title = "' + data[i].name + '" href="' + data[i].html_url + '" target="_blank" style="text-decoration: none;">' + 
                             '<div class="card border-0 mb-4 flex-row opensource-card">' +
                             '<img class="align-self-center p-3 " src="' + src + data[i].name + '-logo.png" alt="' + data[i].name + ' logo img">' +
                             '<div class="card-body">' +
                             '<h3 class="neosans-bold mb-0 font-sm-l opensource-card-title">' +
-                            '<a class="text-dark" title = "' + data[i].name + '" href="' + data[i].html_url + '" target="_blank">' + data[i].name + '</a>' +
+                                data[i].name+
                             '</h3>' +
                             '<p class="opensource-card-description mb-auto">' + (description !== null ? description : "") + '</p>' +
                             ' </div>' +
                             ' </div>' +
+                            '</a>'+
                             '</div>'
                         );
                     }

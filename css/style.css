@@ -211,8 +211,10 @@ button.navbar-toggler {
 
 #go-jek-slider .homepage-carousel-indicators li,
 #carouselExampleIndicators .careers-carousel-indicators li {
-    width: 1rem;
-    height: 1rem;
+    /*width: 1rem;
+    height: 1rem;*/
+    width: 0.8rem;
+    height: 0.8rem;
     border-radius: 100%;
     background-color: #fff;
 }
@@ -593,10 +595,10 @@ html {
         right: 30%;
     }
     #go-jek-slider .homepage-carousel-indicators {
-        top: 65%;
+        top: 67%;
     }
     #go-jek-slider .carousel-btn {
-        top: 72%;
+        top: 76%;
         font-family: "NeoSansBold";
         z-index: 99;
     }
