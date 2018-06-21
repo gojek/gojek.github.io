@@ -1,6 +1,58 @@
 /* Common Styles */
 
 @font-face {
+    font-family: RobotoBold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: RaleWayRegular;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: RaleWayMedium;
+    src: url("../fonts/Raleway-Medium.ttf");
+}
+
+
+
+@font-face {
+    font-family: RaleWayBold;
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: RaleWaySemiBold;
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: RaleWayExtraBold;
+    src: url("../fonts/Raleway-ExtraBold.ttf");
+}
+/* 
+@font-face {
     font-family: NeoSansBold;
     src: url("../fonts/NeoSansPro-Bold.ttf");
 }
@@ -13,9 +65,51 @@
 @font-face {
     font-family: NeoSans;
     src: url("../fonts/NeoSansPro-Regular.ttf");
+} */
+
+ .raleway-regular {
+    font-family: "RaleWayRegular", sans-serif;
+}
+/*
+.raleway-medium {
+    font-family: "RaleWayMedium", sans-serif;
+} */
+
+.raleway-bold {
+    font-family: "RaleWayBold", sans-serif;
 }
 
-.neosans-bold {
+/* .raleway-semibold {
+    font-family: "RaleWaySemiBold", sans-serif;
+} */
+
+.raleway-extrabold{
+    font-family: "RaleWayExtraBold", sans-serif;
+}
+
+.roboto-bold {
+    font-family: "RobotoBold", sans-serif;
+}
+
+.roboto-black {
+    font-family: "RobotoBlack", sans-serif;
+}
+
+
+
+.roboto-thin {
+    font-family: "RobotoThin", sans-serif;
+}
+
+.roboto-regular {
+    font-family: "RobotoRegular", sans-serif;
+}
+
+.roboto-light {
+    font-family: "RobotoLight", sans-serif;
+}
+
+/* .neosans-bold {
     font-family: "NeoSansBold", sans-serif;
 }
 
@@ -25,7 +119,7 @@
 
 .font-neosans {
     font-family: "NeoSans", sans-serif;
-}
+} */
 
 body {
     font-family: "Roboto", sans-serif;
@@ -33,14 +127,10 @@ body {
     letter-spacing: normal;
 }
 
-.h1,
-.h2,
-.display-4,
-.card-title {
+.h1, .h2, .display-4 {
     color: #000;
-    font-family: "NeoSansBold", sans-serif;
+    font-family: "RaleWayBold", sans-serif;
 }
-
 
 /* .font-xs-s {
     font-size: 0.87rem;
@@ -49,7 +139,6 @@ body {
 .font-xs {
     font-size: 0.94rem;
 }
-
 
 /* .font-xs-l {
     font-size: 1rem;
@@ -128,8 +217,7 @@ body {
     padding-bottom: 5.25px;
 }
 
-footer a,
-footer a:hover {
+footer a, footer a:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -154,13 +242,11 @@ footer .list-inline-item a {
     opacity: 0.5;
 }
 
-
 /* Navbar style */
 
 button.navbar-toggler {
     border: none;
 }
-
 
 /* Header Styles */
 
@@ -176,19 +262,15 @@ button.navbar-toggler {
     color: #9a9a9a;
 }
 
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #8dc63f;
 }
-
 
 /* Homepage Mobile view carousel style */
 
 .first-section {
     margin-top: 53px;
 }
-
 
 /* Slider Styles*/
 
@@ -209,8 +291,7 @@ button.navbar-toggler {
     z-index: 99;
 }
 
-#go-jek-slider .homepage-carousel-indicators li,
-#carouselExampleIndicators .careers-carousel-indicators li {
+#go-jek-slider .homepage-carousel-indicators li, #carouselExampleIndicators .careers-carousel-indicators li {
     /*width: 1rem;
     height: 1rem;*/
     width: 0.8rem;
@@ -219,8 +300,7 @@ button.navbar-toggler {
     background-color: #fff;
 }
 
-#go-jek-slider .homepage-carousel-indicators li.active,
-#carouselExampleIndicators .careers-carousel-indicators li.active {
+#go-jek-slider .homepage-carousel-indicators li.active, #carouselExampleIndicators .careers-carousel-indicators li.active {
     background-color: #009944;
 }
 
@@ -247,7 +327,6 @@ button.navbar-toggler {
     -o-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
-
 
 /*Go-Jek facts*/
 
@@ -287,7 +366,6 @@ button.navbar-toggler {
     background-color: #f2f2f2;
 }
 
-
 /* .text-gray {
     color: #686868;
 } */
@@ -299,7 +377,6 @@ button.navbar-toggler {
 .numbers-card img {
     max-height: 200px;
 }
-
 
 /*Careers Page styles*/
 
@@ -343,7 +420,6 @@ button.navbar-toggler {
     border-radius: 1rem;
 }
 
-
 /*Employee Stories Carousel*/
 
 .employee-stories {
@@ -385,12 +461,9 @@ button.navbar-toggler {
     padding-top: 0;
 }
 
-
 /*Open source styles Start*/
 
-
 /*open source styles End*/
-
 
 /* Tech stack */
 
@@ -399,18 +472,14 @@ button.navbar-toggler {
     display: block;
 }
 
-
 /* blog style start */
 
-.medium-blog em,
-.card-body,
-.banner-link:hover {
+.medium-blog em, .card-body, .banner-link:hover {
     font-style: normal;
     text-decoration: none;
 }
 
-.medium-blog a:hover,
-{
+.medium-blog a:hover, {
     text-decoration: none;
 }
 
@@ -422,13 +491,11 @@ button.navbar-toggler {
     outline: transparent;
 }
 
-
 /* Responsive text */
 
 html {
     font-size: 1rem;
 }
-
 
 /* Small devices (landscape phones, 576px and up) */
 
@@ -442,8 +509,7 @@ html {
     .about-us-container-height {
         height: 1500px;
     }
-    .opensource-card img,
-    .tech-stack img {
+    .opensource-card img, .tech-stack img {
         max-width: 100px;
     }
     .go-jek-work-text {
@@ -477,7 +543,6 @@ html {
         top: 75%;
     }
 }
-
 
 /*  Medium devices (tablets, 768px and up) */
 
@@ -582,7 +647,6 @@ html {
     }
 }
 
-
 /*  Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
@@ -654,7 +718,6 @@ li {
     color: green;
 }
 
-
 /* About-us */
 
 .first-path {
@@ -676,7 +739,6 @@ li {
     stroke-miterlimit: 10;
     stroke-width: 14px;
 }
-
 
 /* .transition-effect {
     display: none;
@@ -730,16 +792,17 @@ li {
 .fade-right {
     display: none;
 }
+
 .modal-btn {
     cursor: pointer;
 }
 
 /* job-title styles */
+
 .job-title:hover {
     color: #000;
     text-decoration: none;
 }
-
 
 /* @media (min-width: 1440px) {
    

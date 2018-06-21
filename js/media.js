@@ -38,7 +38,7 @@ function getMediumBlogs(count, sliderBool) {
           pubDate.getFullYear();
 
         output +=
-          '<p class="card-text text-success blog-date neosans-bold">' +
+          '<p class="card-text text-success blog-date roboto-bold">' +
           pubDate +
           "</p>";
 
@@ -57,14 +57,14 @@ function getMediumBlogs(count, sliderBool) {
           item.title + '">';
         output += '<div class="card-body px-0 text-center text-md-left text-black">';
         output +=
-          '<h5 class="card-title  neosans-bold"><a class="text-dark  font-lg transparent-outline-link" target = "_blank" href="' +
+          '<h5 class="card-title raleway-bold"><a class="text-dark  font-lg transparent-outline-link" target = "_blank" href="' +
           item.link +
           '">' +
           item.title +
           "</a></h5>";
 
         output +=
-          '<div class="post-meta "><span>By ' + item.author + "</span></div>";
+          '<div class="post-meta roboto-regular"><span>By ' + item.author + "</span></div>";
 
         var yourString = item.description.replace(/<img[^>]*>/g, ""); //replace with your string.
         var maxLength = 120; // maximum number of characters to extract
@@ -75,7 +75,7 @@ function getMediumBlogs(count, sliderBool) {
           0,
           Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))
         );
-        output += "<p class = 'font-xs-l'>" + trimmedString + "...</p>";
+        output += "<p class = 'font-xs-l roboto-regular'>" + trimmedString + "...</p>";
         output += "</div></div>";
         if (!sliderBool) {
           output += "</div>";

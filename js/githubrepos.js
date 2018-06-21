@@ -21,10 +21,10 @@ function getGithubRepo(count, sliderBool) {
                             '<div class="card border-0 mb-4 flex-row opensource-card">' +
                             '<img class="align-self-center p-3 " src="' + src + data[i].name + '-logo.png" alt="' + data[i].name + ' logo img">' +
                             '<div class="card-body">' +
-                            '<h3 class="neosans-bold mb-0 font-sm-l opensource-card-title">' +
+                            '<h3 class="raleway-bold mb-0 font-sm-l opensource-card-title">' +
                                 data[i].name+
                             '</h3>' +
-                            '<p class="opensource-card-description mb-auto">' + (description !== null ? description : "") + '</p>' +
+                            '<p class="opensource-card-description mb-auto roboto-regular">' + (description !== null ? description : "") + '</p>' +
                             ' </div>' +
                             ' </div>' +
                             '</a>'+
