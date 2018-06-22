@@ -1,0 +1,91 @@
+// Import all the fonts used 
+
+@font-face {
+    font-family: NeoSansBold;
+    src: url("../fonts/NeoSansPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: NeoSansLight;
+    src: url("../fonts/NeoSansPro-Light.ttf");
+}
+
+@font-face {
+    font-family: NeoSans;
+    src: url("../fonts/NeoSansPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: NeoSansMedium;
+    src: url("../fonts/NeoSans-Medium.otf");
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: RaleWayRegular;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: RaleWayMedium;
+    src: url("../fonts/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: RaleWayBold;
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: RaleWaySemiBold;
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: RaleWayExtraBold;
+    src: url("../fonts/Raleway-ExtraBold.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+$lightFont : "NeoSansLight", sans-serif;
+$boldFont : "NeoSansBold", sans-serif;
+$regularFont : "NeoSans", sans-serif;
+$mediumFont : "NeoSansMedium", sans-serif;
+
+// Raleway font variables
+$ralewayRegular : "RalewayRegular", sans-serif;
+$ralewayBold : "RalewayBold", sans-serif;
+$ralewayExtraBold : "RaleWayExtraBold", sans-serif;
+
+// Roboto font variables
+$robotoBold : "RobotoBold", sans-serif;
+$robotoBlack : "RobotoBlack", sans-serif;
+$robotoThin : "RobotoThin", sans-serif;
+$robotoRegular : "RobotoRegular", sans-serif;
+$robotoLight : "RobotoLight", sans-serif;

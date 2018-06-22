@@ -1,0 +1,37 @@
+    [{
+            "id": "1",
+            "name": "Home",
+            "link": "/",
+            "type": "link"
+        },
+        {
+            "id": "2",
+            "name": "Careers",
+            "link": "/careers/",
+            "type": "link"
+        },
+        {
+            "id": "3",
+            "name": "News",
+            "link": "/news/",
+            "type": "link"
+        },
+        {
+            "id": "4",
+            "name": "Open Source",
+            "link": "/open-source/",
+            "type": "link"
+        },
+        {
+            "id": "5",
+            "name": "Blog",
+            "link": "/blog/",
+            "type": "link"
+        },
+        {
+            "id": "6",
+            "name": "Apply",
+            "link": "/careers/",
+            "type": "button"
+        }
+    ]
