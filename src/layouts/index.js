@@ -14,6 +14,9 @@ class Layout extends Component {
 		const {siteMetadata: metaData} = this.props.data.site;
 		const { location, children } = this.props
 		const title = location.pathname === '/' ? metaData.title : metaData.title + ' '+(location.pathname.substr(1).slice(0, -1).toUpperCase());
+		const slug = location.pathname.split("/careers/");
+		
+		const showHeaderFooter = slug[1]!== undefined && slug[1] !== "" ? false : true;
 		
 		return(
 			<div>
@@ -38,7 +41,7 @@ class Layout extends Component {
 					<meta property="og:description" content={ metaData.description } />
 				</Helmet>
 				{
-					location.pathname !== '/careers/full-stack-engineer' &&
+					showHeaderFooter &&
 					<Header 
 						siteTitle = {metaData.title} 
 						data = { data }
@@ -48,8 +51,11 @@ class Layout extends Component {
 				
 				<div>
 					{children()}
-				</div>
-				<Footer />
+				</div> 
+				{
+					showHeaderFooter &&
+					<Footer />
+				}
 			</div>
 		);
 	}	

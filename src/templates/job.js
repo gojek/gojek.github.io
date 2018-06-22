@@ -1,5 +1,5 @@
-import * as PropTypes from "prop-types"
 import React from "react"
+import * as PropTypes from "prop-types"
 
 class PostTemplate extends React.Component {
   	static propTypes = {
@@ -12,8 +12,8 @@ class PostTemplate extends React.Component {
 		const { jobsJson } = this.props.data;
 
 		return (
-			<div className="first-section">
-				<section className="bg-green first-section font-neosans">
+			<div>
+				<section className="bg-green font-neosans">
 					<div className="container py-5">
 						<h1 className="h2 font-xl  text-center text-white">{ jobsJson.position }</h1>
 						<div className="text-center ">
