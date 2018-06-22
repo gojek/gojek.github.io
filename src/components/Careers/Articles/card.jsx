@@ -18,7 +18,7 @@ class Card extends Component {
                 <a href={ data.link } target="_blank" className="link-decoration">
                     <div className="row py-3  align-items-center py-3">
                         <div className={(data.type === 'image' ? (data.col === 12 ? 'col-md-6': 'col-md-5') : 'col-md-8')}>
-                            <h5 className="p-5 text-white font-xl-l">{data.title}</h5>
+                            <h5 className="p-5 text-white font-xl-l RaleWayBold">{data.title}</h5>
                         </div>
                         {
                             data.type === 'image' &&

@@ -53,14 +53,14 @@ class EmployeeStories extends Component {
         
         return(
             <section className="gray-bg py-5">
-                <h1 className="font-xl-l text-black py-3 text-center neosans-bold">
+                <h1 className="font-xl-l text-black py-3 text-center raleway-extrabold">
                     {employeeStories.heading}
 		        </h1>
 
                 <div className="container gray-bg">
                     <div className="row justify-content-center">
                         <div className="col-md-7">
-                            <p className="font-xs-l text-center pb-3">
+                            <p className="font-xs-l text-center pb-3 roboto-regular">
                                 {employeeStories.text}
 					        </p>
                         </div>

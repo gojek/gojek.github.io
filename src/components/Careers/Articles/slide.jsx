@@ -11,7 +11,7 @@ class Slide extends Component {
                         <img className="img-fluid w-100 w-100" alt="" src={data.image} />
                     </div>
                     <div className="card-body  text-md-left text-center">
-                        <p className="neosans-bold text-black font-lg">{data.title}</p>
+                        <p className="raleway-bold text-black font-lg">{data.title}</p>
                     </div>
                 </a>
             </div>

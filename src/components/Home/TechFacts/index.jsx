@@ -31,7 +31,7 @@ class TechFacts extends Component {
         return(
             <section className="py-5">
                 <div className="container">
-                    <h1 className="h2 mb-4 font-xl-l text-center text-lg-left">Tech Facts</h1>
+                    <h1 className="raleway-extrabold h2 mb-4 font-xl-l text-center text-lg-left">Tech Facts</h1>
                 </div>
 
                 <div className="container-fluid pt-3 pb-3">

@@ -13,16 +13,16 @@ class Card extends Component {
                     </div>
                     <div className="col-md-4 col-sm-12 order-sm-1">
                         <div className="card border-0">
-                            <p className="card-text text-success blog-date neosans-bold pt-2 text-center text-md-left">
+                            <p className="card-text text-success blog-date roboto-bold pt-2 text-center text-md-left">
                                 {data.date}
                             </p>
                             <div className="card-body px-0 text-center text-md-left text-black">
-                                <h5 className="card-title  neosans-bold">
+                                <h5 className="card-title  roboto-bold">
                                     <a className=" font-lg text-black " target="_blank " href={data.link}>
                                         {data.name}
                                     </a>
                                 </h5>
-                                <p className="font-xs-l font-neosans ">
+                                <p className="font-xs-l roboto-regular ">
                                     {data.text}
                                 </p>
 

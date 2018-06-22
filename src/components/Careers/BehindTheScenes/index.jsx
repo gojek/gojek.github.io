@@ -7,11 +7,11 @@ class BehindTheScenens extends Component {
         
         return(
             <section className="py-5">
-                <h1 className="h2 text-center py-3 font-bold font-xl-l">{behindTheScenes.heading}</h1>
+                <h1 className="h2 text-center py-3 raleway-extrabold font-xl-l">{behindTheScenes.heading}</h1>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-7 pb-5">
-                            <p className="text-center font-xs-l font-neosans">
+                            <p className="text-center font-xs-l roboto-regular">
                             {behindTheScenes.content}
                             </p>
                         </div>

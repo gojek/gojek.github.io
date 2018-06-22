@@ -7,7 +7,7 @@ class Card extends Component {
         return(
             <div className={"card border-0 mb-1 rounded-0 " + (data.id === "1" ? 'mt-4' : '')}>
                 <div className="card-body pb-0 row">
-                    <h4 className="h4 col-md-4 text-black font-lg d-none d-md-block">
+                    <h4 className="h4 col-md-4 text-black font-lg d-none d-md-block ">
                         <a href={"/careers/" + data.positionSlug} className="job-title text-black" target="_blank">
                             {data.position}
 						</a>

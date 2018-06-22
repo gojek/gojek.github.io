@@ -8,9 +8,9 @@ class OpensPositions extends Component {
     render() {
         
         return(
-            <div id="openPositions" className="container font-neosans">
+            <div id="openPositions" className="container roboto-regular">
                 <div className="row justify-content-lg-start justify-content-center">
-                    <h1 className="h1 font-xl-l pt-5">Open Positions</h1>
+                    <h1 className="h1 font-xl-l pt-5 raleway-extrabold">Open Positions</h1>
                 </div>
 
                 {data.map((data, key) => <Card data={data} key={key} />)}

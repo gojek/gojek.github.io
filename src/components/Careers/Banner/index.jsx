@@ -9,7 +9,7 @@ class Banner extends Component {
                     <div className="careers-banner background-img card col-md border-0 rounded-0 d-none d-md-block">
                         <div className="card-body mt-5 justify-content-around ">
                             <div className="row justify-content-end pt-5">
-                                <h1 className="col-md-10  pt-5 card-title text-white neosans-bold font-xl-x">Come Work{ " " }
+                                <h1 className="col-md-10  pt-5 card-title text-white raleway-extrabold font-xl-x">Come Work{ " " }
 										<span className=" strikediag">
                                         <span className="text-white font-xl-x">
                                             For
@@ -17,17 +17,17 @@ class Banner extends Component {
                                     </span>
                                     <br /> With Us
 										<br />
-                                    <span className="font-neosans">Subtle. But Important.</span>
+                                    <span className="roboto-regular">Subtle. But Important.</span>
                                 </h1>
                             </div>
                             <div className="row justify-content-end">
                                 <div className="col-md-10 pb-2">
                                     <br />
-                                    {/* <a data-scroll href="#viewPosition" className="custom-btn btn btn-outline-light my-1 font-md neosans-bold">VIEW ALL POSITIONS </a> */}
+                                    {/* <a data-scroll href="#viewPosition" className="custom-btn btn btn-outline-light my-1 font-md raleway-bold">VIEW ALL POSITIONS </a> */}
 
                                     <Link 
                                         to="openPositions" 
-                                        className="custom-btn btn btn-outline-light my-1 font-md neosans-bold text-white"
+                                        className="custom-btn btn btn-outline-light my-1 font-md raleway-bold text-white"
                                         spy={true}
                                         smooth={true}
 
@@ -44,8 +44,8 @@ class Banner extends Component {
                         {/*  Mobile view careers banne */}
                         <div className="card-body text-center d-md-none mt-5 go-jek-work-text">
                             <div className="row">
-                                <p className="col-lg-10 card-title text-white neosans-bold font-lg-x">
-                                    Come Work
+                                <p className="col-lg-10 card-title text-white raleway-extrabold font-lg-x">
+                                    Come Work { " "}
 										<span className=" strikediag">
                                         <span className="text-white font-lg-x">
                                             For
@@ -53,7 +53,7 @@ class Banner extends Component {
                                     </span>
                                     <br /> With Us
 										<br />
-                                    <span className="font-neosans">Subtle. But Important.</span>
+                                    <span className="roboto-regular">Subtle. But Important.</span>
                                 </p>
                             </div>
                             <div className="row d-md-none">

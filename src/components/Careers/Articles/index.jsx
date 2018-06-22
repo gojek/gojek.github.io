@@ -21,7 +21,7 @@ class Articles extends Component {
         return(
             <div>
                 <div className="container pb-5 d-none d-md-block">
-                    <div className="row neosans-bold">
+                    <div className="row raleway-bold">
                         {articles.data.map((article, key) => <Card data={article} key={key} />)}
                     </div>
                 </div>

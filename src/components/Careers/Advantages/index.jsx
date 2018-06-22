@@ -38,7 +38,7 @@ class Advantages extends Component {
             <section className="py-5">
                 <div className="container">
                     <div className="text-center">
-                        <h2 className="h2 mb-4 font-xl-l"> { advantages.heading }</h2>
+                        <h2 className="h2 mb-4 font-xl-l raleway-extrabold"> { advantages.heading }</h2>
                     </div>
                 </div>
                 <div className="container-fluid">
