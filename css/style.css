@@ -461,6 +461,69 @@ button.navbar-toggler {
     padding-top: 0;
 }
 
+.jd-tab .active{
+ color: #686868;
+}
+
+.jd-tab{
+    color: #009944;
+}
+
+.jd-tab:hover{
+    color: #686868;
+}
+
+.custom-form-control {
+    border: none;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.custom-form-control:focus,.custom-form-control:invalid:focus{
+    box-shadow: 0 0 0 0!important;
+    background-color: #f2f2f2;
+    border-color: #000;
+}
+
+.was-validated .form-control:invalid {
+    color: #dc3545;
+}
+
+
+
+/* .custom-options:hover {
+    background-color: green;
+    color: white;
+} */
+
+
+
+.fa-chevron-down {
+    position: absolute;
+    top:24px;
+    right: 24px;
+    color: #828282;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.drag-and-drop {
+    border: 2px solid;
+}
+
+.display-none {
+	display: none;
+}
+
+
 /*Open source styles Start*/
 
 /*open source styles End*/
