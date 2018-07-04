@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Helmet } from "react-helmet";
 
 import Carousel from '../components/Home/Carousel/index';
 import GoJekFacts from '../components/Home/Facts/index';
@@ -14,9 +13,6 @@ class IndexPage extends Component {
   	render() {
 		return(
 			<div>
-				<Helmet>
-					<title> Meta Tags in Gatsby </title>
-				</Helmet>
 				<Carousel />
 
 				<GoJekFacts />
@@ -36,7 +32,7 @@ class IndexPage extends Component {
 
 				{/* BLog Section */}
 				<Posts 
-					heading = " Read what we do"
+					heading = "Read what we do"
 					count="3"
 				/>
 				{/* End Blog Section */}

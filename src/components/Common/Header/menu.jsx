@@ -6,7 +6,7 @@ class Menu extends Component {
         const currentPage = this.props.currentPage;
 		
 		return(
-			<li className={"mx-3 nav-item " + ((currentPage === data.link || (~currentPage.indexOf("/careers/") && data.name === 'Careers'))? 'active' : '')}>
+			<li className={"mx-3 nav-item " + (currentPage === data.link ? 'active' : '')}>
 				<a 
 					className={data.type === 'button' ? "btn btn-success rounded-1 raleway-bold green-apply-btn" : "nav-link"} 
 					href = { data.link }

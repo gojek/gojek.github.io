@@ -12,16 +12,16 @@ class CarouselItem extends Component {
             <div className={"carousel-item " + (data.active === true ? 'active' : '')}>
                 <picture>
                     <source className="relative-position" media="(max-width: 425px)" srcSet = {data.responsiveImage} />
-                    <img className="img-fluid" src = {data.image} alt = { data.alt } />
+                    <img className="img-fluid" src = {`../../images/${data.image}`} alt = { data.alt } />
 	            </picture>
 
                 <div className="carousel-caption col-9 col-xl-6 col-md-8 text-md-left text-center mt-md-5">
-                    <p className="font-lg absolute-caption neosans-light text-white mb-0">
+                    <p className="font-lg absolute-caption roboto-thin text-white mb-0">
                         { data.firstLine }
 			            <br /> { data.secondLine }
 			            <br />
                         <a className="banner-link text-white" href = { data.link } target="_blank" style={borderStyle}>
-                            <span className="font-lg neosans-bold py-1">
+                            <span className="font-lg roboto-regular py-1">
                                 { data.linkText }
 				            </span>
                         </a>

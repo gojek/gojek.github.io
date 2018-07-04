@@ -59,7 +59,7 @@ class Banner extends Component {
                             <div className="row d-md-none">
                                 <div className="col-md-10  px-0">
                                     <br />
-                                    <a data-scroll href="#viewPosition" className="banner-apply-btn btn btn-outline-light all-positions-btn py-2 my-1 neosans-bold font-md">VIEW ALL POSITIONS </a>
+                                    <a data-scroll href="#viewPosition" className="banner-apply-btn btn btn-outline-light all-positions-btn py-2 my-1 raleway-bold font-md">VIEW ALL POSITIONS </a>
                                 </div>
                             </div>
                         </div>

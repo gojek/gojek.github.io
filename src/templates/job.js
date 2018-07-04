@@ -1,28 +1,47 @@
 import React from "react"
+import Link, { navigateTo } from 'gatsby-link';
 import * as PropTypes from "prop-types"
 
 class PostTemplate extends React.Component {
+
+	constructor(props) {
+		super(props);
+		this.handleClick = this.handleClick.bind(this);
+	}
+
   	static propTypes = {
     	data: PropTypes.shape({
       		jobsJson: PropTypes.object.isRequired,
     	}),
 	}
+
+	handleClick (evt) {
+		navigateTo({
+			pathname: '/apply',
+			state: {
+			  id: this.props.data.jobsJson.id,
+			  path: this.props.data.jobsJson.positionSlug,
+			  name: this.props.data.jobsJson.position,
+			  place:  this.props.data.jobsJson.place
+			},
+		  })
+	  }
 	  
   	render() {
 		const { jobsJson } = this.props.data;
 
 		return (
-			<div>
-				<section className="bg-green font-neosans">
+			<div className="roboto-regular">
+				<section className="bg-green">
 					<div className="container py-5">
 						<h1 className="h2 font-xl  text-center text-white">{ jobsJson.position }</h1>
 						<div className="text-center ">
-							<a href={jobsJson.link} target="_blank" className=" text-center btn bg-white text-green neosans-bold text-uppercase my-1 font-md challenging-button custom-btn">APPLY NOW </a>
+							<a href={jobsJson.link} target="_blank" className=" text-center btn bg-white text-green raleway-bold text-uppercase my-1 font-md challenging-button custom-btn">APPLY NOW </a>
 						</div>
 					</div>
 				</section>
 
-				<section className="font-neosans">
+				<section>
 					<div className="container">
 						<div className="row justify-content-center">
 							< div className = "row pt-4" > 
@@ -32,12 +51,12 @@ class PostTemplate extends React.Component {
 									<div className="col-md-6 col-sm-12 px-0">
 										<div className="d-flex flex-column">
 											<div className="col-12 pb-0">
-												<p className="font-xl-l pl-4 neosans-bold text-black text-lg-left text-center">
+												<p className="font-xl-l pl-4 raleway-bold text-black text-lg-left text-center">
 													OVERVIEW
 												</p>
 											</div>
 
-											<div className="col-md-10 col-sm-12 font-neosans ">
+											<div className="col-md-10 col-sm-12">
 												<p className="pl-3  text-lg-left text-center  font-sm">
 													{jobsJson.overview}
 												</p>
@@ -68,7 +87,7 @@ class PostTemplate extends React.Component {
 									(jobsJson.scope.length > 0) &&
 									<div className="col-lg-6 mt-md-5 mt-sm-2 px-0">
 										<div className="d-flex flex-column pt-3">
-											<div className="col-md-10 col-sm-12 font-neosans">
+											<div className="col-md-10 col-sm-12">
 												<p className="font-sm  text-lg-left text-center">
 													Some of the scope is plain unpredictable, though is always in the context of scaling technology.
 												</p>
@@ -91,7 +110,7 @@ class PostTemplate extends React.Component {
 							<div className="row pt-4">
 								<div className = "d-flex flex-column" >
 									<div className = "col-12 pb-0" >
-										<p className = "font-xl-l pl-4 neosans-bold text-black" >
+										<p className = "font-xl-l pl-4 raleway-bold text-black" >
 											Responsibilities 
 										</p> 
 									</div> 
@@ -115,7 +134,7 @@ class PostTemplate extends React.Component {
 							<div className="row pt-4">
 								<div className = "d-flex flex-column" >
 									<div className = "col-12 pb-0" >
-										<p className = "font-xl-l pl-4 neosans-bold text-black" >
+										<p className = "font-xl-l pl-4 raleway-bold text-black" >
 											{ jobsJson.id === 'program-manager' ? "Experience & Skills" : "About You" }
 										</p> 
 									</div> 
@@ -138,11 +157,18 @@ class PostTemplate extends React.Component {
 					</div>
 				</section>
 
-				<section className="bg-green font-neosans">
+				<section className="bg-green">
 					<div className="container py-5">
 						<h1 className="h2 font-xl  text-center text-white">Think you fit the bill?</h1>
 						<div className="text-center ">
-							<a href={jobsJson.link} target="_blank" className=" text-center btn bg-white text-green neosans-bold text-uppercase my-1 font-md challenging-button custom-btn">APPLY NOW </a>
+							<button
+								onClick={ this.handleClick}
+								target = "_blank"
+								className = " text-center btn bg-white text-green raleway-bold text-uppercase my-1 font-md challenging-button custom-btn"
+							>
+								APPLY NOW
+							</button>
+							{/* <a href={jobsJson.link} target="_blank" className=" text-center btn bg-white text-green raleway-bold text-uppercase my-1 font-md challenging-button custom-btn">APPLY NOW </a> */}
 						</div>
 					</div>
 				</section>
@@ -166,6 +192,7 @@ export const pageQuery = graphql`
 	  scope
 	  overview
 	  about
+	  place
     }
   }
 `

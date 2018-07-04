@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
-import Menu from './menu.jsx';
+import Menu from './menu';
 
 class Header extends Component {
     render() {

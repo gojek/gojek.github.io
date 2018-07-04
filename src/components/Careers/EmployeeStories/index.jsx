@@ -12,7 +12,6 @@ class EmployeeStories extends Component {
     render() {
         const { employeeStories } = data ;
         const { articles } = data ;
-        console.log(articles)
 
         var settings = {
             arrows: true,

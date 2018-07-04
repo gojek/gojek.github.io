@@ -6,7 +6,7 @@ class Slide extends Component {
 
 		return(
             <div className="card rounded-0 border-0">
-                <img className="card-img-top" src={data.image} alt={data.alt} />
+                <img className="card-img-top" src={`../images/${data.image}`} alt={data.alt} />
                 <div className="card-body font-md">
                     <p className="custom-line-height">
                         { data.text }

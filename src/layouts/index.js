@@ -14,6 +14,7 @@ class Layout extends Component {
 		const {siteMetadata: metaData} = this.props.data.site;
 		const { location, children } = this.props
 		const title = location.pathname === '/' ? metaData.title : metaData.title + ' '+(location.pathname.substr(1).slice(0, -1).toUpperCase());
+
 		const slug = location.pathname.split("/careers/");
 		
 		const showHeaderFooter = slug[1]!== undefined && slug[1] !== "" ? false : true;

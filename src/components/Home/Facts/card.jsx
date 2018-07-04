@@ -7,7 +7,7 @@ class Card extends Component {
         if(data.type=== 'image') {
 			return(
 				<div className={"col-lg-"+ data.col +" d-flex  justify-content-" + data.justify + "   align-items-center " + data.theme }>
-					<img className="img-fluid" src= {data.content} alt={data.alt} />
+					<img className="img-fluid" src= {`../../images/${data.content}`} alt={data.alt} />
 				</div>
 			);
 		}

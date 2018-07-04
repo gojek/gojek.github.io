@@ -2,8 +2,8 @@
     "carousel": [
 		{ 
 			"id": "1",
-			"image": "../../images/gojek-carousel/gojek-first-team.jpg",
-			"responsiveImage": "../../images/gojek-carousel/gojek-first-team-min.jpg",
+			"image": "gojek-carousel/gojek-first-team.jpg",
+			"responsiveImage": "gojek-carousel/gojek-first-team-min.jpg",
 			"alt" : "The Story of our first team",
 			"firstLine": "Our 12-person engineering team",
 			"secondLine": "handles 1,000,000+ drivers.",
@@ -13,8 +13,8 @@
 		},
 		{ 
 			"id": "2",
-			"image": "../../images/gojek-carousel/gojek-emphasis-on-automation.jpg",
-			"responsiveImage": "../../images/gojek-carousel/gojek-emphasis-on-automation-min.jpg",
+			"image": "gojek-carousel/gojek-emphasis-on-automation.jpg",
+			"responsiveImage": "gojek-carousel/gojek-emphasis-on-automation-min.jpg",
 			"alt" : "Our emphasis on automation",
 			"firstLine": "We successfully launched our car rental service,",
 			"secondLine": "GO-CAR in LESS THAN a month!",
@@ -24,8 +24,8 @@
 		},
 		{ 
 			"id": "3",
-			"image": "../../images/gojek-carousel/gojek-orders.jpg",
-			"responsiveImage": "../../images/gojek-carousel/gojek-orders-min.jpg",
+			"image": "gojek-carousel/gojek-orders.jpg",
+			"responsiveImage": "gojek-carousel/gojek-orders-min.jpg",
 			"alt" : "100+ million orders completed",
 			"firstLine": "Our 200+ engineers completed 100+ million",
 			"secondLine": "monthly orders last year.",
@@ -35,8 +35,8 @@
 		},
 		{
 			"id": "4",
-			"image": "../../images/gojek-carousel/go-food.jpg",
-			"responsiveImage": "../../images/gojek-carousel/go-food-min.jpg",
+			"image": "gojek-carousel/go-food.jpg",
+			"responsiveImage": "gojek-carousel/go-food-min.jpg",
 			"alt" : "Our emphasis on automation",
 			"firstLine": "GO-FOOD alone completes more orders",
 			"secondLine": "in Indonesia than all Indian food tech startups combined. Hungry yet?",
@@ -51,7 +51,7 @@
 		"data": [
 			{
 				"type" : "image",
-				"content": "../../images/gojek-work/gojek-growth.gif",
+				"content": "gojek-work/gojek-growth.gif",
 				"theme": "dark-green-bg",
 				"justify": "around",
 				"col": "5",
@@ -67,7 +67,7 @@
 			}, 
 			{
 				"type" : "image",
-				"content": "../../images/gojek-work/gojek-rider.gif",
+				"content": "gojek-work/gojek-rider.gif",
 				"theme": "rider-bg",
 				"justify": "center",
 				"col": "2",
@@ -83,7 +83,7 @@
 			}, 
 			{
 				"type" : "image",
-				"content": "../../images/gojek-work/gojek-order.gif",
+				"content": "gojek-work/gojek-order.gif",
 				"theme": "order-bg",
 				"justify": "around",
 				"col": "2",
@@ -107,7 +107,7 @@
 			}, 
 			{
 				"type" : "image",
-				"content": "../../images/gojek-work/gojek-developer.gif",
+				"content": "gojek-work/gojek-developer.gif",
 				"theme": "developer-bg",
 				"justify": "around",
 				"col": "5",
@@ -116,7 +116,7 @@
 		],
 		"responsiveData": [
 			{
-				"image": "../../images/gojek-work/gojek-growth.gif",
+				"image": "gojek-work/gojek-growth.gif",
 				"heading" : "6666x",
 				"text" : "total order volume growth in 3 years",
 				"alt" : "Go-Jek Growth",
@@ -124,7 +124,7 @@
 				"textTheme" : "light-green"
 			}, 
 			{
-				"image": "../../images/gojek-work/gojek-order.gif",
+				"image": "gojek-work/gojek-order.gif",
 				"heading" : "3 million+",
 				"text" : "orders every day",
 				"alt" : "Go-Jek order",
@@ -132,7 +132,7 @@
 				"textTheme" : "light-green"
 			}, 
 			{
-				"image": "../../images/gojek-work/gojek-rider.gif",
+				"image": "gojek-work/gojek-rider.gif",
 				"heading" : "1 million+",
 				"text" : "drivers. More daily rides than India's largest ride-sharing service",
 				"alt" : "Go-Jek Rider",
@@ -140,7 +140,7 @@
 				"textTheme" : "darker-green"
 			}, 
 			{
-				"image": "../../images/gojek-work/gojek-developer.gif",
+				"image": "gojek-work/gojek-developer.gif",
 				"heading" : "18+ Products",
 				"text" : "200+ Engineers",
 				"alt" : "Go-Jek Engineers",
@@ -155,7 +155,7 @@
 		"data": [
 			{
 				"id" : "1",
-				"image" : "../../images/gojek-principles/everyone-codes.gif",
+				"image" : "gojek-principles/everyone-codes.gif",
 				"alt": "GO-JEK Tech Principles - Eveyone codes",
 				"link": "https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2",
 				"heading": "Everyone | Codes",
@@ -163,7 +163,7 @@
 			}, 
 			{
 				"id" : "2",
-				"image" : "../../images/gojek-principles/walk-the-talk.gif",
+				"image" : "gojek-principles/walk-the-talk.gif",
 				"alt": "GO-JEK Tech Principles - Walk the talk",
 				"link": "https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2",
 				"heading": "Walk | the Talk",
@@ -171,7 +171,7 @@
 			}, 
 			{
 				"id" : "3",
-				"image" : "../../images/gojek-principles/leaders.gif",
+				"image" : "gojek-principles/leaders.gif",
 				"alt": "GO-JEK Tech Principles - Leaders are grown not made",
 				"link": "https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2",
 				"heading": "Leaders are grown. | Not made.",
@@ -179,7 +179,7 @@
 			}, 
 			{
 				"id" : "4",
-				"image" : "../../images/gojek-principles/pair-programming.gif",
+				"image" : "gojek-principles/pair-programming.gif",
 				"alt": "GO-JEK Tech Principles - Pair programming and TDD",
 				"link": "https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2",
 				"heading": "Pair Programming & | TDD Work",
@@ -193,19 +193,19 @@
 		"data": [
 			{
 				"id" : "1",
-				"image" : "../../images/tech-facts/orders.jpg",
+				"image" : "tech-facts/orders.jpg",
 				"alt": "30 orders on an average every second",
 				"text": "We process an average of 35 orders every second."
 			}, 
 			{
 				"id" : "2",
-				"image" : "../../images/tech-facts/apis.jpg",
+				"image" : "tech-facts/apis.jpg",
 				"alt": "200 million internel API calls per second",
 				"text": "We process more than 350 million internal API calls per second."
 			}, 
 			{
 				"id" : "3",
-				"image" : "../../images/tech-facts/technologies.jpg",
+				"image" : "tech-facts/technologies.jpg",
 				"alt": "Ruby, Java and Go clusters",
 				"text": "We run one of the largest JRuby, Java and Go clusters in Asia."
 			}
@@ -217,57 +217,57 @@
 		"data": [
 			{
 				"id" : "1",
-				"image" : "../../images/tech-stack/new-relic.svg",
+				"image" : "tech-stack/new-relic.svg",
 				"title": "New Relic"
 			}, 
 			{
 				"id" : "2",
-				"image" : "../../images/tech-stack/ruby-on-rails.svg",
+				"image" : "tech-stack/ruby-on-rails.svg",
 				"title": "Ruby on Rails"
 			}, 
 			{
 				"id" : "3",
-				"image" : "../../images/tech-stack/java.svg",
+				"image" : "tech-stack/java.svg",
 				"title": "Java"
 			},
 			{
 				"id" : "4",
-				"image" : "../../images/tech-stack/redis.svg",
+				"image" : "tech-stack/redis.svg",
 				"title": "redis"
 			}, 
 			{
 				"id" : "5",
-				"image" : "../../images/tech-stack/datadog.svg",
+				"image" : "tech-stack/datadog.svg",
 				"title": "DATADOG"
 			}, 
 			{
 				"id" : "6",
-				"image" : "../../images/tech-stack/grafana.svg",
+				"image" : "tech-stack/grafana.svg",
 				"title": "Grafana"
 			}, 
 			{
 				"id" : "7",
-				"image" : "./../images/tech-stack/clojure.svg",
+				"image" : "tech-stack/clojure.svg",
 				"title": "Clojure"
 			}, 
 			{
 				"id" : "8",
-				"image" : "../../images/tech-stack/golang.svg",
+				"image" : "tech-stack/golang.svg",
 				"title": "golang"
 			},
 			{
 				"id" : "9",
-				"image" : "../../images/tech-stack/mySQL.svg",
+				"image" : "tech-stack/mySQL.svg",
 				"title": "MySQL"
 			}, 
 			{
 				"id" : "10",
-				"image" : "../../images/tech-stack/rabbitMQ.svg",
+				"image" : "tech-stack/rabbitMQ.svg",
 				"title": "RabbitMQ"
 			}, 
 			{
 				"id" : "11",
-				"image" : "../../images/tech-stack/postgreSQL.svg",
+				"image" : "tech-stack/postgreSQL.svg",
 				"title": "PostgreSQL"
 			}
 		]
@@ -278,7 +278,7 @@
 		"data": [
 			{
 				"id" : "1",
-				"image" : "../../images/impact-stories/arif.jpg",
+				"image" : "impact-stories/arif.jpg",
 				"alt": "Impact story - Arif",
 				"heading": "Arif Fahroji - GO-JEK Driver",
 				"text": "A swimming coach, host and traditional artist is how Mr. Arif expresses his creativity. Let Mr. Arif inspire us to consistently want to do the best for Indonesia.",
@@ -286,7 +286,7 @@
 			}, 
 			{
 				"id" : "2",
-				"image" : "../../images/impact-stories/sumani.jpg",
+				"image" : "impact-stories/sumani.jpg",
 				"alt": "Impact story - Sumani",
 				"heading": "Sumani - GO-BOX Driver",
 				"text": "Despite the disability Mr. Sumani has, he is still consistent in helping other people. Let us learn from Mr. Sumani that no matter what our weakness may be, we should always be willing to  contribute to our surroundings..",
@@ -294,7 +294,7 @@
 			}, 
 			{
 				"id" : "3",
-				"image" : "../../images/impact-stories/nuridah.jpg",
+				"image" : "impact-stories/nuridah.jpg",
 				"alt": "Impact story - Nirudah",
 				"heading": "Nuridah - She joined as a GO-JEK Driver and in the same year she joined GO-CLEAN.",
 				"text": "Determination is the key for us to accomplish anything we want. Mrs. Nuridah is a good example of how determination can help you accomplish your goals. Let us all have the same determination as Mrs. Nuridah for a better Indonesia.",
@@ -302,7 +302,7 @@
 			},
 			{
 				"id" : "4",
-				"image" : "../../images/impact-stories/heru.jpg",
+				"image" : "impact-stories/heru.jpg",
 				"alt": "Impact story - Heru",
 				"heading": "Heru Widyanto - GO-MASSAGE",
 				"text": "Mr. Heru does not make his disability an excuse when it comes to helping other people. Our disabilities or weakness should not stop us from accomplishing our goals or stop our efforts in helping people in need.",

@@ -8,7 +8,7 @@ class Slide extends Component {
             <div className="card rounded-0 border-0">
                 <div className="">
                     <a >
-                        <img className="img-fluid w-100 w-100" alt={data.alt} src={data.image} />
+                        <img className="img-fluid w-100 w-100" alt={data.alt} src={`../images/${data.image}`} />
 					</a>
 				</div>
                 <div className="card-body  text-md-left text-center">

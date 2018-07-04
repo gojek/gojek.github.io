@@ -7,10 +7,6 @@ class CarouselIndicators extends Component {
         const { slideCount } = this.props;
         const { type } = this.props;
         return (
-            // <ol className="carousel-indicators careers-carousel-indicators  justify-content-end">
-            
-                
-            // </ol>
              <ol 
                 className={(type === 'circle') ? 'carousel-indicators homepage-carousel-indicators  mx-0 col-xl-2 col-lg-2 col-md-3 ml-lg-5 ml-xl-5 mb-xl-5 pt-lg-4 justify-content-end' : 'carousel-indicators careers-carousel-indicators  justify-content-end'}                
             >

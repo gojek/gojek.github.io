@@ -10,8 +10,8 @@ class OpenSourceprojects extends Component {
         return(
             <section className="mt-5 bg-green first-section">
                 <div className="container pt-5">
-                    <h1 className="text-center text-white pl-0 neosans-bold font-xl-x">Open Source Projects</h1>
-                    <p className="text-center  text-white font-neosans font-xs-l p-4 px-5">
+                    <h1 className="text-center text-white pl-0 raleway-extrabold font-xl-x">Open Source Projects</h1>
+                    <p className="text-center  text-white roboto-regular font-xs-l p-4 px-5">
                         {data.data.content}
                     </p>
 

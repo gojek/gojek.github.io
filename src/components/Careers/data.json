@@ -10,39 +10,39 @@
         "data": [
 			{
 				"id" : "1",
-				"image" : "../../images/advantages/employee-advantage-1.jpg",
+				"image" : "advantages/employee-advantage-1.jpg",
 				"alt": "Go-JEK advantage",
 				"text": "We care for our people. Employees can claim upto Rs.12,000 ($178) annually towards expenses related to health and wellness. This includes gym memberships, buying a cycle, saunas and massages, sports equipment etc..."
 			}, 
 			{
 				"id" : "2",
-				"image" : "../../images/advantages/employee-advantage-2.jpg",
+				"image" : "advantages/employee-advantage-2.jpg",
 				"alt": "Go-JEK advantage",
 				"text": "We encourage reading. Employees can claim upto Rs.6,000 ($90) on books purchased. We offer more for technical ones if required."
 			}, 
 			{
 				"id" : "3",
-				"image" : "../../images/advantages/employee-advantage-3.jpg",
+				"image" : "advantages/employee-advantage-3.jpg",
 				"alt": "Go-JEK advantage",
 				"text": "Communicate. All broadband and mobile bills are reimbursed. We're after all a by-product of the mobile revolution!"
 			},
 			{
 				"id" : "4",
-				"image" : "../../images/advantages/employee-advantage-4.jpg",
+				"image" : "advantages/employee-advantage-4.jpg",
 				"alt": "Go-JEK advantage",
-				"text": "Arif Fahroji - GO-JEK Driver"
+				"text": "Unlimited sick leaves - Because we trust our employees, because we have 18+ products and employees are micro-entrepreneurs owning the product."
 			},
 			{
 				"id" : "5",
-				"image" : "../../images/impact-stories/arif.jpg",
+				"image" : "advantages/employee-advantage-5.jpg",
 				"alt": "Go-JEK advantage",
-				"text": "Arif Fahroji - GO-JEK Driver"
+				"text": "All employees are encouraged to travel to Jakarta to get a feel of the product, its use cases and understand what makes GO-JEK a verb in Indonesia"
 			},
 			{
 				"id" : "6",
-				"image" : "../../images/impact-stories/arif.jpg",
+				"image" : "advantages/employee-advantage-6.jpg",
 				"alt": "Go-JEK advantage",
-				"text": "Arif Fahroji - GO-JEK Driver"
+				"text": "No office timings; the team collectively decides what works for them. No dress code, an atmosphere of independence in decision-making"
 			}
 		]
 	},
@@ -53,21 +53,21 @@
         "data": [
 			{
 				"id" : "1",
-				"employeeImage" : "../../images/employee-stories/shobit.jpg",
+				"employeeImage" : "employee-stories/shobit.jpg",
 				"employeeName": "Shobhit Srivastava",
 				"testimonial": "GO-JEK is multiple startups in one. We have the equivalents of foodtech, fintech, ride-sharing, home services, logistics and more. Because of the sheer size and scale we operate in, it's unlike any other startup. You get to ideate with multiple teams, empowered to take critical product decisions and work with a team that has ingrained the philosophy of working with a 'lean engineering mindset’.",
 				"active": true
 			}, 
 			{
 				"id" : "2",
-				"employeeImage" : "../../images/employee-stories/divya.jpg",
+				"employeeImage" : "employee-stories/divya.jpg",
 				"employeeName": "Divya Jaisawal",
 				"testimonial": "I’ve had the freedom to experiment with new ideas at GO-JEK. In the process I’ve learnt to convert raw thoughts into shaping the end product. To be given this platform to experiment and learn with some of the brightest minds is an enticing opportunity. So much so, I love to talk about these experiences outside of work to friends and family alike - and that shows how rich the culture is.",
 				"active": false
 			}, 
 			{
 				"id" : "3",
-				"employeeImage" : "../../images/employee-stories/crystal.jpg",
+				"employeeImage" : "employee-stories/crystal.jpg",
 				"employeeName": "Crystal Widjaja",
 				"testimonial": "I'm actually blessed to be part of an org that has an innovative and inclusive culture. Our attitude is framed around solving difficult problems and inclusivity. This diversity of thought cuts across gender, ethnicities, and backgrounds allowing us to move fast and think different. I love that fact we are a very distributed and culturally dispersed team. I've witnessed interesting insights that I never would have without this diversity.",
 				"active": false
@@ -81,7 +81,7 @@
         "data": [
 			{
 				"id" : "1",
-				"image" : "../../images/careers/full-stack-engineer.png",
+				"image" : "careers/full-stack-engineer.png",
 				"link": "http://bit.ly/ArtofFullStack",
 				"type": "image",
 				"title": "Who is a Full Stack Engineer?",
@@ -90,7 +90,7 @@
 			}, 
 			{
 				"id" : "2",
-				"image" : "../../images/careers/full-stack-engineer.png",
+				"image" : "careers/full-stack-engineer.png",
 				"link": "https://blog.gojekengineering.com/why-we-ask-for-code-b276b45ea790",
 				"type": "text",
 				"title": "Why we ask for code",
@@ -99,7 +99,7 @@
 			}, 
 			{
 				"id" : "3",
-				"image" : "../../images/careers/recruiting-devs.png",
+				"image" : "careers/recruiting-devs.png",
 				"link": "http://bit.ly/GOJEKRecProcess",
 				"type": "image",
 				"title": "FAQs: How we go about recruiting a developer",
