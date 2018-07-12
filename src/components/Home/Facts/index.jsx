@@ -28,8 +28,7 @@ class GoJekFacts extends Component {
         
         return (
             <div>
-                {/* Mobile view */}
-                <section className="py-5 my-lg-5 d-lg-none">
+                <section className="py-5 mb-5 d-lg-none color-azure">
                     <div className="container-fluid">
                         <h2 className="font-xl-l  text-center raleway-extrabold mb-4 text-dark ">{ work.heading }</h2>
 
@@ -40,9 +39,8 @@ class GoJekFacts extends Component {
                         </Slider>
                     </div>
                 </section>
-                
-                {/* Desktop view */}
-                <section className = "py-5 my-lg-5 d-none d-lg-block text-white">
+
+                <section className = "py-5 mb-5 color-azure d-none d-lg-block text-white">
                     <div className = "container text-center">
                         <h2 className = "font-xl-l raleway-extrabold mb-4 text-dark">{ work.heading }</h2>
 

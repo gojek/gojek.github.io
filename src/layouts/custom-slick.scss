@@ -1,6 +1,9 @@
 .slick-next {
 	right: 0px !important;
 }
+.slick-list {
+	width: 100% !important;
+}
 
 .slick-prev {
 	left: 0px !important;
@@ -39,6 +42,7 @@
 .slick-slide {
 	transition: all ease-in-out .3s;
 	padding: 0px 20px;
+	opacity: 0.2;
 }
 
 .slick-active,

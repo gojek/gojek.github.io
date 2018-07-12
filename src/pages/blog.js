@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 
 import OpenSourceprojects from '../components/OpenSource/index'
 import CallToAction from '../components/Common/callToAction';
@@ -8,6 +9,10 @@ class Blog extends Component {
     render() {
         return(
             <div className="first-section">
+                <Helmet>
+					<title> GO-JEK Blog </title>
+				</Helmet>
+
                 <Posts 
                     count="9"
                 />

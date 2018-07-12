@@ -5,7 +5,7 @@ module.exports = {
     	title: 'GO-JEK TECH',
     	description: 'GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire.',
     	siteUrl: 'http://gojek.io',
-		siteImage: 'http://www.gojek.io/images/go-jek-tech.png',
+		siteImage: 'http://www.gojek.io/img/Go-Jek.png',
 		twitter: '@gojektech'
   	},
   	plugins: [

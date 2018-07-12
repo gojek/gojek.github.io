@@ -12,30 +12,33 @@ $link-hover-decoration: none !default;
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-// Body
-
 // Font classes
 .raleway-regular {
     font-family: $ralewayRegular;
 }
+
 .raleway-bold {
     font-family: $ralewayBold;
 }
-.raleway-extrabold{
+.raleway-extrabold {
     font-family: $ralewayExtraBold;
 }
+
 .roboto-bold {
     font-family: $robotoBold;
 }
+
 .roboto-black {
     font-family: $robotoBlack;
 }
 .roboto-thin {
     font-family: $robotoThin;
 }
+
 .roboto-regular {
     font-family: $robotoRegular;
 }
+
 .roboto-light {
     font-family: $robotoLight;
 }
@@ -46,22 +49,17 @@ body {
     letter-spacing: normal;
 }
 
-.h1, .h2, .display-4 {
+.h1,
+.h2,
+.display-4,
+.card-title {
     color: #000;
     font-family: "RaleWayBold", sans-serif;
 }
 
-/* .font-xs-s {
-    font-size: 0.87rem;
-} */
-
 .font-xs {
     font-size: 0.94rem;
 }
-
-/* .font-xs-l {
-    font-size: 1rem;
-} */
 
 .font-sm {
     font-size: 1.125rem;
@@ -124,6 +122,10 @@ body {
     color: #009944;
 }
 
+.text-dark {
+    color: #343a40 !important;;
+}
+
 .custom-btn {
     border-radius: 0.5rem;
     font-size: 1.31rem;
@@ -136,7 +138,8 @@ body {
     padding-bottom: 5.25px;
 }
 
-footer a, footer a:hover {
+footer a,
+footer a:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -161,11 +164,13 @@ footer .list-inline-item a {
     opacity: 0.5;
 }
 
+
 /* Navbar style */
 
 button.navbar-toggler {
     border: none;
 }
+
 
 /* Header Styles */
 
@@ -181,15 +186,19 @@ button.navbar-toggler {
     color: #9a9a9a;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
     color: #8dc63f;
 }
+
 
 /* Homepage Mobile view carousel style */
 
 .first-section {
     margin-top: 53px;
 }
+
 
 /* Slider Styles*/
 
@@ -210,7 +219,8 @@ button.navbar-toggler {
     z-index: 99;
 }
 
-#go-jek-slider .homepage-carousel-indicators li, #carouselExampleIndicators .careers-carousel-indicators li {
+#go-jek-slider .homepage-carousel-indicators li,
+#carouselExampleIndicators .careers-carousel-indicators li {
     /*width: 1rem;
     height: 1rem;*/
     width: 0.8rem;
@@ -219,7 +229,8 @@ button.navbar-toggler {
     background-color: #fff;
 }
 
-#go-jek-slider .homepage-carousel-indicators li.active, #carouselExampleIndicators .careers-carousel-indicators li.active {
+#go-jek-slider .homepage-carousel-indicators li.active,
+#carouselExampleIndicators .careers-carousel-indicators li.active {
     background-color: #009944;
 }
 
@@ -229,7 +240,6 @@ button.navbar-toggler {
 }
 
 .strikediag {
-    opacity: 0;
     position: relative;
 }
 
@@ -246,6 +256,7 @@ button.navbar-toggler {
     -o-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
+
 
 /*Go-Jek facts*/
 
@@ -285,9 +296,9 @@ button.navbar-toggler {
     background-color: #f2f2f2;
 }
 
-/* .text-gray {
-    color: #686868;
-} */
+.text-gray {
+    color: #486166;
+}
 
 .numbers-card .card-img-top {
     height: 200px;
@@ -296,6 +307,7 @@ button.navbar-toggler {
 .numbers-card img {
     max-height: 200px;
 }
+
 
 /*Careers Page styles*/
 
@@ -339,6 +351,7 @@ button.navbar-toggler {
     border-radius: 1rem;
 }
 
+
 /*Employee Stories Carousel*/
 
 .employee-stories {
@@ -380,72 +393,12 @@ button.navbar-toggler {
     padding-top: 0;
 }
 
-.jd-tab .active{
- color: #686868;
-}
-
-.jd-tab{
-    color: #009944;
-}
-
-.jd-tab:hover{
-    color: #686868;
-}
-
-.custom-form-control {
-    border: none;
-    background-color: #f2f2f2;
-    border-bottom: 2px solid;
-}
-
-.position-relative{
-    position: relative;
-}
-
-.custom-form-control:focus,.custom-form-control:invalid:focus{
-    box-shadow: 0 0 0 0!important;
-    background-color: #f2f2f2;
-    border-color: #000;
-}
-
-.was-validated .form-control:invalid {
-    color: #dc3545;
-}
-
-
-
-/* .custom-options:hover {
-    background-color: green;
-    color: white;
-} */
-
-
-
-.fa-chevron-down {
-    position: absolute;
-    top:24px;
-    right: 24px;
-    color: #828282;
-}
-
-select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-.drag-and-drop {
-    border: 2px solid;
-}
-
-.display-none {
-	display: none;
-}
-
 
 /*Open source styles Start*/
 
+
 /*open source styles End*/
+
 
 /* Tech stack */
 
@@ -454,14 +407,18 @@ select {
     display: block;
 }
 
+
 /* blog style start */
 
-.medium-blog em, .card-body, .banner-link:hover {
+.medium-blog em,
+.card-body,
+.banner-link:hover {
     font-style: normal;
     text-decoration: none;
 }
 
-.medium-blog a:hover, {
+.medium-blog a:hover,
+{
     text-decoration: none;
 }
 
@@ -473,11 +430,13 @@ select {
     outline: transparent;
 }
 
+
 /* Responsive text */
 
 html {
     font-size: 1rem;
 }
+
 
 /* Small devices (landscape phones, 576px and up) */
 
@@ -488,10 +447,8 @@ html {
     .first-section {
         margin-top: 48px;
     }
-    .about-us-container-height {
-        height: 1500px;
-    }
-    .opensource-card img, .tech-stack img {
+    .opensource-card img,
+    .tech-stack img {
         max-width: 100px;
     }
     .go-jek-work-text {
@@ -526,6 +483,7 @@ html {
     }
 }
 
+
 /*  Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
@@ -549,9 +507,6 @@ html {
         width: 1.3%;
         right: 34%;
         top: 41.2%;
-    }
-    .about-us-container-height {
-        height: 1300px;
     }
     .blog-card-img {
         height: 120px;
@@ -612,9 +567,6 @@ html {
         right: 36%;
         top: 43%;
     }
-    .about-us-container-height {
-        height: 1650px;
-    }
     .blog-card-img {
         min-height: 140px;
     }
@@ -628,6 +580,7 @@ html {
         max-width: 132px;
     }
 }
+
 
 /*  Extra large devices (large desktops, 1200px and up) */
 
@@ -645,7 +598,7 @@ html {
     }
     #go-jek-slider .carousel-btn {
         top: 76%;
-        font-family: "NeoSansBold";
+        font-family: $ralewayExtraBold;
         z-index: 99;
     }
     html {
@@ -668,9 +621,6 @@ html {
         width: 1.3%;
         right: 36%;
         bottom: 59%;
-    }
-    .about-us-container-height {
-        height: 1950px;
     }
     .blog-card-img {
         min-height: 170px;
@@ -700,95 +650,58 @@ li {
     color: green;
 }
 
-/* About-us */
-
-.first-path {
-    position: absolute;
-    width: 16%;
-    right: 50%;
-}
-
-.fifth-path {
-    position: absolute;
-    width: 1%;
-    right: 50%;
-    bottom: 0%;
-}
-
-.about-us-path-style {
-    fill: none;
-    stroke: #094;
-    stroke-miterlimit: 10;
-    stroke-width: 14px;
-}
-
-/* .transition-effect {
-    display: none;
-} */
-
-.transition-effect1 {
-    display: none;
-}
-
-.transition-effect2 {
-    display: none;
-}
-
-.transition-effect3 {
-    display: none;
-}
-
-.transition-effect4 {
-    display: none;
-}
-
-.transition-effect-text {
-    display: none;
-}
-
-.first-path {
-    stroke-dasharray: 700;
-    stroke-dashoffset: 700;
-}
-
-.second-path {
-    stroke-dasharray: 500;
-    stroke-dashoffset: 500;
-}
-
-.third-path {
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
-}
-
-.fourth-path {
-    stroke-dasharray: 200;
-    stroke-dashoffset: 200;
-}
-
-.fifth-path {
-    stroke-dasharray: 200;
-    stroke-dashoffset: 200;
-}
-
-.fade-right {
-    display: none;
-}
-
 .modal-btn {
     cursor: pointer;
 }
 
 /* job-title styles */
-
 .job-title:hover {
     color: #000;
     text-decoration: none;
 }
+
+.jd-tab .active{
+    color: #686868;
+}
+   
+.jd-tab{
+       color: #009944;
+}
+   
+.jd-tab:hover{
+       color: #686868;
+}
+
 
 /* @media (min-width: 1440px) {
    
 } */
 .text-white.custom-btn:hover {
     color: #212529 !important;
+}
+.facts-bg {
+    background-color: #dae8ec;
+}
+
+.light-gray {
+    background-color: #fbfdfe;
+}
+.color-azure {
+    background-color: #f1f8fa;
+}
+.contact-banner {
+    background-image: url(/../images/contact/banner.jpg);   
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gojek-expansion {
+    background-image: url(/../images/news/news-01.jpg);   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-bg {
+    background-color: #0d9e43;
+}
+.contact-bg h4 {
+    line-height: 48px;
 }

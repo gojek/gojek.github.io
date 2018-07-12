@@ -1,4 +1,4 @@
-import React,  { Component } from 'react';
+import React, { Component } from 'react';
 import Slider from "react-slick";
 
 import data from '../data.json';
@@ -34,7 +34,7 @@ class ImpactStories extends Component {
         };
 
         const { impactStories } = data;
-        return(
+        return (
             <section className="pt-5">
                 <div className="container">
                     <div className="row justify-content-center text-center ">
@@ -47,14 +47,25 @@ class ImpactStories extends Component {
 
                 {/* slider */}
                 <div className="container-fluid mt-3">
-                    <Slider {...settings} 
+                    <Slider {...settings}
                         className="row impact-slider lg-controls-dark custom-controls-dark slick-dotted">
                         {
-                            impactStories.data.map((sliderItem, key) => 
+                            impactStories.data.map((sliderItem, key) =>
                                 <Slide data={sliderItem} key={key} />
                             )
-                        }                        
+                        }
                     </Slider>
+                </div>
+
+                <div className="modal fade" id="impactModal" tabIndex="-1" role="dialog" aria-labelledby="impactModalLabel">
+                    <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div className="modal-content">
+                            <div className="modal-body embed-responsive embed-responsive-21by9">
+                                <iframe id="iframeYoutube" className="embed-responsive-item" src="https://www.youtube.com/embed/bdHfntRaAoo?rel=0&amp;showinfo=0"
+                                    allowFullScreen></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         );

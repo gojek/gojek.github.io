@@ -30,12 +30,12 @@ class Carousel extends Component {
                         }
 
                         <div className="carousel-caption py-0 carousel-btn text-uppercase">
-                            <Button 
+                            {/* <Button 
                                 type = "dark"
                                 text = "APPLY NOW"
                                 link = "/careers/"
                                 position="left"
-                            />
+                            /> */}
                             <Button 
                                 type = "outline"
                                 text = "VIEW OPEN POSITIONS"

@@ -46,10 +46,10 @@ class Slide extends Component {
 
 		return(
             <div className="numbers-card">
-                <div className={"card-img-top  " + imageBgClass}>
-                    <img className="img-fluid pt-5 m-auto" src={`../../images/${data.image}`} alt={data.alt} />
+                <div className={"card-img-top  " + data.bgTheme}>
+                    <img className="img-fluid pt-5 m-auto" src={data.image} alt={data.alt} />
                 </div>
-                <div className={"card-body " + bgClass}>
+                <div className="card-body bg-white text-black">
                     <p className="font-sm roboto-regular">
                         <span className="font-lg raleway-bold">
                             {data.heading}

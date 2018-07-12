@@ -26,7 +26,7 @@ class Articles extends Component {
                     </div>
                 </div>
 
-                <Slider {...settings} className="d-lg-none employee-stories justify-content-md-center pt-4 custom-controls-dark">
+                <Slider {...settings} className="d-md-none employee-stories justify-content-md-center pt-4 custom-controls-dark">
                     {articles.data.map((article, key) => <Slide data={article} key={key} />)}
                 </Slider>
             </div>

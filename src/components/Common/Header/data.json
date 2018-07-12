@@ -30,6 +30,12 @@
         },
         {
             "id": "6",
+            "name": "Contact",
+            "link": "/contact/",
+            "type": "link"
+        },
+        {
+            "id": "7",
             "name": "Apply",
             "link": "/careers/",
             "type": "button"

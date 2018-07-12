@@ -6,16 +6,16 @@ class Card extends Component {
         
         if(data.type=== 'image') {
 			return(
-				<div className={"col-lg-"+ data.col +" d-flex  justify-content-" + data.justify + "   align-items-center " + data.theme }>
-					<img className="img-fluid" src= {`../../images/${data.content}`} alt={data.alt} />
+				<div className={"col-lg-"+ data.col +" d-flex  justify-content-" + data.justify + " p-0 " +  data.background }>
+					<img className="img-fluid" src= {data.content} alt={data.alt} />
 				</div>
 			);
 		}
 		else {
 			return(
-				<div className={"col-lg-"+ data.col +" d-flex justify-content-" + data.justify + "   align-items-center " + data.theme }>
+				<div className={"col-lg-"+ data.col +" d-flex justify-content-" + data.justify + "   align-items-center text-gray  p-0 " + data.background }>
 					<p className="mb-0">
-						<span className="h2 font-xl mb-0 text-white">{data.content}</span>
+						<span className="h2 font-xl mb-0 text-gray">{data.content}</span>
 						<br />
 						<span className="raleway-bold">{data.caption}</span>
 					</p>

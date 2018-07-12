@@ -9,7 +9,7 @@ class Card extends Component {
             return(
                 <div className="row">
                     <div className="col-md-8 col-sm-12 order-sm-2 pb-sm-2">
-                        <img className="img-fluid" src={`../images/${data.image}`} alt={data.name} />
+                        <img className="img-fluid" src={data.image} alt={data.name} />
                     </div>
                     <div className="col-md-4 col-sm-12 order-sm-1">
                         <div className="card border-0">
@@ -35,9 +35,9 @@ class Card extends Component {
             return(
                 <div className="col-md-4 col-sm-12  pt-5">
                     <div className="card border-0">
-                        <img className="card-img-top img-fluid" src={`../images/${data.image}`} alt={data.name} />
+                        <img className="card-img-top img-fluid" src={data.image} alt={data.name} />
                         <div className="card-body px-0 text-center text-md-left text-black">
-                            <p className="card-text text-success blog-date roboto-bold py-sm-2 ">
+                            <p className="card-text text-success blog-date raleway-bold py-sm-2 ">
                                 {data.date}
                             </p>
                             <h5 className="card-title  raleway-bold">

@@ -16,13 +16,15 @@ class TechFacts extends Component {
             responsive: [{
                 breakpoint: 769,
                 settings: {
-                    slidesToShow: 3
+                    slidesToShow: 3,
+                    infinite: true,
                 }
             }, {
                 breakpoint: 577,
                 settings: {
                     dots: true,
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    infinite: true,
                 }
 
             }]

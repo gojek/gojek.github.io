@@ -23,7 +23,7 @@ class Card extends Component {
                         {
                             data.type === 'image' &&
                             <div className="col-md-6">
-                                <img style = { imageMaxWidth } src={`../../images/${data.image}`} alt={data.title} className="col-md-12 img-fluid" />
+                                <img style = { imageMaxWidth } src={data.image} alt={data.title} className="col-md-12 img-fluid" />
                             </div>
                         }
                         

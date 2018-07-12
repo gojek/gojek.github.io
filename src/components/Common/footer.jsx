@@ -39,13 +39,16 @@ class Footer extends Component {
 										<li className="pb-4 ">
 											<a href="/blog/">Blog</a>
 										</li>
-
+										
+										<li className="pb-4 ">
+											<a href="/contact/">Contact</a>
+										</li>
 									</ul>
 								</div>
 								<div className="col-md-4  d-none d-md-block px-0">
 									<ul className="list-unstyled">
 										<li className="pb-4 text-left mx-0 ">
-											<a className="green-apply-btn btn btn-success raleway-bold rounded-1 text-white px-lg-5 px-md-3" href="/careers/#openPositions">Open Positions</a>
+											<a className="green-apply-btn btn btn-success raleway-bold rounded-1 text-white px-lg-5 px-md-3" href="/careers#openPositions">Open Positions</a>
 											
 										</li>
 									</ul>

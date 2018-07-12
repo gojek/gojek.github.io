@@ -14,7 +14,7 @@ class Slide extends Component {
 
 		return(
             <div className="principles-card">
-                <img className="card-img-top img-fluid" src={`../images/${data.image}`} alt={ data.alt }/>
+                <img className="card-img-top img-fluid" src={data.image} alt={ data.alt }/>
                 <div className="card-body px-0">
                     <a className="text-dark transparent-outline-link" href={data.link}
                         target="_blank">
