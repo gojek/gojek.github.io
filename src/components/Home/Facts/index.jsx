@@ -3,7 +3,7 @@ import Slider from "react-slick";
 
 import data from '../data.json';
 import Slide from './slide';
-import Card from './Card';
+import Card from './card';
 
 class GoJekFacts extends Component {
     render() {
