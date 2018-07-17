@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import Bootstrap from 'bootstrap';
+import Slide from './slide';
+import Slider from "react-slick";
 
 import CarouselItem from './carouselItem';
 import Button from './button';
@@ -10,10 +12,34 @@ import CarouselIndicators from '../../Common/carouselIndicators';
 class Carousel extends Component {
     render() {
         const { carousel } = data;
+
+        var settings = {
+            arrows: true,
+			centerMode: false,
+			centerPadding: '40px',
+			dots: false,
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			responsive: [{
+				breakpoint: 769,
+				settings: {
+					dots: false,
+					centerMode: true,
+					slidesToShow: 3
+				}
+			}, {
+				breakpoint: 577,
+				settings: {
+					dots: true,
+					slidesToShow: 1
+				}
+			}]
+        };
         
         return (
             <section className="first-section">
-                <div id="go-jek-slider" className="carousel" data-ride="carousel">
+                <div id="go-jek-slider" className="carousel d-none d-md-block" data-ride="carousel">
                     <div className="d-none d-md-block indicators-align">
                     
                         <CarouselIndicators
@@ -30,12 +56,6 @@ class Carousel extends Component {
                         }
 
                         <div className="carousel-caption py-0 carousel-btn text-uppercase">
-                            {/* <Button 
-                                type = "dark"
-                                text = "APPLY NOW"
-                                link = "/careers/"
-                                position="left"
-                            /> */}
                             <Button 
                                 type = "outline"
                                 text = "VIEW OPEN POSITIONS"
@@ -54,6 +74,14 @@ class Carousel extends Component {
                         <span className="sr-only">Next</span>
                     </a>
                 </div>
+                
+                <Slider {...settings} className="row home-slider d-md-none d-block text-center">
+                    {
+                        carousel.map((carouselItem, key) => 
+                            <Slide data={carouselItem} key={key} />
+                        )
+                    }    
+                </Slider>
             </section>
         );
     }

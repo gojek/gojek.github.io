@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "go-jek-tech",
+  "description": "Go-JEK Tech",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "GO-JEK",
   "dependencies": {
     "axios": "^0.18.0",
     "bluebird": "^3.5.1",
@@ -16,12 +16,14 @@
     "jquery": "^3.3.1",
     "lodash": "^4.17.10",
     "popper.js": "^1.14.3",
+    "react-file-base64": "^1.0.3",
     "react-helmet": "^5.2.0",
     "react-moment": "^0.7.6",
     "react-scroll": "^1.7.9",
     "react-slick": "^0.23.1",
     "slick-carousel": "^1.8.1",
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "sweetalert2": "^7.25.1"
   },
   "keywords": [
     "gatsby"
@@ -31,10 +33,12 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && gh-pages -b master -d public"
   },
   "devDependencies": {
     "bootstrap": "^4.1.1",
+    "gh-pages": "^1.2.0",
     "prettier": "^1.13.5"
   },
   "repository": {

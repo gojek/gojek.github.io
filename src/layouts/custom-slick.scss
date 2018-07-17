@@ -128,3 +128,12 @@
 .slick-dots li button:before {
     font-size: 10px !important;
 }
+.home-slider .slick-prev{
+	left: 20px !important;
+}
+.home-slider .slick-next {
+	right: 20px !important;
+}
+.home-slider .slick-dots {
+	display: none !important;
+}

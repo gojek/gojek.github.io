@@ -1,19 +1,36 @@
 import React from "react"
 import { Helmet } from "react-helmet";
+import Link, { navigateTo } from 'gatsby-link';
 
 import * as PropTypes from "prop-types"
 import Bootstrap from 'bootstrap';
 
 class PostTemplate extends React.Component {
-	static propTypes = {
-		data: PropTypes.shape({
-			jobsJson: PropTypes.object.isRequired,
-		}),
+	constructor(props) {
+		super(props);
+		this.handleClick = this.handleClick.bind(this);
 	}
+	
+	static propTypes = {
+    	data: PropTypes.shape({
+      		jobsJson: PropTypes.object.isRequired,
+    	}),
+	}
+
+	handleClick (evt) {
+		navigateTo({
+			pathname: '/apply',
+			state: {
+			  id: this.props.data.jobsJson.id,
+			  path: this.props.data.jobsJson.positionSlug,
+			  name: this.props.data.jobsJson.position,
+			  place:  this.props.data.jobsJson.place
+			},
+		  })
+	  }
 
 	render() {
 		const { jobsJson } = this.props.data;
-
 		return (
 			<div>
 				<Helmet>
@@ -192,7 +209,13 @@ class PostTemplate extends React.Component {
 					<div className="container py-5">
 						<h1 className="h2 font-xl  text-center text-white">Think you fit the bill?</h1>
 						<div className="text-center ">
-							<a href={jobsJson.link} target="_blank" className=" text-center btn bg-white text-green raleway-bold text-uppercase my-1 font-md challenging-button custom-btn">APPLY NOW </a>
+						<button
+								onClick={ this.handleClick}
+								target = "_blank"
+								className = " text-center btn bg-white text-green raleway-bold text-uppercase my-1 font-md challenging-button custom-btn"
+							>
+								APPLY NOW
+							</button>
 						</div>
 					</div>
 				</section>
@@ -210,6 +233,7 @@ export const pageQuery = graphql`
 					id
 	  positionSlug
 				link
+				place
 				responsibilities
 				position
 				roles
