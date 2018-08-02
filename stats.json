@@ -17,8 +17,8 @@
       "path---gojek-expansion-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---": [
-      "path----a08e99c91bcaa0959ffa.js",
-      "path----a08e99c91bcaa0959ffa.js.map"
+      "path----14ed79e3a41660f0d27e.js",
+      "path----14ed79e3a41660f0d27e.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-d5602f5003fd44c6471d.js",
@@ -29,8 +29,8 @@
       "path---careers-program-manager-67cbad17b0ebc1ac9961.js.map"
     ],
     "component---src-pages-news-js": [
-      "component---src-pages-news-js-deee07c5bfcd32d7197c.js",
-      "component---src-pages-news-js-deee07c5bfcd32d7197c.js.map"
+      "component---src-pages-news-js-5105e7b739c3eaca2bd5.js",
+      "component---src-pages-news-js-5105e7b739c3eaca2bd5.js.map"
     ],
     "path---careers-lead-software-engineer": [
       "path---careers-lead-software-engineer-1f3e6bd1f8b79b24d814.js",
@@ -39,6 +39,14 @@
     "component---src-pages-gojek-expansion-js": [
       "component---src-pages-gojek-expansion-js-abcae6ddf4b32d674f03.js",
       "component---src-pages-gojek-expansion-js-abcae6ddf4b32d674f03.js.map"
+    ],
+    "path---go-viet": [
+      "path---go-viet-a0e39f21c11f6a62c5ab.js",
+      "path---go-viet-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-go-viet-js": [
+      "component---src-pages-go-viet-js-6ae091fbf9d3d4a2ea3c.js",
+      "component---src-pages-go-viet-js-6ae091fbf9d3d4a2ea3c.js.map"
     ],
     "component---src-pages-apply-js": [
       "component---src-pages-apply-js-1c860e38a8eb4fb86f87.js",
@@ -49,8 +57,8 @@
       "component---src-pages-open-source-js-b8923bab275c3d9c32a4.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-27acc0f75e208b6836c9.js",
-      "component---src-layouts-index-js-27acc0f75e208b6836c9.js.map"
+      "component---src-layouts-index-js-1c1660ab00a382053b27.js",
+      "component---src-layouts-index-js-1c1660ab00a382053b27.js.map"
     ],
     "path---careers": [
       "path---careers-a0e39f21c11f6a62c5ab.js",
@@ -109,8 +117,8 @@
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-977f663009d4b657f83f.js",
-      "app-977f663009d4b657f83f.js.map"
+      "app-4c1ed47896f9a962b1c4.js",
+      "app-4c1ed47896f9a962b1c4.js.map"
     ],
     "path---careers-android-engineer": [
       "path---careers-android-engineer-ea19a0a995f269300c87.js",
