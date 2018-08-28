@@ -1,8 +1,12 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-46aa2767b6b75042ce37.js",
-      "component---src-pages-index-js-46aa2767b6b75042ce37.js.map"
+      "component---src-pages-index-js-1a8d2718c4deeb7cf734.js",
+      "component---src-pages-index-js-1a8d2718c4deeb7cf734.js.map"
+    ],
+    "path---events": [
+      "path---events-a0e39f21c11f6a62c5ab.js",
+      "path---events-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---blog": [
       "path---blog-a0e39f21c11f6a62c5ab.js",
@@ -25,16 +29,16 @@
       "component---src-pages-contact-js-d5602f5003fd44c6471d.js.map"
     ],
     "path---careers-program-manager": [
-      "path---careers-program-manager-67cbad17b0ebc1ac9961.js",
-      "path---careers-program-manager-67cbad17b0ebc1ac9961.js.map"
+      "path---careers-program-manager-0e3b7797ab8cb094822a.js",
+      "path---careers-program-manager-0e3b7797ab8cb094822a.js.map"
     ],
     "component---src-pages-news-js": [
       "component---src-pages-news-js-551cb7f3af909fdda11a.js",
       "component---src-pages-news-js-551cb7f3af909fdda11a.js.map"
     ],
     "path---careers-lead-software-engineer": [
-      "path---careers-lead-software-engineer-1f3e6bd1f8b79b24d814.js",
-      "path---careers-lead-software-engineer-1f3e6bd1f8b79b24d814.js.map"
+      "path---careers-lead-software-engineer-5621d4ade13cf36a681f.js",
+      "path---careers-lead-software-engineer-5621d4ade13cf36a681f.js.map"
     ],
     "component---src-pages-gojek-expansion-js": [
       "component---src-pages-gojek-expansion-js-abcae6ddf4b32d674f03.js",
@@ -49,16 +53,16 @@
       "component---src-pages-go-viet-js-de8bdb332ede6c778548.js.map"
     ],
     "component---src-pages-apply-js": [
-      "component---src-pages-apply-js-5c5a50635e556a5e85d4.js",
-      "component---src-pages-apply-js-5c5a50635e556a5e85d4.js.map"
+      "component---src-pages-apply-js-850a432d9d0098e70c8e.js",
+      "component---src-pages-apply-js-850a432d9d0098e70c8e.js.map"
     ],
     "component---src-pages-open-source-js": [
       "component---src-pages-open-source-js-b8923bab275c3d9c32a4.js",
       "component---src-pages-open-source-js-b8923bab275c3d9c32a4.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-1c1660ab00a382053b27.js",
-      "component---src-layouts-index-js-1c1660ab00a382053b27.js.map"
+      "component---src-layouts-index-js-9dc6721fd9f08963db37.js",
+      "component---src-layouts-index-js-9dc6721fd9f08963db37.js.map"
     ],
     "path---careers": [
       "path---careers-a0e39f21c11f6a62c5ab.js",
@@ -69,28 +73,32 @@
       "path---apply-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-job-js": [
-      "component---src-templates-job-js-cc0e391de6b71139aed1.js",
-      "component---src-templates-job-js-cc0e391de6b71139aed1.js.map"
+      "component---src-templates-job-js-1d25bcc7257839633d28.js",
+      "component---src-templates-job-js-1d25bcc7257839633d28.js.map"
+    ],
+    "path---careers-recruitment-coordinator": [
+      "path---careers-recruitment-coordinator-ebd3b9a0d829e24d3993.js",
+      "path---careers-recruitment-coordinator-ebd3b9a0d829e24d3993.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---careers-full-stack-engineer": [
-      "path---careers-full-stack-engineer-e67ef1a1e196a9925c2d.js",
-      "path---careers-full-stack-engineer-e67ef1a1e196a9925c2d.js.map"
+      "path---careers-full-stack-engineer-4ad0dec427bc0ea12d9a.js",
+      "path---careers-full-stack-engineer-4ad0dec427bc0ea12d9a.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-8377fa379f762825d776.js",
       "component---src-pages-404-js-8377fa379f762825d776.js.map"
     ],
     "commons": [
-      "commons-92909c05f09ca4f77825.js",
-      "commons-92909c05f09ca4f77825.js.map"
+      "commons-7e4d0bd381089abb9405.js",
+      "commons-7e4d0bd381089abb9405.js.map"
     ],
     "component---src-pages-careers-js": [
-      "component---src-pages-careers-js-e5c34cc453256393576e.js",
-      "component---src-pages-careers-js-e5c34cc453256393576e.js.map"
+      "component---src-pages-careers-js-40c8aba38104f0365541.js",
+      "component---src-pages-careers-js-40c8aba38104f0365541.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -109,28 +117,36 @@
       "path---news-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-59c6741356237886f967.js",
-      "component---src-pages-blog-js-59c6741356237886f967.js.map"
+      "component---src-pages-blog-js-74cf2f9daa2b673778b9.js",
+      "component---src-pages-blog-js-74cf2f9daa2b673778b9.js.map"
     ],
     "path---thank-you": [
       "path---thank-you-a0e39f21c11f6a62c5ab.js",
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-4c1ed47896f9a962b1c4.js",
-      "app-4c1ed47896f9a962b1c4.js.map"
+      "app-50c7c4dcaa5cbf005bc5.js",
+      "app-50c7c4dcaa5cbf005bc5.js.map"
     ],
     "path---careers-android-engineer": [
-      "path---careers-android-engineer-ea19a0a995f269300c87.js",
-      "path---careers-android-engineer-ea19a0a995f269300c87.js.map"
+      "path---careers-android-engineer-70c23ef4e5506b98faca.js",
+      "path---careers-android-engineer-70c23ef4e5506b98faca.js.map"
+    ],
+    "component---src-pages-events-js": [
+      "component---src-pages-events-js-f61096b48f15a3b4708e.js",
+      "component---src-pages-events-js-f61096b48f15a3b4708e.js.map"
     ],
     "path---careers-ios-engineer": [
-      "path---careers-ios-engineer-ccccac63bb22f9c56753.js",
-      "path---careers-ios-engineer-ccccac63bb22f9c56753.js.map"
+      "path---careers-ios-engineer-5d3b828f5fc9a0a0444a.js",
+      "path---careers-ios-engineer-5d3b828f5fc9a0a0444a.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---careers-product-analyst": [
+      "path---careers-product-analyst-b82d34a83156dff61412.js",
+      "path---careers-product-analyst-b82d34a83156dff61412.js.map"
     ]
   }
 }
