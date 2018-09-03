@@ -20,6 +20,10 @@
       "path---gojek-expansion-a0e39f21c11f6a62c5ab.js",
       "path---gojek-expansion-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---careers-tech-content-specialist": [
+      "path---careers-tech-content-specialist-d67a891d51a1069f917a.js",
+      "path---careers-tech-content-specialist-d67a891d51a1069f917a.js.map"
+    ],
     "path---": [
       "path----14ed79e3a41660f0d27e.js",
       "path----14ed79e3a41660f0d27e.js.map"
@@ -53,8 +57,8 @@
       "component---src-pages-go-viet-js-de8bdb332ede6c778548.js.map"
     ],
     "component---src-pages-apply-js": [
-      "component---src-pages-apply-js-850a432d9d0098e70c8e.js",
-      "component---src-pages-apply-js-850a432d9d0098e70c8e.js.map"
+      "component---src-pages-apply-js-75377e8961552cc2ddc2.js",
+      "component---src-pages-apply-js-75377e8961552cc2ddc2.js.map"
     ],
     "component---src-pages-open-source-js": [
       "component---src-pages-open-source-js-b8923bab275c3d9c32a4.js",
@@ -73,8 +77,8 @@
       "path---apply-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-job-js": [
-      "component---src-templates-job-js-f1d78ab6cb72ec9d5722.js",
-      "component---src-templates-job-js-f1d78ab6cb72ec9d5722.js.map"
+      "component---src-templates-job-js-65f80ee24ed34701b062.js",
+      "component---src-templates-job-js-65f80ee24ed34701b062.js.map"
     ],
     "path---careers-recruitment-coordinator": [
       "path---careers-recruitment-coordinator-bc03d5cf0485445181f8.js",
@@ -97,8 +101,8 @@
       "commons-7e4d0bd381089abb9405.js.map"
     ],
     "component---src-pages-careers-js": [
-      "component---src-pages-careers-js-dc78fae8efb9c5a83897.js",
-      "component---src-pages-careers-js-dc78fae8efb9c5a83897.js.map"
+      "component---src-pages-careers-js-24fa75499752f6952695.js",
+      "component---src-pages-careers-js-24fa75499752f6952695.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -125,8 +129,8 @@
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-50c7c4dcaa5cbf005bc5.js",
-      "app-50c7c4dcaa5cbf005bc5.js.map"
+      "app-293b04aa71b5d7b7f4f9.js",
+      "app-293b04aa71b5d7b7f4f9.js.map"
     ],
     "path---careers-android-engineer": [
       "path---careers-android-engineer-70c23ef4e5506b98faca.js",
