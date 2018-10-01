@@ -73,8 +73,8 @@
       "path---careers-software-engineer-fraud-62d7ba51402d9ed7c736.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-1c1660ab00a382053b27.js",
-      "component---src-layouts-index-js-1c1660ab00a382053b27.js.map"
+      "component---src-layouts-index-js-5439ff1ae0576d3765a7.js",
+      "component---src-layouts-index-js-5439ff1ae0576d3765a7.js.map"
     ],
     "path---careers": [
       "path---careers-a0e39f21c11f6a62c5ab.js",
@@ -113,8 +113,8 @@
       "commons-815301d121e68ea303b5.js.map"
     ],
     "component---src-pages-careers-js": [
-      "component---src-pages-careers-js-9abdc74dd968ac0ecb88.js",
-      "component---src-pages-careers-js-9abdc74dd968ac0ecb88.js.map"
+      "component---src-pages-careers-js-e14cb69072d60e6f7f10.js",
+      "component---src-pages-careers-js-e14cb69072d60e6f7f10.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -144,17 +144,21 @@
       "path---careers-applied-researcher-deep-learning-b53e0490685e9b91341e.js",
       "path---careers-applied-researcher-deep-learning-b53e0490685e9b91341e.js.map"
     ],
+    "path---careers-data-scientist-information-retrieval": [
+      "path---careers-data-scientist-information-retrieval-798e21a699c30ef2c5ee.js",
+      "path---careers-data-scientist-information-retrieval-798e21a699c30ef2c5ee.js.map"
+    ],
     "path---thank-you": [
       "path---thank-you-a0e39f21c11f6a62c5ab.js",
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---careers-machine-learning-engineer-go-pay": [
-      "path---careers-machine-learning-engineer-go-pay-eecffde78ab7fb98cf1a.js",
-      "path---careers-machine-learning-engineer-go-pay-eecffde78ab7fb98cf1a.js.map"
+      "path---careers-machine-learning-engineer-go-pay-1f07ee2ca1baaaa6942b.js",
+      "path---careers-machine-learning-engineer-go-pay-1f07ee2ca1baaaa6942b.js.map"
     ],
     "app": [
-      "app-2ccff5155ad480d42cd6.js",
-      "app-2ccff5155ad480d42cd6.js.map"
+      "app-85177c4fcd647fc2ee0a.js",
+      "app-85177c4fcd647fc2ee0a.js.map"
     ],
     "path---careers-android-engineer": [
       "path---careers-android-engineer-e657063a9b80e93bc010.js",
