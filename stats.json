@@ -4,6 +4,10 @@
       "path---careers-engineering-lead-products-singapore-7a3b6703dfc37988faf7.js",
       "path---careers-engineering-lead-products-singapore-7a3b6703dfc37988faf7.js.map"
     ],
+    "path---careers-analytics-programanager": [
+      "path---careers-analytics-programanager-63f4ba4d562761ac4105.js",
+      "path---careers-analytics-programanager-63f4ba4d562761ac4105.js.map"
+    ],
     "path---careers-lead-product-manager": [
       "path---careers-lead-product-manager-09c663a9d25973ce21ca.js",
       "path---careers-lead-product-manager-09c663a9d25973ce21ca.js.map"
@@ -149,8 +153,8 @@
       "commons-815301d121e68ea303b5.js.map"
     ],
     "component---src-pages-careers-js": [
-      "component---src-pages-careers-js-54bb689006b4b2c4085c.js",
-      "component---src-pages-careers-js-54bb689006b4b2c4085c.js.map"
+      "component---src-pages-careers-js-29a0db6be97f1d06b2c4.js",
+      "component---src-pages-careers-js-29a0db6be97f1d06b2c4.js.map"
     ],
     "path---careers-android-engineer-jakarta": [
       "path---careers-android-engineer-jakarta-df5556280dea0a02e43c.js",
@@ -164,6 +168,10 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---careers-product-manager": [
+      "path---careers-product-manager-47c651562de0eb9a945d.js",
+      "path---careers-product-manager-47c651562de0eb9a945d.js.map"
+    ],
     "path---careers-data-scientist-go-pay": [
       "path---careers-data-scientist-go-pay-f81e42a01fbda351ce23.js",
       "path---careers-data-scientist-go-pay-f81e42a01fbda351ce23.js.map"
@@ -176,6 +184,10 @@
       "path---news-a0e39f21c11f6a62c5ab.js",
       "path---news-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---careers-senior-product-manager": [
+      "path---careers-senior-product-manager-54dd4e99c46099d5e9b2.js",
+      "path---careers-senior-product-manager-54dd4e99c46099d5e9b2.js.map"
+    ],
     "component---src-pages-blog-js": [
       "component---src-pages-blog-js-0f8875353e6d6671f5aa.js",
       "component---src-pages-blog-js-0f8875353e6d6671f5aa.js.map"
@@ -185,8 +197,8 @@
       "path---careers-applied-researcher-deep-learning-e6796831c8d93d3cdf4c.js.map"
     ],
     "path---careers-data-engineer-tech-lead": [
-      "path---careers-data-engineer-tech-lead-c22d9f5d6dab6c59c04a.js",
-      "path---careers-data-engineer-tech-lead-c22d9f5d6dab6c59c04a.js.map"
+      "path---careers-data-engineer-tech-lead-61c4e01a31b6f45db245.js",
+      "path---careers-data-engineer-tech-lead-61c4e01a31b6f45db245.js.map"
     ],
     "path---thank-you": [
       "path---thank-you-a0e39f21c11f6a62c5ab.js",
@@ -197,8 +209,8 @@
       "path---careers-machine-learning-engineer-go-pay-7a0c272b0aeb1a261cab.js.map"
     ],
     "app": [
-      "app-4de9782deb538293cf15.js",
-      "app-4de9782deb538293cf15.js.map"
+      "app-ac6be06ae5712c9234c2.js",
+      "app-ac6be06ae5712c9234c2.js.map"
     ],
     "path---careers-ios-engineer-thailand": [
       "path---careers-ios-engineer-thailand-018a07ffbb8f5042b15c.js",
