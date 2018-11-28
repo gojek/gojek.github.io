@@ -10,6 +10,19 @@ module.exports = {
 	},
 	plugins: [
 		{
+			resolve: `gatsby-plugin-google-analytics`,
+		      options: {
+		        trackingId: "UA-130067050-1",
+		        // Puts tracking script in the head instead of the body
+		        head: true,
+		        // Setting this parameter is optional
+		        anonymize: true,
+		        // Setting this parameter is also optional
+		        respectDNT: false,
+		        // Any additional create only fields (optional)
+		        sampleRate: 5,
+		        siteSpeedSampleRate: 10
+		      },
 			resolve: '@wyze/gatsby-plugin-google-analytics',
 			options: {
 				gaPlugins: {
