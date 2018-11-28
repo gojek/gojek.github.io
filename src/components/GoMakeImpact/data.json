@@ -1,0 +1,47 @@
+[
+    {
+        "id": "modal-kevin",
+        "name" : "Kevin",
+        "heading" : "Lead at Scale: Kevin Aluwi inspires people to shoot for greatness",
+        "image": "../../images/gomakeimpact/kevin.jpg",
+        "video": "https://www.youtube.com/embed/H2LkgxLztPM",
+        "blog": "https://medium.com/@life_56084/17c1257b0d4a",
+        "desc": "At one stage of his life, Kevin Aluwi found himself in a finance career path but cannot stop to think if one day he would get the chance to follow his passion, using technology to make better lives for others."
+    },
+    {
+        "id": "modal-arlinda",
+        "name" : "Arlinda",
+        "heading" : "Create at Scale: Arlinda’s journey as a Product Manage",
+        "image": "../../images/gomakeimpact/arlinda.jpg",
+        "video": "https://www.youtube.com/embed/pSBgUP-k594",
+        "blog": "https://medium.com/@life_56084/f44ea5138582",
+        "desc": "When she walked into the GO-JEK office for the first time in January 2016, Arlinda had one big question in her mind: How GO-JEK could make its drivers happy and proud to be a partner of this startup company."
+    },
+    {
+        "id": "modal-shobhit",
+        "name" : "Shobhit",
+        "heading" : "Code at Scale: Shobhit Srivastava's weapon to make impact in today's world",
+        "image": "../../images/gomakeimpact/shobhit.jpg",
+        "video": "https://www.youtube.com/embed/z1bKs6JDBJA",
+        "blog": "https://medium.com/@life_56084/854e42eeefc8",
+        "desc": "People learn what they want to do in life at different stages. One might find it during high school times, while others won’t get the idea even until the day they retire. But Shobhit Srivastava knows since sixth grade that he wants to be a programmer. He wants to code."
+    },
+    {
+        "id": "modal-fatema",
+        "name" : "Fatema",
+        "heading" : "Design at Scale: Fatema’s journey as a Product Designer",
+        "image": "../../images/gomakeimpact/fatema.jpg",
+        "video": "https://www.youtube.com/embed/C_lqdnj-cuY",
+        "blog": "https://medium.com/@life_56084/db91de706c0e",
+        "desc": "My journey as a designer at GO-JEK has been like a mission, translating findings into insights for beautifully designed products that improve and change lives for the better."
+    },
+    {
+        "id": "modal-raditya",
+        "name" : "Raditya",
+        "heading" : "Build At Scale: Raditya Wibowo’s Journey as The Head of Transportation Product",
+        "image": "../../images/gomakeimpact/raditya.jpg",
+        "video": "https://www.youtube.com/embed/aQgKOK5z1YU",
+        "blog": "https://medium.com/@life_56084/5481e9b051bc",
+        "desc": "At the beginning of Radityo Wibowo or Dito’s journey as a Product Manager, GO-JEK already experienced significant growth, but only selected people aware of this."
+    }
+]

@@ -4,8 +4,7 @@ import Slider from "react-slick";
 import Moment from 'react-moment';
 
 // Card for showing blog post
-const Card = (post) => {
-	
+const Card = (post, src) => {
 	var maxLength = 100; // maximum number of characters to extract
 
 	var stripedHtml = $("<div>").html(post.post.description).text();
@@ -18,7 +17,7 @@ const Card = (post) => {
 
 	return (
 		<div className="card medium-blog border-0">
-		<p className="card-text text-success blog-date raleway-bold">
+		<p className="card-text text-success blog-date raleway-bold text-center text-md-left">
 
 			<Moment className="roboto-bold text-uppercase" format="MMMM DD, YYYY">
 				{post.post.pubDate}
@@ -31,11 +30,17 @@ const Card = (post) => {
 					{post.post.title}
 				</a>
 			</h5>
-			<div className="post-meta ">
-				<span>By {' '}{post.post.author}</span>
-			</div>
+			{
+				post.src === 'blog' &&
+				<div className="post-meta ">
+					<small className="text-green">By {' '}{post.post.author}</small>
+				</div>
+			}
 			<p className='font-xs-l'></p>
-			<p>{trimmedString}</p>
+			{
+				post.src === 'blog' &&
+				<p>{ trimmedString}</p>
+			}
 		</div>
 	</div>
 	);
@@ -79,7 +84,7 @@ class Post extends Component {
 					if(key < postCount) {
 						return(
 							<div className="col-md-4 col-lg-4" key={post.title}>
-								<Card post={post} key={key} />
+								<Card post={post} key={key}  src="blog"/>
 							</div>
 						)
 					}
@@ -94,7 +99,7 @@ class Post extends Component {
 					{posts.map((post, key) => {
 						if(key < postCount) {
 							return(
-								<Card post={post} key={key} />
+								<Card post={post} key={key} src="home" />
 							)
 						}
 					}

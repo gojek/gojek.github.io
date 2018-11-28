@@ -1,0 +1,45 @@
+{
+    "events": {
+        "heading": "Events Archive",
+        "data": [
+            {
+                "id": "1",
+                "image": "../../images/news/vietnam.jpg",
+                "name": "ESlint + Prettier For a Consistent React Codebase",
+                "date": "APRIL 7, 2018",
+                "text": "Bangalore, India – GO-VIET, the on-demand multi-service app backed by GO-JEK, is set to expand its coverage to 12 districts across Ho Chi Minh City on Wednesday, August 1st, as the app becomes available for public download on the Apple App Store & Google Play for the first time.",
+                "mainBanner": true,
+                "tags":["GOLANG","BANGALORE","CONVENTION NAME"],
+                "video" : "bdHfntRaAoo"
+            },
+            {
+                "id": "2",
+                "image": "../../images/news/press-release.jpg",
+                "name": "ESlint + Prettier For a Consistent React Codebase",
+                "date": "MARCH 28, 2018",
+                "text": "Bangalore, India– GO-JEK today announces the launch of two locally founded companies in Vietnam and Thailand that will form the first wave of its international expansion. The companies will be run by local founding management teams, with GO-JEK providing knowledge and expertise as well as technology and investment.",
+                "mainBanner": false,
+                "video" : "bdHfntRaAoo"
+            },
+            {
+                "id": "3",
+                
+                "image": "../../images/news/rajan-sakalley.jpg",
+                "name": "A chance to build startups within a startup",
+                "date": "MARCH 24, 2018",
+                "text": "Indonesia's ride hailing service GO-JEK has appointed Ranjan Sakalley as the chief technology officer of its payments arm GO-PAY. In this role, Sakalley will work alongside group CTO Ajey Gore to lead all product engineering for GO-PAY products including the design, delivery and reliability of the products.",
+                "mainBanner": false,
+                "video" : "bdHfntRaAoo"
+            },
+            {
+                "id": "4",
+                "image": "../../images/news/news-01.jpg",
+                "name": "1 app, 18 products — A journey from monolith to a microapps codebase",
+                "date": "March 21, 2018",
+                "text": "JAKARTA, INDONESIA – GO-JEK has confirmed that it is to invest $500 million in its international expansion strategy. The company will enter Vietnam, Thailand, Singapore and the Philippines within the next few months, starting with ride-hailing but ultimately aiming to...",
+                "mainBanner": false,
+                "video" : "bdHfntRaAoo"
+            }
+        ]
+    }
+}

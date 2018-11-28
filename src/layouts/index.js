@@ -15,8 +15,37 @@ class Layout extends Component {
 		const { siteMetadata: metaData } = this.props.data.site;
 		const { location, children } = this.props
 		const slug = location.pathname.split("/careers/");
+		
+		// Gomake impact header
+		let menu = [  
+			{
+				"id": "1",
+				"name": "About us",
+				"link": "about",
+				"type": "link",
+				"src": "gomakeimpact"
+			},
+			{
+				"id": "2",
+				"name": "GO-TROOPS",
+				"link": "goTroops",
+				"type": "link",
+				"src": "gomakeimpact"
+			},
+			{
+				"id": "3",
+				"name": "CAREERS",
+				"link": "jobs",
+				"type": "link",
+				"src": "gomakeimpact"
+			}
+		];
 
-		const showHeaderFooter = slug[1] !== undefined && slug[1] !== "" ? false : true;
+		// initial requirement - Do not show header and footer for Job description page
+		// const showHeaderFooter = slug[1] !== undefined && slug[1] !== "" ? false : true;
+		
+		// new Requirement - Show header footer for all the pages 
+		const showHeaderFooter = true;
 		return (
 			<div>
 				<Helmet>
@@ -40,10 +69,18 @@ class Layout extends Component {
 					<link rel="icon" href="/../images/favicon.ico" type="image/x-icon" />	
 				</Helmet>
 				{
-					showHeaderFooter &&
+					location.pathname !== '/gomakeimpact/' &&
 					<Header
 						siteTitle={metaData.title}
 						data={data}
+						currentPage={location.pathname}
+					/>
+				}
+				{
+					location.pathname === '/gomakeimpact/' &&
+					<Header
+						siteTitle={metaData.title}
+						data={ menu }
 						currentPage={location.pathname}
 					/>
 				}

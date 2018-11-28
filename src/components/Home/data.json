@@ -78,12 +78,13 @@
             }, 
             {
                 "type" : "text",
-                "content": "6666x",
+                "content": "6600x",
                 "caption": "total order volume growth in 3 years",
                 "theme": "developer-bg",
                 "justify": "around",
                 "col": "5",
-                "background" : "bg-white"
+                "background" : "bg-white",
+                "fontStyle": "roboto"
             }, 
             {
                 "type" : "image",
@@ -125,7 +126,7 @@
         "responsiveData": [
             {
                 "image": "../../images/gojek-work/gojek-growth.jpg",
-                "heading" : "6666x",
+                "heading" : "6600x",
                 "text" : "total order volume growth in 3 years",
                 "alt" : "Go-Jek Growth",
                 "imageTheme" : "dark-green",
@@ -194,8 +195,8 @@
                 "image" : "../../images/gojek-principles/pair-programming.gif",
                 "alt": "GO-JEK Tech Principles - Pair programming and TDD",
                 "link": "https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2",
-                "heading": "Pair Programming & | TDD Work",
-                "text": "Pair Programming &amp; TDD are meant to be together! They help us build features faster, and mature teams organically."
+                "heading": "Pair Programming \u0026 | TDD Work",
+                "text": "Pair Programming \u0026 TDD are meant to be together! They help us build features faster, and mature teams organically."
             }
         ]
     },

@@ -9,7 +9,7 @@ class News extends Component {
         return(
             <div className="first-section">
                 <Helmet>
-					<title> GO-JEK News </title>
+					<title> GO-JEK Tech News </title>
 				</Helmet>
 
                 <Heading />

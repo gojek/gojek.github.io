@@ -1,4 +1,4 @@
-# gatsby-starter-default
+# next.gojek [![CircleCI](https://circleci.com/gh/gojek/next.gojek.svg?style=svg)](https://circleci.com/gh/gojek/next.gojek) 
 The default Gatsby starter.
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).

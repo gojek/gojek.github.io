@@ -28,6 +28,7 @@ class Banner extends Component {
                                         className="custom-btn btn btn-outline-light my-1 font-md raleway-bold text-white"
                                         spy={true}
                                         smooth={true}
+                                        offset={-50}
                                     >
                                         VIEW ALL POSITIONS
                                     </Link>

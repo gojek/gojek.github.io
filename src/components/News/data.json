@@ -4,15 +4,41 @@
         "data": [
             {
                 "id": "1",
+                "link": "https://www.go-jek.com/blog/pre-registration-for-drivers-in-singapore-commences/",
+                "image": "../../images/news/gojek-singapore.jpg",
+                "name": "Pre-registration for drivers in Singapore commences",
+                "date": " OCTOBER 29, 2018",
+                "text": "GO-JEK has today launched a portal through which drivers can pre-register to use its platform. By signing up, drivers will have the opportunity to be among GO-JEK’s first driver-partners in Singapore.",
+                "mainBanner": true
+            }, {
+                "id": "2",
+                "link": "/go-jek-tech-to-hire-200-engineers-in-india",
+                "image": "../../images/news/hire-200.jpg",
+                "name": "GO-JEK Tech to hire 200 engineers in India to work on its ‘Super App’",
+                "date": " OCTOBER 4, 2018",
+                "text": "GO-JEK, Southeast Asia’s first unicorn and the fastest growing start-up headquartered in Indonesia, plans to hire 200 engineers in Bangalore to support its expanding portfolio of products in food delivery, taxi-sharing, logistics, digital payments and multiple services.",
+                "mainBanner": false
+            },
+            {
+                "id": "3",
+                "link": "/go-viet",
+                "image": "../../images/news/vietnam.jpg",
+                "name": "GO-VIET expands services to 12 districts in HO CHI MINH city as the app becomes available for public download",
+                "date": "August 1, 2018",
+                "text": "Bangalore, India – GO-VIET, the on-demand multi-service app backed by GO-JEK, is set to expand its coverage to 12 districts across Ho Chi Minh City on Wednesday, August 1st, as the app becomes available for public download on the Apple App Store & Google Play for the first time.",
+                "mainBanner": false
+            },
+            {
+                "id": "4",
                 "link": "/gojek-expansion",
                 "image": "../../images/news/press-release.jpg",
                 "name": "GO-JEK announces the launch of locally founded companies in Vietnam and Thailand",
                 "date": "JUNE 25, 2018",
                 "text": "Bangalore, India– GO-JEK today announces the launch of two locally founded companies in Vietnam and Thailand that will form the first wave of its international expansion. The companies will be run by local founding management teams, with GO-JEK providing knowledge and expertise as well as technology and investment.",
-                "mainBanner": true
+                "mainBanner": false
             },
             {
-                "id": "2",
+                "id": "5",
                 "link": "https://tech.economictimes.indiatimes.com/news/people/go-jek-appoints-ranjan-sakalley-as-cto-of-go-pay/64838395",
                 "image": "../../images/news/rajan-sakalley.jpg",
                 "name": "GO-JEK appoints Ranjan Sakalley as CTO of GO-PAY",
@@ -21,16 +47,16 @@
                 "mainBanner": false
             },
             {
-                "id": "3",
+                "id": "6",
                 "link": "https://www.go-jek.com/blog/go-jek-to-launch-international-expansion-into-four-new-markets/",
                 "image": "../../images/news/news-01.jpg",
                 "name": "GO-JEK to Launch International Expansion Into Four New Markets",
                 "date": "MAY 24, 2018",
-                "text": "JAKARTA, INDONESIA – GO-JEK has confirmed that it is to invest $500 million in its international expansion strategy. The company will enter Vietnam, Thailand, Singapore and the Philippines within the next few months, starting with ride-hailing but ultimately aiming to replicate the multiple-service business model that has made it the market leader in Indonesia.",
+                "text": "JAKARTA, INDONESIA – GO-JEK has confirmed that it is to invest $500 million in its international expansion strategy. The company will enter Vietnam, Thailand, Singapore and the Philippines within the next few months, starting with ride-hailing but ultimately aiming to...",
                 "mainBanner": false
             },
             {
-                "id": "4",
+                "id": "7",
                 "link": "https://www.techinasia.com/go-jek-acquisition-kartuku-mapan-midtrans",
                 "image": "../../images/news/news-02.jpg",
                 "name": "GO-JEK buys 3 fintech firms to conquer Indonesia payments",
@@ -39,7 +65,7 @@
                 "mainBanner": false
             },
             {
-                "id": "5",
+                "id": "8",
                 "link": "https://www.washingtonpost.com/business/techs-global-challenge-plays-out-in-a-jakarta-school-yard/2017/12/12/ac6d8328-df8a-11e7-b2e9-8c636f076c76_story.html?noredirect=on&utm_term=.a69d0afe56eb",
                 "image": "../../images/news/news-03.jpg",
                 "name": "Tech’s Global Challenge Plays Out in a Jakarta School Yard",
@@ -48,16 +74,16 @@
                 "mainBanner": false
             },
             {
-                "id": "6",
+                "id": "9",
                 "link": "https://www.nytimes.com/2017/12/08/technology/southeast-asia-ride-hailing.html",
                 "image": "../../images/news/news-04.jpg",
                 "name": "Southeast Asia's Ride-Hailing War is Being Waged on Motorbikes",
                 "date": "DECEMBER 8, 2017",
-                "text": "JAKARTA, Indonesia - On a recent morning driving his motorbike for one of Asia's fastest-growing tech start-ups, Nasrun picked up and dropped off four school-children, an office worker, medicine from a pharmacy, some dumplings with peanut sauce, a few documents and an order of Japanese food, the last of which he took to a woman at the Indonesia Stock Exchange",
+                "text": "JAKARTA, Indonesia - On a recent morning driving his motorbike for one of Asia's fastest-growing tech start-ups, Nasrun picked up and dropped off four school-children, an office worker, medicine from a pharmacy, some dumplings with peanut sauce...",
                 "mainBanner": false
             },
             {
-                "id": "7",
+                "id": "10",
                 "link": "https://www.techinasia.com/gojek-insider-account-of-scaling-900x-doubling",
                 "image": "../../images/news/news-05.jpg",
                 "name": "An insider's account of how GO-JEK hit 900x scale in 18 months and is still doubling",
@@ -66,16 +92,16 @@
                 "mainBanner": false
             },
             {
-                "id": "8",
+                "id": "11",
                 "link": "http://www.scmp.com/week-asia/business/article/2116287/how-indonesian-unicorn-go-jek-went-20-bikes-us25-billion-and-e",
-                "image": "../../images/news/news-04.jpg",
+                "image": "../../images/news/news-06.jpg",
                 "name": "How Indonesian Unicorn GO-JEK went from 20 bikes to US $2.5 Billion & an e-money revolution",
                 "date": "OCTOBER 22, 2017",
                 "text": "Ten years ago, few could have predicted the mobile payment revolution in Indonesia would be driven not by the banking industry, but by a firm that started out as a motorcycle-taxi booking operation with just 20 riders.",
                 "mainBanner": false
             },
             {
-                "id": "9",
+                "id": "12",
                 "link": "https://yourstory.com/2017/05/techie-tuesdays-ajey-gore/",
                 "image": "../../images/news/ajay-gore.jpg",
                 "name": "How a small-town commerce graduate became CTO of a multibillion-dollar company",

@@ -8,7 +8,7 @@ class Contact extends Component {
         return(
             <div className="first-section">
                 <Helmet>
-					<title> GO-JEK Contact Us </title>
+					<title> GO-JEK Tech Contact Us </title>
 				</Helmet>
 
                 <section className="first-section">
@@ -50,7 +50,7 @@ class Contact extends Component {
                                     GO-JEK India:
                                 </p>
                                 <p className="roboto-regular address text-black">
-                                    4th & 6th Floor Tower B,<br /> Diamond District, <br />HAL Old Airport Road,<br /> Bengaluru, <br />Karnataka 560008
+                                    4th & 6th Floor Tower B,<br /> Diamond District, HAL Old Airport Road,<br /> Bengaluru, <br />Karnataka 560008
                                 </p>
                             </div>
                         </div>

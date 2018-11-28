@@ -10,10 +10,10 @@ import CarouselIndicators from '../../Common/carouselIndicators'
 
 class EmployeeStories extends Component {
     render() {
+        const { keyword, location, team, department, showHeadings } = this.props;
         const { employeeStories } = data ;
         const { articles } = data ;
-        // console.log(articles)
-
+        
         var settings = {
             arrows: true,
 			centerMode: false,
@@ -37,19 +37,6 @@ class EmployeeStories extends Component {
 				}
 			}]
         };
-
-        const bgStyle ={
-			backgroundColor: "#2a2b2b"
-		}
-
-		const maxWidth ={
-			maxWidth: "400px"
-		}
-
-
-		const lightBg ={
-			backgroundColor: "#99d3d8"
-		}
         
         return(
             <section className="gray-bg py-5">
@@ -108,7 +95,15 @@ class EmployeeStories extends Component {
 
                 {/* All poen positions */}
                 
-				<OpenPositions />
+                <OpenPositions
+                    team = { team }
+                    location = { location }
+                    keyword = { keyword }
+                    department = { department }
+                    resetFilters = { this.props.resetFilters }
+                    referer = { this.props.referer }
+                    showHeadings = { showHeadings }
+                />
 
                 {/* End all open positions */}
 

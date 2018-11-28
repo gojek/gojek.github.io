@@ -1,0 +1,11 @@
+.fp-tableCell {
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    display: flex !important;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    color: #fff;
+}

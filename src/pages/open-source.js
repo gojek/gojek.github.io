@@ -8,7 +8,7 @@ class OpenSource extends Component {
         return(
             <div className="first-section">
                 <Helmet>
-					<title> GO-JEK Open Source </title>
+					<title> GO-JEK Tech Open Source </title>
 				</Helmet>
 
                 <OpenSourceprojects />

@@ -15,7 +15,7 @@ class Card extends Component {
 			return(
 				<div className={"col-lg-"+ data.col +" d-flex justify-content-" + data.justify + "   align-items-center text-gray  p-0 " + data.background }>
 					<p className="mb-0">
-						<span className="h2 font-xl mb-0 text-gray">{data.content}</span>
+						<span className=" h2 font-xl mb-0 text-gray">{data.content}</span>
 						<br />
 						<span className="raleway-bold">{data.caption}</span>
 					</p>

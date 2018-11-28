@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CallToAction from '../components/Common/callToAction';
 import Articles from '../components/Careers/Articles/index';
+import { Helmet } from "react-helmet";
 
 class ThankYou extends Component {
     render() {    
@@ -17,8 +18,12 @@ class ThankYou extends Component {
 		}
         return(
             <div>
+                <Helmet>
+                    <title> GO-JEK Tech</title>
+                </Helmet>
+                
                 <section className="first-section">
-                    <img className="img-fluid" src="../images/job-description/thank-you-banner.png" />
+                    <img className="img-fluid" src="/../images/job-description/thank-you-banner.png" />
                 </section>
 
                 <section>
@@ -26,11 +31,11 @@ class ThankYou extends Component {
                         <p className="text-center font-xl raleway-bold text-black text-uppercase col-10">
                             We have received your application!
                         </p>
-                        <div className="col-md-7 text-center">
-                            <p className="roboto-regular">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum exercitationem praesentium odio quibusdam sint voluptatibus
-                                hic, dignissimos quas esse minus asperiores consequuntur quos. Soluta, suscipit doloribus laborum eveniet
-                                tempora qui?
+                        <div className="col-md-7 text-center roboto-regular">
+                            <p>
+                            Thanks for taking the time to apply for our position. We appreciate your interest in GO-JEK.</p>
+                            <p>We're currently in the process of taking applications for this position. We will begin taking interviews on this position shortly. If you are selected to continue to the interview process, our human resources department will be in contact within 2-3 days.</p>
+                            <p>In the meantime, you can check out the links below for insight into our interview process.
                             </p>
                         </div>
                     </div>

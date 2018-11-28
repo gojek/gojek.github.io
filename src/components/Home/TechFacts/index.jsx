@@ -39,7 +39,7 @@ class TechFacts extends Component {
                 <div className="container-fluid pt-3 pb-3">
                     {/* Slider */}
                     <Slider {...settings} 
-                        className="row tech-facts-slider text-lg-start text-center custom-controls-light"
+                        className="row tech-facts-slider text-lg-start text-center custom-controls-dark"
                     >
                         {
                             techFacts.data.map((sliderItem, key) => 

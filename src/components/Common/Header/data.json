@@ -1,4 +1,5 @@
-    [{
+    [  
+        {
             "id": "1",
             "name": "Home",
             "link": "/",
@@ -6,36 +7,42 @@
         },
         {
             "id": "2",
+            "name": "About",
+            "link": "/about/",
+            "type": "link"
+        },
+        {
+            "id": "3",
             "name": "Careers",
             "link": "/careers/",
             "type": "link"
         },
         {
-            "id": "3",
+            "id": "4",
             "name": "News",
             "link": "/news/",
             "type": "link"
         },
         {
-            "id": "4",
+            "id": "5",
             "name": "Open Source",
             "link": "/open-source/",
             "type": "link"
         },
         {
-            "id": "5",
+            "id": "6",
             "name": "Blog",
             "link": "/blog/",
             "type": "link"
         },
         {
-            "id": "6",
+            "id": "7",
             "name": "Contact",
             "link": "/contact/",
             "type": "link"
         },
         {
-            "id": "7",
+            "id": "9",
             "name": "Apply",
             "link": "/careers/",
             "type": "button"
