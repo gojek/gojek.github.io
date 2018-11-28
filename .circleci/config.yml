@@ -37,6 +37,7 @@ jobs:
             git rm -rf .
             cd ..
 
+            gatsby build
 
             cp -a public/. out/.
 
