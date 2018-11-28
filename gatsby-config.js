@@ -28,7 +28,7 @@ module.exports = {
 					],
 					sources: 'js/autotrack.custom.js',
 				},
-				trackingId: 'UA-80421053-1',
+				trackingId: 'UA-130067050-1',
 			},
 			resolve: `gatsby-source-filesystem`,
 			options: {
