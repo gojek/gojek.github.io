@@ -37,7 +37,7 @@ jobs:
             git rm -rf .
             cd ..
 
-            gatsby build
+            ./node_modules/.bin/gatsby build
 
             cp -a public/. out/.
 
