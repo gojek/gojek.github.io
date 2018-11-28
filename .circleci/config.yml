@@ -28,24 +28,26 @@ jobs:
       - deploy:
           name: Deploy
           command: |
-            git config --global user.email $GH_EMAIL
-            git config --global user.name $GH_NAME
+            if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
+              git config --global user.email $GH_EMAIL
+              git config --global user.name $GH_NAME
 
-            git clone https://github.com/magikbox/magikbox.github.io.git out
-            cd out
-            git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-            git rm -rf .
-            cd ..
+              git clone https://github.com/magikbox/magikbox.github.io.git out
+              cd out
+              git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+              git rm -rf .
+              cd ..
 
-            ./node_modules/.bin/gatsby build
+              ./node_modules/.bin/gatsby build
 
-            cp -a public/. out/.
+              cp -a public/. out/.
 
-            mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
-            cd out
+              mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
+              cd out
 
-            git add -A
-            git commit -m "Automated deployment to GitHub Pages" --allow-empty
+              git add -A
+              git commit -m "Automated deployment to GitHub Pages" --allow-empty
 
-            git push origin $TARGET_BRANCH
+              git push origin $TARGET_BRANCH
+            fi
             
