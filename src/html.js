@@ -38,6 +38,7 @@ module.exports = class HTML extends React.Component {
             gtag('js', new Date());
 
             gtag('config', 'UA-130067050-1');
+            console.log('Testing log message')
           </script>
         </head>
         <body {...this.props.bodyAttributes}>
