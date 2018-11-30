@@ -61,7 +61,7 @@ class PostTemplate extends React.Component {
 		return (
 			<div>
 				<Helmet>
-					<title> { jobsJson.title === "" ? jobsJson.position : jobsJson.title } </title>
+					<title> { jobsJson.title } </title>
 					<meta name="description" content={ jobsJson.metaDescription } />
 					<meta name="twitter:description" content={ jobsJson.metaDescription } />
 					<meta property="og:description" content={ jobsJson.metaDescription } />

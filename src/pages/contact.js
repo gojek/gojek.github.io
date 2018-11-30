@@ -8,8 +8,11 @@ class Contact extends Component {
         return(
             <div className="first-section">
                 <Helmet>
-					<title> GO-JEK Tech Contact Us </title>
-				</Helmet>
+                    <title>GO-JEK: Contact Us</title>
+                    <meta name="description" content="Feel free to contact us for any queries regarding job openings or any other queries." />
+                    <meta name="twitter:description" content="Feel free to contact us for any queries regarding job openings or any other queries." />
+                    <meta property="og:description" content="Feel free to contact us for any queries regarding job openings or any other queries." />
+                </Helmet>
 
                 <section className="first-section">
                     <div className="container-fluid">

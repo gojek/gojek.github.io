@@ -6,8 +6,11 @@ class GojekViet extends Component {
         return (
             <section className="first-section pt-3">
                 <Helmet>
-					<title> GO-VIET expands services to 12 districts </title>
-				</Helmet>
+                    <title>Backed by GO-JEK, GO-VIET launches its services in Vietnam</title>
+                    <meta name="description" content="Owing to the great success of GO-JEK in Indonesia, GO-VIET will try and replicate the same in Vietnam." />
+                    <meta name="twitter:description" content="Owing to the great success of GO-JEK in Indonesia, GO-VIET will try and replicate the same in Vietnam." />
+                    <meta property="og:description" content="Owing to the great success of GO-JEK in Indonesia, GO-VIET will try and replicate the same in Vietnam." />
+                </Helmet>
                 <div className="container">
                     <div className="row">
                         <div className="heading col-md-12 px-md-0">

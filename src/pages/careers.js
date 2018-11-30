@@ -61,8 +61,11 @@ class Careers extends Component {
   	render() {
 	    return(
       		<div className="first-section">
-			  	<Helmet>
-					<title> GO-JEK Tech Careers </title>
+				<Helmet>
+					<title>GO-JEK Careers: Check out the current job openings at GO-JEK Tech</title>
+					<meta name="description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+					<meta name="twitter:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+					<meta property="og:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
 				</Helmet>
 				<section className=" bg-gray">
 					<div className="container">
@@ -80,7 +83,7 @@ class Careers extends Component {
 									<label htmlFor="location" className="sr-only">Location</label>
 									<select name="location" id="location" className="custom-select form-border postion-relative" defaultValue="" onChange= { this.handleChange }>
 										<option value="" disabled>Location</option>
-										<option value="all">All Locations</option>
+										<option value="all">All</option>
 										<option value="Bangalore">Bangalore</option>
 										<option value="Jakarta">Jakarta</option>
 										<option value="Singapore">Singapore</option>
@@ -92,7 +95,7 @@ class Careers extends Component {
 									<label htmlFor="team" className="sr-only">Team</label>
 									<select name="team" id="team" defaultValue="" className="custom-select form-border postion-relative" onChange= { this.handleChange }>
 										<option value="" disabled>Team</option>
-										<option value="all">All Teams</option>
+										<option value="all">All</option>
 										<option value="Engineering">Engineering</option>
 										<option value="Marketing and Operations">Marketing and Operations</option>
 									</select>
@@ -102,7 +105,7 @@ class Careers extends Component {
 									<label htmlFor="team" className="sr-only">Department</label>
 									<select name="department" id="department" defaultValue="" className="custom-select form-border postion-relative" onChange= { this.handleChange }>
 										<option value="" disabled>Department</option>
-										<option value="all">All Departments</option>
+										<option value="all">All</option>
 										<option value="Food">Food</option>
 										<option value="Payments">Payments</option>
 										<option value="Transport">Transport</option>
