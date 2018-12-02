@@ -16,6 +16,9 @@ class IndexPage extends Component {
 			<div>
 				<Helmet>
 					<title>GO-JEK: On-Demand Services for Transport, Payment, Food Delivery, etc.</title>
+					<meta property="og:title" content="GO-JEK: On-Demand Services for Transport, Payment, Food Delivery, etc." />
+					<meta property="og:title" content="GO-JEK: On-Demand Services for Transport, Payment, Food Delivery, etc." />
+					<meta name="twitter:title" content="GO-JEK: On-Demand Services for Transport, Payment, Food Delivery, etc." />
 					<meta name="description" content="GO-JEK is a Super App. It's one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia's first and fastest growing unicorn building an on-demand empire." />
 					<meta name="twitter:description" content="GO-JEK is a Super App. It's one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia's first and fastest growing unicorn building an on-demand empire." />
 					<meta property="og:description" content="GO-JEK is a Super App. It's one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia's first and fastest growing unicorn building an on-demand empire." />

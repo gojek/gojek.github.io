@@ -11,7 +11,9 @@ class Blog extends Component {
         return(
             <div className="first-section">
                 <Helmet>
-                    <title>Insightful articles by GO-JEK about why they do what they do</title>
+                    <title>Insightful articles by GO-JEK about why they do what they do</title>                    
+					<meta property="og:title" content="Insightful articles by GO-JEK about why they do what they do" />
+					<meta name="twitter:title" content="Insightful articles by GO-JEK about why they do what they do" />
                     <meta name="description" content="The blog section provides valuable information on GO-JEK's work culture, their engineering ideals and insights on what makes a person an excellent developer." />
                     <meta name="twitter:description" content="The blog section provides valuable information on GO-JEK's work culture, their engineering ideals and insights on what makes a person an excellent developer." />
                     <meta property="og:description" content="The blog section provides valuable information on GO-JEK's work culture, their engineering ideals and insights on what makes a person an excellent developer." />

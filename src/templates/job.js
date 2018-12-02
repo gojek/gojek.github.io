@@ -62,6 +62,8 @@ class PostTemplate extends React.Component {
 			<div>
 				<Helmet>
 					<title> { jobsJson.title } </title>
+					<meta property="og:title" content={ jobsJson.title } />
+					<meta name="twitter:title" content={ jobsJson.title } />
 					<meta name="description" content={ jobsJson.metaDescription } />
 					<meta name="twitter:description" content={ jobsJson.metaDescription } />
 					<meta property="og:description" content={ jobsJson.metaDescription } />

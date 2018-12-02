@@ -7,6 +7,8 @@ class GojekExpansion extends Component {
             <section className="first-section pt-3">
                 <Helmet>
                     <title>GO-JEK expands to Thailand, Vietnam, Singapore and Philippines</title>
+					<meta property="og:title" content="GO-JEK expands to Thailand, Vietnam, Singapore and Philippines" />
+					<meta name="twitter:title" content="GO-JEK expands to Thailand, Vietnam, Singapore and Philippines" />
                     <meta name="description" content="After Indonesia, GO-JEK is expanding to other South East Asian countries to provide their citizens with its exceptional service and employment opportunities." />
                     <meta name="twitter:description" content="After Indonesia, GO-JEK is expanding to other South East Asian countries to provide their citizens with its exceptional service and employment opportunities." />
                     <meta property="og:description" content="After Indonesia, GO-JEK is expanding to other South East Asian countries to provide their citizens with its exceptional service and employment opportunities." />

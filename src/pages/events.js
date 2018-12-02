@@ -11,6 +11,8 @@ class Events extends Component {
             <div className="first-section">
                 <Helmet>
 					<title> GO-JEK Tech Events </title>
+					<meta property="og:title" content="GO-JEK Tech Events" />
+					<meta name="twitter:title" content="GO-JEK Tech Events" />
 				</Helmet>
 
                 <Heading />

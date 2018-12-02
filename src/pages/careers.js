@@ -63,6 +63,8 @@ class Careers extends Component {
       		<div className="first-section">
 				<Helmet>
 					<title>GO-JEK Careers: Check out the current job openings at GO-JEK Tech</title>
+					<meta property="og:title" content="GO-JEK Careers: Check out the current job openings at GO-JEK Tech" />
+					<meta name="twitter:title" content="GO-JEK Careers: Check out the current job openings at GO-JEK Tech" />
 					<meta name="description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
 					<meta name="twitter:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
 					<meta property="og:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
@@ -79,11 +81,12 @@ class Careers extends Component {
 									<label htmlFor="keyword" className="sr-only">Enter keyword</label>
 									<input type="text" name="keyword" className="form-control is-valid bg-gray" onChange= { this.handleChange } id="keyword" placeholder="Enter keyword" />
 								</div>
+
 								<div className="form-group col-md-2 mb-2">
 									<label htmlFor="location" className="sr-only">Location</label>
-									<select name="location" id="location" className="custom-select form-border postion-relative" defaultValue="" onChange= { this.handleChange }>
+									<select name="location" id="location" defaultValue="" className="custom-select form-border postion-relative" onChange= { this.handleChange }>
 										<option value="" disabled>Location</option>
-										<option value="all">All</option>
+										<option value="all">All Locations</option>
 										<option value="Bangalore">Bangalore</option>
 										<option value="Jakarta">Jakarta</option>
 										<option value="Singapore">Singapore</option>
@@ -91,11 +94,12 @@ class Careers extends Component {
 									</select>
 									<i className="fa fa-chevron-down"></i>
 								</div>
+
 								<div className="form-group col-md-2 mb-2">
 									<label htmlFor="team" className="sr-only">Team</label>
 									<select name="team" id="team" defaultValue="" className="custom-select form-border postion-relative" onChange= { this.handleChange }>
 										<option value="" disabled>Team</option>
-										<option value="all">All</option>
+										<option value="all">All Teams</option>
 										<option value="Engineering">Engineering</option>
 										<option value="Marketing and Operations">Marketing and Operations</option>
 									</select>
@@ -105,7 +109,7 @@ class Careers extends Component {
 									<label htmlFor="team" className="sr-only">Department</label>
 									<select name="department" id="department" defaultValue="" className="custom-select form-border postion-relative" onChange= { this.handleChange }>
 										<option value="" disabled>Department</option>
-										<option value="all">All</option>
+										<option value="all">All Departments</option>
 										<option value="Food">Food</option>
 										<option value="Payments">Payments</option>
 										<option value="Transport">Transport</option>

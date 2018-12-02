@@ -7,6 +7,8 @@ class GojekViet extends Component {
             <section className="first-section pt-3">
                 <Helmet>
                     <title>Backed by GO-JEK, GO-VIET launches its services in Vietnam</title>
+					<meta property="og:title" content="Backed by GO-JEK, GO-VIET launches its services in Vietnam" />
+					<meta name="twitter:title" content="Backed by GO-JEK, GO-VIET launches its services in Vietnam" />
                     <meta name="description" content="Owing to the great success of GO-JEK in Indonesia, GO-VIET will try and replicate the same in Vietnam." />
                     <meta name="twitter:description" content="Owing to the great success of GO-JEK in Indonesia, GO-VIET will try and replicate the same in Vietnam." />
                     <meta property="og:description" content="Owing to the great success of GO-JEK in Indonesia, GO-VIET will try and replicate the same in Vietnam." />

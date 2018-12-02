@@ -7,6 +7,8 @@ class GojekViet extends Component {
             <section className="first-section pt-3">
                 <Helmet>
                     <title> GO-JEK Tech to hire 200 engineers in India </title>
+					<meta property="og:title" content="GO-JEK Tech to hire 200 engineers in India" />
+					<meta name="twitter:title" content="GO-JEK Tech to hire 200 engineers in India" />
                 </Helmet>
                 <div className="container">
                     <div className="row">

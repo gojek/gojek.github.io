@@ -9,6 +9,8 @@ class Contact extends Component {
             <div className="first-section">
                 <Helmet>
                     <title>GO-JEK: Contact Us</title>
+					<meta property="og:title" content="GO-JEK: Contact Us" />
+					<meta name="twitter:title" content="GO-JEK: Contact Us" />
                     <meta name="description" content="Feel free to contact us for any queries regarding job openings or any other queries." />
                     <meta name="twitter:description" content="Feel free to contact us for any queries regarding job openings or any other queries." />
                     <meta property="og:description" content="Feel free to contact us for any queries regarding job openings or any other queries." />
