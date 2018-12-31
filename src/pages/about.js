@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
-
+import { Helmet } from "react-helmet";
 
 class About extends Component {
     componentDidMount() {
@@ -12,6 +12,15 @@ class About extends Component {
     render() {
         return(
             <div className="first-section">
+                <Helmet>
+                    <title>GO-JEK-Tech</title>
+                    <meta property="og:title" content="GO-JEK-Tech" />
+                    <meta property="og:title" content="GO-JEK-Tech" />
+                    <meta name="twitter:title" content="GO-JEK-Tech" />
+                    <meta name="description" content="GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
+                    <meta name="twitter:description" content="GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
+                    <meta property="og:description" content="GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
+                </Helmet>
                 <div className = "bg-green text-center ">
                     <h1 className = "h1 py-5 raleway-bold font-xl-x text-uppercase text-white">Go-jek is indonesia’s <br/> first &amp; only unicorn</h1>
 

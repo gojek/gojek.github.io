@@ -27,7 +27,7 @@ class EmployeeStories extends Component {
 				settings: {
 					dots: false,
 					centerMode: true,
-					slidesToShow: 3
+					slidesToShow: 1
 				}
 			}, {
 				breakpoint: 577,
@@ -37,6 +37,7 @@ class EmployeeStories extends Component {
 				}
 			}]
         };
+        console.log('employeeStories', employeeStories);
         
         return(
             <section className="gray-bg py-5">
@@ -87,7 +88,7 @@ class EmployeeStories extends Component {
                     {/* End Employee stories desktop view */}
 
                     {/* Employee stories Mobile view */}
-                    <Slider {...settings} className="row stories-slider custom-controls-dark d-md-none text-center text-md-left">
+                    <Slider {...settings} className="row stories-slider custom-controls-dark d-md-none d-block text-center text-md-left">
                         {employeeStories.data.map((carouselItem, key) => <Slide data={carouselItem} key={key} />)}
                     </Slider>
                     {/* End Employee stories Mobile view */}

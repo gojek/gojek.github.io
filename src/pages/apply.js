@@ -343,7 +343,7 @@ class TestApply extends Component {
                                     <option value="Blog">Blog</option>
                                     <option value="Radio">Radio</option>
                                     <option value="Hoarding/Print">Hoarding/Print</option>
-                                    <option value="Word of mouth">Word of Mouth</option>
+                                    <option value="Word of Mouth">Word of Mouth</option>
                                     <option value="From a Friend">From a Friend</option>
                                     <option value="Google">Google</option>
                                 </select>
@@ -363,7 +363,7 @@ class TestApply extends Component {
                     <div className="mt-5 pb-5">
                         {
                             this.state.loading === true &&
-                            <button type="submit" disabled = "true" className="apply btn btn-success px-5 apply">Submit <i className="fa fa-spinner fa-spin"></i></button>
+                            <button type="submit" disabled = { true } className="apply btn btn-success px-5 apply">Submit <i className="fa fa-spinner fa-spin"></i></button>
                         }
                         {
                             this.state.loading === false &&
