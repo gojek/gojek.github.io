@@ -3,11 +3,24 @@ import React, { Component } from 'react';
 class Slide extends Component {
 	render() {
         const { data } = this.props;
-        console.log('data', data);
+        let img = '';
+        
+        switch(data.employeeName) {
+            case 'Crystal Widjaja':
+                img = "../../images/employee-stories/crystal.jpg";
+                break;
+            case 'Shobhit Srivastava': 
+                img = "../../images/employee-stories/shobit.jpg";
+                break;
+            case 'Divya Jaisawal':
+                img = "../../images/employee-stories/divya.jpg";
+                break;
+        }
+
 		return(
             <div className="card bg-white">
                 <div className="card-img-top light-green-bg font-xl-l raleway-bold text-white py-2">Employee Stories</div>
-                <img className="card-img-top" src={data.employeeImage} alt={data.employeeName} />
+                <img className="card-img-top" src={ img } alt={data.employeeName} />
                 <div className="card-body px-3 font-xs-l">
                     <p className="text-dark">
                         {data.testimonial}
