@@ -89,7 +89,7 @@ class EmployeeStories extends Component {
 
                     {/* Employee stories Mobile view */}
                     <Slider {...settings} className="row stories-slider custom-controls-dark d-md-none d-block text-center text-md-left">
-                        {employeeStories.data.map((carouselItem, key) => <Slide data={carouselItem} key={key} />)}
+                        {employeeStories.data.map((employeeStory, key) => <Slide data={employeeStory} key={key} />)}
                     </Slider>
                     {/* End Employee stories Mobile view */}
                 </div>
