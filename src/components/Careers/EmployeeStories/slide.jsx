@@ -7,15 +7,16 @@ class Slide extends Component {
         
         switch(data.employeeName) {
             case 'Crystal Widjaja':
-                img = "../../images/employee-stories/crystal.jpg";
+                img = "../../images/employee-stories/shobit.jpg";
                 break;
             case 'Shobhit Srivastava': 
-                img = "../../images/employee-stories/shobit.jpg";
+                img = "../../images/employee-stories/crystal.jpg";
                 break;
             case 'Divya Jaisawal':
                 img = "../../images/employee-stories/divya.jpg";
                 break;
         }
+        console.log('Image', img)
 
 		return(
             <div className="card bg-white">
