@@ -37,7 +37,6 @@ class EmployeeStories extends Component {
 				}
 			}]
         };
-        console.log('employeeStories', employeeStories);
         
         return(
             <section className="gray-bg py-5">

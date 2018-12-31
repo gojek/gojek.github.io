@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Slide extends Component {
 	render() {
         const { data } = this.props;
-
+        console.log('data', data);
 		return(
             <div className="card bg-white">
                 <div className="card-img-top light-green-bg font-xl-l raleway-bold text-white py-2">Employee Stories</div>
