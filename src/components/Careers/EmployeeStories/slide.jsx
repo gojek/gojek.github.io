@@ -16,7 +16,6 @@ class Slide extends Component {
                 img = "../../images/employee-stories/shobit.jpg";
                 break;
         }
-        console.log('Image', img)
 
 		return(
             <div className="card bg-white">

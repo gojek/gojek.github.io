@@ -29,7 +29,7 @@ class Card extends Component {
         return (
             <section id="goTroops">
                 <h1 className="raleway-bold text-center h3 py-lg-5 py-md-3 pt-4 pb-3 text-dark" >
-                    Learn more about the people who are driving impact at scale
+                    Some of our internal rockstars driving #ImpactAtScale
                 </h1>
                 <div className="row no-gutters">
                     {data.map((employee, key) =>

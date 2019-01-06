@@ -43,8 +43,8 @@
         },
         {
             "id": "9",
-            "name": "Apply",
-            "link": "/careers/",
-            "type": "button"
+            "name": "Gomakeimpact",
+            "link": "/gomakeimpact/",
+            "type": "link"
         }
     ]
