@@ -5,6 +5,12 @@ import Banner from '../components/Careers/Banner/index';
 import BehindTheScenes from '../components/Careers/BehindTheScenes/index';
 import Advantages from '../components/Careers/Advantages/index';
 import EmployeeStories from '../components/Careers/EmployeeStories/index';
+import CountBanner from '../components/Careers/CountBanner/CountBanner';
+import CareerLocation from '../components/Careers/CareerLocation/CareerLocation';
+import SearchBar from '../components/Careers/searchBar/searchBar';
+import jobs from '../../data/jobs.json';
+import { Link } from 'react-scroll';
+
 
 var Scroll = require('react-scroll');
 var scroller = Scroll.scroller;
@@ -14,23 +20,45 @@ class Careers extends Component {
 		super(props);
 
 		this.state = {
-			keyword : "",
+			keyword: "",
 			team: "",
 			location: "",
-			department: ""
+			department: "",
+			// locationId: '1',
+			locationName: 'All',
+			inputText: '',
+			places: [],
+			searchResult: null
 		}
 
 		this.handleSubmit = this.handleSubmit.bind(this);
 		this.handleChange = this.handleChange.bind(this);
 	}
 
+	componentDidMount() {
+		let places = [];
+		for (let i = 0; i < jobs.length; i++) {
+			let count = 0;
+			if (places.includes(jobs[i].place)) {
+				count = count + 1;
+			}
+			if (count === 0) {
+				places.push(jobs[i].place)
+			}
+		}
+
+		this.setState({
+			places: places
+		})
+	}
+
 	handleSubmit = e => {
 		e.preventDefault();
 		this.setState({
-			keyword:  document.getElementById("keyword").value,
-			location:  document.getElementById("location").value === 'all' ? "" : document.getElementById("location").value,
-			team:  document.getElementById("team").value === 'all' ? "" : document.getElementById("team").value,
-			department:  document.getElementById("department").value === 'all' ? "" : document.getElementById("department").value
+			keyword: document.getElementById("keyword").value,
+			location: document.getElementById("location").value === 'all' ? "" : document.getElementById("location").value,
+			team: document.getElementById("team").value === 'all' ? "" : document.getElementById("team").value,
+			department: document.getElementById("department").value === 'all' ? "" : document.getElementById("department").value
 		});
 		scroller.scrollTo('myScrollToElement', {
 			smooth: "easeInOutQuint",
@@ -38,7 +66,7 @@ class Careers extends Component {
 	}
 
 	handleChange = evt => {
-		if(evt.target.value === 'all') {
+		if (evt.target.value === 'all') {
 			this.setState({
 				[evt.target.name]: ""
 			});
@@ -46,7 +74,7 @@ class Careers extends Component {
 			this.setState({
 				[evt.target.name]: evt.target.value
 			});
-		}		
+		}
 	}
 
 	resetFilters = () => {
@@ -58,9 +86,30 @@ class Careers extends Component {
 		});
 	}
 
-  	render() {
-	    return(
-      		<div className="first-section">
+	onChangeInputText = (ev) => {
+		const targetvalue = ev.target.value
+		this.setState({
+			inputText: targetvalue,
+			searchResult: jobs.filter(
+				(data, i) => {
+					if (data.position.toLowerCase().includes(targetvalue.toLowerCase()) && targetvalue !== '') {
+						return data
+					}
+				}
+			)
+		})
+	}
+
+	onClickLocation = (name) => {
+		this.setState({
+			locationName: name
+		})
+	}
+
+	render() {
+
+		return (
+			<div className="first-section">
 				<Helmet>
 					<title>GO-JEK Careers: Check out the current job openings at GO-JEK Tech</title>
 					<meta property="og:title" content="GO-JEK Careers: Check out the current job openings at GO-JEK Tech" />
@@ -69,81 +118,50 @@ class Careers extends Component {
 					<meta name="twitter:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
 					<meta property="og:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
 				</Helmet>
-				<section className=" bg-gray">
-					<div className="container">
-						<div className="row pt-5 pb-3 justify-content-center">
-							<form onSubmit = { this.handleSubmit} className="w-100">
-							<div className="form-row mx-3 mx-md-0 careers-form">
-								<div className="form-group col-lg-1 col-md-2 mb-2">
-									<label className="raleway-bold font-lg" htmlFor="keyword"> Search </label>
-								</div>
-								<div className="form-group col-lg-4 col-md-3	mb-2">
-									<label htmlFor="keyword" className="sr-only">Enter keyword</label>
-									<input type="text" name="keyword" className="form-control is-valid bg-gray" onChange= { this.handleChange } id="keyword" placeholder="Enter keyword" />
-								</div>
 
-								<div className="form-group col-md-2 mb-2">
-									<label htmlFor="location" className="sr-only">Location</label>
-									<select name="location" id="location" defaultValue="" className="custom-select form-border postion-relative" onChange= { this.handleChange }>
-										<option value="" disabled>Location</option>
-										<option value="all">All Locations</option>
-										<option value="Bangalore">Bangalore</option>
-										<option value="Jakarta">Jakarta</option>
-										<option value="Singapore">Singapore</option>
-										<option value="Thailand">Thailand</option>
-									</select>
-									<i className="fa fa-chevron-down"></i>
-								</div>
+				{/* Main banner image */}
+				<section>
+					<div className="container-fluid px-0 careers-main-banner h-100 ">
+						<div className="d-flex flex-row flex-wrap justify-content-center align-items-center position-relative" style={{ height: '100vh' }}>
+							<SearchBar props={this.props} type="careers" places={this.state.places} searchResult={this.state.searchResult} onChangeInputText={(ev) => this.onChangeInputText(ev)}
+								onClickLocation={(name) => this.onClickLocation(name)} locationName={this.state.locationName} inputText={this.state.inputText} textColor={`${this.state.searchResult !== null && this.state.searchResult.length !== 0 ? ' text-dark ' : ' text-white '}`} />
 
-								<div className="form-group col-md-2 mb-2">
-									<label htmlFor="team" className="sr-only">Team</label>
-									<select name="team" id="team" defaultValue="" className="custom-select form-border postion-relative" onChange= { this.handleChange }>
-										<option value="" disabled>Team</option>
-										<option value="all">All Teams</option>
-										<option value="Engineering">Engineering</option>
-										<option value="Marketing and Operations">Marketing and Operations</option>
-									</select>
-									<i className="fa fa-chevron-down"></i>
-								</div>
-								<div className="form-group col-md-2 mb-2">
-									<label htmlFor="team" className="sr-only">Department</label>
-									<select name="department" id="department" defaultValue="" className="custom-select form-border postion-relative" onChange= { this.handleChange }>
-										<option value="" disabled>Department</option>
-										<option value="all">All Departments</option>
-										<option value="Food">Food</option>
-										<option value="Payments">Payments</option>
-										<option value="Transport">Transport</option>
-										<option value="Logistics">Logistics</option>
-									</select>
-									<i className="fa fa-chevron-down"></i>
-								</div>
-
-							<button type="submit" className="btn btn-link col-md-1 mb-2 pt-0 d-md-block d-none"><i className="fa fa-arrow-right fa-2x text-green" aria-hidden="true"></i></button> 
-							<button type="submit" className="btn btn-success d-block d-md-none mx-auto">Search</button> 
+							<div className="position-absolute" style={{ bottom: '100px', left: '55%' }}>
+								<Link
+									to="career-banner-id"
+									spy={true}
+									smooth={true}
+									className="scroll"
+									offset={-50}
+								>
+									<i className="fa fa-2x fa-chevron-down text-white scroll"></i>
+								</Link>
 							</div>
-								</form>  
 						</div>
 					</div>
 				</section>
 
-        		<Banner />
+
+				<CountBanner bannerImage="careers-second-banner" height="300px" />
 
 				<BehindTheScenes />
+
+				<CareerLocation props={this.props} />
 
 				<Advantages />
 
 				<EmployeeStories
-					keyword = { this.state.keyword }
-					team = { this.state.team }
-					location = { this.state.location }
-					department = { this.state.department }
-					resetFilters = { this.resetFilters.bind(this) }
-					referer = "https://www.gojek.io/"
-					showHeadings = { true }
+					keyword={this.state.keyword}
+					team={this.state.team}
+					location={this.state.location}
+					department={this.state.department}
+					resetFilters={this.resetFilters.bind(this)}
+					referer="https://www.gojek.io/"
+					showHeadings={true}
 				/>
-      		</div>
-    	);
-  	}
+			</div>
+		);
+	}
 }
 
 export default Careers;

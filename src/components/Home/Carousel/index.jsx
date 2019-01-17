@@ -15,33 +15,33 @@ class Carousel extends Component {
 
         var settings = {
             arrows: true,
-			centerMode: false,
-			centerPadding: '40px',
-			dots: false,
-			infinite: true,
-			slidesToShow: 4,
-			slidesToScroll: 1,
-			responsive: [{
-				breakpoint: 769,
-				settings: {
-					dots: false,
-					centerMode: true,
-					slidesToShow: 3
-				}
-			}, {
-				breakpoint: 577,
-				settings: {
-					dots: true,
-					slidesToShow: 1
-				}
-			}]
+            centerMode: false,
+            centerPadding: '40px',
+            dots: false,
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+                breakpoint: 769,
+                settings: {
+                    dots: false,
+                    centerMode: true,
+                    slidesToShow: 3
+                }
+            }, {
+                breakpoint: 577,
+                settings: {
+                    dots: true,
+                    slidesToShow: 1
+                }
+            }]
         };
-        
+
         return (
             <section className="first-section">
                 <div id="go-jek-slider" className="carousel d-none d-md-block" data-ride="carousel">
                     <div className="d-none d-md-block indicators-align">
-                    
+
                         <CarouselIndicators
                             id="go-jek-slider"
                             slideCount="4"
@@ -50,16 +50,16 @@ class Carousel extends Component {
                     </div>
                     <div className="carousel-inner ">
                         {
-                            carousel.map((carouselItem, key) => 
+                            carousel.map((carouselItem, key) =>
                                 <CarouselItem data={carouselItem} key={key} />
                             )
                         }
 
                         <div className="carousel-caption py-0 carousel-btn text-uppercase">
-                            <Button 
-                                type = "outline"
-                                text = "VIEW OPEN POSITIONS"
-                                link = "/careers/#viewPosition"
+                            <Button
+                                type="outline"
+                                text="VIEW OPEN POSITIONS"
+                                link="/careers/#viewPosition"
                                 position="left"
                             />
                         </div>
@@ -74,13 +74,12 @@ class Carousel extends Component {
                         <span className="sr-only">Next</span>
                     </a>
                 </div>
-                
                 <Slider {...settings} className="row home-slider d-md-none d-block text-center">
                     {
-                        carousel.map((carouselItem, key) => 
+                        carousel.map((carouselItem, key) =>
                             <Slide data={carouselItem} key={key} />
                         )
-                    }    
+                    }
                 </Slider>
             </section>
         );

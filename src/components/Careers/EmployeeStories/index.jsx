@@ -95,7 +95,7 @@ class EmployeeStories extends Component {
 
                 {/* All poen positions */}
                 
-                <OpenPositions
+                {/* <OpenPositions
                     team = { team }
                     location = { location }
                     keyword = { keyword }
@@ -103,7 +103,7 @@ class EmployeeStories extends Component {
                     resetFilters = { this.props.resetFilters }
                     referer = { this.props.referer }
                     showHeadings = { showHeadings }
-                />
+                /> */}
 
                 {/* End all open positions */}
 

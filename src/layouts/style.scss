@@ -46,6 +46,14 @@ $link-hover-decoration: none !default;
     font-family: $robotoLight;
 }
 
+.neosans-regular{
+    font-family: $regularFont;
+}
+
+.neosans-bold{
+    font-family: $boldFont;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #686868;
@@ -310,7 +318,102 @@ button.navbar-toggler {
     border-radius: 1rem;
 }
 
+.careers-main-banner{
+    background:  url(/../images/careers/careers-new-banner-image.png)  no-repeat center;
+    background-size: cover; 
+}
 
+.careers-second-banner{
+    background: url(/../images/careers/carrers-second-banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.carrers-count-md{
+    height: 85px;
+    width: 170px;
+}
+
+.careers-border{
+    border-radius: 160px;
+    height: 150px;
+}
+
+.careers-count-md-top{
+    border-radius: 160px 160px 0px 0px;
+}
+
+.careers-count-md-bottom{
+    box-shadow: 1px 9px 22px -12px rgba(0,0,0,1);
+    border-radius: 0px 0px 160px 160px;
+}
+
+.career-location:hover,.career-categories,.career-location{
+    border-radius: 10px;
+}
+
+.career-location,{
+    border: 2px solid #ebebeb;
+}
+
+.border-success,.career-location:hover,.careers-position:hover{
+    border: 2px solid #009944;
+}
+
+.careers-position-unhighlight{
+    -webkit-box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.32);
+    -moz-box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.32);
+    box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.32);
+    
+}
+
+.singapore-banner{
+    background: url(/../images/careers/singapore-banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.job-illustration-banner{
+    background: url(/../images/careers/job-illustration.png) no-repeat center;
+    background-size: cover;
+}
+
+.custom-tabs-highlight{
+    color: #009944;
+    border-bottom: 2px solid #009944;
+}
+
+.custom-tabs-unhighlight{
+    border-bottom: 2px solid transparent;
+}
+
+.scrolltop {
+    position: fixed;
+    right: 0;
+    bottom:4px;
+}
+
+.scroll-icon {
+    right: 20px;
+    bottom: 20px;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.custom-dropdown::after{
+    display: none;
+}
+
+.custom-box-shadow{
+    padding: 10px;
+    box-shadow: 15px 15px #8fc449;
+}
+
+
+
+.bg-white-hover-gray:hover{
+    background-color: #f2f2f2;
+}
 /*Employee Stories Carousel*/
 
 .employee-stories {
@@ -752,11 +855,11 @@ input[type="file"] {
 .open-position-heading {
     letter-spacing: 1.5px;
 }
-.bg-gray {
+.bg-gray,.custom-search:focus {
     background-color: #f7f7f6;
 }
 #keyword::placeholder {
-    color: #009944;
+    color:#bdbdbd;
     opacity: 1; /* Firefox */
 } 
 .careers-form .form-control::placeholder,
@@ -766,7 +869,7 @@ input[type="file"] {
 .form-border {
     border: 1px solid #ccc !important;
 }
-.custom-select {
+.custom-select,.bg-white-hover-gray {
     background: #fff none;
 }
 
