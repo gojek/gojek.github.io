@@ -228,7 +228,7 @@ class allpositions extends Component {
     }
 
     onClickCloseButton = () => {
-        this.props.history.push('/allpositions')
+        this.props.history.push('/allpositions/')
         this.onChangeInputText(this.state.inputText)
         // this.getPositions(this.state.places)
     }

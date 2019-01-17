@@ -204,7 +204,7 @@ class Categories extends Component {
                     <React.Fragment>
                         <p className="font-xl-l raleway-bold text-black ">{this.state.positions.length > 0 ? `Open Positions in ${this.state.teamName}` : `Whoops! There seems to be no open positions in '${this.state.teamName}'`}</p>
                         <div className="d-flex flex-row-reverse col-12 px-1">
-                            <div onClick={() => this.props.props.history.push("/allpositions")} className=" py-3 col-md-3 col-6 btn-block text-success scroll career-location">View All Positions&nbsp;<i className="fa fa-arrow-right"></i></div>
+                            <div onClick={() => this.props.props.history.push("/allpositions/")} className=" py-3 col-md-3 col-6 btn-block text-success scroll career-location">View All Positions&nbsp;<i className="fa fa-arrow-right"></i></div>
                         </div>
                     </React.Fragment>
 
@@ -231,7 +231,7 @@ class Categories extends Component {
                         this.state.positions !== null && this.state.positions.length === 0 &&
                         <img className=" col-lg-4 col-md-6 col-12 mt-3 img-fluid text-center" src="../../../../images/careers/no-positions-found.png" />
                     }
-                    <button onClick={() => this.props.props.history.push("/allpositions")} style={{ backgroundColor: "#bcbcbc" }} className=" roboto-regular text-white py-3 btn col-12 mx-auto my-4">VIEW ALL POSITIONS</button>
+                    <button onClick={() => this.props.props.history.push("/allpositions/")} style={{ backgroundColor: "#bcbcbc" }} className=" roboto-regular text-white py-3 btn col-12 mx-auto my-4">VIEW ALL POSITIONS</button>
                 </div>
             </section>
         );

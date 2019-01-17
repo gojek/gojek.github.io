@@ -24,17 +24,26 @@ class Articles extends Component {
                     <div className="d-flex flex-row flex-wrap raleway-bold text-white px-0">
                         <div className="col-12 col-md-6 d-flex flex-row flex-wrap px-0">
                             <div className="col-12 px-0 position-relative">
-                                <img className="img-fluid" src="../../images/careers/ask-for-code.png"></img>
-                                <p className="font-xl-l position-absolute" style={{ top: '25px', left: '30px' }}>Why We <br />Ask for<br />Code</p>
+                                <a href="https://blog.gojekengineering.com/why-we-ask-for-code-b276b45ea790" target="_blank">
+                                    <img className="img-fluid" src="../../images/careers/ask-for-code.png"></img>
+                                    <p className="font-xl-l position-absolute text-white" style={{ top: '25px', left: '30px' }}>Why We <br />Ask for<br />Code</p>
+                                </a>
+
                             </div>
                             <div className="col-12 px-0 position-relative">
-                                <img className="img-fluid" src="../../images/careers/full-stack-engineer.png"></img>
-                                <p className="font-xl-l position-absolute" style={{ top: '25px', left: '30px' }}>Who is a<br />Full Stack <br />Engineer?</p>
+                                <a href="https://blog.gojekengineering.com/the-art-of-being-full-stack-5b88577188fd" target="_blank">
+                                    <img className="img-fluid" src="../../images/careers/full-stack-engineer.png"></img>
+                                    <p className="font-xl-l position-absolute text-white" style={{ top: '25px', left: '30px' }}>Who is a<br />Full Stack <br />Engineer?</p>
+                                </a>
+
                             </div>
                         </div>
                         <div className="col-12 col-md-6 px-0 position-relative">
-                            <img className="img-fluid" src="../../images/careers/recruiting-devs.png"></img>
-                            <p className="font-xl-l position-absolute" style={{ top: '25px', left: '30px' }}>How We Go<br />about Recruiting<br />a Developer</p>
+                            <a href="https://blog.gojekengineering.com/go-jek-recruitment-process-58dbed5d8992" target="_blank">
+                                <img className="img-fluid" src="../../images/careers/recruiting-devs.png"></img>
+                                <p className="font-xl-l position-absolute text-white" style={{ top: '25px', left: '30px' }}>How We Go<br />about Recruiting<br />a Developer</p>
+                            </a>
+
                         </div>
                     </div>
                 </div>
