@@ -14,6 +14,15 @@ class SearchBar extends Component {
         this.props.props.history.push(`/location?name=${data.place}&team=${data.team.replace(/ +/g, "")}&position=${data.positionSlug}`)
     }
 
+    getCurrentWidth = ()=>{
+        let screenWidth = null;
+
+        if (typeof window !== `undefined`) {
+            screenWidth = window.innerWidth
+        }
+        return screenWidth
+    }
+
     render() {
         const { places, searchResult } = this.props;
         const locations = [{
@@ -51,7 +60,7 @@ class SearchBar extends Component {
                     </div>
                     <div className={`text-left px-0 position-relative ` + `${this.props.type === 'careers' ? ` col-12   ` : ` col-12 col-lg-9 col-md-8`}`}>
                         <input onChange={(ev) => this.props.onChangeInputText(ev)} type="text" name="keyword" value={this.props.inputText} className="form-control   custom-search bg-gray border-0 py-3 mt-2 " id="keyword" placeholder="Enter keyword"></input>
-                        <i className="fa fa-search position-absolute " style={{ right: '10px', top: screen.width > 425 ? '25px' : '20px' }}></i>
+                        <i className="fa fa-search position-absolute " style={{ right: '10px', top: this.getCurrentWidth() > 425 ? '25px' : '20px' }}></i>
                     </div>
                     {
                         (this.props.type === 'careers' && searchResult !== null) &&

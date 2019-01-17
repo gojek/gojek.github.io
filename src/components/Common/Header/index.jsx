@@ -6,7 +6,6 @@ import Menu from './menu.jsx';
 class Header extends Component {
     render() {
         const { data } = this.props;
-        // console.log("header data",data)
         
         return (
             <nav className="navbar fixed-top bg-white navbar-expand-lg navbar-light raleway-bold text-uppercase px-4 py-2">

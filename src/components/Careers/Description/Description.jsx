@@ -40,7 +40,6 @@ class Description extends Component {
 
     render() {
 		const { positionName, positionData } = this.props;
-		console.log("apply form")
         const applyData = {
             'id': positionData[0].id,
             'path': positionData[0].positionSlug,

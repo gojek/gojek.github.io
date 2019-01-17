@@ -20,7 +20,6 @@ class Card extends Component {
     handleClick(video) {
         var iframe = document.getElementById("iframeYoutube");
         iframe.src = "https://www.youtube.com/embed/" + video;
-        // console.log(iframe)
         $("#impactModal").modal("show");
 
     }

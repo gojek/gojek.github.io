@@ -45,6 +45,12 @@ class allpositions extends Component {
     }
 
     getPositions = (places) => {
+        let screenWidth = null;
+
+        if (typeof window !== `undefined`) {
+            screenWidth = window.innerWidth
+        }
+
         this.setState({
             positionId: null,
             places: places,
@@ -68,7 +74,7 @@ class allpositions extends Component {
                         }
                     )
                 }),
-            screenWidth: screen.width
+            screenWidth: screenWidth
         }, () => {
             if (window.location.search.split('&')[0]) {
                 this.onClickPosition(window.location.search.split('&')[0].split('=')[1])

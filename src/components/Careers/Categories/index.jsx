@@ -26,7 +26,10 @@ class Categories extends Component {
 
     componentDidMount() {
         const urlLocationName = window.location.search.split('&')[0].split('=')[1]
-        const screenWidth = screen.width
+        let screenWidth = null;
+        if (typeof window !== `undefined`) {
+            screenWidth = window.innerWidth
+        }
         this.setState({
             jobs: jobs.filter(
                 (data, i) => {
@@ -50,7 +53,7 @@ class Categories extends Component {
     getPositions = (teamName) => {
         const { jobs } = this.state
         this.setState({
-            positionId:null,
+            positionId: null,
             teamName: teamName,
             deletePositionId: null,
             positions: jobs.filter(
@@ -94,7 +97,6 @@ class Categories extends Component {
         this.removeData(deletePositionId, () => {
             positions.splice(ceilValue, 0, insertData);
         })
-        console.log("positionData",positionData[0])
         this.setState({
             deletePositionId: ceilValue,
             positionId: positionData[0].positionSlug,
@@ -212,7 +214,6 @@ class Categories extends Component {
                         this.state.positions !== null &&
                         this.state.positions.map(
                             (data, i) => {
-                                console.log("position data",data)
                                 return <React.Fragment key={i + 1}>
                                     {
                                         !data.type &&
