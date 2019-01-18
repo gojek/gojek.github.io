@@ -14,9 +14,8 @@ class SearchBar extends Component {
         this.props.props.history.push(`/location?name=${data.place}&team=${data.team.replace(/ +/g, "")}&position=${data.positionSlug}`)
     }
 
-    getCurrentWidth = ()=>{
+    getCurrentWidth = () => {
         let screenWidth = null;
-
         if (typeof window !== `undefined`) {
             screenWidth = window.innerWidth
         }
@@ -59,7 +58,7 @@ class SearchBar extends Component {
                         <h6 className="text-success raleway-extrabold font-xl-l">Search&nbsp;</h6>
                     </div>
                     <div className={`text-left px-0 position-relative ` + `${this.props.type === 'careers' ? ` col-12   ` : ` col-12 col-lg-9 col-md-8`}`}>
-                        <input onChange={(ev) => this.props.onChangeInputText(ev)} type="text" name="keyword" value={this.props.inputText} className="form-control   custom-search bg-gray border-0 py-3 mt-2 " id="keyword" placeholder="Enter keyword"></input>
+                        <input onChange={(ev) => this.props.onChangeInputText(ev)} type="text" name="keyword" value={this.props.inputText} className="form-control   custom-search bg-gray border-0 py-3 mt-2 " id="keyword" placeholder="Search Position"></input>
                         <i className="fa fa-search position-absolute " style={{ right: '10px', top: this.getCurrentWidth() > 425 ? '25px' : '20px' }}></i>
                     </div>
                     {
@@ -89,13 +88,13 @@ class SearchBar extends Component {
                     }
 
                     <div className={`d-flex flex-row flex-wrap justify-content-md-start justify-content-center px-0 ` + `${this.props.type === 'careers' ? ` col-12 ${(searchResult !== null && searchResult.length !== 0) ? ' bg-white p-2 ' : 'bg-transparent'}` : ` col-12 col-lg-9 col-md-8`}`}>
-                        <h6 onClick={() => this.props.onClickLocation('All')}
+                        <h6 onClick={() => this.props.onClickLocation('All',-1)}
                             className={`scroll col- mr-3 roboto-bold d-none d-md-block` +
                                 `${this.props.locationName === 'All' ? ` custom-tabs-highlight ` : ` custom-tabs-unhighlight ${this.props.textColor}`} `}>All</h6>
                         {
                             places.map(
                                 (data, i) => {
-                                    return <h6 key={i} onClick={() => this.props.onClickLocation(data)}
+                                    return <h6 key={i} onClick={() => this.props.onClickLocation(data,i)}
                                         className={`scroll col- mr-3 roboto-bold d-none d-md-block` + `${data === this.props.locationName ? ` custom-tabs-highlight ` : ` custom-tabs-unhighlight ${this.props.textColor}`} `}>{data}</h6>
                                 }
                             )
@@ -109,14 +108,15 @@ class SearchBar extends Component {
                     <div className="d-md-none col-12 px-0 my-3">
                         <div className="dropdown position-relative">
                             <button className="btn btn-block btn-success dropdown-toggle custom-dropdown text-left neosans-regular py-2 font-md " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                {this.props.locationName}
+                                Location: {this.props.locationName}
                             </button>
                             <i className="fa fa-chevron-down position-absolute text-white" style={{ right: '10px' }}></i>
                             <div className="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                                <button  onClick={() => this.props.onClickLocation('All',-1)} className="dropdown-item" type="button">All</button>
                                 {
                                     places.map(
                                         (data, i) => {
-                                            return <button key={i} onClick={() => this.props.onClickLocation(data)} className="dropdown-item" type="button">{data}</button>
+                                            return <button key={i} onClick={() => this.props.onClickLocation(data,i)} className="dropdown-item" type="button">{data}</button>
                                         })
                                 }
                             </div>

@@ -92,7 +92,7 @@ class Careers extends Component {
 			inputText: targetvalue,
 			searchResult: jobs.filter(
 				(data, i) => {
-					if (data.position.toLowerCase().includes(targetvalue.toLowerCase()) && targetvalue !== '') {
+					if (data.position.toLowerCase().includes(targetvalue.toLowerCase()) && targetvalue !== ''&& (data.place.toLowerCase() === this.state.locationName.toLowerCase() || this.state.locationName.toLowerCase() === 'all')) {
 						return data
 					}
 				}
@@ -101,9 +101,18 @@ class Careers extends Component {
 	}
 
 	onClickLocation = (name) => {
+
 		this.setState({
-			locationName: name
+			locationName: name,
+			searchResult: jobs.filter(
+				(data, i) => {
+					if (data.position.toLowerCase().includes(this.state.inputText.toLowerCase()) && this.state.inputText !== '' && (data.place.toLowerCase() === name.toLowerCase() || name.toLowerCase() === 'all')) {
+						return data
+					}
+				}
+			)
 		})
+
 	}
 
 	render() {

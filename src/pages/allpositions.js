@@ -29,8 +29,9 @@ class allpositions extends Component {
 
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
-        let places = [];
+        let places = this.state.places;
         let tempPositions = [];
+
         for (let i = 0; i < jobs.length; i++) {
             let count = 0;
             if (places.includes(jobs[i].place)) {
@@ -39,6 +40,7 @@ class allpositions extends Component {
             if (count === 0) {
                 places.push(jobs[i].place)
                 tempPositions.push(jobs[i].place)
+
             }
         }
         this.getPositions(places)
@@ -54,6 +56,7 @@ class allpositions extends Component {
         this.setState({
             positionId: null,
             places: places,
+            tempPlaces: places,
             positions: places.map(
                 (place, i) => {
                     return jobs.filter(
@@ -159,9 +162,22 @@ class allpositions extends Component {
         callback()
     }
 
-    onClickLocation = (name) => {
+    onClickLocation = (name, index) => {
+        let tempPlaces = [name]
         this.setState({
-            locationName: name
+            locationName: name,
+            positionId: null,
+            positions: this.state.places.map(
+                (place, i) => {
+                    return jobs.filter(
+                        (job, j) => {
+                            if (job.place === place && (job.position.toLowerCase().includes(this.state.inputText.toLowerCase()) || this.state.inputText === '') && (job.place.toLowerCase() === name.toLowerCase() || name.toLowerCase() === 'all')) {
+                                return job
+                            }
+                        }
+                    )
+                }),
+            tempPlaces: index === -1 ? this.state.places : tempPlaces
         })
     }
 
@@ -185,7 +201,7 @@ class allpositions extends Component {
             (place, i) => {
                 return jobs.filter(
                     (job, j) => {
-                        if (job.place === place && (job.position.toLowerCase().includes(searchText.toLowerCase()) || searchText === '')) {
+                        if (job.place === place && (job.position.toLowerCase().includes(searchText.toLowerCase()) || searchText === '') && (job.place.toLowerCase() === this.state.locationName.toLowerCase() || this.state.locationName.toLowerCase() === 'all')) {
                             return job
                         }
                     }
@@ -260,7 +276,7 @@ class allpositions extends Component {
                 <div className="container">
                     {/* search bar */}
                     <SearchBar type="allPositions" places={this.state.places} onChangeInputText={(ev) => this.onChangeInputText(ev.target.value)}
-                        onClickLocation={(name) => this.onClickLocation(name)} locationName={this.state.locationName} inputText={this.state.inputText} textColor="#000" />
+                        onClickLocation={(name, index) => this.onClickLocation(name, index)} locationName={this.state.locationName} inputText={this.state.inputText} textColor="#000" />
                     <section>
                         <div>
                             {
@@ -274,33 +290,39 @@ class allpositions extends Component {
                                 this.state.positions.map(
                                     (position, i) => {
                                         return <React.Fragment key={i}>
-                                            <h6 className="col-12 font-lg mb-0 mt-5 roboto-bold text-center text-black text-uppercase">{this.state.places[i]}</h6>
-                                            <hr className="my-1" />
                                             {
                                                 position.length > 0 ?
-                                                    <div key={i} className="d-flex flex-row flex-wrap justify-content-start my-3">
-                                                        {
-                                                            position.map(
-                                                                (data, j) => {
-                                                                    return <React.Fragment key={j}>
-                                                                        {
-                                                                            !data.type &&
-                                                                            <PositionCard id={data.positionSlug} positionId={this.state.positionId} onChangeURL={(positionSlug) => this.onChangeURL(positionSlug)} heading={data.position} subHeading={data.team} />
-                                                                        }
-                                                                        {
-                                                                            data.type === 'description' &&
-                                                                            <Description positionName={this.state.positionname} positionData={this.state.positionData} onClickCloseButton={() => this.onClickCloseButton()} />
-                                                                        }
-                                                                    </React.Fragment>
-                                                                }
-                                                            )
-                                                        }
-                                                    </div> :
-                                                    <div className="d-flex flex-row flex-wrap justify-content-center">
-                                                        <img className=" col-md-4 col-12 mt-3 img-fluid text-center" src="../../images/careers/no-jobs-found.png" />
-                                                        <h6 className="col-12 text-center roboto-regular font-md">No matching jobs found for ‘{this.state.inputText}’ in {this.state.places[i]}</h6>
-                                                        <button onClick={() => this.onClickViewPositions(i, this.state.places[i])} className="col-md-4 col-12 btn btn-success">View Other Positions in {this.state.places[i]}</button>
-                                                    </div>
+                                                    <React.Fragment>
+                                                        <h6 className="col-12 font-lg mb-0 mt-5 roboto-bold text-center text-black text-uppercase">{this.state.places[i]}</h6>
+                                                        <hr className="my-1" />
+                                                        <div className="d-flex flex-row flex-wrap justify-content-start my-3">
+                                                            {
+                                                                position.map(
+                                                                    (data, j) => {
+                                                                        return <React.Fragment key={j}>
+                                                                            {
+                                                                                !data.type &&
+                                                                                <PositionCard id={data.positionSlug} positionId={this.state.positionId} onChangeURL={(positionSlug) => this.onChangeURL(positionSlug)} heading={data.position} subHeading={data.team} />
+                                                                            }
+                                                                            {
+                                                                                data.type === 'description' &&
+                                                                                <Description positionName={this.state.positionname} positionData={this.state.positionData} onClickCloseButton={() => this.onClickCloseButton()} />
+                                                                            }
+                                                                        </React.Fragment>
+                                                                    }
+                                                                )
+                                                            }
+                                                        </div></React.Fragment> :
+                                                    !this.state.tempPlaces.includes(this.state.locationName) ?
+                                                        <div className="d-flex flex-row flex-wrap justify-content-center">
+                                                            <h6 className="col-12 font-lg mb-0 mt-5 roboto-bold text-center text-black text-uppercase">{this.state.places[i]}</h6>
+                                                            <hr className="my-1" />
+                                                            <img className=" col-md-4 col-12 mt-3 img-fluid text-center" src="../../images/careers/no-jobs-found.png" />
+                                                            <h6 className="col-12 text-center roboto-regular font-md">No matching jobs found for ‘{this.state.inputText}’ in {this.state.places[i]}</h6>
+                                                            <button onClick={() => this.onClickViewPositions(i, this.state.places[i])} className="col-md-4 col-12 btn btn-success">View Other Positions in {this.state.places[i]}</button>
+                                                        </div>
+                                                        :
+                                                        null
                                             }
                                         </React.Fragment>
                                     }
@@ -315,7 +337,7 @@ class allpositions extends Component {
                     </div>
                 </div>
                 <CareerLocation props={this.props} />
-            </div>
+            </div >
         );
     }
 }

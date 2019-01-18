@@ -54,7 +54,7 @@ class CareerLocation extends Component {
         }]
         return (
             <section>
-                <h3 className="text-center text-success raleway-bold font-lg mb-4 ">Choose a Location</h3>
+                <h3 className="text-center text-success raleway-extrabold font-lg my-5 ">Choose a Location</h3>
                 <div className="container px-0">
                     <div className="d-flex flex-row flex-wrap justify-content-center my-3">
                         {
