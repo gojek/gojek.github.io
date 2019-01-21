@@ -99,14 +99,14 @@ class CountBanner extends Component {
                             count.map(
                                 (data, i) => {
                                     return <div key={i} className="col-6 text-center my-3">
-                                        <div className="px-0 carrers-count-md careers-border border-success text-center d-flex flex-column align-items-center justify-content-center">
+                                        <div className="px-0 carrers-count-sm careers-border border-success text-center d-flex flex-column align-items-center justify-content-center mx-auto">
                                             {
                                                 data.heading ?
                                                     <React.Fragment >
                                                         <h6 className=" font-lg-x text-success mb-0  roboto-bold">
                                                             {data.heading}
                                                         </h6>
-                                                        <h6 className=" text-muted font-sm mb-0">
+                                                        <h6 className=" text-muted font-sm mb-0 px-1">
                                                             {data.subHeading}
                                                         </h6>
                                                     </React.Fragment>
@@ -115,13 +115,13 @@ class CountBanner extends Component {
                                                         <h6 className=" font-lg-x text-success mb-0  roboto-bold">
                                                             {data.heading1}
                                                         </h6>
-                                                        <h6 className=" text-muted font-sm mb-0  ">
+                                                        <h6 className=" text-muted font-sm mb-0  px-1">
                                                             {data.subHeading1}
                                                         </h6>
                                                         <h6 className=" font-lg-x text-success mb-0 roboto-bold">
                                                             {data.heading2}
                                                         </h6>
-                                                        <h6 className=" text-muted font-sm mb-0 ">
+                                                        <h6 className=" text-muted font-sm mb-0 px-1">
                                                             {data.subHeading2}
                                                         </h6>
                                                     </React.Fragment>

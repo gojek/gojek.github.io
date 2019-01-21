@@ -50,7 +50,7 @@ class Description extends Component {
         }
        
         return (
-            <div className="px-1 col-12 text-left">
+            <div className="px-1 col-12 text-left mb-3">
 					<div className="container  border-success custom-box-shadow">
 					<span onClick = {this.props.onClickCloseButton} className="float-right scroll"><i className="fa fa-times"></i></span>
 						<div className="row mt-4">

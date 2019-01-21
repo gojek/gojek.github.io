@@ -54,10 +54,12 @@ class EmployeeStories extends Component {
                     </div>
                 </div>
 
-                <div className="container-fluid employee-stories">
+                <div className="container employee-stories">
                     {/* Employee stories desktop view */}
+                    <p className="d-none d-md-block font-xl-x text-center text-green neosans-regular pt-5 pb-2
+                    ">Employee Stories</p>
                     <div className="row d-none d-md-block pb-5">
-                        <div className="col-md-11 px-0  main-carousel">
+                        <div className="col-md-12 px-0 main-carousel" style={{boxShadow:'-25px 25px #009944'}}>
                             <div id="impactSlider" className="carousel slide" data-ride="carousel">
                                 
                                 <CarouselIndicators
@@ -73,7 +75,7 @@ class EmployeeStories extends Component {
                         </div>
 
                         {/* Background carousel */}
-                        <div className="col-md-11 px-0 background-carousel">
+                        {/* <div className="col-md-11 px-0 background-carousel">
                             <div id="carouselExampleIndicatorstest" className="carousel slide" data-ride="carousel">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
@@ -81,7 +83,7 @@ class EmployeeStories extends Component {
 							        </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* End Background carousel */}
                     </div>
                     {/* End Employee stories desktop view */}

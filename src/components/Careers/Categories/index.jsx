@@ -27,6 +27,7 @@ class Categories extends Component {
     componentDidMount() {
         const urlLocationName = window.location.search.split('&')[0].split('=')[1]
         let screenWidth = null;
+
         if (typeof window !== `undefined`) {
             screenWidth = window.innerWidth
         }
@@ -46,6 +47,7 @@ class Categories extends Component {
 
             if (window.location.search.split('&')[1]) {
                 this.getPositions(window.location.search.split('&')[1].split('=')[1])
+
             }
         })
     }
@@ -73,6 +75,10 @@ class Categories extends Component {
         }, () => {
             if (window.location.search.split('&')[2]) {
                 this.getDescription(window.location.search.split('&')[2].split('=')[1])
+                window.scrollTo({
+                    top: 1100,
+                    behavior: 'smooth'
+                });
             }
         })
     }
@@ -184,13 +190,13 @@ class Categories extends Component {
         const { categories } = data;
         return (
             <section className="py-5 text-center container">
-                <p className="font-xl-l raleway-bold">{categories.heading}</p>
+                <p className="font-xl-l raleway-bold text-black">{categories.heading}</p>
                 <p className="font-md roboto-regular">{categories.content}</p>
                 <div className="d-flex flex-row flex-wrap justify-content-center my-5">
                     {
                         this.getTeams(this.state.jobs).map(
                             (data, i) => {
-                                return <div key={i} className="col-md-3 col-6 text-center my-2 mx-md-1 ">
+                                return data !== "" && <div key={i} className="col-md-3 col-6 text-center my-2 mx-md-1 ">
                                     <div onClick={() => this.onChangeTeam(data)} className={this.state.teamName !== null && data.replace(/ +/g, "") === this.state.teamName ? 'career-categories  border-success ' : '' + ` scroll career-location`}>
                                         <p className="neosans-bold font-md text-success text-uppercase my-1 py-3">{data}</p>
                                     </div>
@@ -198,14 +204,18 @@ class Categories extends Component {
                             }
                         )
                     }
+                    {
+                        this.getTeams(this.state.jobs).length === 1 && this.getTeams(this.state.jobs)[0] === "" &&
+                        <p className="text-center raleway-bold font-xl-l text-black">Whoops! There seems to be no  teams in ‘{this.state.locationName}’</p>
+                    }
                 </div>
                 {
                     this.state.positions !== null &&
                     <React.Fragment>
                         <p className="font-xl-l raleway-bold text-black ">{this.state.positions.length > 0 ? `Open Positions in ${this.state.teamName}` : `Whoops! There seems to be no open positions in '${this.state.teamName}'`}</p>
-                        <div className="d-flex flex-row-reverse col-12 px-1">
-                            <div onClick={() => this.props.props.history.push("/allpositions/")} className=" py-3 col-md-3 col-6 btn-block text-success scroll career-location">View All Positions&nbsp;<i className="fa fa-arrow-right"></i></div>
-                        </div>
+                        {/* <div className="d-flex flex-row-reverse col-12 px-1">
+                            <a href="/all-open-positions/" className=" py-3 col-md-3 col-6 btn-block text-success scroll career-location">View All Positions&nbsp;<i className="fa fa-arrow-right"></i></a>
+                        </div> */}
                     </React.Fragment>
 
                 }
@@ -217,7 +227,7 @@ class Categories extends Component {
                                 return <React.Fragment key={i + 1}>
                                     {
                                         !data.type &&
-                                        <PositionCard id={data.positionSlug} positionId={this.state.positionId} onChangeURL={(positionSlug) => this.onChangePosition(positionSlug)} heading={data.position} />
+                                        <PositionCard id={data.positionSlug} positionId={this.state.positionId} onChangeURL={(positionSlug) => this.onChangePosition(positionSlug)} heading={data.position} subHeading={data.experienceYears} />
                                     }
                                     {
                                         data.type === 'description' &&
@@ -231,7 +241,7 @@ class Categories extends Component {
                         this.state.positions !== null && this.state.positions.length === 0 &&
                         <img className=" col-lg-4 col-md-6 col-12 mt-3 img-fluid text-center" src="../../../../images/careers/no-positions-found.png" />
                     }
-                    <button onClick={() => this.props.props.history.push("/allpositions/")} style={{ backgroundColor: "#bcbcbc" }} className=" roboto-regular text-white py-3 btn col-12 mx-auto my-4">VIEW ALL POSITIONS</button>
+                    <a href="/all-open-positions/" style={{ backgroundColor: "#bcbcbc" }} className=" roboto-regular text-white py-3 btn col-12 mx-auto my-5">VIEW ALL POSITIONS</a>
                 </div>
             </section>
         );

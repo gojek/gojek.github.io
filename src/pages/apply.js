@@ -21,6 +21,7 @@ class TestApply extends Component {
             resume: "",
             location: "",
             githubLink: "",
+            eligible: "",
             sourceFrom: "",
             fileLabel: "",
             loading: false,
@@ -124,6 +125,7 @@ class TestApply extends Component {
                     { "key": "preferred_location", "value": this.state.location },
                     { "key": "github_profile", "value": this.state.githubLink },
                     { "key": "expected_salary", "value": this.state.experience },
+                    // { "key": "work_authorisation", "value": this.state.eligible },
                     {
                         "key": "resume", "value": {
                             "encoded_data": this.state.resume.split(",").slice(-1)[0],
@@ -177,7 +179,7 @@ class TestApply extends Component {
     }
 
     render() {
-        const data = this.props.applyData;
+        const data = this.props.applyData ? this.props.applyData : this.props.location.state;
         return (
             <section className="container text-center ">
                 {/* <Helmet>
@@ -193,14 +195,14 @@ class TestApply extends Component {
                         <div className="d-flex flex-row flex-wrap justify-content-between">
                             <div className="col-md-5 col-12 d-flex flex-row flex-wrap px-0">
                                 <div className="col-12">
-                                    <h6 className="text-success roboto-bold font-xs mb-0 text-left">NAME</h6>
+                                    <h6 className="text-success roboto-bold font-xs mb-0 text-left">FIRST NAME</h6>
                                 </div>
                                 <div className="col-12">
                                     <input
                                         type="text"
                                         className=" form-control border-top-0 border-left-0 border-right-0 px-0"
                                         id="first-name"
-                                        placeholder="Enter your Full Name"
+                                        placeholder="Enter your First Name"
                                         required
                                         onChange={this.handleChange}
                                         name="firstName"
@@ -210,6 +212,29 @@ class TestApply extends Component {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="col-md-5 col-12 d-flex flex-row flex-wrap px-0">
+                                <div className="col-12">
+                                    <h6 className="text-success roboto-bold font-xs mb-0 text-left">LAST NAME</h6>
+                                </div>
+                                <div className="col-12">
+                                    <input
+                                        type="text"
+                                        className=" form-control border-top-0 border-left-0 border-right-0 px-0"
+                                        id="last-name"
+                                        placeholder="Enter your Last Name"
+                                        required
+                                        onChange={this.handleChange}
+                                        name="lastName"
+                                    />
+                                    <div className="invalid-feedback">
+                                        * Required
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="d-flex flex-row flex-wrap justify-content-between align-items-start mt-md-5 mt-sm-0">
                             <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
                                 <div className="col-12">
                                     <h6 className="text-success roboto-bold font-xs mb-0 text-left">EMAIL ID</h6>
@@ -229,8 +254,6 @@ class TestApply extends Component {
                                 </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="d-flex flex-row flex-wrap justify-content-between align-items-start mt-md-5 mt-sm-0">
                             <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
                                 <div className="col-12">
                                     <h6 className="text-success roboto-bold font-xs mb-0 text-left">CONTACT NUMBER</h6>
@@ -251,6 +274,13 @@ class TestApply extends Component {
                                     </div>
                                 </div>
                             </div>
+
+                        </div>
+                        <div className="d-flex flex-row flex-wrap justify-content-center mt-md-5 mt-sm-0" id="drop_zone">
+
+                        </div>
+
+                        <div className="d-flex flex-row flex-wrap justify-content-between align-items-start mt-3">
                             <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
                                 <div className="col-12">
                                     <h6 className="text-success roboto-bold font-xs mb-0 text-left">UPLOAD RESUME</h6>
@@ -284,13 +314,6 @@ class TestApply extends Component {
                                 </div>
 
                             </div>
-                        </div>
-                        <div className="d-flex flex-row flex-wrap justify-content-center mt-md-5 mt-sm-0" id="drop_zone">
-
-                        </div>
-
-                        <div className="d-flex flex-row flex-wrap justify-content-between align-items-start mt-3">
-
                             <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
                                 <div className="col-12">
                                     <h6 className="text-success roboto-bold font-xs mb-0 text-left">EXPERIENCE (IN YEARS)</h6>
@@ -312,6 +335,11 @@ class TestApply extends Component {
                                 </div>
 
                             </div>
+
+
+                        </div>
+
+                        <div className="d-flex flex-row flex-wrap justify-content-between mt-md-5 mt-sm-0">
                             <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
                                 <div className="col-12">
                                     <h6 className="text-success roboto-bold font-xs mb-0 text-left">LOCATION</h6>
@@ -338,10 +366,6 @@ class TestApply extends Component {
                                 </div>
 
                             </div>
-
-                        </div>
-
-                        <div className="d-flex flex-row flex-wrap justify-content-between mt-md-5 mt-sm-0">
                             <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
                                 <div className="col-12">
                                     <h6 className="text-success roboto-bold font-xs mb-0 text-left">GITHUB PROFILE LINK</h6>
@@ -361,6 +385,12 @@ class TestApply extends Component {
                                     </div>
                                 </div>
                             </div>
+
+
+                        </div>
+
+
+                        <div className="d-flex flex-row flex-wrap justify-content-between mt-md-5 mt-sm-0">
 
                             <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
                                 <div className="col-12">
@@ -391,7 +421,34 @@ class TestApply extends Component {
                                 </div>
                                 </div>
                             </div>
+                            {/* {
+                                data.place === "Singapore" &&
+                                <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
+                                    <div className="col-12">
+                                        <h6 className="text-success roboto-bold font-xs mb-0 text-left text-uppercase">Are you legally eligible to work in Singapore</h6>
+                                    </div>
+                                    <div className="col-12">
+                                        <select
+                                            className="form-control border-top-0 border-left-0 border-right-0"
+                                            id="eligible"
+                                            required
+                                            onChange={this.handleChange}
+                                            name="eligible"
+                                        >
+                                            <option value="">Are you legally eligible to work in Singapore...
+                                    </option>
+                                            <option value="yes">Yes</option>
+                                            <option value="no">No</option>
+                                        </select>
+                                        <div className="invalid-feedback">
+                                            *Required
+                                    </div>
+                                    </div>
+                                </div>
+                            } */}
                         </div>
+
+
                         {
                             this.state.error &&
                             <div className="alert alert-danger mt-4 mx-5" role="alert">

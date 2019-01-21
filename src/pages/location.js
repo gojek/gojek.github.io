@@ -8,15 +8,28 @@ class Location extends Component {
         super(props);
 
         this.state = {
-
+            locationName: ''
         }
 
     }
 
-   
+    componentDidMount() {
+        const urlLocationName = window.location.search.split('&')[0].split('=')[1]
+        this.setState({
+            locationName: urlLocationName.toLowerCase(),
+        })
+    }
+
+    getLocationName = () => {
+        let locationName = ''
+        if (typeof window !== `undefined`) {
+            locationName = window.location.search.split('&')[0].split('=')[1].toLowerCase()
+        }
+        return locationName
+    }
 
     render() {
-
+        console.log("this.getLocationName()",this.getLocationName())
         return (
             <div className="first-section">
                 <Helmet>
@@ -28,12 +41,10 @@ class Location extends Component {
                     <meta property="og:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
                 </Helmet>
                 <div className="d-md-none">
-                    <img src='../../images/careers/singapore-banner.png' className="img-fluid" />
+                    <img src={`../../images/careers/${this.getLocationName()}-banner.png`} className="img-fluid" />
                 </div>
-                <CountBanner bannerImage="singapore-banner" height="75vh" />
-
-
-                <Categories props={this.props}/>
+                <CountBanner bannerImage={`${this.getLocationName()}-banner`} height="75vh" />
+                <Categories props={this.props} />
             </div>
 
         );

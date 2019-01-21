@@ -244,7 +244,7 @@ class allpositions extends Component {
     }
 
     onClickCloseButton = () => {
-        this.props.history.push('/allpositions/')
+        this.props.history.replace('/all-open-positions/')
         this.onChangeInputText(this.state.inputText)
         // this.getPositions(this.state.places)
     }
@@ -299,7 +299,7 @@ class allpositions extends Component {
                                                             {
                                                                 position.map(
                                                                     (data, j) => {
-                                                                        return <React.Fragment key={j}>
+                                                                        return data.team !== "" ? <React.Fragment key={j}>
                                                                             {
                                                                                 !data.type &&
                                                                                 <PositionCard id={data.positionSlug} positionId={this.state.positionId} onChangeURL={(positionSlug) => this.onChangeURL(positionSlug)} heading={data.position} subHeading={data.team} />
@@ -309,6 +309,8 @@ class allpositions extends Component {
                                                                                 <Description positionName={this.state.positionname} positionData={this.state.positionData} onClickCloseButton={() => this.onClickCloseButton()} />
                                                                             }
                                                                         </React.Fragment>
+                                                                            :
+                                                                            <p key = {i} className="col-12 text-center raleway-bold  font-lg ">Whoops! There seems to be no teams in ‘{data.place}’</p>
                                                                     }
                                                                 )
                                                             }

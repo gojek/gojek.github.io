@@ -56,7 +56,7 @@ $link-hover-decoration: none !default;
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #686868;
+    color: #696969;
     letter-spacing: normal;
 }
 
@@ -333,9 +333,14 @@ button.navbar-toggler {
     width: 170px;
 }
 
+.carrers-count-sm{
+    height: 75px;
+    width: 155px;
+}
+
 .careers-border{
-    border-radius: 170px;
-    height: 170px;
+    border-radius: 160px;
+    height: 160px;
 }
 
 .careers-count-md-top{
@@ -343,7 +348,7 @@ button.navbar-toggler {
 }
 
 .careers-count-md-bottom{
-    box-shadow: 1px 9px 22px -12px rgba(0,0,0,1);
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
     border-radius: 0px 0px 160px 160px;
 }
 
@@ -363,7 +368,7 @@ button.navbar-toggler {
     -webkit-box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.32);
     -moz-box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.32);
     box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.32);
-    
+    border: 2px solid transparent;
 }
 
 .singapore-banner{
@@ -371,10 +376,36 @@ button.navbar-toggler {
     background-size: cover;
 }
 
+.bangalore-banner{
+    background: url(/../images/careers/bangalore-banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.jakarta-banner{
+    background: url(/../images/careers/jakarta-banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.thailand-banner{
+ background: url(/../images/careers/thailand-banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.vietnam-banner{
+ background: url(/../images/careers/vietnam-banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.philippines-banner{
+     background: url(/../images/careers/philippines-banner.png) no-repeat center;
+    background-size: cover;
+}
+
 .job-illustration-banner{
     background: url(/../images/careers/job-illustration.png) no-repeat center;
     background-size: cover;
 }
+
 
 .custom-tabs-highlight{
     color: #009944;
@@ -409,10 +440,14 @@ button.navbar-toggler {
     box-shadow: 15px 15px #8fc449;
 }
 
-
-
 .bg-white-hover-gray:hover{
     background-color: #f2f2f2;
+}
+
+.article-position {
+    top: 25px;
+    left: 50px;
+    line-height: 1.14;
 }
 /*Employee Stories Carousel*/
 

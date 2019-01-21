@@ -35,7 +35,7 @@ class Advantages extends Component {
         };
 
         return (
-            <section className="py-5">
+            <section className="pb-5">
                 <div className="container">
                     <div className="text-center">
                         <h2 className="h2 mb-4 font-xl-l raleway-extrabold"> {advantages.heading}</h2>
@@ -65,9 +65,9 @@ class Advantages extends Component {
                         }
                     </div>
                 </div>
-                <div className="d-flex flex-row justify-content-center ">
+                {/* <div className="d-flex flex-row justify-content-center ">
                     <button type="button btn-block" className="btn btn-outline-success px-5 col-md-4 col-8  d-none d-md-block raleway-bold">VIEW MORE</button>
-                </div>
+                </div> */}
 
             </section>
         );
