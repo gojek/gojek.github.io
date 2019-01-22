@@ -71,7 +71,11 @@ class EmployeeStories extends Component {
                                 <div className="carousel-inner">
                                     {employeeStories.data.map((carouselItem, key) => <CarouselItem data={carouselItem} key={key} />)}
                                 </div>
+                                
                             </div>
+                        </div>
+                        <div className="row"> 
+				            <a href="/all-open-positions/" className = "btn-success btn text-uppercase mt-5 col-md-3 col-6 text-center mx-auto"> View all positions</a>
                         </div>
 
                         {/* Background carousel */}

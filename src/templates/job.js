@@ -57,7 +57,7 @@ class PostTemplate extends React.Component {
 	}
 
 	render() {
-		const jobsJson = this.props.data.jobsJson !== undefined ? this.props.data.jobsJson : '';
+		const jobsJson = this.props.data !== undefined ? this.props.data.jobsJson : '';
 		if(jobsJson !== '') {
 			return(
 				<div>

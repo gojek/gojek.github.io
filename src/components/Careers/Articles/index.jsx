@@ -43,6 +43,10 @@ class Articles extends Component {
                             </a>
 
                         </div>
+                        
+                        {/* <div className="row">  */}
+				            <a href="/blog/" className = "btn-success btn text-uppercase mt-5 col-md-3 col-6 text-center mx-auto"> View all Blogs</a>
+                        {/* </div> */}
                     </div>
                 </div>
 

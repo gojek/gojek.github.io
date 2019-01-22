@@ -59,22 +59,6 @@ class TestApply extends Component {
 
     }
 
-    // validateEmail(email) {
-    //     console.log('email', email)
-    //     const pattern = /[a-zA-Z0-9]+[\.]?([a-zA-Z0-9]+)?[\@][a-z]{3,9}[\.][a-z]{2,5}/g;
-    //     const result = pattern.test(email);
-    //     if (result === true) {
-    //         this.setState({
-    //             emailError:false,
-    //             email: email
-    //         })
-    //     } else {
-    //         this.setState({
-    //             emailError: true
-    //         })
-    //     }
-    // }    
-
     onFileChange(e, file) {
         var file = file || e.target.files[0],
             reader = new FileReader();
@@ -125,7 +109,7 @@ class TestApply extends Component {
                     { "key": "preferred_location", "value": this.state.location },
                     { "key": "github_profile", "value": this.state.githubLink },
                     { "key": "expected_salary", "value": this.state.experience },
-                    // { "key": "work_authorisation", "value": this.state.eligible },
+                    { "key": "work_authorisation", "value": this.state.eligible },
                     {
                         "key": "resume", "value": {
                             "encoded_data": this.state.resume.split(",").slice(-1)[0],
@@ -421,8 +405,8 @@ class TestApply extends Component {
                                 </div>
                                 </div>
                             </div>
-                            {/* {
-                                data.place === "Singapore" &&
+                            {
+                                data !== undefined && data.place === "Singapore" &&
                                 <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
                                     <div className="col-12">
                                         <h6 className="text-success roboto-bold font-xs mb-0 text-left text-uppercase">Are you legally eligible to work in Singapore</h6>
@@ -445,7 +429,7 @@ class TestApply extends Component {
                                     </div>
                                     </div>
                                 </div>
-                            } */}
+                            }
                         </div>
 
 
