@@ -64,8 +64,13 @@ class PostTemplate extends React.Component {
 	render() {
 		const jobsJson = this.props.data !== undefined ? this.props.data.jobsJson : '';
 		if(jobsJson !== '') {
+<<<<<<< HEAD
 		return (
 			<div>
+=======
+			return(
+				<div>
+>>>>>>> 181b6faccd042051fa4f17cf293d1141e64c2fb2
 				<Helmet>
 					<title> { jobsJson.title } </title>
 					<meta property="og:title" content={ jobsJson.title } />
@@ -227,6 +232,7 @@ class PostTemplate extends React.Component {
 					</div>
 				</section>
 			</div>
+<<<<<<< HEAD
 		)
 	} else {
 		return(
@@ -238,6 +244,14 @@ class PostTemplate extends React.Component {
 			</div>
 		);
 	}
+=======
+			);
+		} else {
+			return(
+				<div>here</div>
+			);
+		}
+>>>>>>> 181b6faccd042051fa4f17cf293d1141e64c2fb2
 	}
 }
 

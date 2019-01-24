@@ -320,7 +320,11 @@ class allpositions extends Component {
                                                             <h6 className="col-12 font-lg mb-0 mt-5 roboto-bold text-center text-black text-uppercase">{this.state.places[i]}</h6>
                                                             <hr className="my-1" />
                                                             <img className=" col-md-4 col-12 mt-3 img-fluid text-center" src="../../images/careers/no-jobs-found.png" />
+<<<<<<< HEAD
                                                             <h6 className="col-12 pt-3 text-center roboto-regular font-md">No matching jobs found for ‘{this.state.inputText}’ in {this.state.places[i]}</h6>
+=======
+                                                            <h6 className="col-12 text-center roboto-regular font-md">No matching jobs found for ‘{this.state.inputText}’ in {this.state.places[i]}</h6>
+>>>>>>> 181b6faccd042051fa4f17cf293d1141e64c2fb2
                                                             <button onClick={() => this.onClickViewPositions(i, this.state.places[i])} className="col-md-4 col-12 btn btn-success">View Other Positions in {this.state.places[i]}</button>
                                                         </div>
                                                         :
