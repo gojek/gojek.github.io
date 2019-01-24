@@ -14,11 +14,7 @@ class Location extends Component {
     }
 
     componentDidMount() {
-<<<<<<< HEAD
-        console.log("this.props", this.props)
         this.props.history.replace((this.props.location.pathname === "/location/" ? "/location" : this.props.location.pathname) + this.props.location.search)
-=======
->>>>>>> 181b6faccd042051fa4f17cf293d1141e64c2fb2
         const urlLocationName = window.location.search.split('&')[0].split('=')[1]
         this.setState({
             locationName: urlLocationName.toLowerCase(),
@@ -34,11 +30,6 @@ class Location extends Component {
     }
 
     render() {
-<<<<<<< HEAD
-        console.log("this.getLocationName()", this.getLocationName())
-=======
-        console.log("this.getLocationName()",this.getLocationName())
->>>>>>> 181b6faccd042051fa4f17cf293d1141e64c2fb2
         return (
             <div className="first-section">
                 <Helmet>

@@ -269,7 +269,6 @@ class TestApply extends Component {
                                 <div className="col-12">
                                     <h6 className="text-success roboto-bold font-xs mb-0 text-left">UPLOAD RESUME</h6>
 
-<<<<<<< HEAD
                                 </div>
                                 <div className="col-12 mt-1">
                                     <div className=" border-success border">
@@ -297,35 +296,6 @@ class TestApply extends Component {
                                     </div>
 
                                 </div>
-=======
-                                </div>
-                                <div className="col-12 mt-1">
-                                    <div className=" border-success border">
-                                        <p className="text-muted text-center py-1"> {this.state.fileLabel}
-                                            <br /> <small>Allowed formats are (doc, txt, html, htm, rtf, docx, odt, pdf)</small>
-                                        </p>
-                                        <div className="pb-2">
-                                            <p id="dragFileName">
-
-                                            </p>
-                                            <input
-                                                required
-                                                className="d-none form-control-file"
-                                                type="file"
-                                                name="resume"
-                                                id="resume"
-                                                onChange={this.onFileChange}
-                                            />
-                                            <label className="btn btn-success mt-1 px-5 text-white font-weight-bold " htmlFor="resume">Browse</label>
-
-                                            <div className="invalid-feedback">
-                                                *Required
-                                        </div>
-                                        </div>
-                                    </div>
-
-                                </div>
->>>>>>> 181b6faccd042051fa4f17cf293d1141e64c2fb2
 
                             </div>
                             <div className="col-md-5 col-12 px-0 d-flex flex-row flex-wrap my-2">
@@ -449,19 +419,12 @@ class TestApply extends Component {
                                             onChange={this.handleChange}
                                             name="eligible"
                                         >
-<<<<<<< HEAD
                                            <option value="">Are you legally eligible to work in singapore
                                            </option>
                                            <option value="Singapore Citizen">Singapore Citizen</option>
                                            <option value="Permanent Resident">Permanent Resident</option>
                                            <option value="EP / S-Pass Holder">EP / S-Pass Holder</option>
                                            <option value="Foreigner">Foreigner</option>
-=======
-                                            <option value="">Are you legally eligible to work in Singapore...
-                                    </option>
-                                            <option value="yes">Yes</option>
-                                            <option value="no">No</option>
->>>>>>> 181b6faccd042051fa4f17cf293d1141e64c2fb2
                                         </select>
                                         <div className="invalid-feedback">
                                             *Required
