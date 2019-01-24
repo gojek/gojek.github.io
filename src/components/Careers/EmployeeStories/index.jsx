@@ -54,10 +54,12 @@ class EmployeeStories extends Component {
                     </div>
                 </div>
 
-                <div className="container-fluid employee-stories">
+                <div className="container employee-stories">
                     {/* Employee stories desktop view */}
+                    <p className="d-none d-md-block font-xl-x text-center text-green neosans-regular pt-5 pb-2
+                    ">Employee Stories</p>
                     <div className="row d-none d-md-block pb-5">
-                        <div className="col-md-11 px-0  main-carousel">
+                        <div className="col-md-12 px-0 main-carousel" style={{boxShadow:'-25px 25px #009944'}}>
                             <div id="impactSlider" className="carousel slide" data-ride="carousel">
                                 
                                 <CarouselIndicators
@@ -69,11 +71,15 @@ class EmployeeStories extends Component {
                                 <div className="carousel-inner">
                                     {employeeStories.data.map((carouselItem, key) => <CarouselItem data={carouselItem} key={key} />)}
                                 </div>
+                                
                             </div>
+                        </div>
+                        <div className="row"> 
+				            <a href="/all-open-positions/" className = "btn-success btn text-uppercase mt-5 col-md-3 col-6 text-center mx-auto"> View all positions</a>
                         </div>
 
                         {/* Background carousel */}
-                        <div className="col-md-11 px-0 background-carousel">
+                        {/* <div className="col-md-11 px-0 background-carousel">
                             <div id="carouselExampleIndicatorstest" className="carousel slide" data-ride="carousel">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
@@ -81,7 +87,7 @@ class EmployeeStories extends Component {
 							        </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* End Background carousel */}
                     </div>
                     {/* End Employee stories desktop view */}
@@ -95,7 +101,7 @@ class EmployeeStories extends Component {
 
                 {/* All poen positions */}
                 
-                <OpenPositions
+                {/* <OpenPositions
                     team = { team }
                     location = { location }
                     keyword = { keyword }
@@ -103,7 +109,7 @@ class EmployeeStories extends Component {
                     resetFilters = { this.props.resetFilters }
                     referer = { this.props.referer }
                     showHeadings = { showHeadings }
-                />
+                /> */}
 
                 {/* End all open positions */}
 

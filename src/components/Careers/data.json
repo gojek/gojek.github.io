@@ -107,6 +107,381 @@
 				"theme": "lightblue"
 			}
 		]
+	},
+	"categories": {
+		"heading": "Work with GO-JEK Singapore. Die, Die, Must Try!",
+		"content": "Don’t know whether the above sentence is right but gojek could use a colloquial title fo the intro on each unique location landing page. Quisque vehicula nibh lacus, sit amet ultrices risus congue non. Pellentesque quis magna eget neque convallis porta id in lacus. Phasellus at risus id mi porta rutrum. Curabitur rutrum porttitor sem, id hendrerit tellus egestas quis.",
+		"category": [
+			{
+				"categoryId": "1",
+				"categoryName": "Engineering",
+				"openPositions": [
+					{
+						"openPositionId": "1",
+						"openPositionName": "Full Stack Engineer",
+						"experience": "3-5 YEARS",
+						"openPositionContent": [
+							{
+								"heading1": "What you will do",
+								"heading2": "Experience & Qualifications",
+								"content": [
+									{
+										"id": 1,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 2,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 3,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 4,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 5,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									},
+									{
+										"id": 6,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 7,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 8,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 9,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 10,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									}
+								]
+							}
+						]
+					},
+					{
+						"openPositionId": "2",
+						"openPositionName": "Android Engineer",
+						"experience": "3-5 YEARS",
+						"openPositionContent": [
+							{
+								"heading1": "What you will do",
+								"heading2": "Experience & Qualifications",
+								"content": [
+									{
+										"id": 1,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 2,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 3,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 4,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 5,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									},
+									{
+										"id": 6,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 7,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 8,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 9,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 10,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									}
+								]
+							}
+						]
+					},
+					{
+						"openPositionId": "0",
+						"viewAllPosition": "View All Positions",
+						"link": "#"
+					}
+				]
+			},
+			{
+				"categoryId": "2",
+				"categoryName": "Category 2",
+				"openPositions": []
+			},
+			{
+				"categoryId": "3",
+				"categoryName": "Category 3",
+				"openPositions": [
+					{
+						"openPositionId": "1",
+						"openPositionName": "Full Stack Engineer",
+						"experience": "3-5 YEARS",
+						"openPositionContent": [
+							{
+								"heading1": "What you will do",
+								"heading2": "Experience & Qualifications",
+								"content": [
+									{
+										"id": 1,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 2,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 3,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 4,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 5,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									},
+									{
+										"id": 6,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 7,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 8,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 9,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 10,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									}
+								]
+							}
+						]
+					},
+					{
+						"openPositionId": "2",
+						"openPositionName": "Android Engineer",
+						"experience": "3-5 YEARS",
+						"openPositionContent": [
+							{
+								"heading1": "What you will do",
+								"heading2": "Experience & Qualifications",
+								"content": [
+									{
+										"id": 1,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 2,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 3,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 7,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 8,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 9,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 10,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									}
+								]
+							}
+						]
+					},
+					{
+						"openPositionId": "3",
+						"openPositionName": "iOS Engineer",
+						"experience": "3-5 YEARS",
+						"openPositionContent": [
+							{
+								"heading1": "What you will do",
+								"heading2": "Experience & Qualifications",
+								"content": [
+									{
+										"id": 1,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 2,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 3,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 4,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 5,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									},
+									{
+										"id": 10,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									}
+								]
+							}
+						]
+					},
+					{
+						"openPositionId": "4",
+						"openPositionName": "Full Stack Engineer",
+						"experience": "3-5 YEARS",
+						"openPositionContent": [
+							{
+								"heading1": "What you will do",
+								"heading2": "Experience & Qualifications",
+								"content": [
+									{
+										"id": 1,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 2,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 3,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 7,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 8,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 9,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 10,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									}
+								]
+							}
+						]
+					},
+					{
+						"openPositionId": "0",
+						"viewAllPosition": "View All Positions",
+						"link": "#"
+					}
+				]
+			},
+			{
+				"categoryId": "4",
+				"categoryName": "Category 4",
+				"openPositions": [
+					{
+						"openPositionId": "1",
+						"openPositionName": "Full Stack Engineer",
+						"experience": "3-5 YEARS",
+						"openPositionContent": [
+							{
+								"heading1": "What you will do",
+								"heading2": "Experience & Qualifications",
+								"content": [
+									{
+										"id": 1,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 2,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 3,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 4,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 5,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									},
+									{
+										"id": 6,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 7,
+										"data": "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns."
+									},
+									{
+										"id": 8,
+										"data": "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies."
+									},
+									{
+										"id": 9,
+										"data": "Translate business requirements into scalable and extensible design."
+									},
+									{
+										"id": 10,
+										"data": "Communicate, collaborate and work effectively across distributed teams in a global environment."
+									}
+								]
+							}
+						]
+					},
+					{
+						"openPositionId": "0",
+						"viewAllPosition": "View All Positions",
+						"link": "#"
+					}
+				]
+			}
+		]
 	}
 		
 }
