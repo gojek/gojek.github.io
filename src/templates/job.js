@@ -9,6 +9,11 @@ class PostTemplate extends React.Component {
 		super(props);
 		this.handleClick = this.handleClick.bind(this);
 	}
+
+	componentWillMount(){
+		console.log("this.prorrr",this.props)
+		this.props.history.replace(this.props.location.pathname==='/careers/'?'/careers':this.props.location.pathname)
+	}
 	
 	static propTypes = {
     	data: PropTypes.shape({
@@ -225,7 +230,12 @@ class PostTemplate extends React.Component {
 		)
 	} else {
 		return(
-			<div>here</div>
+			<div>
+				{/* {
+			this.props.history.replace('/careers')
+				} */}
+
+			</div>
 		);
 	}
 	}

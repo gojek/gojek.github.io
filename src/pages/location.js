@@ -14,6 +14,8 @@ class Location extends Component {
     }
 
     componentDidMount() {
+        console.log("this.props", this.props)
+        this.props.history.replace((this.props.location.pathname === "/location/" ? "/location" : this.props.location.pathname) + this.props.location.search)
         const urlLocationName = window.location.search.split('&')[0].split('=')[1]
         this.setState({
             locationName: urlLocationName.toLowerCase(),
@@ -29,7 +31,7 @@ class Location extends Component {
     }
 
     render() {
-        console.log("this.getLocationName()",this.getLocationName())
+        console.log("this.getLocationName()", this.getLocationName())
         return (
             <div className="first-section">
                 <Helmet>
