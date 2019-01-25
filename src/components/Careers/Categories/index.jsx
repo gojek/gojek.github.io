@@ -206,13 +206,13 @@ class Categories extends Component {
                     }
                     {
                         this.getTeams(this.state.jobs).length === 1 && this.getTeams(this.state.jobs)[0] === "" &&
-                        <p className="text-center raleway-bold font-xl-l text-black">Whoops! There seems to be no  teams in ‘{this.state.locationName}’</p>
+                        <p className="text-center raleway-bold font-xl-l text-black">Whoops! There are no teams in ‘{this.state.locationName}’ currently</p>
                     }
                 </div>
                 {
                     this.state.positions !== null &&
                     <React.Fragment>
-                        <p className="font-xl-l raleway-bold text-black ">{this.state.positions.length > 0 ? `Open Positions in ${this.state.teamName}` : `Whoops! There seems to be no open positions in '${this.state.teamName}'`}</p>
+                        <p className="font-xl-l raleway-bold text-black ">{this.state.positions.length > 0 ? `Open Positions in ${this.state.teamName}` : `Whoops! There are no open position in '${this.state.teamName}' currently`}</p>
                         {/* <div className="d-flex flex-row-reverse col-12 px-1">
                             <a href="/all-open-positions/" className=" py-3 col-md-3 col-6 btn-block text-success scroll career-location">View All Positions&nbsp;<i className="fa fa-arrow-right"></i></a>
                         </div> */}

@@ -364,6 +364,7 @@ class TestApply extends Component {
                                         onChange={this.handleChange}
                                         name="githubLink"
                                     />
+                                    <small className="text-success">* If you don't have a GitHub profile link, please add NIL</small>
                                     <div className="invalid-feedback">
                                         *Required
                                     </div>
@@ -419,12 +420,12 @@ class TestApply extends Component {
                                             onChange={this.handleChange}
                                             name="eligible"
                                         >
-                                           <option value="">Are you legally eligible to work in singapore
+                                            <option value="">Are you legally eligible to work in singapore
                                            </option>
-                                           <option value="Singapore Citizen">Singapore Citizen</option>
-                                           <option value="Permanent Resident">Permanent Resident</option>
-                                           <option value="EP / S-Pass Holder">EP / S-Pass Holder</option>
-                                           <option value="Foreigner">Foreigner</option>
+                                            <option value="Singapore Citizen">Singapore Citizen</option>
+                                            <option value="Permanent Resident">Permanent Resident</option>
+                                            <option value="EP / S-Pass Holder">EP / S-Pass Holder</option>
+                                            <option value="Foreigner">Foreigner</option>
                                         </select>
                                         <div className="invalid-feedback">
                                             *Required

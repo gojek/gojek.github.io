@@ -32,6 +32,8 @@ class Description extends Component {
 				return "What would be a bonus"
 			case 'projects':
 				return "Projects you could work on"
+			case 'requirements':
+				return "Requirements"
 			default:
 				return "About";
 			
@@ -65,6 +67,14 @@ class Description extends Component {
 									)
 								}
 								)}
+								{
+									positionData[0].jobId==='fk0juf6'&&
+									<li>
+											<a className={"nav-link jd-tab roboto-bold text-uppercase "} 
+											id={`#platformSpecificRequirements-tab`} data-toggle="tab" href={`#platformSpecificRequirements`} role="tab" aria-controls={`platformSpecificRequirements`}
+											aria-selected="true"> Requirements</a>
+									</li>
+								}
 								</ul>
 							</div>
 						</div>
@@ -90,6 +100,38 @@ class Description extends Component {
 																		positionData[0][heading].map((value, key) => {
 																		return(
 																			<div className="col-md-6 col-sm-12  pr-5" key={key} >
+																			{
+																				(key===0&&heading === 'requirements'&& (positionData[0].jobId==='fk0j3ij'||positionData[0].jobId==='fk0j3ix'))&&
+																				<li className="py-2 font-md">
+																				<span className="font-sm text-dark" > Your toolkit:</span>
+																				<ul>
+																					<li className="py-2 font-md">
+																						<span className="font-sm text-dark" > Microservices (HTTP &amp; GRPC)</span>
+																					</li>
+																					<li className="py-2 font-md">
+																						<span className="font-sm text-dark" > Experience in Golang, Ruby, Clojure, Java (and a willingness to learn others).
+																						</span>
+																					</li>
+																					<li className="py-2 font-md">
+																						<span className="font-sm text-dark" > Postgresql
+																						</span>
+																					</li>
+																					<li className="py-2 font-md">
+																						<span className="font-sm text-dark" > Devops: Chef, Ansible, Docker, Kubernetes
+																						</span>
+																					</li>
+																					<li className="py-2 font-md">
+																						<span className="font-sm text-dark" > Rails, Javascript
+																						</span>
+																					</li>
+																					<li className="py-2 font-md">
+																						<span className="font-sm text-dark" > Kafka, Spark, Flink
+																						</span>
+																					</li>
+																				</ul>
+																			
+																			</li>
+																			}
 																				<li key = {key} className="py-2 font-md" >
 																					<span className="font-sm text-dark" > {value}</span>
 																				</li>
@@ -159,7 +201,217 @@ class Description extends Component {
 
 									
 								)}
-							)}													
+							)}	
+							{
+								positionData[0].jobId === 'fk0juf6'&&
+								<div  className={"tab-pane fade show " } id={`platformSpecificRequirements`} role="tabpanel" aria-labelledby={`platformSpecificRequirements-tab`}>
+							<section className="roboto-regular">
+								<div className="container">
+									<div className="row justify-content-center">
+									<div className="col-lg-10">
+										<div className="row pt-4"> 
+										<p className="pl-4 text-green font-lg mb-0 font-weight-bold">Android</p>
+										<ul className="text-green" >
+												<div className="row" >
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Passionate about the Android ecosystem and the history and design principles behind it
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Experience with Kotlin and Android SDK
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Good understanding of architecture principles, code organisation and system design
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Deep knowledge of Android UI fundamentals and experience with graphics APIs (Canvas, Paint, PorterDuffModes etc)
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Experience in creating custom views 
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Ability to create UIs programatically or via XML
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Ability to write readable, testable, modular code
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Experience with commonly used popular Android libraries is a plus
+															</span>
+														</li>
+													</div>
+												</div>
+											</ul>
+
+											<p className="pl-4 text-green font-lg mb-0 font-weight-bold">iOS</p>
+											<ul className="text-green" >
+												<div className="row" >
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Passionate about the iOS/macOS ecosystem and appreciation for the design and programming principles behind them
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Good understanding of architecture principles, code organisation and system design
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Experience in Swift programming, Cocoa, Xcode and the iOS SDK
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Deep knowledge of UIKit fundamentals. Bonus if you’ve worked with UIDynamics, SceneKit and QuartzCore
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Ability to develop UIs programatically or via XIB
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Ability to write readable, testable, modular code
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Experience with commonly used popular iOS libraries is a plus
+															</span>
+														</li>
+														
+													</div>
+													
+												</div>
+											</ul>
+
+											<p className="pl-4 text-green font-lg mb-0 font-weight-bold">Web</p>
+											<ul className="text-green" >
+												<div className="row" >
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Passionate about web frontend
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Autodidact capable of learning slow and/or fast
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Strong understanding of foundational web technologies like HTML, CSS and JavaScript
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Knowledge of how browsers work is essential
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Extremely well versed with the JavaScript language in general along with transpiling tools like Babel, module bundlers like webpack, parcel
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Some experience with React and its ecosystem
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Some experience with nodejs &amp; npm
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Strong web design skills
+															</span>
+														</li>
+														
+													</div>
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" > Strong documentation skills
+															</span>
+														</li>
+													</div>
+
+													<div className="col-md-6 col-sm-12  pr-5" >
+														<li className="py-2 font-md" >
+															<span className="font-sm text-dark" >Attention to detail
+															</span>
+														</li>
+													</div>
+													
+												</div>
+											</ul>
+										</div>
+
+										
+									</div>
+										
+									</div>
+								</div>
+							</section>
+								</div>
+							}												
 						</div>
                     <TestApply applyData={applyData}/>
 					</div>

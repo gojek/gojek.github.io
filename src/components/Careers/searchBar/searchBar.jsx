@@ -43,10 +43,10 @@ class SearchBar extends Component {
             id: '5',
             locationName: 'Singapore'
         },
-        {
-            id: '6',
-            locationName: 'Philippines'
-        },
+        // {
+        //     id: '6',
+        //     locationName: 'Philippines'
+        // },
         {
             id: '7',
             locationName: 'Vietnam'
@@ -101,8 +101,12 @@ class SearchBar extends Component {
                         }
                         {
 
-                            (searchResult && searchResult !== null && searchResult.length !== 0) &&
-                            <button onClick={() => this.onClickPositionFromSearch(searchResult[0])} type="button" className="btn bg-success btn-sm ml-auto text-white raleway-extrabold ">Search<i className="fa fa-search pl-3"></i></button>
+                            (searchResult && searchResult !== null && searchResult.length !== 0) ?
+                                <React.Fragment>
+                                    <span style={{fontSize:'14px'}} className="roboto-regular">* Candidates can only apply from their country of origin. </span>
+                                    <button onClick={() => this.onClickPositionFromSearch(searchResult[0])} type="button" className="btn bg-success btn-sm ml-auto text-white raleway-extrabold ">Search<i className="fa fa-search pl-3"></i></button>
+                                </React.Fragment>
+                                : ''
                         }
                     </div>
 

@@ -14,18 +14,18 @@ class CountBanner extends Component {
     render() {
 
         const count = [{
-            heading: '6666x',
+            heading: '6600x',
             subHeading: 'total order volume growth in 3 years'
         }, {
-            heading: '50 orders',
+            heading: '50+ orders',
             subHeading: 'processed on an average every second'
         }, {
             heading: '1 million+',
             subHeading: 'driver partners on the platform'
         }, {
-            heading1: '18',
+            heading1: '18+',
             subHeading1: 'products',
-            heading2: '200',
+            heading2: '250+',
             subHeading2: 'engineers'
         }]
         return (

@@ -34,12 +34,12 @@ class CareerLocation extends Component {
             imageLink: '../../images/careers/singapore.png'
 
         },
-        {
-            locationName: 'philippines',
-            locationLink: '#',
-            imageLink: '../../images/careers/philipines.png'
+        // {
+        //     locationName: 'philippines',
+        //     locationLink: '#',
+        //     imageLink: '../../images/careers/philipines.png'
 
-        },
+        // },
         {
             locationName: 'vietnam',
             locationLink: '#',

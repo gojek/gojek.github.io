@@ -310,7 +310,7 @@ class allpositions extends Component {
                                                                             }
                                                                         </React.Fragment>
                                                                             :
-                                                                            <p key = {i} className="col-12 text-center raleway-bold  font-lg ">Whoops! There seems to be no teams in ‘{data.place}’</p>
+                                                                            <p key = {i} className="col-12 text-center raleway-bold  font-lg ">Whoops! There are no teams in ‘{data.place}’ currently</p>
                                                                     }
                                                                 )
                                                             }

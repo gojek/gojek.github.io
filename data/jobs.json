@@ -11,6 +11,7 @@
       "whatWillYouDo",
       "experience"
     ],
+    "requirements": [],
     "experienceYears": "2+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "responsibilities": [],
@@ -72,13 +73,14 @@
     "jobId": "fk019mp",
     "overview": "The mission of GO-FOOD as a product is to provide it’s customers with the best possible selection of food at the most aﬀordable price. GO-FOOD is also a market place for restaurants to list their food items and increase their sales. GO-FOOD also has it’s own fleet of drivers with an app where they can accept food orders and earn their daily income out food delivery. So overall it’s an ecosystem consisting of consumers, merchants and drivers which GO-FOOD manages with the ultimate aim of providing best user experience to consumers and growth for merchants and drivers. We currently have a team of 40+ engineers across 2 diﬀerent locations Bangalore and Jakarta. GO-FOOD being one of the largest online food delivery applications, the scale at which this team operates is phenomenal. GO-FOOD has more than 300k merchants and more than 20 millions dishes listed on it’s platform.",
     "place": "Bangalore",
-    "team": "Engineering",
+    "team": "Product Management",
     "experienceYears": "3+ YEARS",
     "headings": [
       "overview",
       "responsibilities",
       "experience"
     ],
+    "requirements": [],
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "responsibilities": [
       "You will be part of one of the biggest food delivery system with high throughput and visible end user impact.",
@@ -123,11 +125,12 @@
     "jobId": "fk019d9",
     "overview": "",
     "place": "Bangalore",
-    "team": "Engineering",
+    "team": "Product Management",
     "headings": [
       "responsibilities",
       "experience"
     ],
+    "requirements": [],
     "experienceYears": "3+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "responsibilities": [
@@ -175,9 +178,10 @@
       "experience",
       "responsibilities"
     ],
+    "requirements": [],
     "experienceYears": "3-8 YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Product Management",
     "responsibilities": [
       "Work as part of a product team in defining, prototyping and implementing data science models/algorithms as part of the product.",
       "Participate in conferences, attend and help organise meetups.",
@@ -216,11 +220,12 @@
     "jobId": "fk01bg4",
     "overview": "",
     "place": "Bangalore",
-    "team": "Engineering",
+    "team": "Product Management",
     "headings": [
       "responsibilities",
       "experience"
     ],
+    "requirements": [],
     "experienceYears": "1+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "responsibilities": [
@@ -288,9 +293,10 @@
       "experience",
       "responsibilities"
     ],
+    "requirements": [],
     "experienceYears": "3-5 YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Product Management",
     "responsibilities": [
       "Work as part of a product team in defining, prototyping and implementing machine learning models/algorithms as part of the product.",
       "Work with the engineering team to define best practices for ML model building, testing and deployment",
@@ -334,6 +340,7 @@
       "responsibilities",
       "about"
     ],
+    "requirements": [],
     "experienceYears": "",
     "responsibilities": [
       "Lead one or more teams of talented engineers who like to ship code and tackle hard engineering problems.",
@@ -393,6 +400,7 @@
       "experience",
       "whatWouldbeaBonus"
     ],
+    "requirements": [],
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -451,9 +459,10 @@
       "whatWillYouNeed",
       "whatWillYouDo"
     ],
-    "experienceYears":"2-5 YEARS",
+    "requirements": [],
+    "experienceYears": "2-5 YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Product Management",
     "responsibilities": [],
     "experience": [],
     "expectations": [],
@@ -491,7 +500,7 @@
   },
   {
     "id": "25",
-    "positionSlug": "analytics-programanager",
+    "positionSlug": "analytics-program-manager",
     "position": "Analytics Program Manager",
     "jobId": "fk0jhwf",
     "overview": "",
@@ -500,9 +509,10 @@
       "whatWillYouNeed",
       "responsibilities"
     ],
-    "experienceYears":"3+ YEARS",
+    "requirements": [],
+    "experienceYears": "3+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Product Management",
     "responsibilities": [
       "Hire and lead a team of up to 8-10 Product Analysts",
       "Recommend business, product & engineering direction on top of such initiatives",
@@ -544,14 +554,15 @@
     "jobId": "fk0jhwm",
     "overview": "Merchant Promotions Platform is a growth platform for our hundreds & thousands of GO-FOOD & GO-PAY merchants, who use GO-JEK to acquire new users reduce churn,increase purchase frequency & brand awareness.It’s the advanced value proposition that truly makes GO-JEK a growth story for merchants of all sizes. The group of products that bring this vision to reality ties advertising, machine learning, large-scale engineering,product positioning & workflow optimization challenges together.GO-JEK is looking for an experienced,data-driven Product Manager to lead this vision.As the product lead,you will support a group of PMs and cross-functional partners to drive the conceptual and technical development of product ideas end-to-end touching various stakeholders like customers,merchants & sales. As the lead,we look at you to empower multiple product teams of developers,analysts & designers to craft beautifully & simple solutions to challenging problems.",
     "place": "Bangalore",
-    "experienceYears":"6-10 YEARS",
+    "experienceYears": "6-10 YEARS",
     "headings": [
       "overview",
       "whatWillYouNeed",
       "whatWillYouDo"
     ],
+    "requirements": [],
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Product Management",
     "responsibilities": [],
     "experience": [],
     "expectations": [],
@@ -593,14 +604,15 @@
     "overview": "",
     "place": "Bangalore",
     "headings": [
-      "whatWillYouDo",
+      "whatWillYouNeed",
       "responsibilities",
       "projects",
       "experience"
     ],
-    "experienceYears":"",
+    "requirements": [],
+    "experienceYears": "",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Systems & Security",
     "responsibilities": [
       "Engage in and improve the whole lifecycle of services—from inception and design, through deployment, operation and refinement.",
       "Improve the deployment process to make it as boring as possible.",
@@ -629,7 +641,8 @@
     "roles": [],
     "scopeOverview": "",
     "scope": [],
-    "whatWillYouDo": [
+    "whatWillYouDo": [],
+    "whatWillYouNeed": [
       " Think about systems - edge cases, failure modes, behaviors, specific implementations.",
       "Have an urge to document all the things so you don't need to learn the same thing twice.",
       "Know your way around Linux and the Unix Shell.",
@@ -640,7 +653,6 @@
       "Have experience with Docker, Haproxy, Go, Kubernetes, envoy",
       "Have an urge to collaborate and communicate asynchronously."
     ],
-    "whatWillYouNeed": [],
     "whatWouldbeaBonus": [],
     "department": "",
     "projects": [
@@ -665,9 +677,10 @@
       "projects",
       "experience"
     ],
-    "experienceYears":"",
+    "requirements": [],
+    "experienceYears": "",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Systems & Security",
     "responsibilities": [],
     "experience": [
       "Experienced with container technologies. e.g.: Docker, LXC",
@@ -713,9 +726,10 @@
       "responsibilities",
       "experience"
     ],
-    "experienceYears":"6-10 YEARS",
+    "requirements": [],
+    "experienceYears": "6-10 YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Systems & Security",
     "responsibilities": [
       "Evaluate the security of systems being productionised and providing insights into security vulnerabilities and alleviation plan across SDLC",
       "Track, debug and work closely with the developers to resolve security issues.",
@@ -763,9 +777,10 @@
       "responsibilities",
       "experience"
     ],
-    "experienceYears":"6-10 YEARS",
+    "requirements": [],
+    "experienceYears": "6-10 YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Systems & Security",
     "responsibilities": [
       "Evaluate the security of systems being productionised and providing insights into security vulnerabilities and alleviation plan across SDLC",
       "Stay updated on the emerging security threats, vulnerabilities and controls and apply them to the Go-Jek ecosystem",
@@ -815,9 +830,10 @@
       "whatWillYouNeed",
       "whatWouldbeaBonus"
     ],
-    "experienceYears":"",
+    "requirements": [],
+    "experienceYears": "",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Marketing and Operations",
+    "team": "Design",
     "responsibilities": [],
     "experience": [],
     "expectations": [],
@@ -850,6 +866,48 @@
       "Experience with computer graphics, animations etc",
       "Hands-on experience with interface design"
     ],
+    "PlatformSpecificRequirements": [
+      {
+        "platformName": "Android",
+        "platformRequirement": [
+          "Passionate about the Android ecosystem and the history and design principles behind it",
+          "Experience with Kotlin and Android SDK",
+          "Good understanding of architecture principles, code organisation and system design",
+          "Deep knowledge of Android UI fundamentals and experience with graphics APIs (Canvas, Paint, PorterDuffModes etc)",
+          "Experience in creating custom views ",
+          "Ability to create UIs programatically or via XML",
+          "Ability to write readable, testable, modular code",
+          "Experience with commonly used popular Android libraries is a plus"
+        ]
+      },
+      {
+        "platformName": "iOS",
+        "platformRequirement": [
+          "Passionate about the iOS/macOS ecosystem and appreciation for the design and programming principles behind them",
+          "Good understanding of architecture principles, code organisation and system design",
+          "Experience in Swift programming, Cocoa, Xcode and the iOS SDK",
+          "Deep knowledge of UIKit fundamentals. Bonus if you’ve worked with UIDynamics, SceneKit and QuartzCore",
+          "Ability to develop UIs programatically or via XIB",
+          "Ability to write readable, testable, modular code",
+          "Experience with commonly used popular iOS libraries is a plus"
+        ]
+      },
+      {
+        "platformName": "Web",
+        "platformRequirement": [
+          "Passionate about web frontend",
+          "Autodidact capable of learning slow and/or fast",
+          "Strong understanding of foundational web technologies like HTML, CSS and JavaScript",
+          "Knowledge of how browsers work is essential",
+          "Extremely well versed with the JavaScript language in general along with transpiling tools like Babel, module bundlers like webpack, parcel",
+          "Some experience with React and its ecosystem",
+          "Some experience with nodejs & npm",
+          "Strong web design skills",
+          "Strong documentation skills",
+          "Attention to detail"
+        ]
+      }
+    ],
     "department": "",
     "projects": [],
     "metaDescription": "",
@@ -866,9 +924,10 @@
       "expectations",
       "experience"
     ],
-    "experienceYears":"2+ YEARS",
+    "requirements": [],
+    "experienceYears": "2+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Mobile Engineering",
     "responsibilities": [],
     "experience": [
       "Minimum of 2 years of experience in Android engineering",
@@ -910,6 +969,115 @@
     "title": "Android Engineer - Driver Platform | Bangalore | GO-JEK Careers"
   },
   {
+    "id": "34",
+    "positionSlug": "full-stack-engineer-merchant-growth",
+    "position": "Full Stack Engineer - Merchant Growth",
+    "jobId": "fk0j3ij",
+    "overview": "Are you interested in building products which build for a massive network of large, medium and small businesses and create a massive impact on their business? Do you enjoy iterative software development and building products with the ability to see the real impact of your contribution? Then come and join us in GO-JEK’s Merchant Growth team and help solve the key challenges facing millions of Indonesian and South-East Asia’s Merchants across Go-Food, Go-Pay, Go-Deals and Go-Tix in achieving growing their business, revenue and profitability.",
+    "place": "Bangalore",
+    "headings": [
+      "overview",
+      "responsibilities",
+      "requirements"
+    ],
+    "requirements": [
+      "Data modelling experience in Relational and NoSQL databases",
+      "Excellent understanding of interactive application development paradigm, memory management, performance/resource optimizations, database interactions, network programming, concurrency and multithreading, fault tolerance, monitoring, security and operability of systems",
+      "2+ years of relevant software development experience with consumer/enterprise products with hands-on experience in designing, developing, testing and deploying applications for large-scale applications",
+      "Proficient in OOP, SQL, Design Patterns. Experience with functional programming is a plus.",
+      "Understand and implement Continuous Integration and Continuous Delivery",
+      "Well versed with Agile methodologies,TDD and Test Engineering and Automation",
+      "Ability to design and implement low latency RESTful/GRPC services",
+      "Experience troubleshooting server performance - memory issues, GC tuning, resource leaks etc.",
+      "Continuously refactor applications to ensure high-quality design",
+      "Ability to plan, prioritize, estimate and execute releases with a good degree of predictability",
+      "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks",
+      "Passion to learn new things, solve challenging problems",
+      "Ability to Get Stuff Done!"
+    ],
+    "experienceYears": "2+ YEARS",
+    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Systems & Security",
+    "responsibilities": [
+      "Translate Merchant Growth objectives into iterative MVPs, evaluate and then refactor into a scalable and extensible design",
+      "Pair with team members on functional and nonfunctional requirements and spread design philosophy, goals and improvements to code quality across the team",
+      "Design and develop highly scalable, highly available, reliable, secure and fault-tolerant systems with minimal guidance",
+      "Coordinate with cross-functional teams (Sales, Marketing, Hardware, Product, Mobile, DevOps, UX, Data Science, Data Engineering, QA etc.) on planning and execution",
+      "Building and managing automated build/test/deployment environments",
+      "Research new technologies and tools, speak and participate in tech conferences to carry the GO-JEK brand throughout the community",
+      "Lead deliverables with a team of talented and highly motivated engineers"
+    ],
+    "experience": [],
+    "expectations": [],
+    "about": [],
+    "rolesOverview": "",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "whatWillYouDo": [],
+    "whatWillYouNeed": [],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title": "Full Stack Engineer - Merchant Growth | Bangalore | GO-JEK Careers"
+  },
+  {
+    "id": "35",
+    "positionSlug": "full-stack-engineer-tech-lead-merchant-growth",
+    "position": "Full Stack Engineer (Tech Lead - Merchant Growth)",
+    "jobId": "fk0j3ix",
+    "overview": "Are you interested in building products which build for a massive network of large, medium and small businesses and create a massive impact on their business? Do you enjoy iterative software development and building products with the ability to see the real impact of your contribution? Then come and join us in GO-JEK’s Merchant Growth team and help solve the key challenges facing millions of Indonesian and South-East Asia’s Merchants across Go-Food, Go-Pay, Go-Deals and Go-Tix in achieving growing their business, revenue and profitability.",
+    "place": "Bangalore",
+    "headings": [
+      "overview",
+      "responsibilities",
+      "requirements"
+    ],
+    "requirements": [
+      "Data modelling experience in Relational and NoSQL databases",
+      "Excellent understanding of interactive application development paradigm, memory management, performance/resource optimizations, database interactions, network programming, concurrency and multithreading, fault tolerance, monitoring, security and operability of systems",
+      "6+ years of relevant software development experience with consumer/enterprise products with hands-on experience in designing, developing, testing and deploying applications for large-scale applications",
+      "Proficient in OOP, SQL, Design Patterns. Experience with functional programming is a plus.",
+      "Understand and implement Continuous Integration and Continuous Delivery",
+      "Well versed with Agile methodologies,TDD and Test Engineering and Automation",
+      "Ability to design and implement low latency RESTful/GRPC services",
+      "Experience troubleshooting server performance - memory issues, GC tuning, resource leaks etc.",
+      "Continuously refactor applications to ensure high-quality design",
+      "Ability to plan, prioritize, estimate and execute releases with a good degree of predictability",
+      "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks",
+      "Passion to learn new things, solve challenging problems",
+      "Ability to Get Stuff Done!"
+    ],
+    "experienceYears": "6+ YEARS",
+    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Systems & Security",
+    "responsibilities": [
+      "Lead, mentor and recruit a team of highly talented and motivated engineers",
+      "Own design, strategy and quality of software development for Merchant Growth",
+      "Translate objectives into iterative MVPs, evaluate and then refactor into a scalable and extensible design",
+      "Pair with team members on functional and nonfunctional requirements and spread design philosophy, goals and improvements to code quality across the team",
+      "Design and develop highly scalable, highly available, reliable, secure and fault-tolerant systems with minimal guidance",
+      "Coordinate with cross-functional teams (Sales, Marketing, Hardware, Product, Mobile, DevOps, UX, Data Science, Data Engineering, QA etc.) on planning and execution",
+      "Building and managing automated build/test/deployment environments",
+      "Research new technologies and tools, speak and participate in tech conferences to carry the GOJEK brand throughout the community"
+    ],
+    "experience": [],
+    "expectations": [],
+    "about": [],
+    "rolesOverview": "",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "whatWillYouDo": [],
+    "whatWillYouNeed": [],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title": "Full Stack Engineer (Tech Lead - Merchant Growth) | Bangalore | GO-JEK Careers"
+  },
+  {
     "id": "4",
     "positionSlug": "full-stack-engineer-singapore",
     "position": "Full Stack Engineer",
@@ -921,7 +1089,8 @@
       "whatWillYouDo",
       "experience"
     ],
-    "experienceYears":"2+ YEARS",
+    "requirements": [],
+    "experienceYears": "2+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -986,9 +1155,10 @@
       "whatWillYouDo",
       "experience"
     ],
-    "experienceYears":"6+ YEARS",
+    "requirements": [],
+    "experienceYears": "6+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk01uk8?cjb_hash=O_YUiJ35&apply_now=true&utm_source=gojek.io.website&utm_medium=Websiteclick&utm_campaign=gojekjobs_web",
-    "team": "Engineering",
+    "team": "Mobile Engineering",
     "responsibilities": [],
     "responsibilitiesOverview": "",
     "experience": [
@@ -1036,7 +1206,8 @@
       "whatWillYouDo",
       "experience"
     ],
-    "experienceYears":"",
+    "requirements": [],
+    "experienceYears": "",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -1096,7 +1267,8 @@
       "whatWillYouNeed",
       "whatWouldbeaBonus"
     ],
-    "experienceYears":"3+ YEARS",
+    "requirements": [],
+    "experienceYears": "3+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Engineering",
     "responsibilities": [],
@@ -1151,9 +1323,10 @@
       "whatWillYouDo",
       "experience"
     ],
-    "experienceYears":"4+ YEARS",
+    "requirements": [],
+    "experienceYears": "4+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Systems & Security",
     "responsibilities": [],
     "responsibilitiesOverview": "",
     "experience": [
@@ -1202,9 +1375,10 @@
       "whatWillYouNeed",
       "whatWouldbeaBonus"
     ],
-    "experienceYears":"4+ YEARS",
+    "requirements": [],
+    "experienceYears": "4+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Systems & Security",
     "responsibilities": [],
     "responsibilitiesOverview": "",
     "experience": [],
@@ -1253,7 +1427,8 @@
       "whatWillYouDo",
       "experience"
     ],
-    "experienceYears":"2+ YEARS",
+    "requirements": [],
+    "experienceYears": "2+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -1313,14 +1488,15 @@
     "position": "Android Engineer",
     "jobId": "fk0jwwg",
     "link": "https://gojek.recruiterbox.com/jobs/fk01u5b?cjb_hash=O_tVhx60&apply_now=true&utm_source=gojek.io.website&utm_campaign=iOS%20Engineer",
-    "team": "Engineering",
+    "team": "Mobile Engineering",
     "overview": "",
     "place": "Jakarta",
     "headings": [
       "whatWillYouDo",
       "whatWillYouNeed"
     ],
-    "experienceYears":"6+ YEARS",
+    "requirements": [],
+    "experienceYears": "6+ YEARS",
     "responsibilities": [],
     "responsibilitiesOverview": "",
     "experience": [],
@@ -1362,14 +1538,15 @@
     "position": "iOS Engineer",
     "jobId": "fk0jww5",
     "link": "https://gojek.recruiterbox.com/jobs/fk01u5b?cjb_hash=O_tVhx60&apply_now=true&utm_source=gojek.io.website&utm_campaign=iOS%20Engineer",
-    "team": "Engineering",
+    "team": "Mobile Engineering",
     "overview": "",
     "place": "Jakarta",
     "headings": [
       "responsibilities",
       "experience"
     ],
-    "experienceYears":"2+ YEARS",
+    "requirements": [],
+    "experienceYears": "2+ YEARS",
     "responsibilities": [
       "Build and improve the mobile experiences for one of the world’s fastest growing mobile app in travel",
       "Contribute to the evolution of the technology, product and experience",
@@ -1421,9 +1598,10 @@
       "expectations",
       "whatWillYouDo"
     ],
-    "experienceYears":"4-6 YEARS",
+    "requirements": [],
+    "experienceYears": "4-6 YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Engineering",
+    "team": "Product Management",
     "responsibilities": [],
     "responsibilitiesOverview": "",
     "experience": [],
@@ -1460,6 +1638,106 @@
     "title": "Lead Project Manager Jobs | Jakarta | GO-JEK Careers"
   },
   {
+    "id": "36",
+    "positionSlug": "backend-engineer-jakarta-go-food",
+    "position": "Backend Engineer [Jakarta] - GO-FOOD",
+    "jobId": "fk0jqes",
+    "overview": "Passionate, entrepreneurial developers with a drive for developing and deploying applications at scale, to join our GO-FOOD Team in Jakarta. In this role, you will be responsible to develop, deploy and maintain large backend applications aimed at improving customer experience on GO-FOOD. You will also be responsible for high availability and scalability of GO-FOOD backend platform.",
+    "place": "Jakarta",
+    "headings": [
+      "overview",
+      "responsibilities",
+      "requirements"
+    ],
+    "requirements": [
+      "3+ years of hands-on experience in designing, developing, testing and deploying large scale applications in any language or stack",
+      "Ability to design and implement low latency RESTful services.",
+      "Have a good understanding of Golang / Ruby.",
+      "Continuously refactor applications and architectures to maintain high-quality levels.",
+      "Data modeling experience in both Relational and NoSQL databases.",
+      "Prior experience of food-based product startups is a plus.",
+      "Have hands-on experience with ElasticSearch.",
+      "Passion for learning new things, solving challenging problems."
+    ],
+    "experienceYears": "3+ YEARS",
+    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Product Management",
+    "responsibilities": [
+      "You will be part of one of the biggest food delivery system with high throughput and visible end user impact.",
+      "Communicate, collaborate and work eﬀectively across distributed teams in a global environment.",
+      "You should understand the user and their behaviour and will continuously contribute to make their experience better with each release.",
+      "You greatly value humility.",
+      "Pair with team members on functional and nonfunctional requirements and spread design philosophy and goals across the team.",
+      "You shall write code because you like to. You never stop wanting to get better at it.",
+      "Design and develop highly scalable, reliable and fault tolerant systems for one of the world's fastest growing unicorns."
+    ],
+    "responsibilitiesOverview": "",
+    "experience": [],
+    "about": [],
+    "rolesOverview": "",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [],
+    "whatWillYouDo": [],
+    "whatWillYouNeed": [],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title": "Backend Engineer [Jakarta] - GO-FOOD | Jakarta | GO-JEK Careers"
+  },
+  {
+    "id": "38",
+    "positionSlug": "android-engineer-jakarta-go-food",
+    "position": "Android Engineer [Jakarta] - GO-FOOD",
+    "jobId": "fk0jqe2",
+    "overview": "Passionate, entrepreneurial developers with a drive for developing and deploying applications at scale, to join our GO-FOOD Team in Jakarta. In this role, you will be responsible to develop, deploy and maintain large backend applications aimed at improving customer experience on GO-FOOD. You will also be responsible for high availability and scalability of GO-FOOD backend platform.",
+    "place": "Jakarta",
+    "headings": [
+      "responsibilities",
+      "requirements"
+    ],
+    "requirements": [
+      "6+ years of hands-on experiences in developing and testing apps on Android for large scale applications",
+      "Ability to understand the dependent system/sub-systems and troubleshoot issues effectively",
+      "Hands on experience and strong proficiency but not limited to Kotlin",
+      "Well versed with Agile methodologies, TDD and Test Engineering and Automation.",
+      "Strong foundations in Java, OOPs, Design Patterns, Clean Code fundamentals",
+      "Ability to understand and implement Continuous Integration and Continuous Delivery principles.",
+      "Good understanding of interactive application development paradigm",
+      "Passion to learn new things, solve challenging problems",
+      "Working knowledge with dagger, okhttp, retrofit, rxjava, butterknife, bolts, glide, espresso, mockito, powermock or equivalent libraries on Android",
+      "Eagerness to work openly and collaboratively with a diverse team"
+    ],
+    "experienceYears": "6+ YEARS",
+    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Product Management",
+    "responsibilities": [
+      "Design and build highly scalable, reliable and fault-tolerant systems for one of the world's fastest-growing unicorns",
+      "Contribute to the evolution of the technology, product, and experience",
+      "Quickly grasp concepts, problems and implement solutions with guidance",
+      "Coordinate with cross-functional teams (Backend, DevOps, Design etc.) on planning and execution",
+      "Unit test code for robustness, usability, and reliability",
+      "Communicate, collaborate and work effectively across cross-functional teams in a global environment"
+    ],
+    "responsibilitiesOverview": "",
+    "experience": [],
+    "about": [],
+    "rolesOverview": "",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [],
+    "whatWillYouDo": [],
+    "whatWillYouNeed": [],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title": "Android Engineer [Jakarta] - GO-FOOD | Jakarta | GO-JEK Careers"
+  },
+  {
     "id": "3",
     "positionSlug": "full-stack-engineer-thailand",
     "position": "Full Stack Engineer",
@@ -1471,7 +1749,8 @@
       "whatWillYouDo",
       "experience"
     ],
-    "experienceYears":"2+ YEARS",
+    "requirements": [],
+    "experienceYears": "2+ YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -1531,14 +1810,15 @@
     "position": "Full Stack Engineer - Financial Platform",
     "jobId": "fk01cjw",
     "link": "https://gojek.recruiterbox.com/jobs/fk01u5b?cjb_hash=O_tVhx60&apply_now=true&utm_source=gojek.io.website&utm_campaign=iOS%20Engineer",
-    "team": "Engineering",
+    "team": "Product Management",
     "overview": "",
     "place": "Thailand",
     "headings": [
       "responsibilities",
       "about"
     ],
-    "experienceYears":"2+ YEARS",
+    "requirements": [],
+    "experienceYears": "2+ YEARS",
     "responsibilities": [
       "Working with your team and product owner to refine and develop the product direction and implementation",
       "Deploying, monitoring, maintaining and fixing products in production",
@@ -1581,7 +1861,8 @@
     "headings": [
       "responsibilities"
     ],
-    "experienceYears":"",
+    "requirements": [],
+    "experienceYears": "",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Marketing and Operations",
     "responsibilities": [
@@ -1621,7 +1902,8 @@
       "experience",
       "expectations"
     ],
-    "experienceYears":"1-4 YEARS",
+    "requirements": [],
+    "experienceYears": "1-4 YEARS",
     "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Marketing and Operations",
     "responsibilities": [
@@ -1664,14 +1946,14 @@
     "title": "Recruitment Coordinator Jobs, Recruitment Specialist Jobs | Bangalore | GO-JEK Careers"
   },
   {
-    "id": "34",
+    "id": "39",
     "positionSlug": "",
     "position": "",
     "jobId": "fk019mp",
     "overview": "The mission of GO-FOOD as a product is to provide it’s customers with the best possible selection of food at the most aﬀordable price. GO-FOOD is also a market place for restaurants to list their food items and increase their sales. GO-FOOD also has it’s own fleet of drivers with an app where they can accept food orders and earn their daily income out food delivery. So overall it’s an ecosystem consisting of consumers, merchants and drivers which GO-FOOD manages with the ultimate aim of providing best user experience to consumers and growth for merchants and drivers. We currently have a team of 40+ engineers across 2 diﬀerent locations Bangalore and Jakarta. GO-FOOD being one of the largest online food delivery applications, the scale at which this team operates is phenomenal. GO-FOOD has more than 300k merchants and more than 20 millions dishes listed on it’s platform.",
     "place": "Vietnam",
     "team": "",
-    "experienceYears":"3+ YEARS",
+    "experienceYears": "3+ YEARS",
     "headings": [
       "overview",
       "responsibilities",
@@ -1713,56 +1995,6 @@
     "projects": [],
     "metaDescription": "Hiring full stack engineers for GO-FOOD, one of the world's largest and efficient food delivery service app. Read the job description and apply today!",
     "title": "Full Stack Engineer Jobs | GO-FOOD | GO-JEK Careers"
-  },
-  {
-    "id": "34",
-    "positionSlug": "",
-    "position": "",
-    "jobId": "fk019mp",
-    "overview": "The mission of GO-FOOD as a product is to provide it’s customers with the best possible selection of food at the most aﬀordable price. GO-FOOD is also a market place for restaurants to list their food items and increase their sales. GO-FOOD also has it’s own fleet of drivers with an app where they can accept food orders and earn their daily income out food delivery. So overall it’s an ecosystem consisting of consumers, merchants and drivers which GO-FOOD manages with the ultimate aim of providing best user experience to consumers and growth for merchants and drivers. We currently have a team of 40+ engineers across 2 diﬀerent locations Bangalore and Jakarta. GO-FOOD being one of the largest online food delivery applications, the scale at which this team operates is phenomenal. GO-FOOD has more than 300k merchants and more than 20 millions dishes listed on it’s platform.",
-    "place": "Philippines",
-    "team": "",
-    "experienceYears":"3+ YEARS",
-    "headings": [
-      "overview",
-      "responsibilities",
-      "experience"
-    ],
-    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "responsibilities": [
-      "You will be part of one of the biggest food delivery system with high throughput and visible end user impact.",
-      "Communicate, collaborate and work eﬀectively across distributed teams in a global environment.",
-      "You should understand the user and their behaviour and will continuously contribute to make their experience better with each release.",
-      "You greatly value humility.",
-      "Pair with team members on functional and nonfunctional requirements and spread design philosophy and goals across the team.",
-      "You shall write code because you like to. You never stop wanting to get better at it.",
-      "Design and develop highly scalable, reliable and fault tolerant systems for one of the world's fastest growing unicorns."
-    ],
-    "responsibilitiesOverview": "Passionate, entrepreneurial developers with a drive for developing and deploying applications at scale, to join our GO-FOOD Team in Bangalore. In this role you will be responsible to develop, deploy and maintain large backend applications aimed at improving customer experience on GO-FOOD. You will also be responsible for high availability and scalability of GO-FOOD backend platform.",
-    "experience": [
-      "3+ years of hands-on experience in designing, developing, testing and deploying large scale applications in any language or stack",
-      "Ability to design and implement low latency RESTful services.",
-      "Have good understanding of Golang / Ruby.",
-      "Continuously refactor applications and architectures to maintain high quality levels.",
-      "Knowledge Clojure / React is a definite plus.",
-      "Experience in troubleshooting server performance memory issues, GC tuning, resource leaks etc.",
-      "Data modelling experience in both Relational and NoSQL databases.",
-      "Prior experience of product based startups is a plus.",
-      "Have hands on experience with ElasticSearch.",
-      "Passion for learning new things, solving challenging problems."
-    ],
-    "about": [],
-    "rolesOverview": "",
-    "roles": [],
-    "scopeOverview": "",
-    "scope": [],
-    "expectations": [],
-    "whatWillYouDo": [],
-    "whatWillYouNeed": [],
-    "whatWouldbeaBonus": [],
-    "department": "Food",
-    "projects": [],
-    "metaDescription": "Hiring full stack engineers for GO-FOOD, one of the world's largest and efficient food delivery service app. Read the job description and apply today!",
-    "title": ""
   }
+  
 ]
