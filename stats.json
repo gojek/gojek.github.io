@@ -1,28 +1,28 @@
 {
   "assetsByChunkName": {
     "path---careers-engineering-lead-products-singapore": [
-      "path---careers-engineering-lead-products-singapore-0eacb31a773a441c4026.js",
-      "path---careers-engineering-lead-products-singapore-0eacb31a773a441c4026.js.map"
+      "path---careers-engineering-lead-products-singapore-980550cf6cc970e84f7e.js",
+      "path---careers-engineering-lead-products-singapore-980550cf6cc970e84f7e.js.map"
     ],
     "path---careers-analytics-programanager": [
-      "path---careers-analytics-programanager-4951d1db025679a86b6d.js",
-      "path---careers-analytics-programanager-4951d1db025679a86b6d.js.map"
+      "path---careers-analytics-programanager-517ab788155407107ad3.js",
+      "path---careers-analytics-programanager-517ab788155407107ad3.js.map"
     ],
     "path---careers-lead-product-manager": [
-      "path---careers-lead-product-manager-d7cc9424b168e25e62c1.js",
-      "path---careers-lead-product-manager-d7cc9424b168e25e62c1.js.map"
+      "path---careers-lead-product-manager-9a027424ddf80027aa60.js",
+      "path---careers-lead-product-manager-9a027424ddf80027aa60.js.map"
     ],
     "path---careers-site-reliability-engineer": [
-      "path---careers-site-reliability-engineer-e0ca82b0492c117bb644.js",
-      "path---careers-site-reliability-engineer-e0ca82b0492c117bb644.js.map"
+      "path---careers-site-reliability-engineer-c663b3a3e5b310124866.js",
+      "path---careers-site-reliability-engineer-c663b3a3e5b310124866.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-1e8de301ce6add903595.js",
       "component---src-pages-index-js-1e8de301ce6add903595.js.map"
     ],
     "path---careers-senior-fraud-analyst": [
-      "path---careers-senior-fraud-analyst-59a7ac779caae38e2da5.js",
-      "path---careers-senior-fraud-analyst-59a7ac779caae38e2da5.js.map"
+      "path---careers-senior-fraud-analyst-786576aa6f9f09b96a00.js",
+      "path---careers-senior-fraud-analyst-786576aa6f9f09b96a00.js.map"
     ],
     "path---events": [
       "path---events-a0e39f21c11f6a62c5ab.js",
@@ -45,12 +45,12 @@
       "path----14ed79e3a41660f0d27e.js.map"
     ],
     "path---careers-senior-engineer-go-pay": [
-      "path---careers-senior-engineer-go-pay-eead5ec9f889baadce23.js",
-      "path---careers-senior-engineer-go-pay-eead5ec9f889baadce23.js.map"
+      "path---careers-senior-engineer-go-pay-54d34d1dbc3c38b9e4a2.js",
+      "path---careers-senior-engineer-go-pay-54d34d1dbc3c38b9e4a2.js.map"
     ],
     "path---careers-senior-analyst": [
-      "path---careers-senior-analyst-920ad8c036c5653ac5d7.js",
-      "path---careers-senior-analyst-920ad8c036c5653ac5d7.js.map"
+      "path---careers-senior-analyst-b6a156fe3735725b4135.js",
+      "path---careers-senior-analyst-b6a156fe3735725b4135.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-24e2c761896d800ca163.js",
@@ -61,24 +61,24 @@
       "component---src-pages-news-js-832dbce75b63572d14f7.js.map"
     ],
     "path---careers-full-stack-engineer-financial-platform-thailand": [
-      "path---careers-full-stack-engineer-financial-platform-thailand-312f22429b08480b3cc9.js",
-      "path---careers-full-stack-engineer-financial-platform-thailand-312f22429b08480b3cc9.js.map"
+      "path---careers-full-stack-engineer-financial-platform-thailand-96a22be7403f17afdab2.js",
+      "path---careers-full-stack-engineer-financial-platform-thailand-96a22be7403f17afdab2.js.map"
     ],
     "component---src-pages-gojek-expansion-js": [
       "component---src-pages-gojek-expansion-js-ba36fd8d72476b1ae1c3.js",
       "component---src-pages-gojek-expansion-js-ba36fd8d72476b1ae1c3.js.map"
     ],
     "path---careers-senior-system-engineer": [
-      "path---careers-senior-system-engineer-cde184f681b096301a8c.js",
-      "path---careers-senior-system-engineer-cde184f681b096301a8c.js.map"
+      "path---careers-senior-system-engineer-9c14003abe6b078bf5b5.js",
+      "path---careers-senior-system-engineer-9c14003abe6b078bf5b5.js.map"
     ],
     "path---careers-full-stack-engineer-go-food": [
-      "path---careers-full-stack-engineer-go-food-53bc767f86d3ceaa0c63.js",
-      "path---careers-full-stack-engineer-go-food-53bc767f86d3ceaa0c63.js.map"
+      "path---careers-full-stack-engineer-go-food-555be28a387e4e8512e8.js",
+      "path---careers-full-stack-engineer-go-food-555be28a387e4e8512e8.js.map"
     ],
     "path---careers-security-engineer": [
-      "path---careers-security-engineer-8aa1b8358d30e426a96e.js",
-      "path---careers-security-engineer-8aa1b8358d30e426a96e.js.map"
+      "path---careers-security-engineer-49f01fd925a8536596ba.js",
+      "path---careers-security-engineer-49f01fd925a8536596ba.js.map"
     ],
     "path---go-viet": [
       "path---go-viet-a0e39f21c11f6a62c5ab.js",
@@ -101,8 +101,8 @@
       "component---src-pages-go-jek-tech-to-hire-200-engineers-in-india-js-b0d2a0577f62da0e443e.js.map"
     ],
     "path---careers-backend-engineer-go-food": [
-      "path---careers-backend-engineer-go-food-c0cc729e4cd3472b02a8.js",
-      "path---careers-backend-engineer-go-food-c0cc729e4cd3472b02a8.js.map"
+      "path---careers-backend-engineer-go-food-cd0069d047c601557a07.js",
+      "path---careers-backend-engineer-go-food-cd0069d047c601557a07.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-547493bbaf18e80a4215.js",
@@ -117,44 +117,48 @@
       "path---apply-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-job-js": [
-      "component---src-templates-job-js-0feb6721ce8c98762848.js",
-      "component---src-templates-job-js-0feb6721ce8c98762848.js.map"
+      "component---src-templates-job-js-e20be6445a29e2c2568b.js",
+      "component---src-templates-job-js-e20be6445a29e2c2568b.js.map"
     ],
     "path---careers-full-stack-engineer-bangalore": [
-      "path---careers-full-stack-engineer-bangalore-c47de85c92f6c498f50f.js",
-      "path---careers-full-stack-engineer-bangalore-c47de85c92f6c498f50f.js.map"
+      "path---careers-full-stack-engineer-bangalore-47a99a3a30c661d9ab71.js",
+      "path---careers-full-stack-engineer-bangalore-47a99a3a30c661d9ab71.js.map"
     ],
     "path---careers-recruitment-coordinator": [
-      "path---careers-recruitment-coordinator-d976faae3dbe13a82a2f.js",
-      "path---careers-recruitment-coordinator-d976faae3dbe13a82a2f.js.map"
+      "path---careers-recruitment-coordinator-dbcbaa952eaee682bba6.js",
+      "path---careers-recruitment-coordinator-dbcbaa952eaee682bba6.js.map"
     ],
     "path---careers-full-stack-engineer-jakarta": [
-      "path---careers-full-stack-engineer-jakarta-abd21e90b6d62ef87a14.js",
-      "path---careers-full-stack-engineer-jakarta-abd21e90b6d62ef87a14.js.map"
+      "path---careers-full-stack-engineer-jakarta-39d972beb244d2e3067b.js",
+      "path---careers-full-stack-engineer-jakarta-39d972beb244d2e3067b.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---careers-full-stack-engineer-singapore": [
-      "path---careers-full-stack-engineer-singapore-aa97ed832f639b4bd794.js",
-      "path---careers-full-stack-engineer-singapore-aa97ed832f639b4bd794.js.map"
+      "path---careers-full-stack-engineer-singapore-f1f13bc74f0dc3c46b24.js",
+      "path---careers-full-stack-engineer-singapore-f1f13bc74f0dc3c46b24.js.map"
     ],
     "path---careers-ux-engineer": [
-      "path---careers-ux-engineer-7591b2eef23299b5cad1.js",
-      "path---careers-ux-engineer-7591b2eef23299b5cad1.js.map"
+      "path---careers-ux-engineer-477f2086085e516d1ef3.js",
+      "path---careers-ux-engineer-477f2086085e516d1ef3.js.map"
     ],
     "path---careers-ios-engineer-jakarta": [
-      "path---careers-ios-engineer-jakarta-efad23bc64290c02b423.js",
-      "path---careers-ios-engineer-jakarta-efad23bc64290c02b423.js.map"
+      "path---careers-ios-engineer-jakarta-e901970c752e0131099a.js",
+      "path---careers-ios-engineer-jakarta-e901970c752e0131099a.js.map"
     ],
     "path---careers-android-engineer-driver-platform": [
-      "path---careers-android-engineer-driver-platform-d14a761681fb31a3d7a3.js",
-      "path---careers-android-engineer-driver-platform-d14a761681fb31a3d7a3.js.map"
+      "path---careers-android-engineer-driver-platform-4c24504974701c2eca33.js",
+      "path---careers-android-engineer-driver-platform-4c24504974701c2eca33.js.map"
     ],
     "path---careers-android-engineer-singapore": [
-      "path---careers-android-engineer-singapore-8cb0682f973852fa0884.js",
-      "path---careers-android-engineer-singapore-8cb0682f973852fa0884.js.map"
+      "path---careers-android-engineer-singapore-566e924ad10f4d3e5ca8.js",
+      "path---careers-android-engineer-singapore-566e924ad10f4d3e5ca8.js.map"
+    ],
+    "path---careers-full-stack-engineer-merchant-growth": [
+      "path---careers-full-stack-engineer-merchant-growth-c4edbee32bb60b31c8c4.js",
+      "path---careers-full-stack-engineer-merchant-growth-c4edbee32bb60b31c8c4.js.map"
     ],
     "path---go-jek-tech-to-hire-200-engineers-in-india": [
       "path---go-jek-tech-to-hire-200-engineers-in-india-a0e39f21c11f6a62c5ab.js",
@@ -169,12 +173,12 @@
       "commons-45ab418853e570f90fef.js.map"
     ],
     "component---src-pages-careers-js": [
-      "component---src-pages-careers-js-f8e0119939e8810c5dc3.js",
-      "component---src-pages-careers-js-f8e0119939e8810c5dc3.js.map"
+      "component---src-pages-careers-js-461dfe4f85166a99ef42.js",
+      "component---src-pages-careers-js-461dfe4f85166a99ef42.js.map"
     ],
     "path---careers-android-engineer-jakarta": [
-      "path---careers-android-engineer-jakarta-58b74b35b16054e54d3c.js",
-      "path---careers-android-engineer-jakarta-58b74b35b16054e54d3c.js.map"
+      "path---careers-android-engineer-jakarta-cf2236fe0d9547a050cc.js",
+      "path---careers-android-engineer-jakarta-cf2236fe0d9547a050cc.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -185,12 +189,12 @@
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---careers-product-manager": [
-      "path---careers-product-manager-b8e93f9af84a71648bd7.js",
-      "path---careers-product-manager-b8e93f9af84a71648bd7.js.map"
+      "path---careers-product-manager-033297cc6672c8554187.js",
+      "path---careers-product-manager-033297cc6672c8554187.js.map"
     ],
     "path---careers-data-scientist-go-pay": [
-      "path---careers-data-scientist-go-pay-74a5b01d54a9311947ac.js",
-      "path---careers-data-scientist-go-pay-74a5b01d54a9311947ac.js.map"
+      "path---careers-data-scientist-go-pay-485aad706fe7dc27f449.js",
+      "path---careers-data-scientist-go-pay-485aad706fe7dc27f449.js.map"
     ],
     "component---src-pages-thank-you-js": [
       "component---src-pages-thank-you-js-2a4bb6505147a55533f9.js",
@@ -201,60 +205,72 @@
       "path---news-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---careers-senior-product-manager": [
-      "path---careers-senior-product-manager-5f31afbded0101e836bb.js",
-      "path---careers-senior-product-manager-5f31afbded0101e836bb.js.map"
+      "path---careers-senior-product-manager-0723c0b20853b3068fe4.js",
+      "path---careers-senior-product-manager-0723c0b20853b3068fe4.js.map"
     ],
     "component---src-pages-blog-js": [
       "component---src-pages-blog-js-72c3e6eda5775d9a7ec9.js",
       "component---src-pages-blog-js-72c3e6eda5775d9a7ec9.js.map"
     ],
     "path---careers-applied-researcher-deep-learning": [
-      "path---careers-applied-researcher-deep-learning-1dcc686bb03e81afcc4f.js",
-      "path---careers-applied-researcher-deep-learning-1dcc686bb03e81afcc4f.js.map"
+      "path---careers-applied-researcher-deep-learning-929c53ea105068a84e0e.js",
+      "path---careers-applied-researcher-deep-learning-929c53ea105068a84e0e.js.map"
+    ],
+    "path---careers-android-engineer-jakarta-go-food": [
+      "path---careers-android-engineer-jakarta-go-food-bd677da47938b84abd42.js",
+      "path---careers-android-engineer-jakarta-go-food-bd677da47938b84abd42.js.map"
     ],
     "path---careers-data-engineer-tech-lead": [
-      "path---careers-data-engineer-tech-lead-5c2cc5a29e294a153a9a.js",
-      "path---careers-data-engineer-tech-lead-5c2cc5a29e294a153a9a.js.map"
+      "path---careers-data-engineer-tech-lead-4ec86f2d3259231479af.js",
+      "path---careers-data-engineer-tech-lead-4ec86f2d3259231479af.js.map"
     ],
     "path---thank-you": [
       "path---thank-you-a0e39f21c11f6a62c5ab.js",
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---careers-machine-learning-engineer-go-pay": [
-      "path---careers-machine-learning-engineer-go-pay-6ab7f7112d26de767a3b.js",
-      "path---careers-machine-learning-engineer-go-pay-6ab7f7112d26de767a3b.js.map"
+      "path---careers-machine-learning-engineer-go-pay-68a81b898c683022b392.js",
+      "path---careers-machine-learning-engineer-go-pay-68a81b898c683022b392.js.map"
     ],
     "app": [
-      "app-ee887b62e3fb68d63872.js",
-      "app-ee887b62e3fb68d63872.js.map"
+      "app-b7c04766fec27b049315.js",
+      "app-b7c04766fec27b049315.js.map"
     ],
     "path---careers-full-stack-engineer-thailand": [
-      "path---careers-full-stack-engineer-thailand-663fc620946c0a818b90.js",
-      "path---careers-full-stack-engineer-thailand-663fc620946c0a818b90.js.map"
+      "path---careers-full-stack-engineer-thailand-3d4d7abc1c29fe524097.js",
+      "path---careers-full-stack-engineer-thailand-3d4d7abc1c29fe524097.js.map"
     ],
     "path---careers-internal-journalist": [
-      "path---careers-internal-journalist-c0beeca33b4e05d3d280.js",
-      "path---careers-internal-journalist-c0beeca33b4e05d3d280.js.map"
+      "path---careers-internal-journalist-683e1e3f0c31fa96eaaf.js",
+      "path---careers-internal-journalist-683e1e3f0c31fa96eaaf.js.map"
     ],
     "component---src-pages-events-js": [
       "component---src-pages-events-js-83294fca812a62057abd.js",
       "component---src-pages-events-js-83294fca812a62057abd.js.map"
     ],
     "path---careers-software-engineer-fraud-singapore": [
-      "path---careers-software-engineer-fraud-singapore-312c8c306c256294d2a7.js",
-      "path---careers-software-engineer-fraud-singapore-312c8c306c256294d2a7.js.map"
+      "path---careers-software-engineer-fraud-singapore-f2ed991cd8c1e01507ac.js",
+      "path---careers-software-engineer-fraud-singapore-f2ed991cd8c1e01507ac.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-gomakeimpact-js": [
-      "component---src-pages-gomakeimpact-js-419f7d34323d93366f9d.js",
-      "component---src-pages-gomakeimpact-js-419f7d34323d93366f9d.js.map"
+      "component---src-pages-gomakeimpact-js-19d021adb40741b15a42.js",
+      "component---src-pages-gomakeimpact-js-19d021adb40741b15a42.js.map"
+    ],
+    "path---careers-backend-engineer-jakarta-go-food": [
+      "path---careers-backend-engineer-jakarta-go-food-6b93ff9102b1b5d644d6.js",
+      "path---careers-backend-engineer-jakarta-go-food-6b93ff9102b1b5d644d6.js.map"
+    ],
+    "path---careers-full-stack-engineer-tech-lead-merchant-growth": [
+      "path---careers-full-stack-engineer-tech-lead-merchant-growth-52b20b9b2e16f046e11f.js",
+      "path---careers-full-stack-engineer-tech-lead-merchant-growth-52b20b9b2e16f046e11f.js.map"
     ],
     "path---careers-software-engineering-manager": [
-      "path---careers-software-engineering-manager-08d0e1e381c4d6a07d89.js",
-      "path---careers-software-engineering-manager-08d0e1e381c4d6a07d89.js.map"
+      "path---careers-software-engineering-manager-f77a0fe05014d0e18eb0.js",
+      "path---careers-software-engineering-manager-f77a0fe05014d0e18eb0.js.map"
     ],
     "path---gomakeimpact": [
       "path---gomakeimpact-a0e39f21c11f6a62c5ab.js",
