@@ -9,6 +9,7 @@ class Categories extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            team: null,
             teamId: null,
             teamName: null,
             openPositionId: null,
@@ -145,8 +146,11 @@ class Categories extends Component {
     }
 
     onChangeTeam = (data) => {
+        this.setState({
+            team: data
+        })
         const params = [{
-            'key': 'name',
+            'key': 'location',
             'value': this.state.locationName
         }, {
             'key': 'team',
@@ -158,7 +162,7 @@ class Categories extends Component {
 
     onChangePosition = (positionSlug) => {
         const params = [{
-            'key': 'name',
+            'key': 'location',
             'value': this.state.locationName
         }, {
             'key': 'team',
@@ -173,7 +177,7 @@ class Categories extends Component {
 
     onClickCloseButton = () => {
         const params = [{
-            'key': 'name',
+            'key': 'location',
             'value': this.state.locationName
         }, {
             'key': 'team',
@@ -194,7 +198,7 @@ class Categories extends Component {
                 <p className="font-md roboto-regular">{categories.content}</p>
                 <div className="d-flex flex-row flex-wrap justify-content-center my-5">
                     {
-                        this.getTeams(this.state.jobs).map(
+                        this.getTeams(jobs).map(
                             (data, i) => {
                                 return data !== "" && <div key={i} className="col-md-3 col-6 text-center my-2 mx-md-1 ">
                                     <div onClick={() => this.onChangeTeam(data)} className={this.state.teamName !== null && data.replace(/ +/g, "") === this.state.teamName ? 'career-categories  border-success ' : '' + ` scroll career-location`}>
@@ -204,15 +208,15 @@ class Categories extends Component {
                             }
                         )
                     }
-                    {
+                    {/* {
                         this.getTeams(this.state.jobs).length === 1 && this.getTeams(this.state.jobs)[0] === "" &&
                         <p className="text-center raleway-bold font-xl-l text-black">Whoops! There are no teams in ‘{this.state.locationName}’ currently</p>
-                    }
+                    } */}
                 </div>
                 {
                     this.state.positions !== null &&
                     <React.Fragment>
-                        <p className="font-xl-l raleway-bold text-black ">{this.state.positions.length > 0 ? `Open Positions in ${this.state.teamName}` : `Whoops! There are no open position in '${this.state.teamName}' currently`}</p>
+                        <p className="font-xl-l raleway-bold text-black ">{this.state.positions.length > 0 ? `Open Positions in ${this.state.team ===null?this.state.teamName:this.state.team}` : `Whoops! There are no open position in '${this.state.team ===null?this.state.teamName:this.state.team}' currently`}</p>
                         {/* <div className="d-flex flex-row-reverse col-12 px-1">
                             <a href="/all-open-positions/" className=" py-3 col-md-3 col-6 btn-block text-success scroll career-location">View All Positions&nbsp;<i className="fa fa-arrow-right"></i></a>
                         </div> */}
@@ -239,7 +243,7 @@ class Categories extends Component {
                     }
                     {
                         this.state.positions !== null && this.state.positions.length === 0 &&
-                        <img className=" col-lg-4 col-md-6 col-12 mt-3 img-fluid text-center" src="../../../../images/careers/no-positions-found.png" />
+                        <img className=" col-lg-4 col-md-6 col-12 mt-3  mx-auto img-fluid text-center" src="../../../../images/careers/no-positions-found.png" />
                     }
                     <a href="/all-open-positions/" style={{ backgroundColor: "#bcbcbc" }} className=" roboto-regular text-white py-3 btn col-12 mx-auto my-5">VIEW ALL POSITIONS</a>
                 </div>

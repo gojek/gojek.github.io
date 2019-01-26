@@ -11,7 +11,7 @@ class PostTemplate extends React.Component {
 	}
 
 	componentWillMount(){
-		console.log("this.prorrr",this.props)
+		// console.log("this.prorrr",this.props)
 		this.props.history.replace(this.props.location.pathname==='/careers/'?'/careers':this.props.location.pathname)
 	}
 	
@@ -64,7 +64,7 @@ class PostTemplate extends React.Component {
 
 	render() {
 		const jobsJson = this.props.data !== undefined ? this.props.data.jobsJson : '';
-		if(jobsJson !== '') {
+		if(jobsJson !== ''&&this.props.location.pathname!=='/careers/') {
 		return (
 			<div>
 			<Helmet>
@@ -120,14 +120,12 @@ class PostTemplate extends React.Component {
 										aria-selected="true"> Requirements</a>
 								</li>
 							}
-							
 							</ul>
 						</div>
 					</div>
 
 					<div className="tab-content" id="myTabContent">
 						{jobsJson.headings.map((heading, key) => {
-							console.log("heading getting",heading)
 							return(
 								<div key={key} className={"tab-pane fade show " + (key === 0 ? 'active' : '')} id={`${heading}`} role="tabpanel" aria-labelledby={`${heading}-tab`}>
 									<section className="roboto-regular">

@@ -23,22 +23,22 @@ class Articles extends Component {
                 <div className="container py-5 px-0">
                     <div className="d-flex flex-row flex-wrap raleway-bold text-white">
                         <div className="col-12 col-md-6 d-flex flex-row flex-wrap px-0">
-                            <div className="col-12 pr-md-0 pl-4 my-1 my-md-0 position-relative" >
+                            <div className="ml-auto px-0  my-1 my-md-0 position-relative" >
                                 <a href="https://blog.gojekengineering.com/why-we-ask-for-code-b276b45ea790" target="_blank">
                                     <img className="img-fluid" src="../../images/careers/ask-for-code.png"></img>
                                     <h6 className="font-lg position-absolute text-white article-position">Why We <br />Ask for<br />Code</h6>
                                 </a>
                             </div>
-                            <div className="col-12 pr-md-0 pl-4 my-1 my-md-0 position-relative">
+                            <div className="ml-auto px-0  my-1 my-md-0 position-relative">
                                 <a href="https://blog.gojekengineering.com/the-art-of-being-full-stack-5b88577188fd" target="_blank">
                                     <img className="img-fluid" src="../../images/careers/full-stack-engineer.png"></img>
                                     <h6 className="font-lg position-absolute text-white article-position">Who is a<br />Full Stack <br />Engineer?</h6>
                                 </a>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 px-md-0 my-1 my-md-0 position-relative">
+                        <div className="col-12 col-md-6 px-0 my-1 my-md-0 position-relative">
                             <a href="https://blog.gojekengineering.com/go-jek-recruitment-process-58dbed5d8992" target="_blank">
-                                <img className="img-fluid" src="../../images/careers/recruiting-devs.png"></img>
+                                <img className="img-fluid" src="../../images/careers/recruiting-devs-1.png"></img>
                                 <h6 className="font-lg position-absolute text-white article-position">How We Go<br />about Recruiting<br />a Developer</h6>
                             </a>
 

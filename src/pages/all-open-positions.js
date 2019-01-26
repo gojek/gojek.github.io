@@ -310,7 +310,11 @@ class allpositions extends Component {
                                                                             }
                                                                         </React.Fragment>
                                                                             :
-                                                                            <p key = {i} className="col-12 text-center raleway-bold  font-lg ">Whoops! There are no teams in ‘{data.place}’ currently</p>
+                                                                            <React.Fragment key={i}>
+                                                                                <img className=" col-md-4 col-12 mt-3 img-fluid mx-auto text-center" src="../../images/careers/no-jobs-found.png" />
+                                                                                <p  className="col-12 text-center raleway-bold  font-lg mt-3">Whoops! There are no open positions in ‘{data.place}’ currently</p>
+                                                                            </React.Fragment>
+
                                                                     }
                                                                 )
                                                             }

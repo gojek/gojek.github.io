@@ -12,25 +12,22 @@ class CareerLocation extends Component {
     }
 
     onClickLocation = (locationName) => {
-        this.props.props.history.push(`/location?name=${locationName}`)
+        this.props.props.history.push(`/open-positions?location=${locationName}`)
     }
 
     render() {
 
         const locationData = [{
             locationName: 'bangalore',
-            locationLink: '/location',
             imageLink: '../../images/careers/bangalore.png'
         },
         {
             locationName: 'jakarta',
-            locationLink: '#',
             imageLink: '../../images/careers/jakartha.png'
 
         },
         {
             locationName: 'singapore',
-            locationLink: '#',
             imageLink: '../../images/careers/singapore.png'
 
         },
@@ -42,13 +39,11 @@ class CareerLocation extends Component {
         // },
         {
             locationName: 'vietnam',
-            locationLink: '#',
             imageLink: '../../images/careers/vietnam.png'
 
         },
         {
             locationName: 'thailand',
-            locationLink: '#',
             imageLink: '../../images/careers/thailand.png'
 
         }]
@@ -61,7 +56,7 @@ class CareerLocation extends Component {
                             locationData.map(
                                 (data, i) => {
                                     return <div key={i} className="col-md-3 col-6 text-center my-2 mx-md-1 px-2 ">
-                                        <div className="career-location px-4 scroll d-flex flex-column justify-content-center align-items-center" style={{minHeight:'135px'}}>
+                                        <div className="career-location px-4 scroll d-flex flex-column justify-content-center align-items-center" style={{ minHeight: '135px' }}>
                                             <div onClick={() => this.onClickLocation(data.locationName)}>
                                                 <img className="img-fluid" src={data.imageLink}></img>
                                                 <p className="neosans-bold font-md text-success text-uppercase my-1">{data.locationName}</p>
