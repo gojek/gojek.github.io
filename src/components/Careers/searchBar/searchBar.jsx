@@ -11,7 +11,7 @@ class SearchBar extends Component {
     }
 
     onClickPositionFromSearch = (data) => {
-        this.props.props.history.push(`/open-positions?location=${data.place}&team=${data.team.replace(/ +/g, "")}&position=${data.positionSlug}`)
+        this.props.props.history.push(`/positions?location=${data.place}&team=${data.team.replace(/ +/g, "")}&position=${data.positionSlug}`)
     }
 
     getCurrentWidth = () => {

@@ -12,7 +12,7 @@ class CareerLocation extends Component {
     }
 
     onClickLocation = (locationName) => {
-        this.props.props.history.push(`/open-positions?location=${locationName}`)
+        this.props.props.history.push(`/positions?location=${locationName}`)
     }
 
     render() {

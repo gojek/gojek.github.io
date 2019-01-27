@@ -94,7 +94,7 @@ class CountBanner extends Component {
 
                 {/* count in mobile view */}
                 {
-                    pathname !== '/open-positions' &&
+                    pathname !== '/positions' &&
                     <section className="d-md-none">
                         <div className="d-flex flex-row flex-wrap justify-content-center  my-5">
                             {

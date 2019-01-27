@@ -14,7 +14,7 @@ class Location extends Component {
     }
 
     componentDidMount() {
-        this.props.history.replace((this.props.location.pathname === "/open-positions/" ? "/open-positions" : this.props.location.pathname) + this.props.location.search)
+        this.props.history.replace((this.props.location.pathname === "/positions/" ? "/positions" : this.props.location.pathname) + this.props.location.search)
         const urlLocationName = window.location.search.split('&')[0].split('=')[1]
         this.setState({
             locationName: urlLocationName.toLowerCase(),
