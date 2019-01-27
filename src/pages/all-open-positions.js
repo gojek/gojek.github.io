@@ -272,7 +272,7 @@ class allpositions extends Component {
                     <meta name="twitter:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
                     <meta property="og:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
                 </Helmet>
-                <CountBanner bannerImage="job-illustration-banner" height="70vh" />
+                <CountBanner props={this.props} bannerImage="job-illustration-banner" height="70vh" />
                 <div className="container">
                     {/* search bar */}
                     <SearchBar type="allPositions" places={this.state.places} onChangeInputText={(ev) => this.onChangeInputText(ev.target.value)}

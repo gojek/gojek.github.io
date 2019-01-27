@@ -245,7 +245,7 @@ class Categories extends Component {
                         this.state.positions !== null && this.state.positions.length === 0 &&
                         <img className=" col-lg-4 col-md-6 col-12 mt-3  mx-auto img-fluid text-center" src="../../../../images/careers/no-positions-found.png" />
                     }
-                    <a href="/all-open-positions/" style={{ backgroundColor: "#bcbcbc" }} className=" roboto-regular text-white py-3 btn col-12 mx-auto my-5">VIEW ALL POSITIONS</a>
+                    <a href="/all-open-positions/"  className=" roboto-regular  py-3 btn btn-outline-success col-12 mx-auto my-5">VIEW ALL POSITIONS</a>
                 </div>
             </section>
         );

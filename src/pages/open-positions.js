@@ -43,7 +43,7 @@ class Location extends Component {
                 <div className="d-md-none">
                     <img src={`../../images/careers/${this.getLocationName()}-banner.png`} className="img-fluid" />
                 </div>
-                <CountBanner bannerImage={`${this.getLocationName()}-banner`} height="75vh" />
+                <CountBanner props={this.props}  bannerImage={`${this.getLocationName()}-banner`} height="75vh" />
                 <Categories props={this.props} />
             </div>
 

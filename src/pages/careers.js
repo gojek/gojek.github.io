@@ -151,7 +151,7 @@ class Careers extends Component {
 				</section>
 
 
-				<CountBanner bannerImage="careers-second-banner" height="300px" />
+				<CountBanner props={this.props} bannerImage="careers-second-banner" height="300px" />
 
 				<BehindTheScenes />
 
