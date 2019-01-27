@@ -12,7 +12,7 @@ class CountBanner extends Component {
     }
 
     render() {
-        console.log("this.props.in cout banner", this.props.props.location.pathname)
+        // console.log("this.props.in cout banner", this.props.props.location.pathname)
         const pathname = this.props.props.location.pathname
         const count = [{
             heading: '6600x',
