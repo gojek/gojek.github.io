@@ -143,7 +143,7 @@ class allpositions extends Component {
             })
         }
         else {
-            window.location.replace('/404')
+            // window.location.replace('/404')
         }
     }
 
