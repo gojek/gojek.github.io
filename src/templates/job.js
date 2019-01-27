@@ -11,7 +11,6 @@ class PostTemplate extends React.Component {
 	}
 
 	componentWillMount(){
-		// console.log("this.prorrr",this.props)
 		this.props.history.replace(this.props.location.pathname==='/careers/'?'/careers':this.props.location.pathname)
 	}
 	

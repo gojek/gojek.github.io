@@ -28,6 +28,7 @@ class allpositions extends Component {
     }
 
     componentDidMount() {
+        console.log("all-open-positions page")
         window.addEventListener('scroll', this.handleScroll);
         let places = this.state.places;
         let tempPositions = [];
@@ -142,8 +143,7 @@ class allpositions extends Component {
             })
         }
         else {
-            console.log("from all-open-posiioon page")
-            // window.location.replace('/404')
+            window.location.replace('/404')
         }
     }
 

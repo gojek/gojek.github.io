@@ -12,7 +12,6 @@ class CountBanner extends Component {
     }
 
     render() {
-        // console.log("this.props.in cout banner", this.props.props.location.pathname)
         const pathname = this.props.props.location.pathname
         const count = [{
             heading: '6600x',
@@ -94,7 +93,7 @@ class CountBanner extends Component {
 
                 {/* count in mobile view */}
                 {
-                    pathname !== '/positions' &&
+                    pathname !== '/open-positions' &&
                     <section className="d-md-none">
                         <div className="d-flex flex-row flex-wrap justify-content-center  my-5">
                             {

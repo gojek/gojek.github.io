@@ -44,8 +44,7 @@ class Categories extends Component {
             locationName: urlLocationName,
         }, () => {
             this.state.jobs.length === 0 &&
-            console.log("this.state.jobs.length",this.state.jobs)
-                // this.props.props.history.replace('/404')
+                this.props.props.history.replace('/404')
 
             if (window.location.search.split('&')[1]) {
                 this.getPositions(window.location.search.split('&')[1].split('=')[1])
