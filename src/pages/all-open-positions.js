@@ -142,6 +142,7 @@ class allpositions extends Component {
             })
         }
         else {
+            console.log("from all-open-posiioon page")
             window.location.replace('/404')
         }
     }
