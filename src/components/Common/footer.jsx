@@ -8,7 +8,7 @@ class Footer extends Component {
 					<div className="row text-uppercase">
 						<div className="col-md-4">
 							<a href="/">
-								<img src="../../images/gojek-logo-footer.png" alt="GO-JEK LOGO" title="GO-JEK" />
+								<img src="../../images/gojek-logo-footer.png" alt="GOJEK LOGO" title="GOJEK" />
 							</a>
 						</div>
 						<div className="col-md-8">
@@ -97,7 +97,7 @@ class Footer extends Component {
 						<div className="col-md-8 text-md-right text-left font-xs">
 							<span className="invisible">Copyright text</span>
 							<p className="text-uppercase align-middle copyright-text">
-								<strong>&copy; 2018 All rights reserved</strong>
+								<strong>&copy; 2019 All rights reserved</strong>
 							</p>
 						</div>
 					</div>

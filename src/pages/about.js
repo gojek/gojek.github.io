@@ -13,16 +13,16 @@ class About extends Component {
         return(
             <div className="first-section">
                 <Helmet>
-                    <title>GO-JEK-Tech</title>
-                    <meta property="og:title" content="GO-JEK-Tech" />
-                    <meta property="og:title" content="GO-JEK-Tech" />
-                    <meta name="twitter:title" content="GO-JEK-Tech" />
-                    <meta name="description" content="GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
-                    <meta name="twitter:description" content="GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
-                    <meta property="og:description" content="GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
+                    <title>GOJEK-Tech</title>
+                    <meta property="og:title" content="GOJEK-Tech" />
+                    <meta property="og:title" content="GOJEK-Tech" />
+                    <meta name="twitter:title" content="GOJEK-Tech" />
+                    <meta name="description" content="GOJEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
+                    <meta name="twitter:description" content="GOJEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
+                    <meta property="og:description" content="GOJEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
                 </Helmet>
                 <div className = "bg-green text-center ">
-                    <h1 className = "h1 py-5 raleway-bold font-xl-x text-uppercase text-white">Go-jek is indonesia’s <br/> first &amp; only unicorn</h1>
+                    <h1 className = "h1 py-5 raleway-bold font-xl-x text-uppercase text-white">Gojek is indonesia’s <br/> first unicorn</h1>
 
                         <img className = "img-fluid " src = "../images/about/about-us-banner.png"/>
 
@@ -94,7 +94,7 @@ class About extends Component {
             <div className="d-flex flex-row flex-wrap justify-content-center align-items-center section">
                 <div className="col-lg-4 col-md-5 col-8 text-center text-md-left order-2 order-md-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h2 className="text-green font-lg roboto-black text-uppercase">By mid-2015</h2>
-                        < h4 className= " roboto-regular font-xl-l aboutFont" >Orders scaled from <strong>3,000 to 100,000 </strong>a day. GO-JEK was becoming indispensable. By end of 2015 - systems were crashing because of a major spike in volumes</h4>
+                        < h4 className= " roboto-regular font-xl-l aboutFont" >Orders scaled from <strong>3,000 to 100,000 </strong>a day. GOJEK was becoming indispensable. By end of 2015 - systems were crashing because of a major spike in volumes</h4>
                 </div>
                 <div className="col-lg-4 col-md-5 col-8 order-1 order-md-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                     <img className="img-fluid" src="../images/about/scaled-order.png" />
@@ -148,7 +148,7 @@ class About extends Component {
                 </div>
                 <div className="col-lg-4 col-md-5 col-8 text-center text-md-left wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h2 className="text-green font-lg roboto-black text-uppercase">Happy Driver Partners</h2>
-                        < h4 className= " roboto-regular font-xl-l aboutFont" >Driver incomes increased by 150% making GO-JEK a reliable partner  </h4>
+                        < h4 className= " roboto-regular font-xl-l aboutFont" >Driver incomes increased by 150% making GOJEK a reliable partner  </h4>
                 </div>
 
             </div>
@@ -175,7 +175,7 @@ class About extends Component {
             <div className="d-flex flex-row flex-wrap justify-content-center align-items-center section">
                 <div className="col-lg-4 col-md-5 col-8 text-center text-md-left order-2 order-md-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h2 className="text-green font-lg roboto-black text-uppercase">The big rewrite began in 2016</h2>
-                        < h4 className= "roboto-regular font-xl-l aboutFont" >“No project has a budget and impact as big as this in GO-JEK’s history” - From Nadiem’s internal mail..</h4>
+                        < h4 className= "roboto-regular font-xl-l aboutFont" >“No project has a budget and impact as big as this in GOJEK’s history” - From Nadiem’s internal mail..</h4>
                         <a href="https://blog.gojekengineering.com/how-go-jek-manages-1-million-drivers-with-12-engineers-part-2-35f6a27a0faf" target="_blank"><button className="btn btn-success btn-sm text-uppercase px-5">read the story here</button></a>
                 </div>
                 <div className="col-lg-4 col-md-5 col-8 order-1 order-md-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
@@ -190,7 +190,7 @@ class About extends Component {
             <div className="d-flex flex-row flex-wrap justify-content-center align-items-center section">
                 <div className="col-lg-4 col-md-5 col-8 text-center text-md-left order-2 order-md-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h2 className="text-green font-lg roboto-black text-uppercase">Employment opportunities.</h2>
-                        < h4 className= " roboto-regular font-xl-l aboutFont" >GO-JEK employs more than 30,000 people with disabilities.</h4>
+                        < h4 className= " roboto-regular font-xl-l aboutFont" >GOJEK employs more than 30,000 people with disabilities.</h4>
                         <a href="https://www.youtube.com/watch?v=tu-5s8KhzvQ&feature=youtu.be" target="_blank"><button className="btn btn-success btn-sm text-uppercase px-5">watch the video</button></a>
                 </div>
                 <div className="col-lg-4 col-md-5 col-8 order-1 order-md-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
@@ -204,7 +204,7 @@ class About extends Component {
             <div className="d-flex flex-row flex-wrap justify-content-center align-items-center section pb-5">
                 <div className="col-lg-4 col-md-5 col-8 text-center text-md-left order-2 order-md-2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h2 className="text-green font-lg roboto-black text-uppercase">As of 2018</h2>
-                        < h4 className= " roboto-regular font-xl-l aboutFont" >GO-JEK does 100+ million orders across 18+ products Total order volume growth - 6600x </h4>
+                        < h4 className= " roboto-regular font-xl-l aboutFont" >GOJEK does 100+ million orders across 18+ products Total order volume growth - 6600x </h4>
                 </div>
                 <div className="col-lg-4 col-md-5 col-8 order-1 order-md-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                     <img className="img-fluid" src="../images/about/10-million-orders.png" />

@@ -14,7 +14,7 @@ class EmployeeStories extends Component {
         // const { employeeStories } = data ;
         const { articles } = data ;
         const employeeStories= {
-            "heading": "At GO-JEK, we fail a lot.",
+            "heading": "At GOJEK, we fail a lot.",
             "text": "Failing is learning. If we’re not failing, we’re not doing it right. We have a cross-pollination of ideas from Singapore, Indonesia and India. Different cultures, different mindsets, unified in solving problems and learning along the way. And lastly, embrace chaos. You can’t build if you can’t expect the unexpected.",
             "captionHeading": "Employee Stories",
             "data": [
@@ -22,14 +22,14 @@ class EmployeeStories extends Component {
                     "id": "1",
                     "employeeImage": "../../images/employee-stories/shobit.jpg",
                     "employeeName": "Shobhit Srivastava",
-                    "testimonial": "GO-JEK is multiple startups in one. We have the equivalents of foodtech, fintech, ride-sharing, home services, logistics and more. Because of the sheer size and scale we operate in, it's unlike any other startup. You get to ideate with multiple teams, empowered to take critical product decisions and work with a team that has ingrained the philosophy of working with a 'lean engineering mindset’.",
+                    "testimonial": "GOJEK is multiple startups in one. We have the equivalents of foodtech, fintech, ride-sharing, home services, logistics and more. Because of the sheer size and scale we operate in, it's unlike any other startup. You get to ideate with multiple teams, empowered to take critical product decisions and work with a team that has ingrained the philosophy of working with a 'lean engineering mindset’.",
                     "active": true
                 },
                 {
                     "id": "2",
                     "employeeImage": "../../images/employee-stories/divya.jpg",
                     "employeeName": "Divya Jaisawal",
-                    "testimonial": "I’ve had the freedom to experiment with new ideas at GO-JEK. In the process I’ve learnt to convert raw thoughts into shaping the end product. To be given this platform to experiment and learn with some of the brightest minds is an enticing opportunity. So much so, I love to talk about these experiences outside of work to friends and family alike - and that shows how rich the culture is.",
+                    "testimonial": "I’ve had the freedom to experiment with new ideas at GOJEK. In the process I’ve learnt to convert raw thoughts into shaping the end product. To be given this platform to experiment and learn with some of the brightest minds is an enticing opportunity. So much so, I love to talk about these experiences outside of work to friends and family alike - and that shows how rich the culture is.",
                     "active": false
                 },
                 {

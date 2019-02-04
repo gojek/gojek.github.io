@@ -117,9 +117,8 @@ class TestApply extends Component {
                         }
                     }
                 ],
-                "source": this.state.propsData.referer
+                "source": this.state.propsData.referer.referer
             };
-            console.log('Payload', payload);
             axios({
                 method: 'post',
                 url: 'https://jsapi.recruiterbox.com/v1/openings/' + this.state.propsData.jobId + '/apply?client_name=gojek',
@@ -165,12 +164,14 @@ class TestApply extends Component {
     render() {
         const data = this.props.applyData ? this.props.applyData : this.props.location.state;
         return (
-            <section className="container text-center ">
-                {/* <Helmet>
-                <title>{ data !== undefined ? data.name : 'GO-JEK Tech Apply' } </title>
-            </Helmet> */}
-                <h2 className="raleway-extrabold font-xl-l text-black text-left mb-0">Apply for this Job</h2>
-                {/* <p className="font-sm raleway-bold text-success text-uppercase">{ data !== undefined ? data.place : '' }</p> */}
+            <section className="container text-center first-section">
+                <Helmet>
+                    <title>{data !== undefined ? data.name : 'GO-JEK Tech Apply'} </title>
+                </Helmet>
+                <h2 className="raleway-extrabold font-xl text-black mb-0 pt-5">{data !== undefined ? data.name : ''}</h2>
+
+                {/* <h2 className="raleway-extrabold font-xl-l text-center text-black text-left mb-0 ">Apply for this Job</h2> */}
+                <p className="font-sm pt-3 raleway-bold text-success text-uppercase">{data !== undefined ? data.place : ''}</p>
                 <div className=" pt-5">
                     <form className="needs-validation" noValidate
                         onSubmit={

@@ -19,6 +19,7 @@ class SearchBar extends Component {
         if (typeof window !== `undefined`) {
             screenWidth = window.innerWidth
         }
+        console.log("screenWidth",screenWidth)
         return screenWidth
     }
 
@@ -59,7 +60,7 @@ class SearchBar extends Component {
                     </div>
                     <div className={`text-left px-0 position-relative ` + `${this.props.type === 'careers' ? ` col-12   ` : ` col-12 col-lg-9 col-md-8`}`}>
                         <input onChange={(ev) => this.props.onChangeInputText(ev)} type="text" name="keyword" value={this.props.inputText} className="form-control   custom-search bg-gray border-0 py-3 mt-2 " id="keyword" placeholder="Search Position"></input>
-                        <i className="fa fa-search position-absolute " style={{ right: '10px', top: this.getCurrentWidth() > 425 ? '25px' : '20px'}}></i>
+                        <i className="fa fa-search position-absolute " style={{ right: '10px', top: this.getCurrentWidth() > 557 ? '25px' : '20px'}}></i>
                     </div>
                     {
                         (this.props.type === 'careers' && searchResult !== null) &&

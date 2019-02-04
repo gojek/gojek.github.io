@@ -10,9 +10,9 @@ class Events extends Component {
         return(
             <div className="first-section">
                 <Helmet>
-					<title> GO-JEK Tech Events </title>
-					<meta property="og:title" content="GO-JEK Tech Events" />
-					<meta name="twitter:title" content="GO-JEK Tech Events" />
+					<title> GOJEK Tech Events </title>
+					<meta property="og:title" content="GOJEK Tech Events" />
+					<meta name="twitter:title" content="GOJEK Tech Events" />
 				</Helmet>
 
                 <Heading />

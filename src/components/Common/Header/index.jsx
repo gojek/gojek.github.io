@@ -10,7 +10,7 @@ class Header extends Component {
         return (
             <nav className="navbar fixed-top bg-white navbar-expand-lg navbar-light raleway-bold text-uppercase px-4 py-2">
                 <a className="navbar-brand" href="/">
-                    <img className="header-logo-width" src="../../images/gojek-logo.png" alt="GO-JEK Logo" title="GO-JEK" />
+                    <img className="header-logo-width" src="../../images/gojek-logo.png" alt="GOJEK Logo" title="GOJEK" />
                 </a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
