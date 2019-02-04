@@ -224,7 +224,6 @@ class GojekViet extends Component {
                 alliance with GOJEK in fast-growing Southeast Asia and enable
                 Tencent to broaden its partner cooperation more globally.”
               </p>
-              <p className="pb-3 text-center">###</p>
               <p className="font-weight-bold">FACT SHEET</p>
               <p>
                 Southeast Asia’s accelerating internet economy is expected to
@@ -288,7 +287,7 @@ class GojekViet extends Component {
                 </li>
               </ul>
               <p className="font-weight-bold py-3">Payments</p>
-              <ul className="">
+              <ul className="pb-4">
                 <li className="text-dark">
                   GO-PAY, GOJEK’s payments platform and the leading digital
                   payments service in Indonesia, is now accepted at close to

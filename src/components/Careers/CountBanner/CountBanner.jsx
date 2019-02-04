@@ -20,7 +20,7 @@ class CountBanner extends Component {
             heading: '50+ orders',
             subHeading: 'processed on an average every second'
         }, {
-            heading: '1 million+',
+            heading: '2 million+',
             subHeading: 'driver partners on the platform'
         }, {
             heading1: '18+',
