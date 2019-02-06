@@ -370,7 +370,7 @@ class Description extends Component {
                           </div>
                           <div className="row pt-4">
                             <p className="pl-4 text-green font-lg-x mb-0 font-weight-bold">
-                              PlatformSpecificRequirements
+                              Platform Specific Requirements
                             </p>
                             <p className="pl-4 pt-4 font-lg mb-0 font-weight-bold col-12">
                               Android

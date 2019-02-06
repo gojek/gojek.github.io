@@ -19,7 +19,7 @@ class SearchBar extends Component {
         if (typeof window !== `undefined`) {
             screenWidth = window.innerWidth
         }
-        console.log("screenWidth",screenWidth)
+        // console.log("screenWidth",screenWidth)
         return screenWidth
     }
 

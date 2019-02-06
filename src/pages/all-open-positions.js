@@ -28,7 +28,7 @@ class allpositions extends Component {
     }
 
     componentDidMount() {
-        console.log("all-open-positions page")
+        // console.log("all-open-positions page")
         window.addEventListener('scroll', this.handleScroll);
         let places = this.state.places;
         let tempPositions = [];
