@@ -12,7 +12,8 @@ class CareerLocation extends Component {
     }
 
     onClickLocation = (locationName) => {
-        this.props.props.history.push(`/open-positions?location=${locationName}`)
+        localStorage.setItem('source',  this.props.source === undefined ? 'https://www.gojek.io/' : this.props.source)
+        this.props.props.history.push(`/open-positions?location=${locationName}`);
     }
 
     render() {
@@ -31,12 +32,6 @@ class CareerLocation extends Component {
             imageLink: '../../images/careers/singapore.png'
 
         },
-        // {
-        //     locationName: 'philippines',
-        //     locationLink: '#',
-        //     imageLink: '../../images/careers/philipines.png'
-
-        // },
         {
             locationName: 'vietnam',
             imageLink: '../../images/careers/vietnam.png'
@@ -49,17 +44,17 @@ class CareerLocation extends Component {
         }]
         return (
             <section className="pb-5">
-                <h3 className="text-center text-success neosans-regular font-xl-x my-5 ">Choose a Location</h3>
+                <h3 className={(this.props.color !== undefined ? 'text-center text-white neosans-regular font-xl-x my-5 text-white' : 'text-center text-success neosans-regular font-xl-x my-5 text-success')}>Choose a Location</h3>
                 <div className="container px-0 pb-3">
                     <div className="d-flex flex-row flex-wrap justify-content-center my-3">
                         {
                             locationData.map(
                                 (data, i) => {
                                     return <div key={i} className="col-md-3 col-6 text-center my-2 mx-md-1 px-2 ">
-                                        <div className="career-location px-4 scroll d-flex flex-column justify-content-center align-items-center" style={{ minHeight: '135px' }}>
+                                        <div className={(this.props.color !== undefined ? 'super-app-location px-4 scroll d-flex flex-column justify-content-center align-items-center' : 'career-location px-4 scroll d-flex flex-column justify-content-center align-items-center')} style={{ minHeight: '135px' }}>
                                             <div onClick={() => this.onClickLocation(data.locationName)}>
                                                 <img className="img-fluid" src={data.imageLink}></img>
-                                                <p className="neosans-bold font-md text-success text-uppercase my-1">{data.locationName}</p>
+                                                <p className={(this.props.color !== undefined ? 'neosans-bold font-md text-uppercase my-1 text-white' : 'neosans-bold font-md text-uppercase my-1 text-succes')}>{data.locationName}</p>
                                             </div>
 
                                         </div>

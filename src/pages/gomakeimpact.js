@@ -11,9 +11,9 @@ class GoMakeImpact extends Component {
             <div className="first-section">
 
                 <Helmet>
-					<title> GOJEK - Gomakeimpact </title>
+					<title> GO-JEK - Gomakeimpact </title>
                     <meta content="yes" name="apple-mobile-web-app-capable" />
-					<meta name="description" content="GOJEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
+					<meta name="description" content="GO-JEK is a Super App. It’s one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia’s first and fastest growing unicorn building an on-demand empire." />
 				</Helmet>
 
                 {/* impact on Scale section */}
@@ -21,7 +21,7 @@ class GoMakeImpact extends Component {
                     <div className="d-flex align-items-center justify-content-center h-100">
                     <picture>
                         <source className="relative-position" media="(max-width: 425px)" srcSet = "../../images/gomakeimpact/impact-on-scale-banner-mobile.png" />
-                        <img className="img-fluid" src="../../images/gomakeimpact/impact-on-scale-banner.jpg" alt="Impact on scale - GOJEK" />
+                        <img className="img-fluid" src="../../images/gomakeimpact/impact-on-scale-banner.jpg" alt="Impact on scale - GO-JEK" />
                     </picture>
                         
                         <div className="text-block text-white text-center pt-5 mt-5 position-absolute">
@@ -29,8 +29,8 @@ class GoMakeImpact extends Component {
                                 Impact at Scale
                             </h1>
                             <p className="roboto-regular px-3 px-md-0 font-md" style={{ letterSpacing: "0.8px" }}>
-                                {/* At GOJEK, everything is big. Whether it's engineering, product or design, our platform is filled with
-                                challenges that are at scale, new and complex. See how GOJEK is changing the lives of millions of
+                                {/* At GO-JEK, everything is big. Whether it's engineering, product or design, our platform is filled with
+                                challenges that are at scale, new and complex. See how GO-JEK is changing the lives of millions of
                                 people in Indonesia. */}
                                 In less than 3 years, GOJEK grew from a few hundred orders to more than 100 million every month. Be it engineering, product, or design, GOJEK has no dearth of hard complex problems™ at scale. We’re changing the lives of millions in Indonesia and now have our eyes set on the entirety of Southeast Asia.
                             </p>
@@ -56,7 +56,7 @@ class GoMakeImpact extends Component {
                     <div className="gomake-impact-bg who-we-are text-white py-5">
                         <div className="row justify-content-center mx-0 py-md-5 py-0">
                             <p className="text-block text-center roboto-bold px-3 px-md-0 font-md" style = {{ lineHeight: "2rem" }}>
-                                {/* We’re GOJEK, a consumer technology company with a mission to leapfrog
+                                {/* We’re GO-JEK, a consumer technology company with a mission to leapfrog
                                 Indonesia and the world into the digital era. Through our consumer app, which features over 18 products from
                                 transportation to mobile payments and food delivery, we endeavor to improve the livelihoods of our consumers, drivers
                                 and merchant partners alike. To date, we have impacted 260M lives in over 50 cities in Indonesia through 1M+ partners.
@@ -94,7 +94,7 @@ class GoMakeImpact extends Component {
                 </section>
                 {/* End Who we are section */}
 
-                 {/* GoJek people */}                    
+                 {/* Go-Jek people */}                    
                 <Card />
                 {/* End Section */}
 
@@ -102,7 +102,7 @@ class GoMakeImpact extends Component {
                     <div className="d-flex align-items-center justify-content-center">
                         <picture>
                             <source className="relative-position" media="(max-width: 425px)" srcSet = "../../images/gomakeimpact/test-mobile.png" />
-                            <img className="img-fluid" src="../../images/gomakeimpact/test.png" alt="Impact on scale - GOJEK" />
+                            <img className="img-fluid" src="../../images/gomakeimpact/test.png" alt="Impact on scale - GO-JEK" />
                         </picture>
                         <div className="position-absolute text-white text-center">
                             <h1 className="text-uppercase mt-5 pt-5 pb-3 raleway-extrabold custom-letter-spacing text-max" >
@@ -120,7 +120,7 @@ class GoMakeImpact extends Component {
                         </div>
                     </div>
             </section>
-        {/* <!-- End GoJek people --> */}
+        {/* <!-- End Go-Jek people --> */}
         {/* Careers section */}
         <section id="jobs">
                 <h1 className="text-uppercase text-center h1 py-lg-5 py-md-3 pt-4 pb-3 text-dark raleway-extrabold custom-letter-spacing">Drive impact at scale</h1>
@@ -139,7 +139,7 @@ class GoMakeImpact extends Component {
                     referer = "gojek.io/gomakeimpact"
                     showHeadings = { false }
                 />
-                <img className="img-fluid" src="../images/gomakeimpact/careers-bg.png" alt="Impact on scale - GOJEK" />
+                <img className="img-fluid" src="../images/gomakeimpact/careers-bg.png" alt="Impact on scale - GO-JEK" />
             </div>
         </section>        
 

@@ -352,11 +352,11 @@ button.navbar-toggler {
     border-radius: 0px 0px 160px 160px;
 }
 
-.career-location:hover,.career-categories,.career-location{
+.career-location:hover,.career-categories,.career-location, .super-app-location{
     border-radius: 10px;
 }
 
-.career-location,{
+.career-location, .super-app-location{
     border: 2px solid #ebebeb;
 }
 
@@ -920,10 +920,10 @@ input[type="file"] {
 .job-openings {
     background: #e5e5e5;
 }
-.col.test img {
+.col.emp img {
 transition: all .1s ease-in-out;
 }
-.col.test img.fade-in:hover {
+.col.emp img.fade-in:hover {
     transform: scale(1.05);
     z-index: 999;
 }

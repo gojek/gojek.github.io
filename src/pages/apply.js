@@ -117,7 +117,7 @@ class TestApply extends Component {
                         }
                     }
                 ],
-                "source": this.state.propsData.referer.referer
+                "source": localStorage.getItem('source')
             };
             axios({
                 method: 'post',
@@ -163,6 +163,7 @@ class TestApply extends Component {
 
     render() {
         const data = this.props.applyData ? this.props.applyData : this.props.location.state;
+        
         return (
             <section className="container text-center first-section">
                 <Helmet>

@@ -12,36 +12,37 @@ import superApp350Million from '../components/videos/superApp-350-million.mp4';
 import superAppOneIn from '../components/videos/superapp-1-in.mp4';
 import superApp1million from '../components/videos/superapp-1-million.mp4';
 import superAppFirst from '../components/videos/superapp-first.mp4';
-import bg5 from '../../static/images/superApp/bg-5.svg';
-import bg1 from '../../static/images/superApp/bg-1.svg';
-import bg3 from '../../static/images/superApp/bg-3.svg';
-import bg4 from '../../static/images/superApp/bg-4.svg';
 import '../layouts/superApp.css';
-import OpensPositions from '../components/Careers/OpenPositions';
+import CareerLocation from '../components/Careers/CareerLocation/CareerLocation';
 
 class SuperApp extends Component {
     render() {
         return (
             <section className="first-section">
                 <section id="home">
-                    <div className="embed-responsive embed-responsive-16by9 embed-video">
+                    <div className="d-none d-md-block embed-responsive embed-responsive-16by9 embed-video">
                         <video width="100%" height="100%" autoPlay loop muted>
                             <source src={banner} type="video/mp4" />
                         </video>
                     </div>
 
+                    {/* Mobile => Show banner image */}
+                    <div className="d-block d-md-none">
+                        <img src="../../images/superApp/superapp-banner-mobile.jpg" alt="SuperApp" className="img-fluid" />
+                    </div>
+
                 </section>
                 <section className="pt-0 pt-md-5 background" id="super-app">
-                    <div className="d-flex flex-column flex-md-row justify-content-center align-items-center pt-md-0 pt-5">
+                    <div className="d-flex flex-column flex-md-row justify-content-center align-items-center pt-0">
                         <div className="col-md-5 order-1 order-sm-1 pt-5 pt-md-0">
-                            <h2 className="section-sub-head text-center text-md-left">What is a SUPER APP?</h2>
+                            <h2 className="section-sub-head text-center text-md-left mb-3 mb-md-0">What is a SUPER APP?</h2>
                             <h1 className="section-head text-center text-md-left">GOJEK. A Super App.
                                 <br />One App. Many use cases.</h1>
                             <p className="section-desc text-center text-md-left">A Super App is many apps within an umbrella app. It’s an
                               Operating System that unbundles the tyranny of apps. It’s a portal to the internet for a mobile-first
                               generation
                             </p>
-                            <a className="btn btn-outline-success btn-cta d-none d-md-block" target="_blank" href="https://blog.gojekengineering.com/what-is-a-super-app-9f4309c46eeb">Read
+                            <a className="btn btn-success text-white btn-cta d-none d-md-block" target="_blank" href="https://blog.gojekengineering.com/what-is-a-super-app-9f4309c46eeb">Read
                             More</a>
                         </div>
                         <div className="col-md-5 order-2 order-sm-1 px-0">
@@ -53,18 +54,10 @@ class SuperApp extends Component {
                         </div>
                     </div>
                 </section>
-                <div className="row mx-0 justify-content-center mb-md-5">
-                    <div className="col-md-10 text-align-center px-0">
-                        <div className="embed-responsive embed-responsive-21by9 mt-5">
-                            <iframe className="embed-responsive-item" title="superapp video" src="https://www.youtube.com/embed/2YdWTpw51sc"
-                                allowFullScreen></iframe>
-                        </div>
-                    </div>
-                </div>
 
                 <section id="super" className="mb-5">
                     <div className="row">
-                        <img src={bg1} className="test d-none d-md-block" alt="background image" />
+                        <img src="../../images/superApp/bg-1.svg" className="test d-none d-md-block" alt="background image" />
                     </div>
 
                     <div className="d-flex flex-column flex-md-row justify-content-center align-items-center py-0 py-md-5 mt-0 pt-md-5 mx-0 pb-2 pb-5"
@@ -77,35 +70,48 @@ class SuperApp extends Component {
                             </div>
                         </div>
                         <div className="col-md-5 ml-0 ml-md-5 text-center text-md-left py-0 py-md-5">
-                            <h1 className="section-head pt-5 pt-md-0 text-white"> <span className="section-numb">6600x</span></h1>
+                            <h1 className="section-head pt-5 pt-md-0 text-white"> <span className="section-numb font-weight-bold">6600x</span></h1>
 
-                            <p className="section-desc text-white">We have 18 products from foodtech to fintech to hyper local delivery and
-                              massage
-                            services</p>
+                            <p className="section-desc text-white">We have 18+ products from foodtech to fintech to hyper local delivery and massage services</p>
                             <p className="section-desc text-white">
-                                Our Total order volume growth has risen by 6,600x since we started
+                            Our Total order volume growth has risen by 6,600x since we started.
                             services.</p>
-                            <a className="btn btn-outline-light text-white btn-cta" href="#super-jobs">I want to work here!</a>
+                            <Link 
+                                to="super-jobs" 
+                                spy={true} 
+                                smooth={true}
+                                className="scroll btn btn-light btn-cta text-success"
+                                offset={-50}
+                            >
+                                I want to work here!
+                            </Link>
                         </div>
                     </div>
 
 
                     <div>
-                        <img src={bg5} className="testLeft d-none d-md-block" alt="background image" />
+                        <img src="../../images/superApp/bg-5.svg" className="testLeft d-none d-md-block" alt="background image" />
                     </div>
 
                     <div className="d-none d-md-block">
                         <div className="d-flex flex-column flex-md-row justify-content-center align-items-center py-5">
                             <div className="col-md-5 mt-5 pl-5 pl-md-3">
-                                <h1 className="section-head"><span className="section-numb">$5</span> Billion</h1>
-                                <p className="section-desc">More than $5 billion worth of online transactions have been made on the
-                                  GOJEK platform.
+                                <h1 className="section-head"><span className="section-numb font-weight-bold">$6.3</span> Billion</h1>
+                                <p className="section-desc">The GO-PAY ecosystem processes $6.3 billion of annualised Gross Transaction Value.
                                 </p>
-                                <p className="section-desc">GO-PAY contributes to an overall 30% of ALL e-money transactions in
-                                  Indonesia.
+                                <p className="section-desc">GOJEK’s payments platform is the leading digital payments service in Indonesia
                                 </p>
                                 <p className="section-desc"><strong>Work with the startup empowering the digital economy</strong></p>
-                                <a className="btn btn-outline-success  btn-cta" href="#super-jobs">Count me in!</a>
+                                
+                                <Link 
+                                to="super-jobs" 
+                                spy={true} 
+                                smooth={true}
+                                className="scroll btn btn-success text-white btn-cta"
+                                offset={-50}
+                            >
+                                Count me in!
+                            </Link>
                             </div>
                             <div className="col-md-5">
                                 <div className="embed-responsive embed-responsive-1by1 embed-video">
@@ -127,17 +133,18 @@ class SuperApp extends Component {
                             </div>
                         </div>
                         <div className="col-12 pb-0 pb-md-5 d-block d-md-none text-center">
-                            <h1 className="section-head text-body pt-5">$5 Billion</h1>
-                            <p className="section-desc">GO-PAY contributes to an overall 30% of ALL e-money transactions in Indonesia. Work
-                              with the startup empowering the digital economy
+                            <h1 className="section-head text-body pt-5">$6.3 Billion</h1>
+                            <p className="section-desc">The GO-PAY ecosystem processes $6.3 billion of annualised Gross Transaction Value.
                             </p>
+                            <p>GOJEK’s payments platform is the leading digital payments service in Indonesia</p>
+                            <p>Work with the startup empowering the digital economy</p>
                         </div>
                     </div>
                 </section>
 
                 <section className="background">
                     <div className="background row mx-0">
-                        <div className="pb-5 col-md-12  px-0 px-md-0">
+                        <div className="col-md-12 px-0 px-md-0">
                             <div className="order-1 pt-0 ">
                                 <div className="embed-responsive embed-responsive-16by9 embed-video">
                                     <video width="100%" height="100%" autoPlay loop muted>
@@ -145,14 +152,22 @@ class SuperApp extends Component {
                                     </video>
                                 </div>
                             </div>
-                            <div className="order-2 order-sm-1 my-5  text-center text-md-left px-md-3">
-                                <h1 className="section-head"><span className="section-numb">16.5</span> Million Kilometer</h1>
+                            <div className="order-2 order-sm-1 my-5 text-center text-md-left px-md-3 px-3 px-md-0">
+                                <h1 className="section-head"><span className="section-numb font-weight-bold">16.5</span> Million Kilometer</h1>
                                 <p className="section-desc">We do 1.5x more daily rides than India’s largest taxi-sharing service.<br /> We cover
                                 16.5 million km everyday. That’s 21 round trips to the moon and back.</p>
                                 <p className="section-desc">
                                     <strong>Architect for the largest ride-sharing app.</strong>
                                 </p>
-                                <a className="btn btn-outline-success btn-cta d-none d-md-block" href="#super-jobs">How do I join?</a>
+                                <Link 
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="scroll btn btn-success text-white btn-cta d-none d-md-block"
+                                    offset={-50}
+                                >
+                                    How do I join?
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -160,7 +175,7 @@ class SuperApp extends Component {
 
 
                     <div>
-                        <img src={bg3} className="testr1 d-none d-md-block" alt="background image" />
+                        <img src="../../images/superApp/bg-3.svg" className="testr1 d-none d-md-block" alt="background image" />
                     </div>
 
                     <div className="d-flex flex-column flex-md-row justify-content-center align-items-center py-0 py-md-5 pb-4" style={{ backgroundColor: "#559d49" }}>
@@ -173,29 +188,45 @@ class SuperApp extends Component {
                         </div>
                         <div className="col-md-5 pt-4 ml-md-5 ml-0 text-center text-md-left">
 
-                            <h1 className="section-head text-white pt-5 pt-md-0"><span className="section-numb">95%</span> Market Share</h1>
-                            <p className="section-desc text-white">GO-FOOD has a 95% market share of all online food delivery providers in
-                              Indonesia.
-                            <br /> We’re one of the largest food delivery apps in the world doing significantly more orders than India’s largest food sharing service.
+                            <h1 className="section-head text-white pt-5 pt-md-0"><span className="section-numb font-weight-bold">$2 </span> Billion</h1>
+                            <p className="section-desc text-white">GO-FOOD processes $2 billion in annualised Gross Transaction Value, making it the largest food delivery service in Southeast Asia.
                             </p>
                             <p className="section-desc text-white">
                                 <strong>Work with the fastest growing food-tech business in the world.</strong>
                             </p>
-                            <a className="btn btn-outline-light btn-cta d-none d-md-block text-white" href="#super-jobs">Super interested!</a>
+                            
+                            <Link 
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="scroll btn btn-light text-success btn-cta d-none d-md-block text-white"
+                                    offset={-50}
+                                >
+                                    Super interested!
+                                </Link>
                         </div>
                     </div>
                 </section>
 
                 <section className="">
-                    <div className="d-flex flex-column flex-md-row justify-content-center align-items-center py-5">
-                        <div className="col-md-5 order-2 order-sm-1 pt-0 pt-5 pb-5 pb-md-0 text-center text-md-left">
-                            <h1 className="section-head"><span className="section-numb">120,000+</span> merchants</h1>
-                            <p className="section-desc">We have more than 120,000+ merchants on our platform.
-                                 <br />85% of these merchants are small business, mom and pop stores who now have a wider audience to cater to.</p>
+                    <div className="d-flex flex-column flex-md-row justify-content-center align-items-center py-md-5 py-0">
+                        <div className="col-md-5 order-2 order-sm-1 pb-5 pb-md-0 text-center text-md-left">
+                            <h1 className="section-head"><span className="section-numb font-weight-bold">300,000+</span> merchants</h1>
+                            <p className="section-desc">We have more than 300,000+ merchants on the GO-FOOD platform. </p>
+                            <p className="section-desc">80% of these are small mom and pop shops that rely heavily on GO-FOOD for revenues.</p>
                             <p className="section-desc">
                                 <strong>Code that creates jobs, opportunities, livelihoods</strong>
                             </p>
-                            <a className="btn btn-outline-success btn-cta d-none d-md-block" href="#super-jobs">Work with us</a>
+                            
+                            <Link 
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="btn btn-success text-white btn-cta d-none d-md-block"
+                                    offset={-50}
+                                >
+                                    Work with us
+                                </Link>
                         </div>
                         <div className="col-md-5 order-1 px-0 pl-md-5">
                             <div className="embed-responsive embed-responsive-1by1 embed-video">
@@ -207,7 +238,7 @@ class SuperApp extends Component {
                     </div>
 
                     <div>
-                        <img src={bg4} className="testr2 d-none d-md-block" alt="backgrounfd image" />
+                        <img src="../../images/superApp/bg-4.svg" className="testr2 d-none d-md-block" alt="backgrounfd image" />
                     </div>
 
 
@@ -223,11 +254,20 @@ class SuperApp extends Component {
                             </div>
                             <div className="col-md-5 ml-0 ml-md-5 text-center text-md-left">
 
-                                <h1 className="section-head pt-5 pt-md-0 text-white"><span className="section-numb">350</span> Million</h1>
+                                <h1 className="section-head pt-5 pt-md-0 text-white"><span className="section-numb font-weight-bold">350</span> Million</h1>
                                 <p className="section-desc text-white">We process more than 350 million internal API calls every second.</p>
                                 <p className="section-desc text-white">Our 12 engineers manage a million drivers.</p>
                                 <p className="section-desc mb-0 text-white"><strong>We automate anything that requires manual work.</strong></p>
-                                <a className="btn btn-outline-light btn-cta text-white" href="#super-jobs">Help us automate better</a>
+                                
+                                <Link 
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="btn btn-light btn-cta text-success"
+                                    offset={-50}
+                                >
+                                    Help us automate better
+                                </Link>
 
                             </div>
                         </div>
@@ -236,7 +276,7 @@ class SuperApp extends Component {
 
                 <section>
                     <div className="mt-5 row mx-0 background new-fact">
-                        <div className="pb-5 col-md-10 offset-md-1 px-0">
+                        <div className="col-md-10 offset-md-1 px-0">
                             <div className="embed-responsive embed-responsive-16by9 embed-video d-md-block d-none">
                                 <video width="100%" height="100%" autoPlay loop muted>
                                     <source src={superAppOneIn} type="video/mp4" />
@@ -249,12 +289,21 @@ class SuperApp extends Component {
                                 </video>
                             </div>
                             <div className="order-2 order-sm-1 my-5 col-md-10 offset-md-2 text-center text-md-left">
-                                <h1 className="section-head"><span className="section-numb">1 </span>in <span className="section-numb">4</span> Have The
+                                <h1 className="section-head"><span className="section-numb font-weight-bold">1 </span>in <span className="section-numb font-weight-bold">2</span> Have The
                                     <br />GOJEK Super App.</h1>
-                                <p className="section-desc">One in ten Indonesians use our app every month. One in four have it installed. <br />To
-                                    make this all work, we run one of the largest jruby, Java and go clusters in Asia.</p>
+                                <p className="section-desc">GOJEK has been downloaded more than 125 million times in Indonesia. One in two have it installed.< br />
+                                To make this all work, we run one of the largest jruby, Java and go clusters in Asia.</p>
                                 <p className="section-desc"><strong>Want to make big data look small, now is the chance.</strong></p>
-                                <a className="btn btn-outline-success btn-cta d-none d-md-block" href="#">Make Data-driven decisions</a>
+                                
+                                <Link 
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="btn btn-success text-white btn-cta d-none d-md-block"
+                                    offset={-50}
+                                >
+                                    Make Data-driven decisions
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -272,20 +321,29 @@ class SuperApp extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="order-2 order-sm-1 my-5 text-center text-md-left pl-md-3">
-                                <h1 className="section-head"><span className="section-numb">1</span> Million+ drivers</h1>
-                                <p className="section-desc">We have a million registered drivers on our platform.<br /> GOJEK had single-handedly
-                                    moved unemployement numbers and improved wages.</p>
-                                <p className="section-desc">
-                                    <strong>We do more than 35 concurrent orders each second across all our 18 products.</strong>
+                            <div className="order-2 order-sm-1 my-5 text-center text-md-left pl-md-3 px-3 px-md-0">
+                                <h1 className="section-head"><span className="section-numb font-weight-bold">7.2</span> Million+ drivers</h1>
+                                <p className="section-desc">We have two million registered drivers on our platform.<br />
+                                GOJEK has contributed about IDR 8.2 trillion annually to the Indonesian economy through the income of Driver Partners.* <br />
+                                <small>*According to a study by the University of Indonesia.</small>
                                 </p>
-                                <a className="btn btn-outline-success btn-cta d-none d-md-block text-uppercase" href="#super-jobs">Scale with us!</a>
+                                
+                                <Link 
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="btn btn-success text-white btn-cta d-none d-md-block text-uppercase"
+                                    offset={-50}
+                                >
+                                    Scale with us!
+                                </Link>
+                                
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <img src={bg3} className="testr1 d-none d-md-block" alt="background image" />
+                        <img src="../../images/superApp/bg-3.svg" className="testr1 d-none d-md-block" alt="background image" />
                     </div>
                 </section>
 
@@ -295,29 +353,42 @@ class SuperApp extends Component {
                         <h1 className="sr-only ">Come help us build startups within a startup</h1>
                         <h2 className="">Come help us build startups within a startup</h2>
                         <p className="pt-2 pt-md-0">Not only is this extremely rewarding, it’s also immensely challenging.</p>
-                        <a className="btn btn-outline-light text-white btn-cta d-none d-md-inline-block mt-1" href="#">Work with us!</a>
-                        <a className="btn btn-outline-light text-white btn-cta d-inline-block d-md-none" href="#">I want to work here!</a>
+                        
+                        <Link 
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="btn btn-light btn-cta text-success d-inline-block d-md-none"
+                                    offset={-50}
+                                >
+                                    I want to work here!
+                                </Link>
+
+                                <Link 
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="btn btn-light text-success btn-cta d-none d-md-inline-block mt-1"
+                                    offset={-50}
+                                >
+                                    Work with us!
+                                </Link>
 
                     </div>
                     <h2 className="section-sub-head text-center mb-4 text-white mt-3">We have no dearth of Hard Technical Problems™,
                     jobs below:</h2>
                     <div className="pb-5" >
-                        <OpensPositions
-                            type="superApp"
-                            team=""
-                            location=""
-                            keyword=""
-                            department=""
-                            resetFilters=""
-                            referer="gojek.io/superapp"
-                            showHeadings={false}
+                        <CareerLocation 
+                            props={this.props} 
+                            color="text-white" 
+                            source="gojek.io/superApp"   
                         />
 
                     </div>
                 </section>
 
                 <section>
-                    <div className="row mx-0 justify-content-center mt-5">
+                    <div className="row mx-0 justify-content-center mt-md-5 mt-0">
                         <div className="col-md-8 text-align-center px-0">
                             <div className="embed-responsive embed-responsive-1by1 embed-video">
                                 <video width="100%" height="100%" autoPlay loop muted>
@@ -329,9 +400,9 @@ class SuperApp extends Component {
                 </section>
 
                 <section className="row mx-0 my-5 my-md-0" id="super-blog">
-                    <div className="col-12 text-center py-5 py-md-2">
+                    <div className="col-12 text-center py-md-2">
                         <h1 className="font-raleway text-center text-Black">But how do we do what we do?<br /></h1>
-                        <a className="btn btn-outline-success btn-cta mb-5" href="https://blog.gojekengineering.com/" target="_blank">EVERYTHING
+                        <a className="btn btn-success text-white btn-cta mb-5" href="https://blog.gojekengineering.com/" target="_blank">EVERYTHING
                         GOJEK DOES</a>
                     </div>
                 </section>

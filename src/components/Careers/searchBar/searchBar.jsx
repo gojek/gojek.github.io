@@ -24,34 +24,11 @@ class SearchBar extends Component {
     }
 
     render() {
+        localStorage.setItem('source',  this.props.source === undefined ? 'https://www.gojek.io/' : this.props.source)
+        
         const { places, searchResult } = this.props;
-        const locations = [{
-            id: '1',
-            locationName: 'All'
-        }, {
-            id: '2',
-            locationName: 'Bangalore'
-        },
-        {
-            id: '3',
-            locationName: 'Jakarta'
-        },
-        {
-            id: '4',
-            locationName: 'Thailand'
-        },
-        {
-            id: '5',
-            locationName: 'Singapore'
-        },
-        // {
-        //     id: '6',
-        //     locationName: 'Philippines'
-        // },
-        {
-            id: '7',
-            locationName: 'Vietnam'
-        }]
+        const locations = ['Bangalore', 'Jakarta', 'Thailand', 'Singapore', 'Vietnam'];
+        
         return (
             <div className={"py-5 col-11 mx-auto" + `${this.props.type === 'careers' ? ` col-md-8 ` : ` col-md-12 `} `}>
                 <div className=" d-flex flex-row flex-wrap justify-content-between align-items-center col-md-12 mx-auto">
@@ -93,7 +70,7 @@ class SearchBar extends Component {
                             className={`scroll col- mr-3 roboto-bold d-none d-md-block` +
                                 `${this.props.locationName === 'All' ? ` custom-tabs-highlight ` : ` custom-tabs-unhighlight ${this.props.textColor}`} `}>All</h6>
                         {
-                            places.map(
+                            locations.map(
                                 (data, i) => {
                                     return <h6 key={i} onClick={() => this.props.onClickLocation(data, i)}
                                         className={`scroll col- mr-3 roboto-bold d-none d-md-block` + `${data === this.props.locationName ? ` custom-tabs-highlight ` : ` custom-tabs-unhighlight ${this.props.textColor}`} `}>{data}</h6>
