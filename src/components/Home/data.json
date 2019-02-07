@@ -55,7 +55,7 @@
                 "theme": "dark-green-bg",
                 "justify": "around",
                 "col": "5",
-                "alt": "Go-Jek Growth",
+                "alt": "GoJek Growth",
                 "background" : "bg-white"
             }, 
             {
@@ -73,7 +73,7 @@
                 "theme": "rider-bg",
                 "justify": "center",
                 "col": "2",
-                "alt": "Go-Jek Rider",
+                "alt": "GoJek Rider",
                 "background" : "bg-white"
             }, 
             {
@@ -92,12 +92,12 @@
                 "theme": "order-bg",
                 "justify": "around",
                 "col": "2",
-                "alt": "Go-Jek Order",
+                "alt": "GoJek Order",
                 "background" : "bg-white"
             }, 
             {
                 "type" : "text",
-                "content": "1 million+ drivers",
+                "content": "2 million+ drivers",
                 "caption": "More daily rides than India's largest ride-sharing service",
                 "theme": "dark-green-bg",
                 "justify": "around",
@@ -119,7 +119,7 @@
                 "theme": "developer-bg",
                 "justify": "around",
                 "col": "5",
-                "alt": "Go-Jek developer",
+                "alt": "GoJek developer",
                 "background" : "bg-white"  
             }
         ],
@@ -128,7 +128,7 @@
                 "image": "../../images/gojek-work/gojek-growth.jpg",
                 "heading" : "6600x",
                 "text" : "total order volume growth in 3 years",
-                "alt" : "Go-Jek Growth",
+                "alt" : "GoJek Growth",
                 "imageTheme" : "dark-green",
                 "textTheme" : "light-green",
                 "bgTheme" : "bg-white"
@@ -137,7 +137,7 @@
                 "image": "../../images/gojek-work/orders.jpg",
                 "heading" : "3 million+",
                 "text" : "orders every day",
-                "alt" : "Go-Jek order",
+                "alt" : "GoJek order",
                 "imageTheme" : "darker-green",
                 "textTheme" : "light-green",
                 "bgTheme" : "color-azure"
@@ -146,7 +146,7 @@
                 "image": "../../images/gojek-work/gojek-rider.jpg",
                 "heading" : "1 million+",
                 "text" : "drivers. More daily rides than India's largest ride-sharing service",
-                "alt" : "Go-Jek Rider",
+                "alt" : "GoJek Rider",
                 "imageTheme" : "green",
                 "textTheme" : "darker-green",
                 "bgTheme" : "bg-white"
@@ -155,7 +155,7 @@
                 "image": "../../images/gojek-work/gojek-engineers.png",
                 "heading" : "18+ Products",
                 "text" : "200+ Engineers",
-                "alt" : "Go-Jek Engineers",
+                "alt" : "GoJek Engineers",
                 "imageTheme" : "light-green",
                 "textTheme" : "darker-green",
                 "bgTheme" : "bg-white"
@@ -163,37 +163,37 @@
         ]
     },
     "principles": {
-        "heading": "GO-JEK Tech principles",
-        "content": "Working with GO-JEK means working with the best and brightest to solve some of the hardest problems in technology. Not only is this extremely rewarding, it’s also immensely challenging.|Here are our guiding principles that serve as a great reference point to understand how we think of Engineering:",
+        "heading": "GOJEK Tech principles",
+        "content": "Working with GOJEK means working with the best and brightest to solve some of the hardest problems in technology. Not only is this extremely rewarding, it’s also immensely challenging.|Here are our guiding principles that serve as a great reference point to understand how we think of Engineering:",
         "data": [
             {
                 "id" : "1",
                 "image" : "../../images/gojek-principles/everyone-codes.gif",
-                "alt": "GO-JEK Tech Principles - Eveyone codes",
+                "alt": "GOJEK Tech Principles - Eveyone codes",
                 "link": "https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2",
                 "heading": "Everyone | Codes",
-                "text": "At GO-JEK, writing software is at the very core of what we do. Because, leaders who code are better judges of technical skill in people."
+                "text": "At GOJEK, writing software is at the very core of what we do. Because, leaders who code are better judges of technical skill in people."
             }, 
             {
                 "id" : "2",
                 "image" : "../../images/gojek-principles/walk-the-talk.gif",
-                "alt": "GO-JEK Tech Principles - Walk the talk",
+                "alt": "GOJEK Tech Principles - Walk the talk",
                 "link": "https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2",
                 "heading": "Walk | the Talk",
-                "text": "At GO-JEK, we expect people to get down in the trenches and take a hands-on approach to problem solving. Don’t tell, show."
+                "text": "At GOJEK, we expect people to get down in the trenches and take a hands-on approach to problem solving. Don’t tell, show."
             }, 
             {
                 "id" : "3",
                 "image" : "../../images/gojek-principles/leaders.gif",
-                "alt": "GO-JEK Tech Principles - Leaders are grown not made",
+                "alt": "GOJEK Tech Principles - Leaders are grown not made",
                 "link": "https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2",
                 "heading": "Leaders are grown. | Not made.",
-                "text": "At GO-JEK, you earn your leadership by proving your mettle, not by formal appointments."
+                "text": "At GOJEK, you earn your leadership by proving your mettle, not by formal appointments."
             }, 
             {
                 "id" : "4",
                 "image" : "../../images/gojek-principles/pair-programming.gif",
-                "alt": "GO-JEK Tech Principles - Pair programming and TDD",
+                "alt": "GOJEK Tech Principles - Pair programming and TDD",
                 "link": "https://blog.gojekengineering.com/go-jek-engineering-guiding-principles-101-9a7bd499ffa2",
                 "heading": "Pair Programming \u0026 | TDD Work",
                 "text": "Pair Programming \u0026 TDD are meant to be together! They help us build features faster, and mature teams organically."
@@ -317,13 +317,13 @@
     },
     "impactStories": {
         "heading": "Our Social Impact Stories",
-        "content": "Since inception, GO-JEK has aimed to improve the economic growth of Indonesia. Using technology as a means of social impact, GO-JEK has created jobs, improved livelihoods of multiple people and helped nudge micro-entrepreneurs. Today, GO-JEK is a verb in Indonesia. About 200+ engineers make software decisions that trickle down to affect the lives of 260+ million people in Indonesia. Watch their stories",
+        "content": "Since inception, GOJEK has aimed to improve the economic growth of Indonesia. Using technology as a means of social impact, GOJEK has created jobs, improved livelihoods of multiple people and helped nudge micro-entrepreneurs. Today, GOJEK is a verb in Indonesia. About 200+ engineers make software decisions that trickle down to affect the lives of 260+ million people in Indonesia. Watch their stories",
         "data": [
             {
                 "id" : "1",
                 "image" : "../../images/impact-stories/arif.jpg",
                 "alt": "Impact story - Arif",
-                "heading": "Arif Fahroji - GO-JEK Driver",
+                "heading": "Arif Fahroji - GOJEK Driver",
                 "text": "A swimming coach, host and traditional artist is how Mr. Arif expresses his creativity. Let Mr. Arif inspire us to consistently want to do the best for Indonesia.",
                 "video" : "bdHfntRaAoo"
             }, 
@@ -339,7 +339,7 @@
                 "id" : "3",
                 "image" : "../../images/impact-stories/nuridah.jpg",
                 "alt": "Impact story - Nirudah",
-                "heading": "Nuridah - She joined as a GO-JEK Driver and in the same year she joined GO-CLEAN.",
+                "heading": "Nuridah - She joined as a GOJEK Driver and in the same year she joined GO-CLEAN.",
                 "text": "Determination is the key for us to accomplish anything we want. Mrs. Nuridah is a good example of how determination can help you accomplish your goals. Let us all have the same determination as Mrs. Nuridah for a better Indonesia.",
                 "video" : "77YDzTh-_EA"
             },

@@ -8,9 +8,9 @@ class Contact extends Component {
         return(
             <div className="first-section">
                 <Helmet>
-                    <title>GO-JEK: Contact Us</title>
-					<meta property="og:title" content="GO-JEK: Contact Us" />
-					<meta name="twitter:title" content="GO-JEK: Contact Us" />
+                    <title>GOJEK: Contact Us</title>
+					<meta property="og:title" content="GOJEK: Contact Us" />
+					<meta name="twitter:title" content="GOJEK: Contact Us" />
                     <meta name="description" content="Feel free to contact us for any queries regarding job openings or any other queries." />
                     <meta name="twitter:description" content="Feel free to contact us for any queries regarding job openings or any other queries." />
                     <meta property="og:description" content="Feel free to contact us for any queries regarding job openings or any other queries." />
@@ -34,7 +34,7 @@ class Contact extends Component {
                         <div className="row">
                             <div className="col-md-4">
                                 <p className="font-md text-green text-uppercase   raleway-bold place pb-1">
-                                    GO-JEK Head Office (Jakarta):           
+                                    GOJEK Head Office (Jakarta):           
                                 </p>
                                 <p className="roboto-regular address text-black">
                                 Pasaraya Blok M Gedung B Lt. 6,<br /> 
@@ -44,7 +44,7 @@ class Contact extends Component {
                             </div>
                             <div className="col-md-4">
                                 <p className="font-md text-green text-uppercase  raleway-bold place pb-4">
-                                    GO-JEK Singapore:
+                                    GOJEK Singapore:
                                 </p>
                                 <p className="roboto-regular address text-black">
                                     8 Shenton Way,<br /> AXA Tower, <br />Singapore 068811
@@ -52,7 +52,7 @@ class Contact extends Component {
                             </div>
                             <div className="col-md-4">
                                 <p className="font-md text-green text-uppercase  raleway-bold place pb-4">
-                                    GO-JEK India:
+                                    GOJEK India:
                                 </p>
                                 <p className="roboto-regular address text-black">
                                     4th & 6th Floor Tower B,<br /> Diamond District, HAL Old Airport Road,<br /> Bengaluru, <br />Karnataka 560008
@@ -78,7 +78,7 @@ class Contact extends Component {
 
                                 <div className="col-md-7 gray-bg text-black text-center">
                                     <h5 className="raleway-extrabold text-uppercase h5 pt-5 pb-4">
-                                        go-jek tech contact
+                                        gojek tech contact
                                     </h5>
                                     <p className=" text-uppercase mb-0 roboto-black contact">Mail</p>
                                     <a href="mailto:contact@gojek.io" className="text-green roboto-regular font-md"><u>contact@gojek.io</u></a>
@@ -111,7 +111,7 @@ class Contact extends Component {
                                 </div>
                                 <div className="contact-bg col-md-5 d-flex align-items-center pb-5">
                                     <h4 className="text-white pt-5 pt-md-0 raleway-bold  h2">
-                                    GO-JEK expands to 4 new
+                                    GOJEK expands to 4 new
                                     markets - Thailand, Vietnam, Singapore & Phillippines
                                     </h4>
                                 </div>

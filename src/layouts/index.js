@@ -15,9 +15,9 @@ class Layout extends Component {
 		const { siteMetadata: metaData } = this.props.data.site;
 		const { location, children } = this.props
 		const slug = location.pathname.split("/careers/");
-		
+		// console.log("metaData",metaData)
 		// Gomake impact header
-		let menu = [  
+		let menu = [
 			{
 				"id": "1",
 				"name": "About us",
@@ -41,9 +41,47 @@ class Layout extends Component {
 			}
 		];
 
+		let superAppMenu = [
+			{
+				"id": "1",
+				"name": "Super Home",
+				"link": "home",
+				"type": "link",
+				"src": "superapp"
+			},
+			{
+				"id": "2",
+				"name": "Super App",
+				"link": "super-app",
+				"type": "link",
+				"src": "superapp"
+			},
+			{
+				"id": "3",
+				"name": "Super Facts",
+				"link": "super-facts",
+				"type": "link",
+				"src": "superapp"
+			}, {
+				"id": "4",
+				"name": "Super Blog",
+				"link": "super-blog",
+				"type": "link",
+				"src": "superapp"
+			},
+			{
+				"id": "5",
+				"name": "Super Jobs",
+				"link": "super-jobs",
+				"type": "link",
+				"src": "superapp"
+			}
+
+		]
+
 		// initial requirement - Do not show header and footer for Job description page
 		// const showHeaderFooter = slug[1] !== undefined && slug[1] !== "" ? false : true;
-		
+
 		// new Requirement - Show header footer for all the pages 
 		const showHeaderFooter = true;
 		return (
@@ -66,10 +104,10 @@ class Layout extends Component {
 					<meta property="og:image" content={metaData.siteImage} />
 					<meta property="og:description" content={metaData.description} />
 					<link rel="shortcut icon" href="/../images/favicon.ico" type="image/x-icon " />
-					<link rel="icon" href="/../images/favicon.ico" type="image/x-icon" />	
+					<link rel="icon" href="/../images/favicon.ico" type="image/x-icon" />
 				</Helmet>
 				{
-					location.pathname !== '/gomakeimpact/' &&
+					location.pathname !== '/gomakeimpact/' && location.pathname !== '/superapp/' &&
 					<Header
 						siteTitle={metaData.title}
 						data={data}
@@ -80,7 +118,15 @@ class Layout extends Component {
 					location.pathname === '/gomakeimpact/' &&
 					<Header
 						siteTitle={metaData.title}
-						data={ menu }
+						data={menu}
+						currentPage={location.pathname}
+					/>
+				}
+				{
+					location.pathname === '/superapp/' &&
+					<Header
+						siteTitle={metaData.title}
+						data={superAppMenu}
 						currentPage={location.pathname}
 					/>
 				}

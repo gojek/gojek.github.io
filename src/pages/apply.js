@@ -117,9 +117,8 @@ class TestApply extends Component {
                         }
                     }
                 ],
-                "source": this.state.propsData.referer
+                "source": localStorage.getItem('source')
             };
-            console.log('Payload', payload);
             axios({
                 method: 'post',
                 url: 'https://jsapi.recruiterbox.com/v1/openings/' + this.state.propsData.jobId + '/apply?client_name=gojek',
@@ -139,7 +138,7 @@ class TestApply extends Component {
                 err.response.data.errors.map(function (error) {
                     let key = Object.keys(error);
                     // error[key].forEach((element, index) => {
-                    console.log('Here', key[0].split("_"))
+                    // console.log('Here', key[0].split("_"))
 
                     var text = '';
 
@@ -164,13 +163,16 @@ class TestApply extends Component {
 
     render() {
         const data = this.props.applyData ? this.props.applyData : this.props.location.state;
+        
         return (
-            <section className="container text-center ">
-                {/* <Helmet>
-                <title>{ data !== undefined ? data.name : 'GO-JEK Tech Apply' } </title>
-            </Helmet> */}
-                <h2 className="raleway-extrabold font-xl-l text-black text-left mb-0">Apply for this Job</h2>
-                {/* <p className="font-sm raleway-bold text-success text-uppercase">{ data !== undefined ? data.place : '' }</p> */}
+            <section className="container text-center first-section">
+                <Helmet>
+                    <title>{data !== undefined ? data.name : 'GO-JEK Tech Apply'} </title>
+                </Helmet>
+                <h2 className="raleway-extrabold font-xl text-black mb-0 pt-5">{data !== undefined ? data.name : ''}</h2>
+
+                {/* <h2 className="raleway-extrabold font-xl-l text-center text-black text-left mb-0 ">Apply for this Job</h2> */}
+                <p className="font-sm pt-3 raleway-bold text-success text-uppercase">{data !== undefined ? data.place : ''}</p>
                 <div className=" pt-5">
                     <form className="needs-validation" noValidate
                         onSubmit={
@@ -364,6 +366,7 @@ class TestApply extends Component {
                                         onChange={this.handleChange}
                                         name="githubLink"
                                     />
+                                    <small className="text-success">* If you don't have a GitHub profile link, please add NIL</small>
                                     <div className="invalid-feedback">
                                         *Required
                                     </div>
@@ -419,10 +422,12 @@ class TestApply extends Component {
                                             onChange={this.handleChange}
                                             name="eligible"
                                         >
-                                            <option value="">Are you legally eligible to work in Singapore...
-                                    </option>
-                                            <option value="yes">Yes</option>
-                                            <option value="no">No</option>
+                                            <option value="">Are you legally eligible to work in singapore
+                                           </option>
+                                            <option value="Singapore Citizen">Singapore Citizen</option>
+                                            <option value="Permanent Resident">Permanent Resident</option>
+                                            <option value="EP / S-Pass Holder">EP / S-Pass Holder</option>
+                                            <option value="Foreigner">Foreigner</option>
                                         </select>
                                         <div className="invalid-feedback">
                                             *Required

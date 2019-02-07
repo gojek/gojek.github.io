@@ -11,7 +11,7 @@ class SearchBar extends Component {
     }
 
     onClickPositionFromSearch = (data) => {
-        this.props.props.history.push(`/location?name=${data.place}&team=${data.team.replace(/ +/g, "")}&position=${data.positionSlug}`)
+        this.props.props.history.push(`/open-positions?location=${data.place}&team=${data.team.replace(/ +/g, "")}&position=${data.positionSlug}`)
     }
 
     getCurrentWidth = () => {
@@ -19,38 +19,14 @@ class SearchBar extends Component {
         if (typeof window !== `undefined`) {
             screenWidth = window.innerWidth
         }
+        // console.log("screenWidth",screenWidth)
         return screenWidth
     }
 
     render() {
         const { places, searchResult } = this.props;
-        const locations = [{
-            id: '1',
-            locationName: 'All'
-        }, {
-            id: '2',
-            locationName: 'Bangalore'
-        },
-        {
-            id: '3',
-            locationName: 'Jakarta'
-        },
-        {
-            id: '4',
-            locationName: 'Thailand'
-        },
-        {
-            id: '5',
-            locationName: 'Singapore'
-        },
-        {
-            id: '6',
-            locationName: 'Philippines'
-        },
-        {
-            id: '7',
-            locationName: 'Vietnam'
-        }]
+        const locations = ['Bangalore', 'Jakarta', 'Thailand', 'Singapore', 'Vietnam'];
+        
         return (
             <div className={"py-5 col-11 mx-auto" + `${this.props.type === 'careers' ? ` col-md-8 ` : ` col-md-12 `} `}>
                 <div className=" d-flex flex-row flex-wrap justify-content-between align-items-center col-md-12 mx-auto">
@@ -59,7 +35,7 @@ class SearchBar extends Component {
                     </div>
                     <div className={`text-left px-0 position-relative ` + `${this.props.type === 'careers' ? ` col-12   ` : ` col-12 col-lg-9 col-md-8`}`}>
                         <input onChange={(ev) => this.props.onChangeInputText(ev)} type="text" name="keyword" value={this.props.inputText} className="form-control   custom-search bg-gray border-0 py-3 mt-2 " id="keyword" placeholder="Search Position"></input>
-                        <i className="fa fa-search position-absolute " style={{ right: '10px', top: typeof window !== `undefined` ? window.innerWidth > 425 ? '25px' : '20px' : null }}></i>
+                        <i className="fa fa-search position-absolute " style={{ right: '10px', top: this.getCurrentWidth() < 558 ? '20px' : '25px'}}></i>
                     </div>
                     {
                         (this.props.type === 'careers' && searchResult !== null) &&
@@ -92,7 +68,7 @@ class SearchBar extends Component {
                             className={`scroll col- mr-3 roboto-bold d-none d-md-block` +
                                 `${this.props.locationName === 'All' ? ` custom-tabs-highlight ` : ` custom-tabs-unhighlight ${this.props.textColor}`} `}>All</h6>
                         {
-                            places.map(
+                            locations.map(
                                 (data, i) => {
                                     return <h6 key={i} onClick={() => this.props.onClickLocation(data, i)}
                                         className={`scroll col- mr-3 roboto-bold d-none d-md-block` + `${data === this.props.locationName ? ` custom-tabs-highlight ` : ` custom-tabs-unhighlight ${this.props.textColor}`} `}>{data}</h6>
@@ -101,8 +77,12 @@ class SearchBar extends Component {
                         }
                         {
 
-                            (searchResult && searchResult !== null && searchResult.length !== 0) &&
-                            <button onClick={() => this.onClickPositionFromSearch(searchResult[0])} type="button" className="btn bg-success btn-sm ml-auto text-white raleway-extrabold ">Search<i className="fa fa-search pl-3"></i></button>
+                            (searchResult && searchResult !== null && searchResult.length !== 0) ?
+                                <React.Fragment>
+                                    <span style={{fontSize:'14px'}} className="roboto-regular">* Candidates can only apply from their country of origin. </span>
+                                    <button onClick={() => this.onClickPositionFromSearch(searchResult[0])} type="button" className="btn bg-success btn-sm ml-auto text-white raleway-extrabold ">Search<i className="fa fa-search pl-3"></i></button>
+                                </React.Fragment>
+                                : ''
                         }
                     </div>
 

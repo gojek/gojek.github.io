@@ -6,19 +6,19 @@ class GojekExpansion extends Component {
         return (
             <section className="first-section pt-3">
                 <Helmet>
-                    <title>GO-JEK expands to Thailand, Vietnam, Singapore and Philippines</title>
-					<meta property="og:title" content="GO-JEK expands to Thailand, Vietnam, Singapore and Philippines" />
-					<meta name="twitter:title" content="GO-JEK expands to Thailand, Vietnam, Singapore and Philippines" />
-                    <meta name="description" content="After Indonesia, GO-JEK is expanding to other South East Asian countries to provide their citizens with its exceptional service and employment opportunities." />
-                    <meta name="twitter:description" content="After Indonesia, GO-JEK is expanding to other South East Asian countries to provide their citizens with its exceptional service and employment opportunities." />
-                    <meta property="og:description" content="After Indonesia, GO-JEK is expanding to other South East Asian countries to provide their citizens with its exceptional service and employment opportunities." />
+                    <title>GOJEK expands to Thailand, Vietnam, Singapore and Philippines</title>
+					<meta property="og:title" content="GOJEK expands to Thailand, Vietnam, Singapore and Philippines" />
+					<meta name="twitter:title" content="GOJEK expands to Thailand, Vietnam, Singapore and Philippines" />
+                    <meta name="description" content="After Indonesia, GOJEK is expanding to other South East Asian countries to provide their citizens with its exceptional service and employment opportunities." />
+                    <meta name="twitter:description" content="After Indonesia, GOJEK is expanding to other South East Asian countries to provide their citizens with its exceptional service and employment opportunities." />
+                    <meta property="og:description" content="After Indonesia, GOJEK is expanding to other South East Asian countries to provide their citizens with its exceptional service and employment opportunities." />
                 </Helmet>
                 <div className="container">
                     <div className="row">
                         <div className="heading col-md-12 px-md-0">
                             <p className="text-success blog-date roboto-bold py-sm-2 ">JUNE 25, 2018</p>
                             <h5 className="text-center text-md-left text-black pb-4  raleway-bold font-lg">
-                                GO-JEK announces the launch of locally founded companies in Vietnam and
+                                GOJEK announces the launch of locally founded companies in Vietnam and
                                 Thailand
                             </h5>
                         </div>
@@ -26,9 +26,9 @@ class GojekExpansion extends Component {
                         <div className="px-4 px-md-0 font-xs-l roboto-regular">
                             <img className="img-fluid" src="../images/news/press-release.jpg" width="100%" />
                             <p className="pt-4">
-                                GO-JEK today announces the launch of two locally founded companies in Vietnam
+                                GOJEK today announces the launch of two locally founded companies in Vietnam
                                 and Thailand that will form the first wave of its international expansion. The companies will be run by local founding
-                                management teams, with GO-JEK providing knowledge and expertise as well as technology and investment.
+                                management teams, with GOJEK providing knowledge and expertise as well as technology and investment.
                             </p>
                             <p>
                                 GO-VIET, the brand being introduced in Vietnam, will enter its beta testing phase in July, which will involve a select number
@@ -41,14 +41,14 @@ class GojekExpansion extends Component {
                                 The international expansion follows many months of planning by the company after its latest fundraising round, which saw
                                 backing from Astra International, Warburg Pincus, KKR, Meituan-Dianping, Tencent, Google and Temasek among others.
                                 USD$500 million of the funds raised were set aside for international expansion, as the company aims to increase its
-                                presence in Southeast Asia. GO-JEK is also planning new operations in Singapore and the Philippines.
+                                presence in Southeast Asia. GOJEK is also planning new operations in Singapore and the Philippines.
                             </p>
                             <p>
-                                <b> GO-JEK CEO and Founder Nadiem Makarim,</b> said: “Our strategy is to combine the world-class technology developed
-                                by GO-JEK, with the in-depth market knowledge and expertise of the local teams, to create local businesses that really
+                                <b> GOJEK CEO and Founder Nadiem Makarim,</b> said: “Our strategy is to combine the world-class technology developed
+                                by GOJEK, with the in-depth market knowledge and expertise of the local teams, to create local businesses that really
                                 understand consumers. We believe that these in-country teams have the knowledge and experience to make the businesses
                                 in Vietnam and Thailand a huge success. They may be using different brands, but they will be operating under the
-                                same values system that has made GO-JEK the market leader in Indonesia. It’s not just about growth, it’s about finding
+                                same values system that has made GOJEK the market leader in Indonesia. It’s not just about growth, it’s about finding
                                 ways to have a positive impact on as many people as possible.”
                             </p>
                             <p>
@@ -57,7 +57,7 @@ class GojekExpansion extends Component {
                                 feel the benefit of a more competitive industry.”
                             </p>
                             <p className="pb-5">
-                                <b> Vu Duc Chief Executive Officer and Co-Founder of GO-VIET </b>said: “GO-JEK is a pioneering technology company with an
+                                <b> Vu Duc Chief Executive Officer and Co-Founder of GO-VIET </b>said: “GOJEK is a pioneering technology company with an
                                 extensive ecosystem of 18 diverse services, backed by a strong group of strategic investors. The company’s support is ideal,
                                 not just because of its tech and operational knowhow, but also because we share the same core values – the desire to make
                                 a positive impact on communities by improving living standards and income for families as well as bringing benefits for smallmedium

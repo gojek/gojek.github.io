@@ -33,7 +33,7 @@ class Card extends Component {
                 </h1>
                 <div className="row no-gutters">
                     {data.map((employee, key) =>
-                        <div key={key} className="col test scroll" onClick={() => this.handleClick(employee)}>
+                        <div key={key} className="col emp scroll" onClick={() => this.handleClick(employee)}>
                             <img className="img-fluid fade-in" src={employee.image} alt={employee.name + "'s story"} />
                         </div>
 

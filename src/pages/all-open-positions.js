@@ -28,6 +28,7 @@ class allpositions extends Component {
     }
 
     componentDidMount() {
+        // console.log("all-open-positions page")
         window.addEventListener('scroll', this.handleScroll);
         let places = this.state.places;
         let tempPositions = [];
@@ -142,7 +143,7 @@ class allpositions extends Component {
             })
         }
         else {
-            window.location.replace('/404')
+            // window.location.replace('/404')
         }
     }
 
@@ -265,14 +266,14 @@ class allpositions extends Component {
         return (
             <div className="first-section">
                 <Helmet>
-                    <title>GO-JEK Careers: Check out the current job openings at GO-JEK Tech</title>
-                    <meta property="og:title" content="GO-JEK Careers: Check out the current job openings at GO-JEK Tech" />
-                    <meta name="twitter:title" content="GO-JEK Careers: Check out the current job openings at GO-JEK Tech" />
-                    <meta name="description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
-                    <meta name="twitter:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
-                    <meta property="og:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+                    <title>GOJEK Careers: Check out the current job openings at GOJEK Tech</title>
+                    <meta property="og:title" content="GOJEK Careers: Check out the current job openings at GOJEK Tech" />
+                    <meta name="twitter:title" content="GOJEK Careers: Check out the current job openings at GOJEK Tech" />
+                    <meta name="description" content="GOJEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+                    <meta name="twitter:description" content="GOJEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+                    <meta property="og:description" content="GOJEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
                 </Helmet>
-                <CountBanner bannerImage="job-illustration-banner" height="70vh" />
+                <CountBanner props={this.props} bannerImage="job-illustration-banner" height="70vh" />
                 <div className="container">
                     {/* search bar */}
                     <SearchBar type="allPositions" places={this.state.places} onChangeInputText={(ev) => this.onChangeInputText(ev.target.value)}
@@ -310,7 +311,11 @@ class allpositions extends Component {
                                                                             }
                                                                         </React.Fragment>
                                                                             :
-                                                                            <p key = {i} className="col-12 text-center raleway-bold  font-lg ">Whoops! There seems to be no teams in ‘{data.place}’</p>
+                                                                            <React.Fragment key={i}>
+                                                                                <img className=" col-md-4 col-12 mt-3 img-fluid mx-auto text-center" src="../../images/careers/no-jobs-found.png" />
+                                                                                <p  className="col-12 text-center raleway-bold  font-lg mt-3">Whoops! There are no open positions in ‘{data.place}’ currently</p>
+                                                                            </React.Fragment>
+
                                                                     }
                                                                 )
                                                             }
@@ -320,7 +325,7 @@ class allpositions extends Component {
                                                             <h6 className="col-12 font-lg mb-0 mt-5 roboto-bold text-center text-black text-uppercase">{this.state.places[i]}</h6>
                                                             <hr className="my-1" />
                                                             <img className=" col-md-4 col-12 mt-3 img-fluid text-center" src="../../images/careers/no-jobs-found.png" />
-                                                            <h6 className="col-12 text-center roboto-regular font-md">No matching jobs found for ‘{this.state.inputText}’ in {this.state.places[i]}</h6>
+                                                            <h6 className="col-12 pt-3 text-center roboto-regular font-md">No matching jobs found for ‘{this.state.inputText}’ in {this.state.places[i]}</h6>
                                                             <button onClick={() => this.onClickViewPositions(i, this.state.places[i])} className="col-md-4 col-12 btn btn-success">View Other Positions in {this.state.places[i]}</button>
                                                         </div>
                                                         :

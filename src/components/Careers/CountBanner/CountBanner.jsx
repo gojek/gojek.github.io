@@ -12,20 +12,20 @@ class CountBanner extends Component {
     }
 
     render() {
-
+        const pathname = this.props.props.location.pathname
         const count = [{
-            heading: '6666x',
+            heading: '6600x',
             subHeading: 'total order volume growth in 3 years'
         }, {
-            heading: '50 orders',
+            heading: '50+ orders',
             subHeading: 'processed on an average every second'
         }, {
-            heading: '1 million+',
+            heading: '2 million+',
             subHeading: 'driver partners on the platform'
         }, {
-            heading1: '18',
+            heading1: '18+',
             subHeading1: 'products',
-            heading2: '200',
+            heading2: '250+',
             subHeading2: 'engineers'
         }]
         return (
@@ -92,48 +92,52 @@ class CountBanner extends Component {
                 </section>
 
                 {/* count in mobile view */}
+                {
+                    pathname !== '/open-positions' &&
+                    <section className="d-md-none">
+                        <div className="d-flex flex-row flex-wrap justify-content-center  my-5">
+                            {
+                                count.map(
+                                    (data, i) => {
+                                        return <div key={i} className="col-6 text-center my-3">
+                                            <div className="px-0 carrers-count-sm careers-border border-success text-center d-flex flex-column align-items-center justify-content-center mx-auto">
+                                                {
+                                                    data.heading ?
+                                                        <React.Fragment >
+                                                            <h6 className=" font-lg-x text-success mb-0  roboto-bold">
+                                                                {data.heading}
+                                                            </h6>
+                                                            <h6 className=" text-muted font-sm mb-0 px-1">
+                                                                {data.subHeading}
+                                                            </h6>
+                                                        </React.Fragment>
+                                                        :
+                                                        <React.Fragment>
+                                                            <h6 className=" font-lg-x text-success mb-0  roboto-bold">
+                                                                {data.heading1}
+                                                            </h6>
+                                                            <h6 className=" text-muted font-sm mb-0  px-1">
+                                                                {data.subHeading1}
+                                                            </h6>
+                                                            <h6 className=" font-lg-x text-success mb-0 roboto-bold">
+                                                                {data.heading2}
+                                                            </h6>
+                                                            <h6 className=" text-muted font-sm mb-0 px-1">
+                                                                {data.subHeading2}
+                                                            </h6>
+                                                        </React.Fragment>
+                                                }
 
-                <section className="d-md-none">
-                    <div className="d-flex flex-row flex-wrap justify-content-center  my-5">
-                        {
-                            count.map(
-                                (data, i) => {
-                                    return <div key={i} className="col-6 text-center my-3">
-                                        <div className="px-0 carrers-count-sm careers-border border-success text-center d-flex flex-column align-items-center justify-content-center mx-auto">
-                                            {
-                                                data.heading ?
-                                                    <React.Fragment >
-                                                        <h6 className=" font-lg-x text-success mb-0  roboto-bold">
-                                                            {data.heading}
-                                                        </h6>
-                                                        <h6 className=" text-muted font-sm mb-0 px-1">
-                                                            {data.subHeading}
-                                                        </h6>
-                                                    </React.Fragment>
-                                                    :
-                                                    <React.Fragment>
-                                                        <h6 className=" font-lg-x text-success mb-0  roboto-bold">
-                                                            {data.heading1}
-                                                        </h6>
-                                                        <h6 className=" text-muted font-sm mb-0  px-1">
-                                                            {data.subHeading1}
-                                                        </h6>
-                                                        <h6 className=" font-lg-x text-success mb-0 roboto-bold">
-                                                            {data.heading2}
-                                                        </h6>
-                                                        <h6 className=" text-muted font-sm mb-0 px-1">
-                                                            {data.subHeading2}
-                                                        </h6>
-                                                    </React.Fragment>
-                                            }
-
+                                            </div>
                                         </div>
-                                    </div>
-                                }
-                            )
-                        }
-                    </div>
-                </section>
+                                    }
+                                )
+                            }
+                        </div>
+                    </section>
+
+                }
+
             </React.Fragment >
         );
     }

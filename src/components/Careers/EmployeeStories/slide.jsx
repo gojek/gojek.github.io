@@ -6,13 +6,13 @@ class Slide extends Component {
         let img = '';
         
         switch(data.employeeName) {
-            case 'Crystal Widjaja':
+            case 'Divya Jaisawal':
                 img = "../../images/employee-stories/divya.jpg";
                 break;
-            case 'Shobhit Srivastava': 
+            case 'Crystal Widjaja': 
                 img = "../../images/employee-stories/crystal.jpg";
                 break;
-            case 'Divya Jaisawal':
+            case 'Shobhit Srivastava':
                 img = "../../images/employee-stories/shobit.jpg";
                 break;
         }

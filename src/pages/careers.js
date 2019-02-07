@@ -120,12 +120,12 @@ class Careers extends Component {
 		return (
 			<div className="first-section">
 				<Helmet>
-					<title>GO-JEK Careers: Check out the current job openings at GO-JEK Tech</title>
-					<meta property="og:title" content="GO-JEK Careers: Check out the current job openings at GO-JEK Tech" />
-					<meta name="twitter:title" content="GO-JEK Careers: Check out the current job openings at GO-JEK Tech" />
-					<meta name="description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
-					<meta name="twitter:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
-					<meta property="og:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+					<title>GOJEK Careers: Check out the current job openings at GOJEK Tech</title>
+					<meta property="og:title" content="GOJEK Careers: Check out the current job openings at GOJEK Tech" />
+					<meta name="twitter:title" content="GOJEK Careers: Check out the current job openings at GOJEK Tech" />
+					<meta name="description" content="GOJEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+					<meta name="twitter:description" content="GOJEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+					<meta property="og:description" content="GOJEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
 				</Helmet>
 
 				{/* Main banner image */}
@@ -151,7 +151,7 @@ class Careers extends Component {
 				</section>
 
 
-				<CountBanner bannerImage="careers-second-banner" height="300px" />
+				<CountBanner props={this.props} bannerImage="careers-second-banner" height="300px" />
 
 				<BehindTheScenes />
 
