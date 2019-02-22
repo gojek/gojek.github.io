@@ -16,9 +16,24 @@ import '../layouts/superApp.css';
 import CareerLocation from '../components/Careers/CareerLocation/CareerLocation';
 
 class SuperApp extends Component {
+    componentWillMount() {
+        if (typeof localStorage !== `undefined`) {
+            localStorage.setItem('source', 'gojek.io/superapp')
+        }
+    }
+    
     render() {
         return (
-            <section className="first-section">
+            <div className="first-section">
+                <Helmet>
+                        <title>GOJEK: SuperApp</title>
+                        <meta property="og:title" content="GOJEK: On-Demand Services for Transport, Payment, Food Delivery, etc." />
+                        <meta property="og:title" content="GOJEK: On-Demand Services for Transport, Payment, Food Delivery, etc." />
+                        <meta name="twitter:title" content="GOJEK: On-Demand Services for Transport, Payment, Food Delivery, etc." />
+                        <meta name="description" content="GOJEK is a Super App. It's one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia's first and fastest growing unicorn building an on-demand empire." />
+                        <meta name="twitter:description" content="GOJEK is a Super App. It's one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia's first and fastest growing unicorn building an on-demand empire." />
+                        <meta property="og:description" content="GOJEK is a Super App. It's one app for ordering food, commuting, digital payments, shopping, hyper-local delivery, getting a massage and two dozen services. It is Indonesia's first and fastest growing unicorn building an on-demand empire." />
+                    </Helmet>
                 <section id="home">
                     <div className="d-none d-md-block embed-responsive embed-responsive-16by9 embed-video">
                         <video width="100%" height="100%" autoPlay loop muted>
@@ -42,7 +57,7 @@ class SuperApp extends Component {
                               Operating System that unbundles the tyranny of apps. It’s a portal to the internet for a mobile-first
                               generation
                             </p>
-                            <a className="btn btn-success text-white btn-cta d-none d-md-block" target="_blank" href="https://blog.gojekengineering.com/what-is-a-super-app-9f4309c46eeb">Read
+                            <a className="btn btn-success text-white btn-cta d-none d-md-block" target="_blank" href="https://blog.gojekengineering.com/what-is-a-super-app-4f2d889451e6">Read
                             More</a>
                         </div>
                         <div className="col-md-5 order-2 order-sm-1 px-0">
@@ -74,8 +89,7 @@ class SuperApp extends Component {
 
                             <p className="section-desc text-white">We have 18+ products from foodtech to fintech to hyper local delivery and massage services</p>
                             <p className="section-desc text-white">
-                            Our Total order volume growth has risen by 6,600x since we started.
-                            services.</p>
+                            Our Total order volume growth has risen by 6,600x since we started.</p>
                             <Link 
                                 to="super-jobs" 
                                 spy={true} 
@@ -104,14 +118,14 @@ class SuperApp extends Component {
                                 <p className="section-desc"><strong>Work with the startup empowering the digital economy</strong></p>
                                 
                                 <Link 
-                                to="super-jobs" 
-                                spy={true} 
-                                smooth={true}
-                                className="scroll btn btn-success text-white btn-cta"
-                                offset={-50}
-                            >
-                                Count me in!
-                            </Link>
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="scroll btn btn-success text-white btn-cta"
+                                    offset={-50}
+                                >
+                                    Count me in!
+                                </Link>
                             </div>
                             <div className="col-md-5">
                                 <div className="embed-responsive embed-responsive-1by1 embed-video">
@@ -135,9 +149,20 @@ class SuperApp extends Component {
                         <div className="col-12 pb-0 pb-md-5 d-block d-md-none text-center">
                             <h1 className="section-head text-body pt-5">$6.3 Billion</h1>
                             <p className="section-desc">The GO-PAY ecosystem processes $6.3 billion of annualised Gross Transaction Value.
-                            </p>
-                            <p>GOJEK’s payments platform is the leading digital payments service in Indonesia</p>
-                            <p>Work with the startup empowering the digital economy</p>
+                                <br />
+                                GOJEK’s payments platform is the leading digital payments service in Indonesia
+                                </p>
+                            <p className="section-desc"><strong>Work with the startup empowering the digital economy</strong></p>
+
+                            <Link 
+                                    to="super-jobs" 
+                                    spy={true} 
+                                    smooth={true}
+                                    className="mt-4 scroll btn btn-success text-white btn-cta"
+                                    offset={-50}
+                                >
+                                    Count me in!
+                                </Link>
                         </div>
                     </div>
                 </section>
@@ -152,7 +177,7 @@ class SuperApp extends Component {
                                     </video>
                                 </div>
                             </div>
-                            <div className="order-2 order-sm-1 my-5 text-center text-md-left px-md-3 px-3 px-md-0">
+                            <div className="order-2 order-sm-1 my-5 text-center text-md-left px-3 px-md-5 ml-md-5">
                                 <h1 className="section-head"><span className="section-numb font-weight-bold">16.5</span> Million Kilometer</h1>
                                 <p className="section-desc">We do 1.5x more daily rides than India’s largest taxi-sharing service.<br /> We cover
                                 16.5 million km everyday. That’s 21 round trips to the moon and back.</p>
@@ -163,7 +188,7 @@ class SuperApp extends Component {
                                     to="super-jobs" 
                                     spy={true} 
                                     smooth={true}
-                                    className="scroll btn btn-success text-white btn-cta d-none d-md-block"
+                                    className="scroll btn btn-success text-white btn-cta mt-4"
                                     offset={-50}
                                 >
                                     How do I join?
@@ -199,7 +224,7 @@ class SuperApp extends Component {
                                     to="super-jobs" 
                                     spy={true} 
                                     smooth={true}
-                                    className="scroll btn btn-light text-success btn-cta d-none d-md-block text-white"
+                                    className="scroll btn btn-light text-success btn-cta my-4 text-white"
                                     offset={-50}
                                 >
                                     Super interested!
@@ -222,7 +247,7 @@ class SuperApp extends Component {
                                     to="super-jobs" 
                                     spy={true} 
                                     smooth={true}
-                                    className="btn btn-success text-white btn-cta d-none d-md-block"
+                                    className="btn btn-success text-white btn-cta mt-4"
                                     offset={-50}
                                 >
                                     Work with us
@@ -252,7 +277,7 @@ class SuperApp extends Component {
                                     </video>
                                 </div>
                             </div>
-                            <div className="col-md-5 ml-0 ml-md-5 text-center text-md-left">
+                            <div className="col-md-5 ml-0 ml-md-5 text-center text-md-left px-md-5">
 
                                 <h1 className="section-head pt-5 pt-md-0 text-white"><span className="section-numb font-weight-bold">350</span> Million</h1>
                                 <p className="section-desc text-white">We process more than 350 million internal API calls every second.</p>
@@ -263,7 +288,7 @@ class SuperApp extends Component {
                                     to="super-jobs" 
                                     spy={true} 
                                     smooth={true}
-                                    className="btn btn-light btn-cta text-success"
+                                    className="btn btn-light btn-cta text-success mt-5"
                                     offset={-50}
                                 >
                                     Help us automate better
@@ -291,7 +316,7 @@ class SuperApp extends Component {
                             <div className="order-2 order-sm-1 my-5 col-md-10 offset-md-2 text-center text-md-left">
                                 <h1 className="section-head"><span className="section-numb font-weight-bold">1 </span>in <span className="section-numb font-weight-bold">2</span> Have The
                                     <br />GOJEK Super App.</h1>
-                                <p className="section-desc">GOJEK has been downloaded more than 125 million times in Indonesia. One in two have it installed.< br />
+                                <p className="section-desc">GOJEK has been downloaded more than 125 million times in Indonesia.<br /> One in two have it installed.< br />
                                 To make this all work, we run one of the largest jruby, Java and go clusters in Asia.</p>
                                 <p className="section-desc"><strong>Want to make big data look small, now is the chance.</strong></p>
                                 
@@ -299,7 +324,7 @@ class SuperApp extends Component {
                                     to="super-jobs" 
                                     spy={true} 
                                     smooth={true}
-                                    className="btn btn-success text-white btn-cta d-none d-md-block"
+                                    className="btn btn-success text-white btn-cta btn-cta-lg-text mt-4"
                                     offset={-50}
                                 >
                                     Make Data-driven decisions
@@ -321,10 +346,10 @@ class SuperApp extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="order-2 order-sm-1 my-5 text-center text-md-left pl-md-3 px-3 px-md-0">
-                                <h1 className="section-head"><span className="section-numb font-weight-bold">7.2</span> Million+ drivers</h1>
-                                <p className="section-desc">We have two million registered drivers on our platform.<br />
-                                GOJEK has contributed about IDR 8.2 trillion annually to the Indonesian economy through the income of Driver Partners.* <br />
+                            <div className="order-2 order-sm-1 mt-5 mb-md-5 text-center text-md-left pl-md-3 px-3 px-md-5 ml-md-5">
+                                <h1 className="section-head"><span className="section-numb font-weight-bold">2</span> Million+ drivers</h1>
+                                <p className="section-desc">We have two million registered drivers on our platform.</p>
+                                <p className="section-desc"> GOJEK has contributed about IDR 8.2 trillion annually to the Indonesian economy through the income of Driver Partners. <br />
                                 <small>*According to a study by the University of Indonesia.</small>
                                 </p>
                                 
@@ -332,7 +357,7 @@ class SuperApp extends Component {
                                     to="super-jobs" 
                                     spy={true} 
                                     smooth={true}
-                                    className="btn btn-success text-white btn-cta d-none d-md-block text-uppercase"
+                                    className="btn btn-success text-white btn-cta mt-3 text-uppercase"
                                     offset={-50}
                                 >
                                     Scale with us!
@@ -380,8 +405,7 @@ class SuperApp extends Component {
                     <div className="pb-5" >
                         <CareerLocation 
                             props={this.props} 
-                            color="text-white" 
-                            source="gojek.io/superApp"   
+                            color="text-white"  
                         />
 
                     </div>
@@ -408,7 +432,7 @@ class SuperApp extends Component {
                 </section>
 
 
-            </section>
+            </div>
         )
     }
 }

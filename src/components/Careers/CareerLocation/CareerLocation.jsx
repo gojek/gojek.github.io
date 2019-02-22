@@ -12,7 +12,6 @@ class CareerLocation extends Component {
     }
 
     onClickLocation = (locationName) => {
-        localStorage.setItem('source',  this.props.source === undefined ? 'https://www.gojek.io/' : this.props.source)
         this.props.props.history.push(`/open-positions?location=${locationName}`)
     }
 
@@ -20,26 +19,31 @@ class CareerLocation extends Component {
 
         const locationData = [{
             locationName: 'bangalore',
-            imageLink: '../../images/careers/bangalore.png'
+            imageLink: '../../images/careers/bangalore.png',
+            label: 'Bangalore'
         },
         {
             locationName: 'jakarta',
-            imageLink: '../../images/careers/jakartha.png'
+            imageLink: '../../images/careers/jakartha.png',
+            label: 'Jakarta'
 
         },
         {
             locationName: 'singapore',
-            imageLink: '../../images/careers/singapore.png'
+            imageLink: '../../images/careers/singapore.png',
+            label: 'Singapore'
 
         },
         {
-            locationName: 'vietnam',
-            imageLink: '../../images/careers/vietnam.png'
+            locationName: 'ho-chi-minh-city',
+            imageLink: '../../images/careers/vietnam.png',
+            label: 'Ho Chi Minh City'
 
         },
         {
-            locationName: 'thailand',
-            imageLink: '../../images/careers/thailand.png'
+            locationName: 'bangkok',
+            imageLink: '../../images/careers/bangkok.png',
+            label: 'Bangkok'
 
         }]
         return (
@@ -54,7 +58,7 @@ class CareerLocation extends Component {
                                         <div className={(this.props.color !== undefined ? 'super-app-location px-4 scroll d-flex flex-column justify-content-center align-items-center' : 'career-location px-4 scroll d-flex flex-column justify-content-center align-items-center')} style={{ minHeight: '135px' }}>
                                             <div onClick={() => this.onClickLocation(data.locationName)}>
                                                 <img className="img-fluid" src={data.imageLink}></img>
-                                                <p className={(this.props.color !== undefined ? 'neosans-bold font-md text-uppercase my-1 text-white' : 'neosans-bold font-md text-uppercase my-1 text-succes')}>{data.locationName}</p>
+                                                <p className={(this.props.color !== undefined ? 'neosans-bold font-md text-uppercase my-1 text-white' : 'neosans-bold font-md text-uppercase my-1 text-succes')}>{data.label}</p>
                                             </div>
 
                                         </div>

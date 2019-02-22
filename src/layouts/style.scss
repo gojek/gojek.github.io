@@ -386,13 +386,13 @@ button.navbar-toggler {
     background-size: cover;
 }
 
-.thailand-banner{
- background: url(/../images/careers/thailand-banner.png) no-repeat center;
+.bangkok-banner{
+ background: url(/../images/careers/bangkok-banner.png) no-repeat center;
     background-size: cover;
 }
 
-.vietnam-banner{
- background: url(/../images/careers/vietnam-banner.png) no-repeat center;
+.ho-chi-minh-city-banner{
+ background: url(/../images/careers/ho-chi-minh-city-banner.png) no-repeat center;
     background-size: cover;
 }
 
@@ -522,6 +522,9 @@ html {
 /* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 575px) {
+    .btn-cta-lg-text {
+        font-size: 14px !important;
+    }
     html {
         font-size: 12px;
     }
@@ -948,4 +951,10 @@ transition: all .1s ease-in-out;
 }
 .video-react .video-react-poster {
     background-size: cover;
+}
+
+// New styles
+.header-menu,
+.header-btn {
+    font-size: 12px;
 }

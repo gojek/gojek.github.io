@@ -60,6 +60,12 @@ class PostTemplate extends React.Component {
     }
   }
 
+  componentWillMount() {
+    if (typeof localStorage !== `undefined`) {
+      localStorage.setItem('source', 'gojek.io/gomakeimpact')
+    }
+  }
+
   render() {
     const { jobsJson } = this.props.data
     return (

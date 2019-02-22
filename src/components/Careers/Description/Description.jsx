@@ -237,38 +237,30 @@ class Description extends Component {
                                     <p className="pl-3 font-sm  text-lg-left text-center ">
                                       {positionData[0].rolesOverview}{' '}
                                     </p>
-                                    {/* {
-																		positionData[0].roles.length > 0 && 
-																	
-																		<ul className=" text-green">
-																			{
-																				positionData[0].roles.map((role, key) => (
-																					<li className="py-2 font-md" key={key}>
-																						<span className="font-sm text-dark" > {role} </span>
-																					</li>
-																				))
-																			}
-																		</ul>
-																	} */}
                                   </div>
                                   <div className="col-md-6">
                                     <p className="pl-3 font-sm  text-lg-left text-center ">
                                       {positionData[0].scopeOverview}{' '}
                                     </p>
-                                    {/* {
-																		positionData[0].scope.lenght > 0 &&
-																		<ul className=" text-green">
-																			{
-																				positionData[0].scope.map((role, key) => (
-																					<li className="py-2 font-md" key={key}>
-																						<span className="font-sm text-dark" > {role} </span>
-																					</li>
-																				))
-																			}
-																		</ul>
-																		} */}
                                   </div>
                                 </div>
+                              </div>
+                            )}
+
+                            {(heading === 'overview' && positionData[0].jobId === 'fk0j3ek') && (
+                              <div className="col-12">
+                                <p
+                                  className="pl-3  	text-lg-left 
+																	font-sm"
+                                >
+                                  GO-PAY is South East Asia’s fastest growing consumer payments and financial services startup. We currently have a team of 60+ engineers, product managers and data analysts across 2 diﬀerent locations - Bangalore and Jakarta. 
+                                </p>
+                                <p
+                                  className="pl-3  	text-lg-left 
+																	font-sm"
+                                >
+                                  We are seeking passionate, entrepreneurial data analysts with a drive for solving data problems at scale, to join our team in Bangalore. In this role you will be responsible to gather, analyse and distribute data on products, user behaviour and do deeper analysis using various data analytics tools and methods to help product managers and business leaders make right decisions on GO-PAY.
+                                </p>
                               </div>
                             )}
                           </div>

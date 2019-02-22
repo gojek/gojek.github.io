@@ -25,7 +25,7 @@ class SearchBar extends Component {
 
     render() {
         const { places, searchResult } = this.props;
-        const locations = ['Bangalore', 'Jakarta', 'Thailand', 'Singapore', 'Vietnam'];
+        const locations = ['Bangalore', 'Jakarta', 'Bangkok', 'Singapore', 'Ho Chi Minh City'];
         
         return (
             <div className={"py-5 col-11 mx-auto" + `${this.props.type === 'careers' ? ` col-md-8 ` : ` col-md-12 `} `}>

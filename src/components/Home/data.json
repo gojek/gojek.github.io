@@ -38,8 +38,8 @@
             "image": "../../images/gojek-carousel/go-food.jpg",
             "responsiveImage": "../../images/gojek-carousel/go-food-min.jpg",
             "alt" : "Our emphasis on automation",
-            "firstLine": "GO-FOOD alone completes more orders",
-            "secondLine": "in Indonesia than all Indian food tech startups combined. Hungry yet?",
+            "firstLine": "GO-FOOD is the largest single-market food delivery",
+            "secondLine": "app in the world. Hungry yet?",
             "linkText": "",
             "link": "",
             "active": false

@@ -5,8 +5,8 @@ class Menu extends Component {
     render() {
         const { data, currentPage } = this.props;
 
-        return <li className={'mx-3 nav-item ' + (currentPage === data.link || (~currentPage.indexOf('/careers/') && data.name === 'Careers') || ((currentPage === '/gojek-expansion/' || currentPage === '/go-viet/') && data.name === 'News') ? 'active' : '')}>
-            {data.src !== 'gomakeimpact' && data.src !== 'superapp' && <a className={data.type === 'button' ? 'btn btn-success rounded-1 raleway-bold green-apply-btn' : 'nav-link'} href={data.link}>
+        return <li className={'mx-2 header-menu nav-item ' + (currentPage === data.link || (~currentPage.indexOf('/careers/') && data.name === 'Careers') || ((currentPage === '/gojek-expansion/' || currentPage === '/go-viet/') && data.name === 'News') ? 'active' : '')}>
+            {data.src !== 'gomakeimpact' && data.src !== 'superapp' && <a className={data.type === 'button' ? 'header-btn btn btn-success rounded-1 raleway-bold green-apply-btn' : 'nav-link'} href={data.link}>
                 {data.name}
                 {currentPage === data.link ? <span className="sr-only">
                     (current)

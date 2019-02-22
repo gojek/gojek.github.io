@@ -21,7 +21,7 @@ class Categories extends Component {
       positionData: null,
       screenWidth: null,
       locationName: null,
-      locations: ['bangalore', 'jakarta', 'singapore', 'vietnam', 'thailand'],
+      locations: ['bangalore', 'jakarta', 'singapore', 'ho-chi-minh-city', 'bangkok'],
     }
   }
 

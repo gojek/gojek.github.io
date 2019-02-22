@@ -117,7 +117,7 @@ class TestApply extends Component {
                         }
                     }
                 ],
-                "source": localStorage.getItem('source')
+                "source": (typeof localStorage !== `undefined` ? localStorage.getItem('source') : 'http://gojek.io')
             };
             axios({
                 method: 'post',

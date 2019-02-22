@@ -115,8 +115,13 @@ class Careers extends Component {
 
 	}
 
-	render() {
+	componentWillMount() {
+		if (typeof localStorage !== `undefined`) {
+            localStorage.setItem('source', 'http://gojek.io')
+        }
+    }
 
+	render() {
 		return (
 			<div className="first-section">
 				<Helmet>
