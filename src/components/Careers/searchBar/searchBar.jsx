@@ -24,6 +24,8 @@ class SearchBar extends Component {
     }
 
     render() {
+        localStorage.setItem('source',  this.props.source === undefined ? 'https://www.gojek.io/' : this.props.source)
+        
         const { places, searchResult } = this.props;
         const locations = ['Bangalore', 'Jakarta', 'Bangkok', 'Singapore', 'Ho Chi Minh City'];
         

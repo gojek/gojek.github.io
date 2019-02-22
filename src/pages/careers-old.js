@@ -115,22 +115,17 @@ class Careers extends Component {
 
 	}
 
-	componentWillMount() {
-		if (typeof localStorage !== `undefined`) {
-            localStorage.setItem('source', 'http://gojek.io')
-        }
-    }
-
 	render() {
+
 		return (
 			<div className="first-section">
 				<Helmet>
-					<title>GOJEK Careers: Check out the current job openings at GOJEK Tech</title>
-					<meta property="og:title" content="GOJEK Careers: Check out the current job openings at GOJEK Tech" />
-					<meta name="twitter:title" content="GOJEK Careers: Check out the current job openings at GOJEK Tech" />
-					<meta name="description" content="GOJEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
-					<meta name="twitter:description" content="GOJEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
-					<meta property="og:description" content="GOJEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+					<title>GO-JEK Careers: Check out the current job openings at GO-JEK Tech</title>
+					<meta property="og:title" content="GO-JEK Careers: Check out the current job openings at GO-JEK Tech" />
+					<meta name="twitter:title" content="GO-JEK Careers: Check out the current job openings at GO-JEK Tech" />
+					<meta name="description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+					<meta name="twitter:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
+					<meta property="og:description" content="GO-JEK is hiring the best and brightest of tech minds to build one of the world's most versatile and agile on-demand service apps." />
 				</Helmet>
 
 				{/* Main banner image */}
@@ -138,9 +133,7 @@ class Careers extends Component {
 					<div className="container-fluid px-0 careers-main-banner h-100 ">
 						<div className="d-flex flex-row flex-wrap justify-content-center align-items-center position-relative" style={{ height: '100vh' }}>
 							<SearchBar props={this.props} type="careers" places={this.state.places} searchResult={this.state.searchResult} onChangeInputText={(ev) => this.onChangeInputText(ev)}
-								onClickLocation={(name) => this.onClickLocation(name)} locationName={this.state.locationName} inputText={this.state.inputText} textColor={`${this.state.searchResult !== null && this.state.searchResult.length !== 0 ? ' text-dark ' : ' text-white '}`} 
-								source="http://gojek.io"
-								/>
+								onClickLocation={(name) => this.onClickLocation(name)} locationName={this.state.locationName} inputText={this.state.inputText} textColor={`${this.state.searchResult !== null && this.state.searchResult.length !== 0 ? ' text-dark ' : ' text-white '}`} />
 
 							<div className="position-absolute" style={{ bottom: '100px', left: '55%' }}>
 								<Link
@@ -158,7 +151,7 @@ class Careers extends Component {
 				</section>
 
 
-				<CountBanner props={this.props} bannerImage="careers-second-banner" height="300px" />
+				<CountBanner bannerImage="careers-second-banner" height="300px" />
 
 				<BehindTheScenes />
 

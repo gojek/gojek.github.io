@@ -75,6 +75,12 @@
                 "name": "bulwark",
                 "link": "https://github.com/gojektech/bulwark",
                 "description": "Hystrix for Clojurists"
+            },
+            {
+                "id": "11",
+                "name": "ziggurat",
+                "link": "https://github.com/gojektech/ziggurat",
+                "description": "A stream processing framework to build stateless applications on Kafka"
             }
         ]
     }
