@@ -12,7 +12,8 @@ class CountBanner extends Component {
     }
 
     render() {
-        const pathname = this.props.props.location.pathname
+        const pathname = this.props.props && this.props.props.location.pathname;
+
         const count = [{
             heading: '6600x',
             subHeading: 'total order volume growth in 3 years'
