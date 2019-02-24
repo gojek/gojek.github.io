@@ -842,30 +842,6 @@ class Description extends Component {
                             </div>
                           </ul>
                         </div>
-                        <div className="row pt-4">
-                          <p className="pl-4 text-green font-lg mb-0 font-weight-bold">
-                            Nice to have
-                          </p>
-                          <ul className="text-green">
-                            <div className="row">
-                              {positionData[0].whatWillYouDo.map((data, i) => {
-                                return (
-                                  <div
-                                    key={i}
-                                    className="col-md-6 col-sm-12  pr-5"
-                                  >
-                                    <li className="py-2 font-md">
-                                      <span className="font-sm text-dark">
-                                        {' '}
-                                        {data}
-                                      </span>
-                                    </li>
-                                  </div>
-                                )
-                              })}
-                            </div>
-                          </ul>
-                        </div>
                       </div>
                     </div>
                   </div>

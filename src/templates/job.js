@@ -132,7 +132,11 @@ class PostTemplate extends React.Component {
                     )
                   })}
 
-                  {jobsJson.jobId === 'fk0jsih' && (
+                  {(jobsJson.jobId === 'fk0jsih' ||
+                    jobsJson.jobId === 'fk0jxwt' ||
+                    jobsJson.jobId === 'fk0jzel' ||
+                    jobsJson.jobId === 'fk0jzei' ||
+                    jobsJson.jobId === 'fk0jze8') && (
                     <li>
                       <a
                         className={
@@ -168,26 +172,6 @@ class PostTemplate extends React.Component {
                         Job Description
                       </a>
                     </li>
-                  )}
-                  {jobsJson.jobId === 'fk0jxwt' && (
-                    <React.Fragment>
-                      <li>
-                        <a
-                          className={
-                            'nav-link jd-tab roboto-bold text-uppercase '
-                          }
-                          id={`#requirements-tab`}
-                          data-toggle="tab"
-                          href={`#requirements`}
-                          role="tab"
-                          aria-controls={`requirements`}
-                          aria-selected="true"
-                        >
-                          {' '}
-                          Requirements
-                        </a>
-                      </li>
-                    </React.Fragment>
                   )}
                 </ul>
               </div>
@@ -738,7 +722,7 @@ class PostTemplate extends React.Component {
                               </div>
                             </ul>
                           </div>
-						                <div className="row pt-4">
+                          <div className="row pt-4">
                             <p className="pl-4 text-green font-lg mb-0 font-weight-bold">
                               Nice to have
                             </p>
@@ -785,8 +769,7 @@ class PostTemplate extends React.Component {
                             </p>
                             <ul className="text-green">
                               <div className="row">
-                              {
-                                 jobsJson.requirements.map((data, i) => {
+                                {jobsJson.requirements.map((data, i) => {
                                   return (
                                     <div
                                       key={i}
@@ -806,12 +789,83 @@ class PostTemplate extends React.Component {
                           </div>
                           <div className="row pt-4">
                             <p className="pl-4 text-green font-lg mb-0 font-weight-bold">
-                            Nice to Have
+                              Nice to Have
                             </p>
                             <ul className="text-green">
                               <div className="row">
-                              {
-                                 jobsJson.responsibilities.map((data, i) => {
+                                {jobsJson.responsibilities.map((data, i) => {
+                                  return (
+                                    <div
+                                      key={i}
+                                      className="col-md-6 col-sm-12  pr-5"
+                                    >
+                                      <li className="py-2 font-md">
+                                        <span className="font-sm text-dark">
+                                          {' '}
+                                          {data}
+                                        </span>
+                                      </li>
+                                    </div>
+                                  )
+                                })}
+                              </div>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              )}
+
+              {(jobsJson.jobId === 'fk0jzel' ||
+                jobsJson.jobId === 'fk0jzei' ||
+                jobsJson.jobId === 'fk0jze8') && (
+                <div
+                  className={'tab-pane fade show'}
+                  id={`requirements`}
+                  role="tabpanel"
+                  aria-labelledby={`requirements-tab`}
+                >
+                  <section className="roboto-regular">
+                    <div className="container">
+                      <div className="row justify-content-center">
+                        <div className="col-lg-10">
+                          <div className="row pt-4">
+                            <ul className="text-green">
+                              <div className="row">
+                                <div className="col-md-6 col-sm-12  pr-5">
+                                  <li className="py-2 font-md">
+                                    <span className="font-sm text-dark">
+                                      {' '}
+                                      Your toolkit:
+                                    </span>
+                                    <ul className="text-green">
+                                      <li className="font-sm text-dark">
+                                        Microservices (HTTP &amp; GRPC)
+                                      </li>
+                                      <li className="font-sm text-dark">
+                                        Experience in Golang, Ruby, Clojure,
+                                        Java (and a willingness to learn
+                                        others).
+                                      </li>
+                                      <li className="font-sm text-dark">
+                                        Postgresql
+                                      </li>
+                                      <li className="font-sm text-dark">
+                                        Devops: Chef, Ansible, Docker,
+                                        Kubernetes
+                                      </li>
+                                      <li className="font-sm text-dark">
+                                        Rails, Javascript
+                                      </li>
+                                      <li className="font-sm text-dark">
+                                        Kafka, Spark, Flink
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </div>
+                                {jobsJson.requirements.map((data, i) => {
                                   return (
                                     <div
                                       key={i}
