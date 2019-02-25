@@ -4,6 +4,10 @@
       "path---careers-engineering-lead-products-singapore-9371612a9664134ea81b.js",
       "path---careers-engineering-lead-products-singapore-9371612a9664134ea81b.js.map"
     ],
+    "path---careers-product-engineer-driver-platform": [
+      "path---careers-product-engineer-driver-platform-87979405e5a1379441dc.js",
+      "path---careers-product-engineer-driver-platform-87979405e5a1379441dc.js.map"
+    ],
     "path---careers-analytics-programanager": [
       "path---careers-analytics-programanager-c984c87e9e911d8f8e7b.js",
       "path---careers-analytics-programanager-c984c87e9e911d8f8e7b.js.map"
@@ -16,9 +20,13 @@
       "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js-5708281056e3cec81be7.js",
       "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js-5708281056e3cec81be7.js.map"
     ],
+    "path---careers-old": [
+      "path---careers-old-a0e39f21c11f6a62c5ab.js",
+      "path---careers-old-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-7e76b8ca4fb553f65f75.js",
-      "component---src-pages-index-js-7e76b8ca4fb553f65f75.js.map"
+      "component---src-pages-index-js-54371f912f5f89910bcd.js",
+      "component---src-pages-index-js-54371f912f5f89910bcd.js.map"
     ],
     "path---careers-senior-fraud-analyst": [
       "path---careers-senior-fraud-analyst-1c938b8c24f2afc05f2b.js",
@@ -32,13 +40,17 @@
       "path---blog-a0e39f21c11f6a62c5ab.js",
       "path---blog-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---careers-fullstack-engineer-tech-lead-go-merchants": [
+      "path---careers-fullstack-engineer-tech-lead-go-merchants-97d1acc98bfa86418a59.js",
+      "path---careers-fullstack-engineer-tech-lead-go-merchants-97d1acc98bfa86418a59.js.map"
+    ],
     "path---open-source": [
       "path---open-source-a0e39f21c11f6a62c5ab.js",
       "path---open-source-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-superapp-js": [
-      "component---src-pages-superapp-js-b7d5ef6bff510b6a9f97.js",
-      "component---src-pages-superapp-js-b7d5ef6bff510b6a9f97.js.map"
+      "component---src-pages-superapp-js-e5eb48c703ab8257a2ee.js",
+      "component---src-pages-superapp-js-e5eb48c703ab8257a2ee.js.map"
     ],
     "path---gojek-expansion": [
       "path---gojek-expansion-a0e39f21c11f6a62c5ab.js",
@@ -61,12 +73,12 @@
       "component---src-pages-contact-js-cb0a117c4adf5150165c.js.map"
     ],
     "component---src-pages-news-js": [
-      "component---src-pages-news-js-a6e822c31eac5f37f464.js",
-      "component---src-pages-news-js-a6e822c31eac5f37f464.js.map"
+      "component---src-pages-news-js-6060f461c43b086158f0.js",
+      "component---src-pages-news-js-6060f461c43b086158f0.js.map"
     ],
     "path---careers-full-stack-engineer-financial-platform-thailand": [
-      "path---careers-full-stack-engineer-financial-platform-thailand-eeb5b917e00adaef9c49.js",
-      "path---careers-full-stack-engineer-financial-platform-thailand-eeb5b917e00adaef9c49.js.map"
+      "path---careers-full-stack-engineer-financial-platform-thailand-373756db63c2d8eeff04.js",
+      "path---careers-full-stack-engineer-financial-platform-thailand-373756db63c2d8eeff04.js.map"
     ],
     "path---open-positions": [
       "path---open-positions-a0e39f21c11f6a62c5ab.js",
@@ -88,6 +100,10 @@
       "path---careers-security-engineer-5c80b4c4b9113f766cea.js",
       "path---careers-security-engineer-5c80b4c4b9113f766cea.js.map"
     ],
+    "path---careers-devops-engineer-go-merchants": [
+      "path---careers-devops-engineer-go-merchants-23b32ee0dd211ed46c14.js",
+      "path---careers-devops-engineer-go-merchants-23b32ee0dd211ed46c14.js.map"
+    ],
     "path---go-viet": [
       "path---go-viet-a0e39f21c11f6a62c5ab.js",
       "path---go-viet-a0e39f21c11f6a62c5ab.js.map"
@@ -97,12 +113,16 @@
       "component---src-pages-go-viet-js-8330889624490909d9b1.js.map"
     ],
     "component---src-pages-apply-js": [
-      "component---src-pages-apply-js-395e37fec6734b37bff3.js",
-      "component---src-pages-apply-js-395e37fec6734b37bff3.js.map"
+      "component---src-pages-apply-js-87a367df1b8759d2d9cc.js",
+      "component---src-pages-apply-js-87a367df1b8759d2d9cc.js.map"
+    ],
+    "path---careers-data-analyst-go-pay": [
+      "path---careers-data-analyst-go-pay-5399b3b5547aa6c2b0c9.js",
+      "path---careers-data-analyst-go-pay-5399b3b5547aa6c2b0c9.js.map"
     ],
     "component---src-pages-open-source-js": [
-      "component---src-pages-open-source-js-f3c0bfcf2fd9b45eaf10.js",
-      "component---src-pages-open-source-js-f3c0bfcf2fd9b45eaf10.js.map"
+      "component---src-pages-open-source-js-74a24f941e6f9d34dc54.js",
+      "component---src-pages-open-source-js-74a24f941e6f9d34dc54.js.map"
     ],
     "component---src-pages-go-jek-tech-to-hire-200-engineers-in-india-js": [
       "component---src-pages-go-jek-tech-to-hire-200-engineers-in-india-js-ea9707e30f8719f68c61.js",
@@ -113,8 +133,8 @@
       "path---careers-backend-engineer-go-food-a53356e1e1b88562589f.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a4e8ae5140f9ed00f206.js",
-      "component---src-layouts-index-js-a4e8ae5140f9ed00f206.js.map"
+      "component---src-layouts-index-js-dda33d0206ce403e3ca9.js",
+      "component---src-layouts-index-js-dda33d0206ce403e3ca9.js.map"
     ],
     "path---careers": [
       "path---careers-a0e39f21c11f6a62c5ab.js",
@@ -125,8 +145,8 @@
       "path---apply-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-job-js": [
-      "component---src-templates-job-js-ba8bab00037e4b3eecdd.js",
-      "component---src-templates-job-js-ba8bab00037e4b3eecdd.js.map"
+      "component---src-templates-job-js-615b66ddcc1496f52db7.js",
+      "component---src-templates-job-js-615b66ddcc1496f52db7.js.map"
     ],
     "path---careers-full-stack-engineer-bangalore": [
       "path---careers-full-stack-engineer-bangalore-a12d64ba0d670c3e2019.js",
@@ -141,8 +161,8 @@
       "path---careers-full-stack-engineer-jakarta-97c4817b43d342fb3f99.js.map"
     ],
     "component---src-pages-open-positions-js": [
-      "component---src-pages-open-positions-js-e041332c1cf7499ff07b.js",
-      "component---src-pages-open-positions-js-e041332c1cf7499ff07b.js.map"
+      "component---src-pages-open-positions-js-372a13dca26d8b4b134b.js",
+      "component---src-pages-open-positions-js-372a13dca26d8b4b134b.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -172,10 +192,6 @@
       "path---careers-ios-engineer-jakarta-3bc87e30f8d04539dbd7.js",
       "path---careers-ios-engineer-jakarta-3bc87e30f8d04539dbd7.js.map"
     ],
-    "path---careers-android-engineer-driver-platform": [
-      "path---careers-android-engineer-driver-platform-578f591f1b778670e114.js",
-      "path---careers-android-engineer-driver-platform-578f591f1b778670e114.js.map"
-    ],
     "path---careers-android-engineer-singapore": [
       "path---careers-android-engineer-singapore-f4304af6abd1a5457b0c.js",
       "path---careers-android-engineer-singapore-f4304af6abd1a5457b0c.js.map"
@@ -192,15 +208,19 @@
       "component---src-pages-404-js-a61aa8ed034f92e8b6cb.js",
       "component---src-pages-404-js-a61aa8ed034f92e8b6cb.js.map"
     ],
+    "component---src-pages-careers-old-js": [
+      "component---src-pages-careers-old-js-0fd05c035e42029bb2ff.js",
+      "component---src-pages-careers-old-js-0fd05c035e42029bb2ff.js.map"
+    ],
     "commons": [
-      "commons-a564972f3abc1353c569.js",
+      "commons-e80b19758daf76f5acf1.js",
       "build-js-styles.css",
-      "commons-a564972f3abc1353c569.js.map",
+      "commons-e80b19758daf76f5acf1.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-careers-js": [
-      "component---src-pages-careers-js-b2dbdf223b1d64329646.js",
-      "component---src-pages-careers-js-b2dbdf223b1d64329646.js.map"
+      "component---src-pages-careers-js-a7dee378e5ee2baa7f41.js",
+      "component---src-pages-careers-js-a7dee378e5ee2baa7f41.js.map"
     ],
     "path---careers-android-engineer-jakarta": [
       "path---careers-android-engineer-jakarta-cb872b995565394ae334.js",
@@ -210,17 +230,21 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---careers-senior-fullstack-engineer-go-merchants": [
+      "path---careers-senior-fullstack-engineer-go-merchants-018e36bfe32389358d4d.js",
+      "path---careers-senior-fullstack-engineer-go-merchants-018e36bfe32389358d4d.js.map"
+    ],
     "path---contact": [
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---careers-product-manager": [
-      "path---careers-product-manager-d6107308d3fc98cbb29a.js",
-      "path---careers-product-manager-d6107308d3fc98cbb29a.js.map"
-    ],
     "path---careers-data-scientist-go-pay": [
       "path---careers-data-scientist-go-pay-e35b38c170ac29c376fa.js",
       "path---careers-data-scientist-go-pay-e35b38c170ac29c376fa.js.map"
+    ],
+    "path---careers-fullstack-engineer-go-merchants": [
+      "path---careers-fullstack-engineer-go-merchants-b4f378fc19b4c5216898.js",
+      "path---careers-fullstack-engineer-go-merchants-b4f378fc19b4c5216898.js.map"
     ],
     "component---src-pages-thank-you-js": [
       "component---src-pages-thank-you-js-6acf2e414a16c0dc88c5.js",
@@ -230,17 +254,17 @@
       "path---news-a0e39f21c11f6a62c5ab.js",
       "path---news-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---careers-senior-product-manager": [
-      "path---careers-senior-product-manager-1ee9f3f3eadb7a2a3e63.js",
-      "path---careers-senior-product-manager-1ee9f3f3eadb7a2a3e63.js.map"
-    ],
     "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-d560b4354f139b6daf2c.js",
-      "component---src-pages-blog-js-d560b4354f139b6daf2c.js.map"
+      "component---src-pages-blog-js-bfd91435eca5eedb7e1a.js",
+      "component---src-pages-blog-js-bfd91435eca5eedb7e1a.js.map"
     ],
     "path---careers-applied-researcher-deep-learning": [
       "path---careers-applied-researcher-deep-learning-a83a0832add9f7eec66d.js",
       "path---careers-applied-researcher-deep-learning-a83a0832add9f7eec66d.js.map"
+    ],
+    "path---careers-software-test-engineer-go-merchants": [
+      "path---careers-software-test-engineer-go-merchants-5fa9effced71fc8bd4b2.js",
+      "path---careers-software-test-engineer-go-merchants-5fa9effced71fc8bd4b2.js.map"
     ],
     "path---careers-android-engineer-jakarta-go-food": [
       "path---careers-android-engineer-jakarta-go-food-1b1077e0ac9e72bdc88e.js",
@@ -259,18 +283,18 @@
       "path---careers-machine-learning-engineer-go-pay-18ae92091ae35844257e.js.map"
     ],
     "app": [
-      "app-64e0ad7123635d773b29.js",
+      "app-1e50b85701ee772ee520.js",
       "build-js-styles.css",
-      "app-64e0ad7123635d773b29.js.map",
+      "app-1e50b85701ee772ee520.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-all-open-positions-js": [
-      "component---src-pages-all-open-positions-js-42ff694ca90fcac3d654.js",
-      "component---src-pages-all-open-positions-js-42ff694ca90fcac3d654.js.map"
+      "component---src-pages-all-open-positions-js-27ef647279872e3ef8ed.js",
+      "component---src-pages-all-open-positions-js-27ef647279872e3ef8ed.js.map"
     ],
     "path---careers-full-stack-engineer-thailand": [
-      "path---careers-full-stack-engineer-thailand-2e90ecdd7befbf97cdc4.js",
-      "path---careers-full-stack-engineer-thailand-2e90ecdd7befbf97cdc4.js.map"
+      "path---careers-full-stack-engineer-thailand-4c2b518a071c5eb7d5e4.js",
+      "path---careers-full-stack-engineer-thailand-4c2b518a071c5eb7d5e4.js.map"
     ],
     "component---src-pages-events-js": [
       "component---src-pages-events-js-a9ce3f8554065c5b5256.js",
@@ -285,8 +309,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-gomakeimpact-js": [
-      "component---src-pages-gomakeimpact-js-932468c8e70e2dca1ccc.js",
-      "component---src-pages-gomakeimpact-js-932468c8e70e2dca1ccc.js.map"
+      "component---src-pages-gomakeimpact-js-49b48273c8b4039f10ec.js",
+      "component---src-pages-gomakeimpact-js-49b48273c8b4039f10ec.js.map"
     ],
     "path---careers-backend-engineer-jakarta-go-food": [
       "path---careers-backend-engineer-jakarta-go-food-988c3689e8c1bf7ebb8d.js",
