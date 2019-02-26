@@ -44,7 +44,7 @@ class Categories extends Component {
       },
       () => {
         !this.state.locations.includes(urlLocationName.toLowerCase()) &&
-        this.props.props.history.replace('/404')
+          this.props.props.history.replace('/404')
 
         // console.log("this.state.locations",this.state.locations,'urlLocationName',urlLocationName)
         if (window.location.search.split('&')[1]) {
@@ -220,7 +220,7 @@ class Categories extends Component {
                     onClick={() => this.onChangeTeam(data)}
                     className={
                       this.state.teamName !== null &&
-                      data.replace(/ +/g, '') === this.state.teamName
+                        data.replace(/ +/g, '') === this.state.teamName
                         ? 'career-categories  border-success '
                         : '' + ` scroll career-location`
                     }
@@ -243,15 +243,15 @@ class Categories extends Component {
             <p className="font-xl-l raleway-bold text-black ">
               {this.state.positions.length > 0
                 ? `Open Positions in ${
-                    this.state.team === null
-                      ? this.state.teamName
-                      : this.state.team
-                  }`
+                this.state.team === null
+                  ? this.state.teamName === 'SystemsandSecurity' ? 'Systems and Security' : this.state.teamName
+                  : this.state.team
+                }`
                 : `Whoops! There are no open position in '${
-                    this.state.team === null
-                      ? this.state.teamName
-                      : this.state.team
-                  }' currently`}
+                this.state.team === null
+                  ? this.state.teamName
+                  : this.state.team
+                }' currently`}
             </p>
             {/* <div className="d-flex flex-row-reverse col-12 px-1">
                             <a href="/all-open-positions/" className=" py-3 col-md-3 col-6 btn-block text-success scroll career-location">View All Positions&nbsp;<i className="fa fa-arrow-right"></i></a>
