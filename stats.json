@@ -16,6 +16,10 @@
       "path---careers-lead-product-manager-41d5eb47daab39ebb60c.js",
       "path---careers-lead-product-manager-41d5eb47daab39ebb60c.js.map"
     ],
+    "path---careers-backend-engineer-merchant-growth": [
+      "path---careers-backend-engineer-merchant-growth-3e1f5085d0f27af2a7b6.js",
+      "path---careers-backend-engineer-merchant-growth-3e1f5085d0f27af2a7b6.js.map"
+    ],
     "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js": [
       "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js-5708281056e3cec81be7.js",
       "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js-5708281056e3cec81be7.js.map"
@@ -31,6 +35,10 @@
     "path---careers-senior-fraud-analyst": [
       "path---careers-senior-fraud-analyst-1c938b8c24f2afc05f2b.js",
       "path---careers-senior-fraud-analyst-1c938b8c24f2afc05f2b.js.map"
+    ],
+    "path---careers-backend-engineer-tech-lead-merchant-growth": [
+      "path---careers-backend-engineer-tech-lead-merchant-growth-8886ccce8ebf10903643.js",
+      "path---careers-backend-engineer-tech-lead-merchant-growth-8886ccce8ebf10903643.js.map"
     ],
     "path---events": [
       "path---events-a0e39f21c11f6a62c5ab.js",
@@ -196,10 +204,6 @@
       "path---careers-android-engineer-singapore-f4304af6abd1a5457b0c.js",
       "path---careers-android-engineer-singapore-f4304af6abd1a5457b0c.js.map"
     ],
-    "path---careers-full-stack-engineer-merchant-growth": [
-      "path---careers-full-stack-engineer-merchant-growth-1c81d3e16fa00fb48ba3.js",
-      "path---careers-full-stack-engineer-merchant-growth-1c81d3e16fa00fb48ba3.js.map"
-    ],
     "path---go-jek-tech-to-hire-200-engineers-in-india": [
       "path---go-jek-tech-to-hire-200-engineers-in-india-a0e39f21c11f6a62c5ab.js",
       "path---go-jek-tech-to-hire-200-engineers-in-india-a0e39f21c11f6a62c5ab.js.map"
@@ -209,18 +213,18 @@
       "component---src-pages-404-js-a61aa8ed034f92e8b6cb.js.map"
     ],
     "component---src-pages-careers-old-js": [
-      "component---src-pages-careers-old-js-60dd9fae6d60eab6f516.js",
-      "component---src-pages-careers-old-js-60dd9fae6d60eab6f516.js.map"
+      "component---src-pages-careers-old-js-65fabef0cd815702d977.js",
+      "component---src-pages-careers-old-js-65fabef0cd815702d977.js.map"
     ],
     "commons": [
-      "commons-cf592e4e3358f9772c9a.js",
+      "commons-bfd2a878d3a73ced7299.js",
       "build-js-styles.css",
-      "commons-cf592e4e3358f9772c9a.js.map",
+      "commons-bfd2a878d3a73ced7299.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-careers-js": [
-      "component---src-pages-careers-js-e33fdaba9a19896167a1.js",
-      "component---src-pages-careers-js-e33fdaba9a19896167a1.js.map"
+      "component---src-pages-careers-js-caacbe46556b4dd89e21.js",
+      "component---src-pages-careers-js-caacbe46556b4dd89e21.js.map"
     ],
     "path---careers-android-engineer-jakarta": [
       "path---careers-android-engineer-jakarta-cb872b995565394ae334.js",
@@ -279,9 +283,9 @@
       "path---careers-machine-learning-engineer-go-pay-18ae92091ae35844257e.js.map"
     ],
     "app": [
-      "app-4504da3ec8a04d3b914c.js",
+      "app-45bdf72010c45d8dd9fb.js",
       "build-js-styles.css",
-      "app-4504da3ec8a04d3b914c.js.map",
+      "app-45bdf72010c45d8dd9fb.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-all-open-positions-js": [
@@ -311,10 +315,6 @@
     "path---careers-backend-engineer-jakarta-go-food": [
       "path---careers-backend-engineer-jakarta-go-food-988c3689e8c1bf7ebb8d.js",
       "path---careers-backend-engineer-jakarta-go-food-988c3689e8c1bf7ebb8d.js.map"
-    ],
-    "path---careers-full-stack-engineer-tech-lead-merchant-growth": [
-      "path---careers-full-stack-engineer-tech-lead-merchant-growth-5e930f547090aa9e7ac3.js",
-      "path---careers-full-stack-engineer-tech-lead-merchant-growth-5e930f547090aa9e7ac3.js.map"
     ],
     "path---careers-software-engineering-manager": [
       "path---careers-software-engineering-manager-525bdab46158a51a6d65.js",
