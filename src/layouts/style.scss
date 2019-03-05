@@ -958,3 +958,7 @@ transition: all .1s ease-in-out;
 .header-btn {
     font-size: 12px;
 }
+.carousel-control-next .indicators,
+.carousel-control-prev .indicators {
+    background-color: #000;
+}

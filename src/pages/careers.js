@@ -117,7 +117,7 @@ class Careers extends Component {
 
 	componentWillMount() {
 		if (typeof localStorage !== `undefined`) {
-            localStorage.setItem('source', 'http://gojek.io')
+            localStorage.setItem('source', 'https://gojek.io')
         }
     }
 
@@ -139,7 +139,7 @@ class Careers extends Component {
 						<div className="d-flex flex-row flex-wrap justify-content-center align-items-center position-relative" style={{ height: '100vh' }}>
 							<SearchBar props={this.props} type="careers" places={this.state.places} searchResult={this.state.searchResult} onChangeInputText={(ev) => this.onChangeInputText(ev)}
 								onClickLocation={(name) => this.onClickLocation(name)} locationName={this.state.locationName} inputText={this.state.inputText} textColor={`${this.state.searchResult !== null && this.state.searchResult.length !== 0 ? ' text-dark ' : ' text-white '}`} 
-								source="http://gojek.io"
+								source="https://gojek.io"
 								/>
 
 							<div className="position-absolute" style={{ bottom: '100px', left: '55%' }}>

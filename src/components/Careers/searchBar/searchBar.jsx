@@ -85,7 +85,7 @@ class SearchBar extends Component {
               value={this.props.inputText}
               className="form-control   custom-search bg-gray border-0 py-3 mt-2 "
               id="keyword"
-              placeholder="Search Position"
+              placeholder="Ex: Full Stack, Android, iOS, Product, Design, Engineer"
             />
             <i
               className="fa fa-search position-absolute "
