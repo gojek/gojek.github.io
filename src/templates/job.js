@@ -286,6 +286,32 @@ class PostTemplate extends React.Component {
                                   >
                                     {jobsJson.overview}
                                   </p>
+                                  {key === 0 &&
+                                  heading === 'overview' &&
+                                  jobsJson.jobId === 'fk0jj45' && (
+                                    <ul className="text-green">
+                                      <li className="py-2 font-md">
+                                        <span className="font-sm text-dark">
+                                          Redesign the app to provide a most
+                                          intuitive experience for our drivers
+                                        </span>
+                                      </li>
+                                      <li className="py-2 font-md">
+                                        <span className="font-sm text-dark">
+                                          Made a framework to detect modded
+                                          apps, GPS Spoofing and improving
+                                          security
+                                        </span>
+                                      </li>
+                                      <li className="py-2 font-md">
+                                        <span className="font-sm text-dark">
+                                          Re-architect the whole app to make it
+                                          easier to customize flow for each
+                                          product in multiple countries
+                                        </span>
+                                      </li>
+                                    </ul>
+                                  )}
                                   <div className="row">
                                     <div className="col-md-6">
                                       <p className="pl-3 font-sm  text-lg-left text-center ">
