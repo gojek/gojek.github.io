@@ -33,6 +33,8 @@ class Description extends Component {
         return 'Projects you could work on'
       case 'requirements':
         return 'Requirements'
+      case 'rolesOverview':
+        return 'About the role'
       default:
         return 'About'
     }
@@ -47,6 +49,28 @@ class Description extends Component {
       place: positionData[0].place,
       jobId: positionData[0].jobId,
       referer: 'https://www.gojek.io/',
+    }
+
+    if(positionData[0].overview !== "") {
+        var overviewData = positionData[0].overview.split('|');
+        var overviewText = [];
+
+        overviewData.forEach((element, index) => {
+          overviewText.push(<p key={index}>{element}
+            </p>);
+        });
+    }
+
+    // If roles overview is not empty
+    
+    if(positionData[0].rolesOverview !== "") {
+        var rolesOverviewData = positionData[0].rolesOverview.split('|');
+        var rolesOverviewText = [];
+
+        rolesOverviewData.forEach((element, index) => {
+          rolesOverviewText.push(<p key={index}>{element}
+            </p>);
+        });
     }
 
     return (
@@ -146,7 +170,7 @@ class Description extends Component {
                                   {positionData[0].responsibilitiesOverview}
                                 </p>
                               )}
-                            {heading !== 'overview' && (
+                            { (heading !== 'overview' && heading !== 'rolesOverview') && (
                               <ul className="text-green">
                                 <div className="row">
                                   {positionData[0][heading].map(
@@ -230,58 +254,14 @@ class Description extends Component {
                             )}
                             {heading === 'overview' && (
                               <div className="col-12">
-                                <p
-                                  className="pl-3  	text-lg-left 
-																	font-sm"
-                                >
-                                  {positionData[0].overview}
-                                </p>
-                                <div className="row">
-                                  <div className="col-md-6">
-                                    <p className="pl-3 font-sm  text-lg-left text-center ">
-                                      {positionData[0].rolesOverview}{' '}
-                                    </p>
-                                  </div>
-                                  <div className="col-md-6">
-                                    <p className="pl-3 font-sm  text-lg-left text-center ">
-                                      {positionData[0].scopeOverview}{' '}
-                                    </p>
-                                  </div>
-                                </div>
+                                  {overviewText}
                               </div>
                             )}
-
-                            {heading === 'overview' &&
-                              positionData[0].jobId === 'fk0j3ek' && (
-                                <div className="col-12">
-                                  <p
-                                    className="pl-3  	text-lg-left 
-																	font-sm"
-                                  >
-                                    GO-PAY is South East Asia’s fastest growing
-                                    consumer payments and financial services
-                                    startup. We currently have a team of 60+
-                                    engineers, product managers and data
-                                    analysts across 2 diﬀerent locations -
-                                    Bangalore and Jakarta.
-                                  </p>
-                                  <p
-                                    className="pl-3  	text-lg-left 
-																	font-sm"
-                                  >
-                                    We are seeking passionate, entrepreneurial
-                                    data analysts with a drive for solving data
-                                    problems at scale, to join our team in
-                                    Bangalore. In this role you will be
-                                    responsible to gather, analyse and
-                                    distribute data on products, user behaviour
-                                    and do deeper analysis using various data
-                                    analytics tools and methods to help product
-                                    managers and business leaders make right
-                                    decisions on GO-PAY.
-                                  </p>
-                                </div>
-                              )}
+                            {heading === 'rolesOverview' && (
+                              <div className="col-12">
+                                  {rolesOverviewText}
+                              </div>
+                            )}
                           </div>
                           {positionData[0].jobId !== 'fk019mp' &&
                             heading + 'Overview' !== '' && (

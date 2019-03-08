@@ -67,7 +67,8 @@ class PostTemplate extends React.Component {
   }
 
   render() {
-    const { jobsJson } = this.props.data
+    const { jobsJson } = this.props.data;
+    
     return (
       <div>
         <Helmet>
