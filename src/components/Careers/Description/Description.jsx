@@ -85,6 +85,23 @@ class Description extends Component {
           <div className="row mt-4">
             <div className="col-12">
               <ul className="nav nav-tabs" id="myTab" role="tablist">
+                {/* {positionData[0].jobId === 'fk0jj45' && (
+                  <li>
+                    <a
+                      className={
+                        'nav-link jd-tab roboto-bold text-uppercase active'
+                      }
+                      id={`#overview-tab`}
+                      data-toggle="tab"
+                      href={`#overview-tab`}
+                      role="tab"
+                      aria-controls={`overview-tab`}
+                      aria-selected="true"
+                    >
+                      Overview
+                    </a>
+                  </li>
+                )} */}
                 {positionData[0].headings.map((heading, key) => {
                   return (
                     <li className="nav-item" key={key}>
@@ -118,11 +135,11 @@ class Description extends Component {
                       aria-controls={`platformSpecificRequirements`}
                       aria-selected="true"
                     >
-                      {' '}
                       Requirements
                     </a>
                   </li>
                 )}
+
                 {(positionData[0].jobId === 'fk0jxwt' ||
                   positionData[0].jobId === 'fk0jsih' ||
                   positionData[0].jobId === 'fk0jzel' ||
@@ -138,7 +155,6 @@ class Description extends Component {
                       aria-controls={`requirements-tab`}
                       aria-selected="true"
                     >
-                      {' '}
                       Requirements
                     </a>
                   </li>
@@ -188,20 +204,17 @@ class Description extends Component {
                                                 'fk0j3ix') && (
                                               <li className="py-2 font-md">
                                                 <span className="font-sm text-dark">
-                                                  {' '}
                                                   Your toolkit:
                                                 </span>
                                                 <ul>
                                                   <li className="py-2 font-md">
                                                     <span className="font-sm text-dark">
-                                                      {' '}
                                                       Microservices (HTTP &amp;
                                                       GRPC)
                                                     </span>
                                                   </li>
                                                   <li className="py-2 font-md">
                                                     <span className="font-sm text-dark">
-                                                      {' '}
                                                       Experience in Golang,
                                                       Ruby, Clojure, Java (and a
                                                       willingness to learn
@@ -828,6 +841,48 @@ class Description extends Component {
                 </section>
               </div>
             )}
+
+            {/* {positionData[0].jobId === 'fk0jj45' && (
+              <div
+                className={'tab-pane fade show'}
+                id={`overview-tab`}
+                role="tabpanel"
+                aria-labelledby={`overview-tab`}
+              >
+                <section className="roboto-regular">
+                  <div className="container">
+                    <div className="row ">
+                      <div className="col-lg-10">
+                        <div className="row pt-4">
+                          
+                          <ul>
+                            <li className="py-2 font-md">
+                              <span className="font-sm text-dark">
+                                Redesign the app to provide a most intuitive
+                                experience for our drivers
+                              </span>
+                            </li>
+                            <li className="py-2 font-md">
+                              <span className="font-sm text-dark">
+                                Made a framework to detect modded apps, GPS
+                                Spoofing and improving security
+                              </span>
+                            </li>
+                            <li className="py-2 font-md">
+                              <span className="font-sm text-dark">
+                                Re-architect the whole app to make it easier to
+                                customize flow for each product in multiple
+                                countries
+                              </span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            )} */}
           </div>
           <TestApply applyData={applyData} />
         </div>
