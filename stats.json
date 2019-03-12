@@ -84,6 +84,10 @@
       "path---careers-senior-engineer-go-pay-73b87aa34c764ad8fb6f.js",
       "path---careers-senior-engineer-go-pay-73b87aa34c764ad8fb6f.js.map"
     ],
+    "path---careers-quality-analyst-driver-platform": [
+      "path---careers-quality-analyst-driver-platform-692be60df12abe9df66c.js",
+      "path---careers-quality-analyst-driver-platform-692be60df12abe9df66c.js.map"
+    ],
     "path---careers-senior-analyst": [
       "path---careers-senior-analyst-458188fdbfd34a7279e0.js",
       "path---careers-senior-analyst-458188fdbfd34a7279e0.js.map"
@@ -169,8 +173,8 @@
       "path---apply-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-job-js": [
-      "component---src-templates-job-js-5a1fcc7fd5e78fd3e972.js",
-      "component---src-templates-job-js-5a1fcc7fd5e78fd3e972.js.map"
+      "component---src-templates-job-js-62af21db6cf0fe0b8806.js",
+      "component---src-templates-job-js-62af21db6cf0fe0b8806.js.map"
     ],
     "path---careers-software-engineer-machine-learning-big-data": [
       "path---careers-software-engineer-machine-learning-big-data-508f7a90ee5ade7c2544.js",
@@ -189,8 +193,8 @@
       "path---careers-full-stack-engineer-jakarta-349d6d7bd973845815ba.js.map"
     ],
     "component---src-pages-open-positions-js": [
-      "component---src-pages-open-positions-js-e8a644ee4d6f33f460a3.js",
-      "component---src-pages-open-positions-js-e8a644ee4d6f33f460a3.js.map"
+      "component---src-pages-open-positions-js-87dfe93723f74292a054.js",
+      "component---src-pages-open-positions-js-87dfe93723f74292a054.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -216,6 +220,10 @@
       "path---careers-ios-engineer-jakarta-3bc87e30f8d04539dbd7.js",
       "path---careers-ios-engineer-jakarta-3bc87e30f8d04539dbd7.js.map"
     ],
+    "path---careers-android-engineer-driver-platform": [
+      "path---careers-android-engineer-driver-platform-7db6532a6036a0ddd281.js",
+      "path---careers-android-engineer-driver-platform-7db6532a6036a0ddd281.js.map"
+    ],
     "path---go-jek-tech-to-hire-200-engineers-in-india": [
       "path---go-jek-tech-to-hire-200-engineers-in-india-a0e39f21c11f6a62c5ab.js",
       "path---go-jek-tech-to-hire-200-engineers-in-india-a0e39f21c11f6a62c5ab.js.map"
@@ -233,9 +241,9 @@
       "path---careers-technical-program-manager-financial-and-accounting-platforms-93227db9d9dbf823169e.js.map"
     ],
     "commons": [
-      "commons-c989a68c42a6fa086047.js",
+      "commons-de85d6c85743a9551516.js",
       "build-js-styles.css",
-      "commons-c989a68c42a6fa086047.js.map",
+      "commons-de85d6c85743a9551516.js.map",
       "build-js-styles.css.map"
     ],
     "path---careers-fraud-analyst-food": [
@@ -311,14 +319,14 @@
       "path---careers-machine-learning-engineer-go-pay-79a83d2991e9959d81a8.js.map"
     ],
     "app": [
-      "app-12f7bc0c5c09047e91bc.js",
+      "app-a44ca795f8ad539751c0.js",
       "build-js-styles.css",
-      "app-12f7bc0c5c09047e91bc.js.map",
+      "app-a44ca795f8ad539751c0.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-all-open-positions-js": [
-      "component---src-pages-all-open-positions-js-cd17dcc705a2a58f1702.js",
-      "component---src-pages-all-open-positions-js-cd17dcc705a2a58f1702.js.map"
+      "component---src-pages-all-open-positions-js-1a47885e24f404329476.js",
+      "component---src-pages-all-open-positions-js-1a47885e24f404329476.js.map"
     ],
     "path---careers-full-stack-engineer-thailand": [
       "path---careers-full-stack-engineer-thailand-2d812add3ed91cbd84b2.js",
