@@ -9,485 +9,492 @@
 $link-decoration: none !default;
 $link-hover-decoration: none !default;
 
-@import "node_modules/bootstrap/scss/bootstrap.scss";
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
 @import '~animate.css/animate.min.css';
-@import "~video-react/styles/scss/video-react"; 
+@import '~video-react/styles/scss/video-react';
 
 // Font classes
 .raleway-regular {
-    font-family: $ralewayRegular;
+  font-family: $ralewayRegular;
 }
 
 .raleway-bold {
-    font-family: $ralewayBold;
+  font-family: $ralewayBold;
 }
 .raleway-extrabold {
-    font-family: $ralewayExtraBold;
+  font-family: $ralewayExtraBold;
 }
 
 .roboto-bold {
-    font-family: $robotoBold;
+  font-family: $robotoBold;
 }
 
 .roboto-black {
-    font-family: $robotoBlack;
+  font-family: $robotoBlack;
 }
 .roboto-thin {
-    font-family: $robotoThin;
+  font-family: $robotoThin;
 }
 
 .roboto-regular {
-    font-family: $robotoRegular !important;
+  font-family: $robotoRegular !important;
 }
 
 .roboto-light {
-    font-family: $robotoLight;
+  font-family: $robotoLight;
 }
 
-.neosans-regular{
-    font-family: $regularFont;
+.neosans-regular {
+  font-family: $regularFont;
 }
 
-.neosans-bold{
-    font-family: $boldFont;
+.neosans-bold {
+  font-family: $boldFont;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: #696969;
-    letter-spacing: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #696969;
+  letter-spacing: normal;
 }
 
 .h1,
 .h2,
 .display-4,
 .card-title {
-    color: #000;
-    font-family: "RaleWayBold", sans-serif;
+  color: #000;
+  font-family: 'RaleWayBold', sans-serif;
 }
 
 .font-xs {
-    font-size: 0.94rem;
+  font-size: 0.94rem;
 }
 
 .font-sm {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 
 .font-sm-l {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .font-md {
-    font-size: 1.31rem;
+  font-size: 1.31rem;
 }
 
 .font-lg {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .font-lg-x {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 .font-xl-l {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .font-xl {
-    font-size: 2.2rem;
+  font-size: 2.2rem;
 }
 
 .font-xl-x {
-    font-size: 2.6rem;
+  font-size: 2.6rem;
 }
 
 .bg-101 {
-    background: url(/../images/gojek-principles/tech-principles.png) center right no-repeat;
-    background-size: contain;
+  background: url(/../images/gojek-principles/tech-principles.png) center right
+    no-repeat;
+  background-size: contain;
 }
 
 .bg-black {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .bg-green {
-    background-color: #009944;
+  background-color: #009944;
 }
 
 .text-green {
-    color: #009944;
+  color: #009944;
 }
 
 .text-dark {
-    color: #343a40 !important;;
+  color: #343a40 !important;
 }
 
 .custom-btn {
-    border-radius: 0.5rem;
-    font-size: 1.31rem;
-    padding: 9px 0 7px;
-    width: 16rem;
+  border-radius: 0.5rem;
+  font-size: 1.31rem;
+  padding: 9px 0 7px;
+  width: 16rem;
 }
 
 .green-apply-btn {
-    padding-top: 7.25px;
-    padding-bottom: 5.25px;
+  padding-top: 7.25px;
+  padding-bottom: 5.25px;
 }
 
 footer a,
 footer a:hover {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 footer .list-inline-item a {
-    letter-spacing: 1.3rem;
-    font-size: 1.3rem;
+  letter-spacing: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .text-opacity {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .copyright-text {
-    font-size: 0.85rem;
-    letter-spacing: 0.1rem;
-    opacity: 0.5;
+  font-size: 0.85rem;
+  letter-spacing: 0.1rem;
+  opacity: 0.5;
 }
 
 /* Navbar style */
 
 button.navbar-toggler {
-    border: none;
+  border: none;
 }
 
 /* Header Styles */
 
 .navbar {
-    box-shadow: 0px 4px 8px 2px rgba(17, 17, 17, .06);
+  box-shadow: 0px 4px 8px 2px rgba(17, 17, 17, 0.06);
 }
 
 .header-logo-width {
-    width: 150px;
+  width: 150px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #9a9a9a;
+  color: #9a9a9a;
 }
 
-.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #8dc63f;
+  color: #8dc63f;
 }
 
 /* Homepage Mobile view carousel style */
 
 .first-section {
-    margin-top: 53px;
+  margin-top: 53px;
 }
 
 /* Slider Styles*/
 
 #go-jek-slider .carousel-item .carousel-caption {
-    top: 34%;
-    left: 10%;
+  top: 34%;
+  left: 10%;
 }
 
 #go-jek-slider .homepage-carousel-indicators {
-    top: 63%;
-    right: 10%;
+  top: 63%;
+  right: 10%;
 }
 
 #go-jek-slider .carousel-btn {
-    top: 68%;
-    left: 11%;
-    font-family: "NeoSansBold";
-    z-index: 99;
+  top: 68%;
+  left: 11%;
+  font-family: 'NeoSansBold';
+  z-index: 99;
 }
 
 #go-jek-slider .homepage-carousel-indicators li,
 #carouselExampleIndicators .careers-carousel-indicators li {
-    /*width: 1rem;
+  /*width: 1rem;
     height: 1rem;*/
-    width: 0.8rem;
-    height: 0.8rem;
-    border-radius: 100%;
-    background-color: #fff;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 100%;
+  background-color: #fff;
 }
 
 #go-jek-slider .homepage-carousel-indicators li.active,
 #carouselExampleIndicators .careers-carousel-indicators li.active {
-    background-color: #009944;
+  background-color: #009944;
 }
 
 .carousel-btn .btn {
-    letter-spacing: 1.5px;
-    font-size: 1rem;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
 }
 
 /*Go-Jek facts*/
 
 .custom-line-height {
-    line-height: 24px;
+  line-height: 24px;
 }
 
 .dark-green-bg {
-    background-color: #02853c;
+  background-color: #02853c;
 }
 
 .light-green-bg {
-    background-color: #8dc63f;
+  background-color: #8dc63f;
 }
 
 .rider-bg {
-    background-color: #149746;
+  background-color: #149746;
 }
 
 .order-bg {
-    background-color: #096538;
+  background-color: #096538;
 }
 
 .developer-bg {
-    background-color: #009742;
+  background-color: #009742;
 }
 
 .green-bg {
-    background-color: #03ab4e;
+  background-color: #03ab4e;
 }
 
 .gray-bg {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .text-gray {
-    color: #486166;
+  color: #486166;
 }
 
 .numbers-card .card-img-top {
-    height: 200px;
+  height: 200px;
 }
 
 .numbers-card img {
-    max-height: 200px;
+  max-height: 200px;
 }
-
 
 /*Careers Page styles*/
 
 .background-img {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 37.2rem;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 37.2rem;
 }
 
 .careers-banner {
-    background-image: url(/../images/careers/careers-banner.jpg);
+  background-image: url(/../images/careers/careers-banner.jpg);
 }
 
 .go-jek-work {
-    background-image: url(/../images/careers/careers-banner-people.jpg);
+  background-image: url(/../images/careers/careers-banner-people.jpg);
 }
 
 .text-black {
-    color: #000;
+  color: #000;
 }
 
 .careers-banner-text {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .link-decoration:hover {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .strike-text {
-    color: red;
+  color: red;
 }
 
 .relative-position {
-    position: relative;
+  position: relative;
 }
 
 .opensource-card {
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
 
-.careers-main-banner{
-    background:  url(/../images/careers/careers-new-banner-image.png)  no-repeat center;
-    background-size: cover; 
+.careers-main-banner {
+  background: url(/../images/careers/careers-new-banner-image.png) no-repeat
+    center;
+  background-size: cover;
 }
 
-.careers-second-banner{
-    background: url(/../images/careers/carrers-second-banner.png) no-repeat center;
-    background-size: cover;
+.careers-second-banner {
+  background: url(/../images/careers/carrers-second-banner.png) no-repeat center;
+  background-size: cover;
 }
 
-.carrers-count-md{
-    height: 85px;
-    width: 170px;
+.carrers-count-md {
+  height: 85px;
+  width: 170px;
 }
 
-.carrers-count-sm{
-    height: 75px;
-    width: 155px;
+.carrers-count-sm {
+  height: 75px;
+  width: 155px;
 }
 
-.careers-border{
-    border-radius: 160px;
-    height: 160px;
+.careers-border {
+  border-radius: 160px;
+  height: 160px;
 }
 
-.careers-count-md-top{
-    border-radius: 160px 160px 0px 0px;
+.careers-count-md-top {
+  border-radius: 160px 160px 0px 0px;
 }
 
-.careers-count-md-bottom{
-    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
-    border-radius: 0px 0px 160px 160px;
+.careers-count-md-bottom {
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 160px 160px;
 }
 
-.career-location:hover,.career-categories,.career-location, .super-app-location{
-    border-radius: 10px;
+.career-location:hover,
+.career-categories,
+.career-location,
+.super-app-location {
+  border-radius: 10px;
 }
 
-.career-location, .super-app-location{
-    border: 2px solid #ebebeb;
+.career-location,
+.super-app-location {
+  border: 2px solid #ebebeb;
 }
 
-.border-success,.career-location:hover,.careers-position:hover{
-    border: 2px solid #009944;
+.border-success,
+.career-location:hover,
+.careers-position:hover {
+  border: 2px solid #009944;
 }
 
-.careers-position-unhighlight{
-    -webkit-box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.32);
-    -moz-box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.32);
-    box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.32);
-    border: 2px solid transparent;
+.careers-position-unhighlight {
+  -webkit-box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.32);
+  box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.32);
+  border: 2px solid transparent;
 }
 
-.singapore-banner{
-    background: url(/../images/careers/singapore-banner.png) no-repeat center;
-    background-size: cover;
+.singapore-banner {
+  background: url(/../images/careers/singapore-banner.png) no-repeat center;
+  background-size: cover;
 }
 
-.bangalore-banner{
-    background: url(/../images/careers/bangalore-banner.png) no-repeat center;
-    background-size: cover;
+.bangalore-banner {
+  background: url(/../images/careers/bangalore-banner.png) no-repeat center;
+  background-size: cover;
 }
 
-.jakarta-banner{
-    background: url(/../images/careers/jakarta-banner.png) no-repeat center;
-    background-size: cover;
+.jakarta-banner {
+  background: url(/../images/careers/jakarta-banner.png) no-repeat center;
+  background-size: cover;
 }
 
-.bangkok-banner{
- background: url(/../images/careers/bangkok-banner.png) no-repeat center;
-    background-size: cover;
+.bangkok-banner {
+  background: url(/../images/careers/bangkok-banner.png) no-repeat center;
+  background-size: cover;
 }
 
-.ho-chi-minh-city-banner{
- background: url(/../images/careers/ho-chi-minh-city-banner.png) no-repeat center;
-    background-size: cover;
+.ho-chi-minh-city-banner {
+  background: url(/../images/careers/ho-chi-minh-city-banner.png) no-repeat
+    center;
+  background-size: cover;
 }
 
-.philippines-banner{
-     background: url(/../images/careers/philippines-banner.png) no-repeat center;
-    background-size: cover;
+.philippines-banner {
+  background: url(/../images/careers/philippines-banner.png) no-repeat center;
+  background-size: cover;
 }
 
-.job-illustration-banner{
-    background: url(/../images/careers/job-illustration.png) no-repeat center;
-    background-size: cover;
+.job-illustration-banner {
+  background: url(/../images/careers/job-illustration.png) no-repeat center;
+  background-size: cover;
 }
 
-
-.custom-tabs-highlight{
-    color: #009944;
-    border-bottom: 2px solid #009944;
+.custom-tabs-highlight {
+  color: #009944;
+  border-bottom: 2px solid #009944;
 }
 
-.custom-tabs-unhighlight{
-    border-bottom: 2px solid transparent;
+.custom-tabs-unhighlight {
+  border-bottom: 2px solid transparent;
 }
 
 .scrolltop {
-    position: fixed;
-    right: 0;
-    bottom:4px;
+  position: fixed;
+  right: 0;
+  bottom: 4px;
 }
 
 .scroll-icon {
-    right: 20px;
-    bottom: 20px;
-    transition: 0.5s;
-    -moz-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
+  right: 20px;
+  bottom: 20px;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
-.custom-dropdown::after{
-    display: none;
+.custom-dropdown::after {
+  display: none;
 }
 
-.custom-box-shadow{
-    padding: 10px;
-    box-shadow: 15px 15px #8fc449;
+.custom-box-shadow {
+  padding: 10px;
+  box-shadow: 15px 15px #8fc449;
 }
 
-.bg-white-hover-gray:hover{
-    background-color: #f2f2f2;
+.bg-white-hover-gray:hover {
+  background-color: #f2f2f2;
 }
 
 .article-position {
-    top: 25px;
-    left: 50px;
-    line-height: 1.14;
+  top: 25px;
+  left: 50px;
+  line-height: 1.14;
 }
 /*Employee Stories Carousel*/
 
 .employee-stories {
-    position: relative;
+  position: relative;
 }
 
 .main-carousel {
-    z-index: 99;
+  z-index: 99;
 }
 
 .background-carousel {
-    position: absolute;
-    top: 30px;
-    left: 30px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
 }
 
 .background-carousel .carousel {
-    background-color: #009944;
+  background-color: #009944;
 }
 
 .background-carousel img {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .carousel-head {
-    top: 0;
-    padding-top: 0;
+  top: 0;
+  padding-top: 0;
 }
 
 .emp-testimonial {
-    background-color: rgba(0, 0, 0, 0.5);
-    right: 0;
-    left: 50%;
-    bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  right: 0;
+  left: 50%;
+  bottom: 0;
 }
 
 .responsive-caption {
-    top: 0;
-    padding-top: 0;
+  top: 0;
+  padding-top: 0;
 }
 
 /* blog style start */
@@ -495,470 +502,466 @@ button.navbar-toggler {
 .medium-blog em,
 .card-body,
 .banner-link:hover {
-    font-style: normal;
-    text-decoration: none;
+  font-style: normal;
+  text-decoration: none;
 }
 
-.medium-blog a:hover,
-{
-    text-decoration: none;
+.medium-blog a:hover {
+  text-decoration: none;
 }
 
 .blog-date a {
-    color: #009944;
+  color: #009944;
 }
 
 .transparent-outline-link {
-    outline: transparent;
+  outline: transparent;
 }
-
 
 /* Responsive text */
 
 html {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 575px) {
-    .btn-cta-lg-text {
-        font-size: 14px !important;
-    }
-    html {
-        font-size: 12px;
-    }
-    .first-section {
-        margin-top: 48px;
-    }
-    .opensource-card img,
-    .tech-stack img {
-        max-width: 100px;
-    }
-    .go-jek-work-text {
-        position: absolute;
-        bottom: 0;
-        left: 16%;
-    }
-    .blog-card-img {
-        min-height: 140px;
-    }
-    .absolute-caption {
-        position: absolute;
-        bottom: 35%;
-        left: 11%;
-        right: 10%;
-        font-size: 16px;
-    }
-    .absolute-caption .font-lg {
-        font-size: 16px;
-    }
-    /* .absolute-caption-button{
+  .btn-cta-lg-text {
+    font-size: 14px !important;
+  }
+  html {
+    font-size: 12px;
+  }
+  .first-section {
+    margin-top: 48px;
+  }
+  .opensource-card img,
+  .tech-stack img {
+    max-width: 100px;
+  }
+  .go-jek-work-text {
+    position: absolute;
+    bottom: 0;
+    left: 16%;
+  }
+  .blog-card-img {
+    min-height: 140px;
+  }
+  .absolute-caption {
+    position: absolute;
+    bottom: 35%;
+    left: 11%;
+    right: 10%;
+    font-size: 16px;
+  }
+  .absolute-caption .font-lg {
+    font-size: 16px;
+  }
+  /* .absolute-caption-button{
         position: absolute;
         bottom: 50%;
         left: 1;
         right: 10%;
     } */
-    #go-jek-slider .carousel-item .carousel-caption .font-xl {
-        font-size: 18px;
-    }
-    #go-jek-slider .carousel-btn {
-        top: 75%;
-    }
+  #go-jek-slider .carousel-item .carousel-caption .font-xl {
+    font-size: 18px;
+  }
+  #go-jek-slider .carousel-btn {
+    top: 75%;
+  }
 }
-
 
 /*  Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    html {
-        font-size: 14px;
-    }
-    .blog-card-img {
-        height: 120px;
-        object-fit: cover;
-    }
-    .emp-testimonial {
-        font-size: 0.8rem;
-    }
-    #go-jek-slider .carousel-item .carousel-caption {
-        top: 31%;
-        right: 30%;
-    }
-    #go-jek-slider .homepage-carousel-indicators {
-        top: 71%;
-    }
-    #carouselExampleIndicators .careers-carousel-indicators {
-        top: 90%;
-        right: 20%;
-    }
-    #go-jek-slider .carousel-btn {
-        top: 76%;
-        font-family: "NeoSansBold";
-        z-index: 99;
-    }
-    .opensource-card img {
-        max-width: 100px;
-    }
+  html {
+    font-size: 14px;
+  }
+  .blog-card-img {
+    height: 120px;
+    object-fit: cover;
+  }
+  .emp-testimonial {
+    font-size: 0.8rem;
+  }
+  #go-jek-slider .carousel-item .carousel-caption {
+    top: 31%;
+    right: 30%;
+  }
+  #go-jek-slider .homepage-carousel-indicators {
+    top: 71%;
+  }
+  #carouselExampleIndicators .careers-carousel-indicators {
+    top: 90%;
+    right: 20%;
+  }
+  #go-jek-slider .carousel-btn {
+    top: 76%;
+    font-family: 'NeoSansBold';
+    z-index: 99;
+  }
+  .opensource-card img {
+    max-width: 100px;
+  }
 }
 
 @media (min-width: 1024px) {
-    #go-jek-slider .carousel-item .carousel-caption {
-        top: 40%;
-        right: 30%;
-    }
-    #go-jek-slider .homepage-carousel-indicators {
-        top: 67%;
-    }
-    #go-jek-slider .carousel-btn {
-        top: 75%;
-        font-family: "NeoSansBold";
-        z-index: 99;
-    }
-    .blog-card-img {
-        min-height: 140px;
-    }
-    .emp-testimonial {
-        font-size: 1rem;
-    }
-    .careers-modal {
-        max-width: 1000px;
-    }
-    .opensource-card img {
-        max-width: 132px;
-    }
+  #go-jek-slider .carousel-item .carousel-caption {
+    top: 40%;
+    right: 30%;
+  }
+  #go-jek-slider .homepage-carousel-indicators {
+    top: 67%;
+  }
+  #go-jek-slider .carousel-btn {
+    top: 75%;
+    font-family: 'NeoSansBold';
+    z-index: 99;
+  }
+  .blog-card-img {
+    min-height: 140px;
+  }
+  .emp-testimonial {
+    font-size: 1rem;
+  }
+  .careers-modal {
+    max-width: 1000px;
+  }
+  .opensource-card img {
+    max-width: 132px;
+  }
 }
-
 
 /*  Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    #carouselExampleIndicators .careers-carousel-indicators {
-        top: 95%;
-        right: 20rem;
-    }
-    #go-jek-slider .carousel-item .carousel-caption {
-        top: 42%;
-        right: 30%;
-    }
-    #go-jek-slider .homepage-carousel-indicators {
-        top: 67%;
-    }
-    #go-jek-slider .carousel-btn {
-        top: 76%;
-        font-family: $ralewayExtraBold;
-        z-index: 99;
-    }
-    html {
-        font-size: 16px;
-    }
-    .blog-card-img {
-        min-height: 170px;
-    }
-    .careers-modal {
-        max-width: 1000px;
-    }
-    .modal-lg {
-        max-width: 1200px;
-    }
-    .opensource-card img {
-        max-width: 132px;
-    }
+  #carouselExampleIndicators .careers-carousel-indicators {
+    top: 95%;
+    right: 20rem;
+  }
+  #go-jek-slider .carousel-item .carousel-caption {
+    top: 42%;
+    right: 30%;
+  }
+  #go-jek-slider .homepage-carousel-indicators {
+    top: 67%;
+  }
+  #go-jek-slider .carousel-btn {
+    top: 76%;
+    font-family: $ralewayExtraBold;
+    z-index: 99;
+  }
+  html {
+    font-size: 16px;
+  }
+  .blog-card-img {
+    min-height: 170px;
+  }
+  .careers-modal {
+    max-width: 1000px;
+  }
+  .modal-lg {
+    max-width: 1200px;
+  }
+  .opensource-card img {
+    max-width: 132px;
+  }
 }
 
 @media (min-width: 1920px) {
-    #go-jek-slider .carousel-item .carousel-caption {
-        top: 42%;
-        right: 30%;
-    }
-    .modal-lg {
-        max-width: 2000px;
-    }
-    .aboutFont {
-        font-size:32px;
-    }
-    .text-block {
-        max-width: 750px;
-    }
+  #go-jek-slider .carousel-item .carousel-caption {
+    top: 42%;
+    right: 30%;
+  }
+  .modal-lg {
+    max-width: 2000px;
+  }
+  .aboutFont {
+    font-size: 32px;
+  }
+  .text-block {
+    max-width: 750px;
+  }
 }
 
 // @media for mobile
-@media (min-width:320px) and (max-width:425px) {
-    .aboutFont {
-        font-size:16px;
-    }
+@media (min-width: 320px) and (max-width: 425px) {
+  .aboutFont {
+    font-size: 16px;
+  }
 }
 
 // @media for below 1920 px
-@media (min-width:768px) and (max-width:1900px) {
-    .aboutFont {
-        font-size:24px;
-    }
-    .font-md {
-        font-size: 1rem;
-    }
-    
-    .text-block {
-        max-width: 650px;
-    }
+@media (min-width: 768px) and (max-width: 1900px) {
+  .aboutFont {
+    font-size: 24px;
+  }
+  .font-md {
+    font-size: 1rem;
+  }
+
+  .text-block {
+    max-width: 650px;
+  }
 }
 
 li {
-    color: green;
+  color: green;
 }
 
 .modal-btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* job-title styles */
 .text-elipsis {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .job-title:hover {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
-.jd-tab .active{
-    color: #686868;
+.jd-tab .active {
+  color: #686868;
 }
-   
-.jd-tab{
-       color: #009944;
+
+.jd-tab {
+  color: #009944;
 }
-   
-.jd-tab:hover{
-       color: #686868;
+
+.jd-tab:hover {
+  color: #686868;
 }
 
 .text-white.custom-btn:hover {
-    color: #212529 !important;
+  color: #212529 !important;
 }
 .facts-bg {
-    background-color: #dae8ec;
+  background-color: #dae8ec;
 }
 
 .light-gray {
-    background-color: #fbfdfe;
+  background-color: #fbfdfe;
 }
 .color-azure {
-    background-color: #f1f8fa;
+  background-color: #f1f8fa;
 }
 .contact-banner {
-    background-image: url(/../images/contact/banner.jpg);   
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(/../images/contact/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .gojek-expansion {
-    background-image: url(/../images/news/news-01.jpg);   
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(/../images/news/news-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .contact-bg {
-    background-color: #0d9e43;
+  background-color: #0d9e43;
 }
 .contact-bg h4 {
-    line-height: 48px;
+  line-height: 48px;
 }
 
-// Job apply form 
+// Job apply form
 .custom-form-control {
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid #686868;
-    border-radius: 0;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #686868;
+  border-radius: 0;
 }
 
-.position-relative{
-    position: relative;
+.position-relative {
+  position: relative;
 }
 
-.custom-form-control:focus,.custom-form-control:invalid:focus,
-.form-control:focus{
-    box-shadow: 0 0 0 0!important;
-    background-color: transparent;
-    border-color: #000;
+.custom-form-control:focus,
+.custom-form-control:invalid:focus,
+.form-control:focus {
+  box-shadow: 0 0 0 0 !important;
+  background-color: transparent;
+  border-color: #000;
 }
 
 .was-validated .form-control:invalid {
-    color: #dc3545;
+  color: #dc3545;
 }
 
 .fa-chevron-down {
-    position: absolute;
-    top:10px;
-    right: 15px;
-    color: #009944;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #009944;
 }
 
 select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .drag-and-drop {
-    border: 2px solid;
+  border: 2px solid;
 }
 .uploader {
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.02);
-    cursor: pointer;
-    display: flex;
-    height: 300px;
-    justify-content: center;
-    outline: 3px dashed #ccc;
-    outline-offset: 5px;
-    position: relative;
-    width: 300px;
-} 
-input[type="file"] {
-    display: none;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  outline: 3px dashed #ccc;
+  outline-offset: 5px;
+  position: relative;
+  width: 300px;
+}
+input[type='file'] {
+  display: none;
 }
 .not-found {
-    background-image: url("/../images/404.png"); 
-    width: 100%;
-    height:100%;
-    min-height: 600px;
-    // min-width: 600px;
-    background-size: cover;
-    background-repeat: no-repeat 
+  background-image: url('/../images/404.png');
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  // min-width: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .text-white.bg-green:hover {
-    color: #fff !important;
+  color: #fff !important;
 }
 .home-slider .carousel-caption {
-    bottom: 25%;
+  bottom: 25%;
 }
 .has-danger {
-    border-bottom-color: #dc3545;
+  border-bottom-color: #dc3545;
 }
 .swal-footer,
 .swal-text {
-    text-align: center;
+  text-align: center;
 }
 
 // About us
-.about-path{
-    height: 100%;
-    // fill:#dee7eb;
-    width: 30%;
-    fill: #fff;
-    stroke: #000;
-    stroke-width: 3;
+.about-path {
+  height: 100%;
+  // fill:#dee7eb;
+  width: 30%;
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 3;
 }
-.about-path-test{
-    height: 100%;
-    // fill:#dee7eb;
-    width: 30%;
-    fill: #dee7eb;
-    stroke-width: 3;
-
+.about-path-test {
+  height: 100%;
+  // fill:#dee7eb;
+  width: 30%;
+  fill: #dee7eb;
+  stroke-width: 3;
 }
-.path-left{
-    left: 35%; 
-}
-
-.path-right{
-    right: 35%; 
+.path-left {
+  left: 35%;
 }
 
-.circle-width{
-    width: 19%;
+.path-right {
+  right: 35%;
+}
+
+.circle-width {
+  width: 19%;
 }
 .scroll {
-    cursor: pointer;
+  cursor: pointer;
 }
 .invalid,
-.form-control.error-invalid::placeholder{
-    color:#dc3545 !important;
-    display: block!important;
+.form-control.error-invalid::placeholder {
+  color: #dc3545 !important;
+  display: block !important;
 }
-
 
 .error .form-control:invalid,
 .form-control.error-invalid {
-    color: #dc3545;
-    border: 1px solid #dc3545;
-    
+  color: #dc3545;
+  border: 1px solid #dc3545;
 }
-.valid{
-    color:#000!important;
+.valid {
+  color: #000 !important;
 }
 .open-position-heading {
-    letter-spacing: 1.5px;
+  letter-spacing: 1.5px;
 }
-.bg-gray,.custom-search:focus {
-    background-color: #f7f7f6;
+.bg-gray,
+.custom-search:focus {
+  background-color: #f7f7f6;
 }
 #keyword::placeholder {
-    color:#bdbdbd;
-    opacity: 1; /* Firefox */
-} 
+  color: #bdbdbd;
+  opacity: 1; /* Firefox */
+}
 .careers-form .form-control::placeholder,
 .careers-form .custom-select {
-    font-family: "RaleWayRegular", sans-serif;
+  font-family: 'RaleWayRegular', sans-serif;
 }
 .form-border {
-    border: 1px solid #ccc !important;
+  border: 1px solid #ccc !important;
 }
-.custom-select,.bg-white-hover-gray {
-    background: #fff none;
+.custom-select,
+.bg-white-hover-gray {
+  background: #fff none;
 }
 
 /* GoMakeImpact */
 .who-we-are {
-    background-image: url('/../images/gomakeimpact/who-are-we-banner.png');
-    background-size: cover; 
-    max-width: 100%;
+  background-image: url('/../images/gomakeimpact/who-are-we-banner.png');
+  background-size: cover;
+  max-width: 100%;
 }
 // .text-block {
 //     max-width: 650px;
 // }
 .job-openings {
-    background: #e5e5e5;
+  background: #e5e5e5;
 }
 .col.emp img {
-transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 .col.emp img.fade-in:hover {
-    transform: scale(1.05);
-    z-index: 999;
+  transform: scale(1.05);
+  z-index: 999;
 }
 .custom-letter-spacing {
-    letter-spacing: 0.43rem;
+  letter-spacing: 0.43rem;
 }
 .custom-hr {
-    width: 10%; 
-    padding: 1px;
+  width: 10%;
+  padding: 1px;
 }
 .text-max {
-    max-width: 500px;
+  max-width: 500px;
 }
 .scroll-down {
-    top:0%; 
-    right : 50%; 
-    margin-top: -20px; 
-    padding: 15px;
+  top: 0%;
+  right: 50%;
+  margin-top: -20px;
+  padding: 15px;
 }
 .video-react-big-play-button.video-react-big-play-button-left {
-    display: none;
+  display: none;
 }
 .video-react .video-react-poster {
-    background-size: cover;
+  background-size: cover;
 }
 
 // New styles
 .header-menu,
 .header-btn {
-    font-size: 12px;
+  font-size: 12px;
 }
 .carousel-control-next .indicators,
 .carousel-control-prev .indicators {
-    background-color: #000;
+  background-color: #000;
 }

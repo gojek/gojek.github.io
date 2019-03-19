@@ -71,7 +71,8 @@
     "positionSlug": "full-stack-engineer-go-food",
     "position": "Full Stack Engineer - GO-FOOD",
     "jobId": "fk019mp",
-    "overview": "The mission of GO-FOOD as a product is to provide it’s customers with the best possible selection of food at the most aﬀordable price. GO-FOOD is also a market place for restaurants to list their food items and increase their sales. GO-FOOD also has it’s own fleet of drivers with an app where they can accept food orders and earn their daily income out food delivery. So overall it’s an ecosystem consisting of consumers, merchants and drivers which GO-FOOD manages with the ultimate aim of providing best user experience to consumers and growth for merchants and drivers. |We currently have a team of 40+ engineers across 2 diﬀerent locations Bangalore and Jakarta. GO-FOOD being one of the largest online food delivery applications, the scale at which this team operates is phenomenal. GO-FOOD has more than 300k merchants and more than 20 millions dishes listed on it’s platform.",
+    "overview":
+      "The mission of GO-FOOD as a product is to provide it’s customers with the best possible selection of food at the most aﬀordable price. GO-FOOD is also a market place for restaurants to list their food items and increase their sales. GO-FOOD also has it’s own fleet of drivers with an app where they can accept food orders and earn their daily income out food delivery. So overall it’s an ecosystem consisting of consumers, merchants and drivers which GO-FOOD manages with the ultimate aim of providing best user experience to consumers and growth for merchants and drivers. |We currently have a team of 40+ engineers across 2 diﬀerent locations Bangalore and Jakarta. GO-FOOD being one of the largest online food delivery applications, the scale at which this team operates is phenomenal. GO-FOOD has more than 300k merchants and more than 20 millions dishes listed on it’s platform.",
     "place": "Bangalore",
     "team": "Engineering",
     "experienceYears": "3+ YEARS",
@@ -546,105 +547,6 @@
     "title": "Android Engineer - Chat Platform | Bangalore | GO-JEK Careers"
   },
   {
-    "id": "11",
-    "positionSlug": "senior-analyst",
-    "position": "Security Analyst",
-    "jobId": "fk0jfek",
-    "overview": "",
-    "place": "Bangalore",
-    "headings": ["responsibilities", "experience"],
-    "requirements": [],
-    "experienceYears": "6-10 YEARS",
-    "link":
-      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Systems and Security",
-    "responsibilities": [
-      "Evaluate the security of systems being productionised and providing insights into security vulnerabilities and alleviation plan across SDLC",
-      "Track, debug and work closely with the developers to resolve security issues.",
-      "Run penetration testing of Mobile Apps, APIs and End Points and proactively identify security vulnerabilities",
-      "Act as a liaison for security incident response (Internal and External as needed)",
-      "Drive security audits for products/features to model threats and develop mitigation plans",
-      "Establish training programs to build general security awareness and to address specific technology requirements for security",
-      "Stay updated on the emerging security threats, vulnerabilities and controls and apply them to the Go-Jek ecosystem",
-      "Mentors peers to inculcate security best practices and induce sensitivity to security needs",
-      "Suggest automation for repeatability in testing for common vulnerabilities"
-    ],
-    "experience": [
-      "6-10 years of hands on experience in penetration testing of mobile applications, APIs and Web Applications",
-      "Ability to reverse engineer Apps and unearth vulnerabilities in code, leakage of information and common threats",
-      "Detailed working knowledge of application vulnerabilities for consumer mobile applications (Android, iOS) and API endpoints and remediation techniques",
-      "Excellent troubleshooting skills",
-      "Working experience with penetration testing and development of exploits",
-      "Passion to learn new things, solve challenging problems",
-      "Breadth of technical knowledge in application security (OWASP Top 10), mobile security, data security, authentication and security protocols, and cryptography",
-      "Ability to Get Stuff Done!",
-      "Ability to analyse attacks based on logs & conclude the action plan on mitigation"
-    ],
-    "expectations": [],
-    "about": [],
-    "rolesOverview": "",
-    "roles": [],
-    "scopeOverview": "",
-    "scope": [],
-    "whatWillYouDo": [],
-    "whatWillYouNeed": [],
-    "whatWouldbeaBonus": [],
-    "department": "",
-    "projects": [],
-    "metaDescription": "",
-    "title": "Security Analyst Jobs | Bangalore | GO-JEK Careers"
-  },
-  {
-    "id": "12",
-    "positionSlug": "security-engineer",
-    "position": "Security Engineer",
-    "jobId": "fk0jf5f",
-    "overview": "",
-    "place": "Bangalore",
-    "headings": ["responsibilities", "experience"],
-    "requirements": [],
-    "experienceYears": "6-10 YEARS",
-    "link":
-      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
-    "team": "Systems and Security",
-    "responsibilities": [
-      "Evaluate the security of systems being productionised and providing insights into security vulnerabilities and alleviation plan across SDLC",
-      "Stay updated on the emerging security threats, vulnerabilities and controls and apply them to the Go-Jek ecosystem",
-      "Automate security testing, network audits, user access audits, etc",
-      "Track, debug and work closely with the developers to resolve security issues.",
-      "Build dashboards for all automation tool to demonstrate impact of audit",
-      "Establish training programs to build general security awareness and to address specific technology requirements for security",
-      "Drive security audits for products/features to model threats",
-      "Mentors peers to inculcate security best practices and induce sensitivity to security needs"
-    ],
-    "experience": [
-      "6-10 years of hands on experience in coding tools for security team",
-      "Ability to automate most part of manual testing tasks",
-      "Excellent programming skills on backend & frontend technologies",
-      "Ability to evaluate tools and frameworks for static/dynamic security testing, security monitoring and security controls",
-      "Exposure to security in cloud infrastructure",
-      "Excellent troubleshooting skills",
-      "Detailed working knowledge of application vulnerabilities for consumer mobile applications (Android, iOS) and API endpoints and remediation techniques",
-      "Passion to learn new things, solve challenging problems",
-      "Breadth of technical knowledge in application security (OWASP Top 10), mobile security, data security, authentication and security protocols, and cryptography",
-      "Ability to Get Stuff Done!",
-      "Ability to analyse attacks based on logs & build automation around log analysis"
-    ],
-    "expectations": [],
-    "about": [],
-    "rolesOverview": "",
-    "roles": [],
-    "scopeOverview": "",
-    "scope": [],
-    "whatWillYouDo": [],
-    "whatWillYouNeed": [],
-    "whatWouldbeaBonus": [],
-    "department": "",
-    "projects": [],
-    "metaDescription": "",
-    "title": "Security Engineer Jobs | Bangalore | GO-JEK Careers"
-  },
-  {
     "id": "13",
     "positionSlug": "ux-engineer",
     "position": "UX Engineer",
@@ -831,7 +733,8 @@
     "positionSlug": "data-analyst-go-pay",
     "position": "Data Analyst - GO-PAY",
     "jobId": "fk0j3ek",
-    "overview": "GO-PAY is South East Asia’s fastest growing consumer payments and financial services startup. We currently have a team of 60+ engineers product managers and data analysts across 2 diﬀerent locations - Bangalore and Jakarta.| We are seeking passionate, entrepreneurial data analysts with a drive for solving data problems at scale, to join our team in Bangalore. In this role you will be responsible to gather, analyse and distribute data on products, user behaviour and do deeper analysis using various data    analytics tools and methods to help product managers and business leaders make right decisions on GO-PAY.",
+    "overview":
+      "GO-PAY is South East Asia’s fastest growing consumer payments and financial services startup. We currently have a team of 60+ engineers product managers and data analysts across 2 diﬀerent locations - Bangalore and Jakarta.| We are seeking passionate, entrepreneurial data analysts with a drive for solving data problems at scale, to join our team in Bangalore. In this role you will be responsible to gather, analyse and distribute data on products, user behaviour and do deeper analysis using various data    analytics tools and methods to help product managers and business leaders make right decisions on GO-PAY.",
     "place": "Bangalore",
     "headings": [
       "overview",
@@ -884,7 +787,8 @@
     "positionSlug": "backend-engineer-merchant-growth",
     "position": "Backend Engineer - Merchant Growth",
     "jobId": "fk0j3ij",
-    "overview": "Are you interested in building products which build for a massive network of large, medium and small businesses and create a massive impact on their business? Do you enjoy iterative software development and building products with the ability to see the real impact of your contribution? | Then come and join us in GO-JEK’s Merchant Growth team and help solve the key challenges facing millions of Indonesian and South-East Asia’s Merchants across Go-Food, Go-Pay, Go-Deals and Go-Tix in achieving growing their business, revenue and profitability.",
+    "overview":
+      "Are you interested in building products which build for a massive network of large, medium and small businesses and create a massive impact on their business? Do you enjoy iterative software development and building products with the ability to see the real impact of your contribution? | Then come and join us in GO-JEK’s Merchant Growth team and help solve the key challenges facing millions of Indonesian and South-East Asia’s Merchants across Go-Food, Go-Pay, Go-Deals and Go-Tix in achieving growing their business, revenue and profitability.",
     "place": "Bangalore",
     "headings": ["overview", "responsibilities", "requirements"],
     "requirements": [
@@ -935,7 +839,8 @@
     "positionSlug": "backend-engineer-tech-lead-merchant-growth",
     "position": "Backend Engineer (Tech Lead) - Merchant Growth",
     "jobId": "fk0j3ix",
-    "overview": "Are you interested in building products which build for a massive network of large, medium and small businesses and create a massive impact on their business? Do you enjoy iterative software development and building products with the ability to see the real impact of your contribution? | Then come and join us in GO-JEK’s Merchant Growth team and help solve the key challenges facing millions of Indonesian and South-East Asia’s Merchants across Go-Food, Go-Pay, Go-Deals and Go-Tix in achieving growing their business, revenue and profitability.",
+    "overview":
+      "Are you interested in building products which build for a massive network of large, medium and small businesses and create a massive impact on their business? Do you enjoy iterative software development and building products with the ability to see the real impact of your contribution? | Then come and join us in GO-JEK’s Merchant Growth team and help solve the key challenges facing millions of Indonesian and South-East Asia’s Merchants across Go-Food, Go-Pay, Go-Deals and Go-Tix in achieving growing their business, revenue and profitability.",
     "place": "Bangalore",
     "headings": ["overview", "responsibilities", "requirements"],
     "requirements": [
@@ -980,14 +885,119 @@
     "department": "",
     "projects": [],
     "metaDescription": "",
-    "title": "Backend Engineer (Tech Lead) - Merchant Growth | Bangalore | GO-JEK Careers"
+    "title":
+      "Backend Engineer (Tech Lead) - Merchant Growth | Bangalore | GO-JEK Careers"
+  },
+  {
+    "id": "45",
+    "positionSlug": "android-engineer-driver-platform",
+    "position": "Android Engineer - Driver Platform",
+    "jobId": "fk0jj45",
+    "overview": "",
+    "place": "Bangalore",
+    "headings": ["expectations", "experience"],
+    "requirements": [],
+    "experienceYears": "2+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Mobile Engineering",
+    "responsibilities": [],
+    "responsibilitiesOverview": "",
+    "experience": [
+      "Minimum of 2 years of experience in Android engineering",
+      "In-depth knowledge and understanding of Android Framework",
+      "Proficient in writing unit/functional tests.",
+      "Understanding of internal implementation of programming languages, good OO design skills and good design patterns knowledge",
+      "Experience with Kotlin, reactive programming(RxJava), and Dependency Injection(Dagger)",
+      "Experience shipping apps to Google Play",
+      "Experience with Continuous integration(CI)",
+      "Good knowledge of version control (GIT)",
+      "Experience in combating Android Fragmentation Problem is a plus",
+      "Experience with functional programming is a plus",
+      "Personal project showcasing engineering and product aptitude is a plus"
+    ],
+    "about": [],
+    "rolesOverview": "",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [
+      "Build and deploy features iteratively in production",
+      "Using A/B testing and analytics tools",
+      "Design architectural patterns for fairly large mobile application",
+      "Implement and evangelize best practices for test coverage, app security",
+      "Monitor battery, memory, and performance issues and perform proper optimization",
+      "Collaborate with QAs, monitor CI and ensure delivery of high-quality apps",
+      "Strong communication skills to collaborate effectively with all the stakeholders",
+      "Good debugging and root cause analysis skills",
+      "Learn and work in areas outside of their comfort zone",
+      "Eagerness to share knowledge and teach other teammates",
+      "Willingness to learn and contribute to server side and iOS will be an added advantage"
+    ],
+    "whatWillYouDo": [],
+    "whatWillYouNeed": [],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title": "Android Engineer - Driver Platform"
+  },
+  {
+    "id": "46",
+    "positionSlug": "quality-analyst-driver-platform",
+    "position": "Quality Analyst - Driver Platform",
+    "jobId": "fk0jq8a",
+    "overview": "",
+    "place": "Bangalore",
+    "headings": ["responsibilities"],
+    "requirements": [],
+    "experienceYears": "2+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Systems and Security",
+    "responsibilities": [
+      "Manual Testing of Micro-Services",
+      "Manual Testing of Mobile Apps (Native/Hybrid)",
+      "Development + Maintenance of automation Frameworks for API testing and App Testing",
+      "Working in Agile Mode and participating in Sprint Planning for QA processes",
+      "Handling release process"
+    ],
+    "responsibilitiesOverview": "",
+    "experience": [
+      "Manual + Automation - API Testing (Microservices)(Must Have)",
+      "Manual + Automation - App Testing - Android (Must Have)",
+      "Scripting experience in any static language (like Java) (Must Have)",
+      "Scripting experience in any dynamic language (like ruby, python, etc) (Good To Have)",
+      "Performance Testing using - JMeter, Gatling, Vegeta, etc. (Good To Have)",
+      "Experience in scripting automation tests on Appium based frameworks(Must Have)"
+    ],
+    "about": [],
+    "rolesOverview": "",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [
+      "Java, TestNG, Appium, REST, Appium(Must), REST based automation frameworks like RestAssured",
+      "Basic Linux Skills (Must)",
+      "Basic Experience in CI/CD setup - Gitlab CI/Jenkins or any other(Must)",
+      "JMeter or Gatling (Or relevant tools) (Good To Have)",
+      "Ruby or Python (or any Dynamic scripting language)(Good To Have)"
+    ],
+    "whatWillYouDo": [],
+    "whatWillYouNeed": [],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title": "Quality Analyst - Driver Platform"
   },
   {
     "id": "19",
     "positionSlug": "senior-fraud-analyst",
     "position": "Senior Fraud Analyst",
     "jobId": "fk01cb6",
-    "overview": "We are looking for exceptional Data Analysts to identify fraud schemes from our data and implement strategies in our anti-fraud system. Join us in a race to identify patterns and trends in our ever-increasing transactional demands in order to stay ahead of the dynamic fraud landscape. You will be working extensively with Data Scientists, Software Engineers and Product Managers to detect unusual patterns, combat financial crimes and prevent fraudulent activities.",
+    "overview":
+      "We are looking for exceptional Data Analysts to identify fraud schemes from our data and implement strategies in our anti-fraud system. Join us in a race to identify patterns and trends in our ever-increasing transactional demands in order to stay ahead of the dynamic fraud landscape. You will be working extensively with Data Scientists, Software Engineers and Product Managers to detect unusual patterns, combat financial crimes and prevent fraudulent activities.",
     "place": "Singapore",
     "headings": [
       "overview",
@@ -997,7 +1007,8 @@
     ],
     "requirements": [],
     "experienceYears": "4+ YEARS",
-    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Systems and Security",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -1032,15 +1043,18 @@
     ],
     "department": "",
     "projects": [],
-    "metaDescription": "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
-    "title": "Data Analyst Jobs, Fraud Analyst Jobs | Singapore | GO-JEK Careers"
+    "metaDescription":
+      "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
+    "title":
+      "Data Analyst Jobs, Fraud Analyst Jobs | Singapore | GO-JEK Careers"
   },
   {
     "id": "32",
     "positionSlug": "business-intelligence-developer",
     "position": "Business Intelligence Developer",
     "jobId": "fk0jzh6",
-    "overview": "A Business Intelligence developer’s objective is to facilitate the flow of quality data to the data warehouse and maintain its integrity and reliability so that analysts and business users can use reliable data to make decisions. BigQuery is our current data warehouse solution where we gather the data from all of GO-JEK’s microservices for better data discovery experience and to get new insight for business analysis. We use Airflow as a scheduler and dependency management solution for all BI jobs at various frequencies. Plus Google Deployment Manager and Docker for provisioning and application management solution.|The tech stack that we use is dynamic and we’re always open to other well-researched solutions. You are also expected to liaise with the wider BI developer and data warehouse team in Indonesia to leverage on their knowledge and implementations and contribute to the overall competencies of GOJEK BI as a centre of excellence in GOJEK.",
+    "overview":
+      "A Business Intelligence developer’s objective is to facilitate the flow of quality data to the data warehouse and maintain its integrity and reliability so that analysts and business users can use reliable data to make decisions. BigQuery is our current data warehouse solution where we gather the data from all of GO-JEK’s microservices for better data discovery experience and to get new insight for business analysis. We use Airflow as a scheduler and dependency management solution for all BI jobs at various frequencies. Plus Google Deployment Manager and Docker for provisioning and application management solution.|The tech stack that we use is dynamic and we’re always open to other well-researched solutions. You are also expected to liaise with the wider BI developer and data warehouse team in Indonesia to leverage on their knowledge and implementations and contribute to the overall competencies of GOJEK BI as a centre of excellence in GOJEK.",
     "place": "Singapore",
     "headings": [
       "overview",
@@ -1049,8 +1063,9 @@
       "experience"
     ],
     "requirements": [],
-    "experienceYears": "",
-    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "experienceYears": "2+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Engineering",
     "responsibilities": [
       "Become a bridge communication between product or system engineers with business users or analysts from Singapore team",
@@ -1089,7 +1104,8 @@
     "whatWouldbeaBonus": [],
     "department": "",
     "projects": [],
-    "metaDescription": "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
+    "metaDescription":
+      "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
     "title": "Business Intelligence Developer | Singapore | GO-JEK Careers"
   },
   {
@@ -1097,16 +1113,14 @@
     "positionSlug": "data-engineer-maps",
     "position": "Data Engineer, Maps",
     "jobId": "fk0jz51",
-    "overview": "At the heart of GO-JEK’s businesses, we move things around. Whether that’s people, food, packages, fresh groceries, etc. Moving things around boils down to understanding the best route, understanding traffic, and understanding locations. The Cartography team is an internal team that surfaces mapping technologies needed by all internal product teams within GO-JEK. We power some of the core booking experiences for customers and drivers such as fare calculation, to showing ETA, to helping users select their pickup and dropoff locations. Teams we support are GO-RIDE, GO-CAR, GO-FOOD, GO-SEND, GO-SHOP, GO-PAY, and more. We adopt best practices and culture such as Infrastructure as Code and Devops.",
+    "overview":
+      "At the heart of GO-JEK’s businesses, we move things around. Whether that’s people, food, packages, fresh groceries, etc. Moving things around boils down to understanding the best route, understanding traffic, and understanding locations. The Cartography team is an internal team that surfaces mapping technologies needed by all internal product teams within GO-JEK. We power some of the core booking experiences for customers and drivers such as fare calculation, to showing ETA, to helping users select their pickup and dropoff locations. Teams we support are GO-RIDE, GO-CAR, GO-FOOD, GO-SEND, GO-SHOP, GO-PAY, and more. We adopt best practices and culture such as Infrastructure as Code and Devops.",
     "place": "Singapore",
-    "headings": [
-      "overview",
-      "rolesOverview",
-      "experience"
-    ],
+    "headings": ["overview", "rolesOverview", "experience"],
     "requirements": [],
-    "experienceYears": "",
-    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "experienceYears": "2+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Engineering",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -1121,7 +1135,8 @@
       "Experience with stream processing such as Kafka is a huge plus"
     ],
     "about": [],
-    "rolesOverview": "As a data engineer you will take charge of our core data infrastructure, including our data lake, database, data pipelines and data warehouse. You will design and maintain our databases and data pipelines. You will have the chance to work on the latest tools and infrastructure on the cloud such as Kubernetes, Kafka, Apache Beam, Spark and BigQuery.| You will work closely with the software engineers, data scientists and analysts within the team. Your work will be imperative in supporting the efforts around incorporating geospatial analysis and data science into the problems we’re tackling such as model for traffic patterns and search rank scoring of places. As the team evolves, you will also have the chance to work on machine learning deployments.",
+    "rolesOverview":
+      "As a data engineer you will take charge of our core data infrastructure, including our data lake, database, data pipelines and data warehouse. You will design and maintain our databases and data pipelines. You will have the chance to work on the latest tools and infrastructure on the cloud such as Kubernetes, Kafka, Apache Beam, Spark and BigQuery.| You will work closely with the software engineers, data scientists and analysts within the team. Your work will be imperative in supporting the efforts around incorporating geospatial analysis and data science into the problems we’re tackling such as model for traffic patterns and search rank scoring of places. As the team evolves, you will also have the chance to work on machine learning deployments.",
     "roles": [],
     "scopeOverview": "",
     "scope": [],
@@ -1131,7 +1146,8 @@
     "whatWouldbeaBonus": [],
     "department": "",
     "projects": [],
-    "metaDescription": "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
+    "metaDescription":
+      "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
     "title": "Business Intelligence Developer | Singapore | GO-JEK Careers"
   },
   {
@@ -1139,7 +1155,8 @@
     "positionSlug": "fraud-analyst-food",
     "position": "Fraud Analyst, Food",
     "jobId": "fk0jvna",
-    "overview": "We are looking for exceptional Data Analysts to identify fraud schemes from our data and implement strategies in our anti-fraud system. Join us in a race to identify patterns and trends in our ever-increasing transactional demands in order to stay ahead of the dynamic fraud landscape.|You will be working extensively with Data Scientists, Software Engineers and Product Managers to detect unusual patterns, combat financial crimes and prevent fraudulent activities.",
+    "overview":
+      "We are looking for exceptional Data Analysts to identify fraud schemes from our data and implement strategies in our anti-fraud system. Join us in a race to identify patterns and trends in our ever-increasing transactional demands in order to stay ahead of the dynamic fraud landscape.|You will be working extensively with Data Scientists, Software Engineers and Product Managers to detect unusual patterns, combat financial crimes and prevent fraudulent activities.",
     "place": "Singapore",
     "headings": [
       "overview",
@@ -1148,8 +1165,9 @@
       "whatWouldbeaBonus"
     ],
     "requirements": [],
-    "experienceYears": "",
-    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "experienceYears": "4+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Engineering",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -1184,7 +1202,8 @@
     ],
     "department": "",
     "projects": [],
-    "metaDescription": "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
+    "metaDescription":
+      "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
     "title": "Fraud Analyst, Food | Singapore | GO-JEK Careers"
   },
   {
@@ -1192,7 +1211,8 @@
     "positionSlug": "engineering-leads",
     "position": "Engineering Leads, Singapore",
     "jobId": "fk0j6un",
-    "overview": "Do you love writing elegant, bulletproof code that solves problems for millions of people everyday? Do you enjoy working with talented and passionate individuals that aren’t afraid to challenge and be challenged in order to produce the best outcomes for their users?| As a product engineer within one of our product engineering teams you, working with your team and product owner, will be responsible for imagining, building , deploying and running one or more of these products. You will own the future of this product, ensure its quality, and get to see the results of your efforts in people's everyday lives. | We are looking for passionate individuals that want to make a difference in the world, have a curiosity of constant learning and development, are open and collaborative and never stop striving to improve and develop both themselves and the products they are responsible for. Here at Go-Jek we are passionate about building the best products using amazing technology and having great fun while doing it.",
+    "overview":
+      "Do you love writing elegant, bulletproof code that solves problems for millions of people everyday? Do you enjoy working with talented and passionate individuals that aren’t afraid to challenge and be challenged in order to produce the best outcomes for their users?| As a product engineer within one of our product engineering teams you, working with your team and product owner, will be responsible for imagining, building , deploying and running one or more of these products. You will own the future of this product, ensure its quality, and get to see the results of your efforts in people's everyday lives. | We are looking for passionate individuals that want to make a difference in the world, have a curiosity of constant learning and development, are open and collaborative and never stop striving to improve and develop both themselves and the products they are responsible for. Here at Go-Jek we are passionate about building the best products using amazing technology and having great fun while doing it.",
     "place": "Singapore",
     "headings": [
       "overview",
@@ -1202,7 +1222,8 @@
     ],
     "requirements": [],
     "experienceYears": "",
-    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Engineering",
     "responsibilities": [
       "Working with your team and product owner to refine and develop the product direction and implementation.",
@@ -1237,7 +1258,6 @@
       "We primarily use Clojure, Golang, gRPC, Ruby, Kotlin, Swift and Java. Familiarity with two or more is a plus.",
       "Well-versed with Lean methodologies, TDD and Test Engineering and Automation.",
       "Prior experience being a founder is a huge plus."
-
     ],
     "whatWillYouDo": [
       "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns.",
@@ -1256,7 +1276,8 @@
     "whatWouldbeaBonus": [],
     "department": "",
     "projects": [],
-    "metaDescription": "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
+    "metaDescription":
+      "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
     "title": "Business Intelligence Developer | Singapore | GO-JEK Careers"
   },
   {
@@ -1264,17 +1285,14 @@
     "positionSlug": "software-engineer-fraud",
     "position": "Software Engineer, Fraud",
     "jobId": "fk0jdww",
-    "overview": "We are looking for experienced Software Engineers to join our team and be a critical part of making our Fraud platform successful.| Join us in staying ahead of the dynamic fraud landscape by building systems to combat fraud at scale.| You will be working extensively with Data Scientists, Software Engineers and Product Managers to detect unusual patterns, combat financial crimes, prevent fraudulent activities.",
+    "overview":
+      "We are looking for experienced Software Engineers to join our team and be a critical part of making our Fraud platform successful.| Join us in staying ahead of the dynamic fraud landscape by building systems to combat fraud at scale.| You will be working extensively with Data Scientists, Software Engineers and Product Managers to detect unusual patterns, combat financial crimes, prevent fraudulent activities.",
     "place": "Singapore",
-    "headings": [
-      "overview",
-      "whatWillYouDo",
-      "whatWillYouNeed",
-      "whatWouldbeaBonus"
-    ],
+    "headings": ["whatWillYouDo", "whatWillYouNeed", "whatWouldbeaBonus"],
     "requirements": [],
     "experienceYears": "",
-    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Engineering",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -1287,33 +1305,33 @@
     "expectations": [],
     "whatWillYouDo": [
       "Setup real time data pipelines that power Go-Jek’s business and engineering",
-      "Embed in financial fraud solutions with Go-Pay",
       "Build backend services for a fraud detection platform",
-      "Practice quality engineering, through TDD, agile on a cutting edge stack",
       "Build core platform to enable new features on our big data and micro-services oriented architecture",
+      "Embed in financial fraud solutions with Go-Pay",
+      "Practice quality engineering, through TDD, agile on a cutting edge stack",
       "Generate insights and tooling around Go-Jek's 16+ products"
     ],
     "whatWillYouNeed": [
       "3+ years of coding experience",
-      "Solid computer science fundamentals",
       "Hands on experience and strong proficiency in Go or Java",
-      "Excellent communication skills (English is required)",
       "Experience in MySQL, Postgres and Redis",
-      "Eagerness to work openly and collaboratively with a diverse team",
       "Experience in lean/XP development methods (TDD, Pair Programming, Scrum, Kanban, Continuous Integration/Delivery)",
-      "Thrive on solving complex problems and creating high quality, highly scalable software solutions",
-      "A passion for quality and best practices but with a pragmatism that understands the balance between perfection and delivering value in a timely manner"
+      "A passion for quality and best practices but with a pragmatism that understands the balance between perfection and delivering value in a timely manner",
+      "Solid computer science fundamentals",
+      "Excellent communication skills (English is required)",
+      "Eagerness to work openly and collaboratively with a diverse team",
+      "Thrive on solving complex problems and creating high quality, highly scalable software solutions"
     ],
     "whatWouldbeaBonus": [
       "Full-stack engineer with additional hands on experience in ReactJS",
-      "Experience in DevOps tools but not limited to Docker, Kubernetes",
       "Good understanding of big data tools but not limited to Kafka, Spark",
-      "Work experience in a startup",
-      "Experience in production environments with large data sets"
+      "Experience in production environments with large data sets",
+      "Experience in DevOps tools but not limited to Docker, Kubernetes",
+      "Work experience in a startup"
     ],
     "department": "",
     "projects": [],
-    "metaDescription": "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
+    "metaDescription": "",
     "title": "Software Engineer, Fraud | Singapore | GO-JEK Careers"
   },
   {
@@ -1321,7 +1339,8 @@
     "positionSlug": "fraud-analyst",
     "position": "Fraud Analyst",
     "jobId": "fk0jdwm",
-    "overview": "We are looking for exceptional Data Analysts to identify fraud schemes from our data and implement strategies in our anti-fraud system. Join us in a race to identify patterns and trends in our ever-increasing transactional demands in order to stay ahead of the dynamic fraud landscape.|You will be working extensively with Data Scientists, Software Engineers and Product Managers to detect unusual patterns, combat financial crimes and prevent fraudulent activities.",
+    "overview":
+      "We are looking for exceptional Data Analysts to identify fraud schemes from our data and implement strategies in our anti-fraud system. Join us in a race to identify patterns and trends in our ever-increasing transactional demands in order to stay ahead of the dynamic fraud landscape.|You will be working extensively with Data Scientists, Software Engineers and Product Managers to detect unusual patterns, combat financial crimes and prevent fraudulent activities.",
     "place": "Singapore",
     "headings": [
       "overview",
@@ -1330,8 +1349,9 @@
       "whatWouldbeaBonus"
     ],
     "requirements": [],
-    "experienceYears": "",
-    "link": "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "experienceYears": "4+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
     "team": "Engineering",
     "responsibilities": [],
     "responsibilitiesOverview": "",
@@ -1366,8 +1386,335 @@
     ],
     "department": "",
     "projects": [],
-    "metaDescription": "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
+    "metaDescription":
+      "If you are a data analyst adept at identifying fraudulent consumer patterns, and suspicious consumer behaviour, GO-JEK has a job waiting for you. Apply today!",
     "title": "Fraud Analyst | Singapore | GO-JEK Careers"
+  },
+  {
+    "id": "38",
+    "positionSlug": "software-engineer-machine-learning-big-data",
+    "position": "Software Engineer, Machine Learning & Big Data",
+    "jobId": "fk0jdw3",
+    "overview": "",
+    "place": "Singapore",
+    "headings": ["rolesOverview", "responsibilities", "experience"],
+    "requirements": [],
+    "experienceYears": "5+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Engineering",
+    "responsibilities": [
+      "Work closely with data scientists to understand their workflows",
+      "Design and deploy frameworks to help data scientists productionize their workflows",
+      "Automate the data science life cycle: model selection, training, testing and deployment",
+      "Diagnose and solve problems when machine learning pipelines fail",
+      "Design systems that can deploy machine learning models at scale"
+    ],
+    "responsibilitiesOverview": "",
+    "experience": [
+      "      5+ years experience as a software engineer",
+      "Experience with object-oriented programming",
+      "Expertise in one of Java, Scala, or Python",
+      "Experience working with both relational and non-relational databases",
+      "Ability to write thorough, scalable and clear design documentation",
+      "Deep expertise with data streaming and computation frameworks: Spark, Kafka, Flink, Beam",
+      "Experience with open-source machine learning libraries: TensorFlow, XGBoost",
+      "Experience designing large-scale, high-throughput machine learning or data science systems"
+    ],
+    "about": [],
+    "rolesOverview":
+      "GOJEK Data Science works on some of the most interesting problems in transport, logistics and economics. We leverage machine learning to build data products for ride-hailing, logistics, food delivery and payments. From selecting the right driver to dispatch, to dynamically setting prices, to serving food recommendations, to forecasting real-world events, hundreds of millions of orders per month, across more than 18 products, are all driven by machine learning.| In this role, you will work with data scientists to build end-to-end machine learning frameworks that directly impact our products. You will use your experience in software engineering, data systems, distributed systems, machine learning, artificial intelligence, and deep learning to develop these systems and take them into production.",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [],
+    "whatWillYouDo": [
+      "Investigate anomalies in our data and operations",
+      "Communicate frequently with internal stakeholders to share your business insights",
+      "Point out potential weaknesses in products, systems, processes and recommend feasible preventive measures",
+      "Identify, analyze, and interpret trends or patterns in complex data sets",
+      "Liaise with cross functional teams to create anti-fraud tools for multiple use cases"
+    ],
+    "whatWillYouNeed": [
+      "Bachelor degree in Computer Science, Business Analytics or related quantitative fields (Mathematics, Economics, Computer Science, Information Management or Statistics)",
+      "Ability to write complex SQL queries",
+      "4+ years of experience in an analytical role",
+      "Capacity for logical thinking & ability to present ideas in clear, coherent manner",
+      "Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy",
+      "Excellent communication skills (English is required)"
+    ],
+    "whatWouldbeaBonus": [
+      "Experience working in fraud/risk/compliance areas",
+      "Proficiency in Tableau or similar data visualisation tools",
+      "Proficiency in one or more programming languages including but not limited to Python, R",
+      "Work experience in a startup",
+      "Familiarity with databases including but not limited to PostgreSQL, BigQuery"
+    ],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title":
+      "Software Engineer, Machine Learning & Big Data | Singapore | GO-JEK Careers"
+  },
+  {
+    "id": "39",
+    "positionSlug": "software-engineer-machine-learning-infrastructure",
+    "position": "Software Engineer, Machine Learning Infrastructure",
+    "jobId": "fk0jdwq",
+    "overview": "",
+    "place": "Singapore",
+    "headings": ["rolesOverview", "responsibilities", "experience"],
+    "requirements": [],
+    "experienceYears": "5+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Engineering",
+    "responsibilities": [
+      "Work closely with data scientists and machine learning engineers to understand their workflow and infrastructure needs",
+      "Build robust infrastructure to operationalize and deploy machine learning systems",
+      "Improve data scientists’ time to market for machine learning projects",
+      "Scale the number of projects, users, and systems that our machine learning platform can support",
+      "Ensure high throughput and availability of our machine learning frameworks"
+    ],
+    "responsibilitiesOverview": "",
+    "experience": [
+      "5+ years experience as a software engineer",
+      "Experience with object-oriented programming",
+      "Expertise in one of Go, Python or Java",
+      "Experience operation production systems at scale: large data volume, high throughput and low latency",
+      "Experience with distributed systems",
+      "Experience working with both relational and non-relational databases",
+      "Ability to write thorough, scalable and clear design documentation",
+      "Understanding of cloud infrastructure (GCP/AWS)",
+      "Experience deploying, maintaining and orchestrating microservices: networking, Kubernetes",
+      "Keen eye for automation and building low-maintenance systems",
+      "Experience with DevOps/SRE best practices",
+      "Proven track-record building",
+      "Ability to thrive within a fast-paced startup environment"
+    ],
+    "about": [],
+    "rolesOverview":
+      "GOJEK Data Science works on some of the most interesting problems in transport, logistics and economics. We leverage machine learning to build data products for ride-hailing, logistics, food delivery and payments. From selecting the right driver to dispatch, to dynamically setting prices, to serving food recommendations, to forecasting real-world events, hundreds of millions of orders per month, across more than 18 products, are all driven by machine learning.| As a software engineer on the data science platform team you will be tasked with designing and building our machine learning infrastructure and platform. This requires a deep understanding of the machine learning life cycle and how data scientists turn hypotheses into production systems. You will be tasked with designing and building the products that data scientists leverage at each stage of the machine learning life cycle, ensuring a rapid time to market for ML projects.",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [],
+    "whatWillYouDo": [
+      "Investigate anomalies in our data and operations",
+      "Communicate frequently with internal stakeholders to share your business insights",
+      "Point out potential weaknesses in products, systems, processes and recommend feasible preventive measures",
+      "Identify, analyze, and interpret trends or patterns in complex data sets",
+      "Liaise with cross functional teams to create anti-fraud tools for multiple use cases"
+    ],
+    "whatWillYouNeed": [
+      "Bachelor degree in Computer Science, Business Analytics or related quantitative fields (Mathematics, Economics, Computer Science, Information Management or Statistics)",
+      "Ability to write complex SQL queries",
+      "4+ years of experience in an analytical role",
+      "Capacity for logical thinking & ability to present ideas in clear, coherent manner",
+      "Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy",
+      "Excellent communication skills (English is required)"
+    ],
+    "whatWouldbeaBonus": [
+      "Experience working in fraud/risk/compliance areas",
+      "Proficiency in Tableau or similar data visualisation tools",
+      "Proficiency in one or more programming languages including but not limited to Python, R",
+      "Work experience in a startup",
+      "Familiarity with databases including but not limited to PostgreSQL, BigQuery"
+    ],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title":
+      "Software Engineer, Machine Learning Infrastructure | Singapore | GO-JEK Careers"
+  },
+  {
+    "id": "41",
+    "positionSlug":
+      "technical-program-manager-financial-and-accounting-platforms",
+    "position":
+      "Technical Program Manager - Financial and Accounting Platforms",
+    "jobId": "fk0jdwu",
+    "overview":
+      "GO-JEK is a growth-stage startup with a social mission to improve the welfare and livelihoods of workers in various informal sectors in Indonesia. GO-JEK champions 3 essential values: speed, innovation and social impact.  Since it launched in 2010, GO-JEK has evolved into an on-demand mobile platform and a cutting-edge app providing a range services that include transportation, logistics, mobile payments, food delivery and more and that impacts millions of lives in Indonesia and beyond. The company has grown significantly in the last 36 months, and has expanded into multiple countries in Southeast Asia. As our organization matures, we are looking for experienced program managers to bring more order, structure and efficiency into rapidly growing business-critical operations. | GOJEK Financial and Accounting Platforms is a new Software Engineering division that was created to scale and support our Finance and Accounting department, in their mission to replace manual processes with automated workflows powered by technology. This team will be responsible for deploying software systems, implementing SaaS (including integrations with GOJEK backend systems) and ensuring company-wide adoption of such systems.",
+    "place": "Singapore",
+    "headings": ["overview", "rolesOverview"],
+    "requirements": [],
+    "experienceYears": "5+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Engineering",
+    "responsibilities": [
+      "Conduct discovery and requirements gathering with multiple functions and countries, to understand their needs and identify the best implementation strategy, including vendor selection.",
+      "Identify processes and systems that will address business requirements; set timelines across teams and functions; and work with the software development team to implement existing tools or build new software solutions.",
+      "Design and execute processes to ensure high standards for the delivery and quality of projects.",
+      "Lead change management and large-scale adoption of new processes and systems for Finance and Accounting.",
+      "Develop metrics to track the overall health of operations and identify opportunities for improvement.",
+      "Ensure that all systems and processes are built securely, and manage communication to build trust within our team.",
+      "Build stronger collaboration between our offices, help to reconcile country-specific operational differences and create flexible processes that can be adapted to each location.",
+      "Hire and manage a team of project managers to execute multiple projects."
+    ],
+    "responsibilitiesOverview": "",
+    "experience": [
+      "5+ years experience as a software engineer",
+      "Experience with object-oriented programming",
+      "Expertise in one of Go, Python or Java",
+      "Experience operation production systems at scale: large data volume, high throughput and low latency",
+      "Experience with distributed systems",
+      "Experience working with both relational and non-relational databases",
+      "Ability to write thorough, scalable and clear design documentation",
+      "Understanding of cloud infrastructure (GCP/AWS)",
+      "Experience deploying, maintaining and orchestrating microservices: networking, Kubernetes",
+      "Keen eye for automation and building low-maintenance systems",
+      "Experience with DevOps/SRE best practices",
+      "Proven track-record building",
+      "Ability to thrive within a fast-paced startup environment"
+    ],
+    "about": [],
+    "rolesOverview": "",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [
+      "You are organized, efficient, and detail-oriented.| You manage your time efficiently, and use tools to help others do the same. You obsessively record decisions, follow up on action items, and create easy-to-digest documentation. You tend to foresee edge cases in technical specs and identify risks before they become too painful to address.",
+      "Communication is your superpower.| You have a passion for connecting people to the information and processes that make them feel taken care of. People know that you have things under control, whether it’s keeping people on the same page across multiple continents, or coordinating a sensitive launch with multiple department heads. You can express complicated situations to people who have no idea what you’re talking about, and can lay out the hard truths without causing an uproar.",
+      "You are extraordinarily mindful and self-aware.| You are an active listener and have deep empathy for the people around you. You are tuned into their motivations and worries, and you use that understanding to compassionately help them overcome obstacles. It’s intuitive for you to read signals that help you decide when to follow up, and when to give space to others. You seek to understand both the business’ point of view and the technical constraints that keep your engineers up at night. You know your strengths, but you own your mistakes and know when to ask for help.",
+      "You are familiar and comfortable with technology. | As a Technical Program Manager, you are expected to know about data security, implementation of financial software, and working with product managers or tech leads to translate business requirements into a roadmap for the software engineering team. It is a plus if you understand authentication mechanisms, ETL technologies, data sharing among systems, implementation of data sharing workflows through various methods.",
+      "You are an experienced practitioner of software delivery and project management methodologies. | You’ve applied different methods, and you have a range of options in your toolkit that you can pull based on what makes most sense for the team or situation — whether Agile, Lean, Kanban, or others.",
+      "Your passion for process is grounded in pragmatism. | You naturally find repeatable patterns and transform them into reusable workflows for everyone else. But you reject the idea of having process for process’ sake — your goal is to find ways to make things run more efficiently, and sometimes that means changing (or killing) a process.",
+      "You are balanced and well-rounded.| On this team, you’re expected be a big-picture thinker and strategic partner. But you’re also willing to get your hands dirty and do whatever it takes to help your team deliver high-quality work against tight deadlines. You’re passionate about using your combined technical, software engineering and business process acumen to deliver good solutions.",
+      "You are not fazed by ambiguity and pressure.| Conversely, you embrace the opportunity to translate chaos into excellence. You patiently and confidently weave threads of confusion into a clear and actionable steps. You inspire confidence and calmness in the face of uncertainty, and you shield your team members from the storm so that they can focus on execution."
+    ],
+    "whatWillYouDo": [],
+    "whatWillYouNeed": [],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title":
+      "Technical Program Manager - Financial and Accounting Platforms | Singapore | GO-JEK Careers"
+  },
+  {
+    "id": "42",
+    "positionSlug": "product-full-stack-engineer",
+    "position": "Product/ Full Stack Engineer",
+    "jobId": "fk0jduv",
+    "overview":
+      "Do you love writing elegant, bulletproof code that solves problems for millions of people everyday? Do you enjoy working with talented and passionate individuals that aren’t afraid to challenge and be challenged in order to produce the best outcomes for their users? | As a product engineer within one of our product engineering teams you, working with your team and product owner, will be responsible for imagining, building, deploying and running one or more of these products. You will own the future of this product, ensure its quality, and get to see the results of your efforts in people's everyday lives.| We are looking for passionate individuals that want to make a difference in the world, have a curiosity of constant learning and development, are open and collaborative and never stop striving to improve and develop both themselves and the products they are responsible for. Here at Go-Jek we are passionate about building the best products using amazing technology and having great fun while doing it.",
+    "place": "Singapore",
+    "headings": [
+      "overview",
+      "responsibilities",
+      "whatWillYouDo",
+      "expectations"
+    ],
+    "requirements": [],
+    "experienceYears": "",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Engineering",
+    "responsibilities": [
+      "Working with your team and product owner to refine and develop the product direction and implementation.",
+      "Writing great quality, scalable, maintainable code.",
+      "Ensuring all code is thoroughly covered by automated tests and that all features meet quality checks before deployment.",
+      "Deploying, monitoring, maintaining and fixing products in production.",
+      "Contributing to the constant improvement of practices and processes in the team."
+    ],
+    "responsibilitiesOverview": "",
+    "experience": [],
+    "about": [],
+    "rolesOverview": "",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [
+      "A commitment to writing understandable, maintainable, and reusable software.",
+      "Experience in software development or a serious open source track record.",
+      "Hands-on experience in designing, developing, testing and deploying applications, large scale applications, in any language or stack.",
+      "Hands-on experience working on one or more front-end technologies - Web, Android or iOS - and understand their nuances.",
+      "Deep knowledge of Linux as a production environment.",
+      "Proficiency in OOP, including design patterns. Experience with functional programming is a plus.",
+      "Data modelling experience in both Relational and NoSQL databases.",
+      "Ability to understand and implement Continuous Integration and Continuous Delivery.",
+      "Well-versed with Lean methodologies, TDD and Test Engineering and Automation.",
+      "Ability to design and implement low latency RESTful services.",
+      "Experience troubleshooting server performance ­memory issues, GC tuning, resource leaks etc.",
+      "Excellent understanding of interactive application development paradigm, memory management, performance/resource optimisations, database interactions, network programming, concurrency and multithreading, fault tolerance, monitoring, security and operability of systems.",
+      "Continuously refactor applications and architectures to maintain high quality levels.",
+      "Ability to plan, prioritise, estimate and execute releases with a high degree of consistency.",
+      "Ability to scope, review and refine user stories for technical completeness and to alleviate dependency risks.",
+      "Passion for learning new things, solving challenging problems.",
+      "We primarily use Clojure, Golang, gRPC, Ruby, Kotlin, Swift and Java. Familiarity with two or more is a plus.",
+      "Prior experience being a founder is a huge plus."
+    ],
+    "whatWillYouDo": [
+      "Design and develop highly scalable, reliable and fault tolerant systems for one of the world’s fastest growing unicorns.",
+      "Translate business requirements into scalable and extensible design.",
+      "Pair with team members on functional and nonfunctional requirements and spread design philosophy and goals across the team.",
+      "Partner with the product management team to define and execute the feature roadmap.",
+      "Coordinate with cross functional teams (Mobile, DevOps, Data, UX, QA etc.) on planning and execution.",
+      "Continuously improve code quality, product execution and customer delight.",
+      "Proactively manage stakeholder communication related to deliverables, risks, changes and dependencies.",
+      "Communicate, collaborate and work effectively across distributed teams in a global environment.",
+      "Building and managing fully automated build/test/deployment environments.",
+      "An innate desire to deliver and a strong sense of accountability for your work.",
+      "Willingness to learn new languages and methodologies."
+    ],
+    "whatWillYouNeed": [],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title": "Product/ Full Stack Engineer | Singapore | GO-JEK Careers"
+  },
+  {
+    "id": "43",
+    "positionSlug": "product-manager-pricing",
+    "position": "Product Manager, Pricing",
+    "jobId": "fk0jrsw",
+    "overview": "",
+    "place": "Singapore",
+    "headings": ["rolesOverview", "whatWillYouDo", "whatWillYouNeed"],
+    "requirements": [],
+    "experienceYears": "4-7 YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Engineering",
+    "responsibilities": [],
+    "responsibilitiesOverview": "",
+    "experience": [],
+    "about": [],
+    "rolesOverview":
+      "GO-JEK is looking for an experienced Product Manager to help lead our Pricing team. As Product Manager, you will drive the conceptual and technical development of product ideas from end-to-end for GO-JEK and our customer base. You love solving complex problems and working with talented designers and engineers to craft beautifully simple solutions for challenging user stories.",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [""],
+    "whatWillYouDo": [
+      "Drive product strategy and execute on the prioritized roadmap for matchmaking",
+      "Lead a cross-functional team, partnering with engineering, data science and other teams to ship major features and product improvements driving efficiency",
+      "Define, track and report on key product, business and customer metrics",
+      "Seek product ideas and feedback, gather requirements, write specs, create wireframes and workflows",
+      "Partner with the design and user research teams to understand customer problems and identify and iterate on solutions",
+      "Define clear and well-scoped requirements documents that are easily understood by technical and non-technical audiences",
+      "Work with our data team to understand customer behavior and identify problems and opportunities",
+      "Collaborate with internal stakeholders in support, marketing, sales and business to develop launch strategy, product messaging and training"
+    ],
+    "whatWillYouNeed": [
+      "BA/BS degree or equivalent practical experience",
+      "4-7 years of experience working as a product manager, ideally working on consumer-facing, large-scale products",
+      "Independent and curious, you set your own targets, ask for help when you need it and are always looking to learn something new",
+      "You’re entrepreneurial and are comfortable working in a complex and face-paced environment",
+      "Analytical and data-driven, you love digging into the data to understand what’s happening and define & measure success on every project",
+      "You’re passionate about your customers and always bring questions back to what will serve them best",
+      "You have experience leading agile product development teams and are always looking for ways to help them be more effective",
+      "You’re fluent in English and are a confident communicator",
+      "Experience as a software engineer / developer and working with distributed teams are highly desired."
+    ],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title": "Product Manager, Pricing | Singapore | GO-JEK Careers"
   },
   {
     "id": "20",
@@ -2006,5 +2353,53 @@
     "metaDescription":
       "iOS Engineer Jobs available at GO-JEK in Thailand. Join the group of elite engineers who build Indonesia's most used on-demand services app. Check out the job description and apply today!",
     "title": "iOS Developer Jobs, iOS Engineer Jobs | Thailand | GO-JEK Careers"
+  },
+  {
+    "id": "44",
+    "positionSlug": "product-engineer-driver-platform",
+    "position": "Product Engineer-Driver Platform",
+    "jobId": "fk0jdbu",
+    "overview": "",
+    "place": "Jakarta",
+    "headings": ["responsibilities", "requirements"],
+    "requirements": [
+      "3+ years of hands-on experience in designing, developing, testing and deploying large scale applications in any language or stack.",
+      "Have a good understanding of different programming paradigms.",
+      "Have a good understanding of GoLang/Java.",
+      "Knowledge of Clojure is a definite plus.",
+      "Data modeling experience in Relational databases.",
+      "Ability to design and implement low latency RESTful services.",
+      "Ability to understand and implement Continuous Integration and Continuous Deliver.",
+      "Experience in troubleshooting server performance memory issues, GC tuning, resource leaks etc.",
+      "Good understanding of micro-service architecture, event-driven systems is a definite plus."
+    ],
+    "experienceYears": "3+ YEARS",
+    "link":
+      "https://gojek.recruiterbox.com/jobs/fk0fx88?cjb_hash=O_PhLS15&apply_now=true&utm_source=gojek.io.website&utm_campaign=Full%20Stack%20Developer",
+    "team": "Engineering",
+    "responsibilities": [
+      "Design and develop highly scalable, reliable and fault tolerant systems.",
+      "Able to translate business requirements into scalable technical solutions.",
+      "Willingness to learn and experiment with new languages and technologies.",
+      "Ability to plan, prioritise, estimate.",
+      "Communicate, collaborate and work effectively across distributed teams in a global environment.",
+      "Pair with team members on functional and nonfunctional requirements and spread design philosophy and goals across the team.",
+      "Able to take responsibilities for multiple services maintained by the team."
+    ],
+    "responsibilitiesOverview": "",
+    "experience": [],
+    "about": [],
+    "rolesOverview": "",
+    "roles": [],
+    "scopeOverview": "",
+    "scope": [],
+    "expectations": [],
+    "whatWillYouDo": [],
+    "whatWillYouNeed": [],
+    "whatWouldbeaBonus": [],
+    "department": "",
+    "projects": [],
+    "metaDescription": "",
+    "title": "Product Engineer-Driver Platform"
   }
 ]
