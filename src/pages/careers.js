@@ -10,6 +10,7 @@ import CareerLocation from '../components/Careers/CareerLocation/CareerLocation'
 import SearchBar from '../components/Careers/searchBar/searchBar'
 import jobs from '../../data/jobs.json'
 import { Link } from 'react-scroll'
+import axios from 'axios'
 
 var Scroll = require('react-scroll')
 var scroller = Scroll.scroller
@@ -28,6 +29,7 @@ class Careers extends Component {
       inputText: '',
       places: [],
       searchResult: null,
+      jobResponseData: null,
     }
 
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -35,20 +37,24 @@ class Careers extends Component {
   }
 
   componentDidMount() {
-    let places = []
-    for (let i = 0; i < jobs.length; i++) {
-      let count = 0
-      if (places.includes(jobs[i].place)) {
-        count = count + 1
-      }
-      if (count === 0) {
-        places.push(jobs[i].place)
-      }
-    }
-
-    this.setState({
-      places: places,
-    })
+    axios
+      .get(`https://api.lever.co/v0/postings/go-jek?mode=json`)
+      .then(response => {
+        console.log("repsonse",response)
+        let placesAdded = []
+        for (let i = 0; i < response.data.length; i++) {
+          let count = 0
+          if (placesAdded.includes(response.data[i].categories.location)) {
+            count = count + 1
+          }
+          if (count === 0) {
+            placesAdded.push(response.data[i].categories.location)
+          }
+        }
+        console.log('places', placesAdded)
+        this.setState({ jobResponseData: response, places: placesAdded })
+        return response
+      })
   }
 
   handleSubmit = e => {
@@ -98,11 +104,12 @@ class Careers extends Component {
     const targetvalue = ev.target.value
     this.setState({
       inputText: targetvalue,
-      searchResult: jobs.filter((data, i) => {
+      searchResult: this.state.jobResponseData.data.filter((data, i) => {
         if (
-          data.position.toLowerCase().includes(targetvalue.toLowerCase()) &&
+          data.text.toLowerCase().includes(targetvalue.toLowerCase()) &&
           targetvalue !== '' &&
-          (data.place.toLowerCase() === this.state.locationName.toLowerCase() ||
+          (data.categories.location.toLowerCase() ===
+            this.state.locationName.toLowerCase() ||
             this.state.locationName.toLowerCase() === 'all')
         ) {
           return data
@@ -114,13 +121,14 @@ class Careers extends Component {
   onClickLocation = name => {
     this.setState({
       locationName: name,
-      searchResult: jobs.filter((data, i) => {
+      searchResult: this.state.jobResponseData.data.filter((data, i) => {
         if (
-          data.position
+          data.text
+            .toLowerCase()
             .toLowerCase()
             .includes(this.state.inputText.toLowerCase()) &&
           this.state.inputText !== '' &&
-          (data.place.toLowerCase() === name.toLowerCase() ||
+          (data.categories.location.toLowerCase() === name.toLowerCase() ||
             name.toLowerCase() === 'all')
         ) {
           return data

@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import data from '../data.json'
-import jobs from '../../../../data/jobs.json'
+// import jobs from '../../../../data/jobs.json'
 import Description from '../Description/Description.jsx'
 import PositionCard from '../PositionCard/positionCard.jsx'
+import axios from 'axios'
 
 class Categories extends Component {
   constructor(props) {
@@ -21,37 +22,55 @@ class Categories extends Component {
       positionData: null,
       screenWidth: null,
       locationName: null,
-      locations: ['bangalore', 'jakarta', 'singapore', 'ho-chi-minh-city', 'bangkok'],
+      locations: [
+        'bangalore',
+        'jakarta',
+        'singapore',
+        'bali-denpasar',
+        'bangkok',
+        'manila',
+      ],
     }
   }
 
   componentDidMount() {
-    const urlLocationName = window.location.search.split('&')[0].split('=')[1]
+    const urlLocationName = window.location.search
+      .split('&')[0]
+      .split('=')[1]
+      .replace('-', ', ')
     let screenWidth = null
 
     if (typeof window !== `undefined`) {
       screenWidth = window.innerWidth
     }
-    this.setState(
-      {
-        jobs: jobs.filter((data, i) => {
-          if (data.place.toLowerCase() === urlLocationName.toLowerCase()) {
-            return data
-          }
-        }),
-        screenWidth: screenWidth,
-        locationName: urlLocationName,
-      },
-      () => {
-        !this.state.locations.includes(urlLocationName.toLowerCase()) &&
-          this.props.props.history.replace('/404')
+    axios
+      .get(`https://api.lever.co/v0/postings/go-jek?mode=json`)
+      .then(response => {
+        this.setState(
+          {
+            jobs: response.data.filter((data, i) => {
+              if (
+                data.categories.location.toLowerCase() ===
+                urlLocationName.toLowerCase()
+              ) {
+                return data
+              }
+            }),
+            screenWidth: screenWidth,
+            locationName: urlLocationName,
+          },
+          () => {
+            // !this.state.locations.includes(urlLocationName.toLowerCase()) &&
+            // this.props.props.history.replace('/404')
 
-        // console.log("this.state.locations",this.state.locations,'urlLocationName',urlLocationName)
-        if (window.location.search.split('&')[1]) {
-          this.getPositions(window.location.search.split('&')[1].split('=')[1])
-        }
-      }
-    )
+            if (window.location.search.split('&')[1]) {
+              this.getPositions(
+                window.location.search.split('&')[1].split('=')[1]
+              )
+            }
+          }
+        )
+      })
   }
 
   getPositions = teamName => {
@@ -62,12 +81,12 @@ class Categories extends Component {
         teamName: teamName,
         deletePositionId: null,
         positions: jobs.filter((data, i) => {
-          if (data.team.replace(/ +/g, '') === teamName) {
+          if (data.categories.team.replace(/ +/g, '') === teamName) {
             return data
           }
         }),
         tempPositions: jobs.filter((data, i) => {
-          if (data.team.replace(/ +/g, '') === teamName) {
+          if (data.categories.team.replace(/ +/g, '') === teamName) {
             return data
           }
         }),
@@ -91,23 +110,22 @@ class Categories extends Component {
       this.state.screenWidth >= 1024 ? 4 : this.state.screenWidth >= 768 ? 3 : 2
     const { deletePositionId } = this.state
     let positions = this.state.positions
-    let index = this.state.tempPositions.findIndex(x => x.positionSlug == id)
+    let index = this.state.tempPositions.findIndex(x => x.id == id)
     let ceilValue = Math.ceil((index + 1) / screenWidth) * screenWidth
     const insertData = {
       type: 'description',
     }
     const positionData = positions.filter((data, i) => {
-      if (data.positionSlug === id) {
+      if (data.id === id) {
         return data
       }
     })
     this.removeData(deletePositionId, () => {
       positions.splice(ceilValue, 0, insertData)
     })
-    // console.log("positionData[0]",positionData[0])
     this.setState({
       deletePositionId: ceilValue,
-      positionId: positionData[0].positionSlug,
+      positionId: positionData[0].id,
       positionName: name,
       positionData: positionData,
     })
@@ -122,11 +140,11 @@ class Categories extends Component {
     let teams = []
     for (let i = 0; i < jobs.length; i++) {
       let count = 0
-      if (teams.includes(jobs[i].team)) {
+      if (teams.includes(jobs[i].categories.team)) {
         count = count + 1
       }
       if (count === 0) {
-        teams.push(jobs[i].team)
+        teams.push(jobs[i].categories.team)
       }
     }
     return teams
@@ -202,6 +220,7 @@ class Categories extends Component {
 
   render() {
     const { categories } = data
+    const { jobs } = this.state
     return (
       <section className="py-5 text-center container">
         <p className="font-xl-l raleway-bold text-black">
@@ -209,55 +228,55 @@ class Categories extends Component {
         </p>
         <p className="font-md roboto-regular">{categories.content}</p>
         <div className="d-flex flex-row flex-wrap justify-content-center my-5">
-          {this.getTeams(jobs).map((data, i) => {
-            return (
-              data !== '' && (
-                <div
-                  key={i}
-                  className="col-md-3 col-6 text-center my-2 mx-md-1 "
-                >
+          {jobs.length !== 0 &&
+            this.getTeams(jobs).map((data, i) => {
+              return (
+                data !== '' && (
                   <div
-                    onClick={() => this.onChangeTeam(data)}
-                    className={
-                      this.state.teamName !== null &&
-                        data.replace(/ +/g, '') === this.state.teamName
-                        ? 'career-categories  border-success '
-                        : '' + ` scroll career-location`
-                    }
+                    key={i}
+                    className="col-md-3 col-6 text-center my-2 mx-md-1 "
                   >
-                    <p className="neosans-bold font-md text-success text-uppercase my-1 py-3">
-                      {data}
-                    </p>
+                    <div
+                      onClick={() => this.onChangeTeam(data)}
+                      className={
+                        this.state.teamName !== null &&
+                        data.replace(/ +/g, '') === this.state.teamName
+                          ? 'career-categories  border-success '
+                          : '' + ` scroll career-location`
+                      }
+                    >
+                      <p className="neosans-bold font-md text-success text-uppercase my-1 py-3">
+                        {data}
+                      </p>
+                    </div>
                   </div>
-                </div>
+                )
               )
-            )
-          })}
-          {/* {
-                        this.getTeams(this.state.jobs).length === 1 && this.getTeams(this.state.jobs)[0] === "" &&
-                        <p className="text-center raleway-bold font-xl-l text-black">Whoops! There are no teams in ‘{this.state.locationName}’ currently</p>
-                    } */}
+            })}
         </div>
         {this.state.positions !== null && (
           <React.Fragment>
             <p className="font-xl-l raleway-bold text-black ">
               {this.state.positions.length > 0
                 ? `Open Positions in ${
-                this.state.team === null
-                  ? this.state.teamName === 'SystemsandSecurity' ? 'Systems and Security' : this.state.teamName
-                  : this.state.team
-                }`
+                    this.state.team === null
+                      ? this.state.teamName === 'SystemsandSecurity'
+                        ? 'Systems and Security'
+                        : this.state.teamName
+                      : this.state.team
+                  }`
                 : `Whoops! There are no open position in '${
-                this.state.team === null
-                  ? this.state.teamName
-                  : this.state.team
-                }' currently`}
+                    this.state.team === null
+                      ? this.state.teamName
+                      : this.state.team
+                  }' currently`}
             </p>
             {/* <div className="d-flex flex-row-reverse col-12 px-1">
                             <a href="/all-open-positions/" className=" py-3 col-md-3 col-6 btn-block text-success scroll career-location">View All Positions&nbsp;<i className="fa fa-arrow-right"></i></a>
                         </div> */}
           </React.Fragment>
         )}
+        {console.log('this.state.positions', this.state.positions)}
         <div className="d-flex flex-row flex-wrap justify-content-start my-3">
           {this.state.positions !== null &&
             this.state.positions.map((data, i) => {
@@ -265,14 +284,18 @@ class Categories extends Component {
                 <React.Fragment key={i + 1}>
                   {!data.type && (
                     <PositionCard
-                      id={data.positionSlug}
+                      id={data.id}
                       positionId={this.state.positionId}
-                      onChangeURL={positionSlug =>
-                        this.onChangePosition(positionSlug)
-                      }
-                      heading={data.position}
-                      subHeading={data.experienceYears}
+                      onChangeURL={id => this.onChangePosition(id)}
+                      heading={data.text}
+                      subHeading={'2+ Years'}
                     />
+                  )}
+                  {console.log(
+                    'this.state.positionname',
+                    this.state.positionname,
+                    ' this.state.positionData',
+                    this.state.positionData
                   )}
                   {data.type === 'description' && (
                     <Description

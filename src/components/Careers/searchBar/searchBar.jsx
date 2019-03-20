@@ -11,17 +11,17 @@ class SearchBar extends Component {
 
   onClickPositionFromSearch = data => {
     this.props.props.history.push(
-      `/open-positions?location=${data.place}&team=${data.team.replace(
+      `/open-positions?location=${data.categories.location.replace(/, /g, '-')}&team=${data.categories.team.replace(
         / +/g,
         ''
-      )}&position=${data.positionSlug}`
+      )}&position=${data.id}`
     )
   }
 
   getCurrentWidth = () => {
     let screenWidth = null
-    if (typeof window !== `undefined`) {
-      screenWidth = window.innerWidth
+    if (typeof screen !== `undefined`) {
+      screenWidth = screen.width
     }
     // console.log("screenWidth",screenWidth)
     return screenWidth
@@ -39,7 +39,7 @@ class SearchBar extends Component {
 
     const { places, searchResult } = this.props
     const locations = [
-      'Bangalore',
+      'Bengaluru',
       'Jakarta',
       'Bangkok',
       'Singapore',
@@ -101,6 +101,7 @@ class SearchBar extends Component {
                 className="col-12 px-0 d-flex flex-row flex-wrap justify-content-center"
                 style={{ maxHeight: '150px', overflowY: 'scroll' }}
               >
+                {console.log('searchResult', searchResult)}
                 {searchResult.map((data, i) => {
                   return (
                     <div
@@ -109,10 +110,10 @@ class SearchBar extends Component {
                       className="text-left bg-white-hover-gray border-0 py-2 col-12 scroll"
                     >
                       <span className="roboto-regular font-sm text-dark ">
-                        {data.position}
+                        {data.text}
                       </span>&nbsp;
                       <span className="roboto-bold text-success font-sm">
-                        {data.place}
+                        {data.categories.location}
                       </span>
                     </div>
                   )
@@ -150,7 +151,7 @@ class SearchBar extends Component {
             >
               All
             </h6>
-            {locations.map((data, i) => {
+            {places.map((data, i) => {
               return (
                 <h6
                   key={i}

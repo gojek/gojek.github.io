@@ -87,6 +87,9 @@ class Layout extends Component {
 		return (
 			<div>
 				<Helmet>
+					<title>
+						GOJEK 
+					</title>
 					<meta content="yes" name="apple-mobile-web-app-capable" />
 					<meta name="description" content={metaData.description} />
 

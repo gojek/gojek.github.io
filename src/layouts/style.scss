@@ -398,7 +398,8 @@ button.navbar-toggler {
   background-size: cover;
 }
 
-.ho-chi-minh-city-banner {
+.ho-chi-minh-city-banner,.bali-denpasar-banner,
+.manila-banner {
   background: url(/../images/careers/ho-chi-minh-city-banner.png) no-repeat
     center;
   background-size: cover;
@@ -706,9 +707,9 @@ html {
   }
 }
 
-li {
-  color: green;
-}
+// li {
+//   color: green;
+// }
 
 .modal-btn {
   cursor: pointer;
