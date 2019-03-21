@@ -108,7 +108,7 @@ class Description extends Component {
                   <div className="row justify-content-center">
                     <div className="col-12 row pt-4">
                       <ul className="">
-                        <div className="row job-points">
+                        <div className=" job-points">
                           {positionData[0].lists[0] !== undefined &&
                             Parser(positionData[0].lists[0].content)}
                         </div>
@@ -130,7 +130,7 @@ class Description extends Component {
                   <div className="row justify-content-center">
                     <div className="col-12 row pt-4">
                       <ul className="">
-                        <div className="row job-points">
+                        <div className=" job-points">
                           {positionData[0].lists[1] !== undefined &&
                             Parser(positionData[0].lists[1].content)}
                         </div>
