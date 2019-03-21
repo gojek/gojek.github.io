@@ -15,7 +15,6 @@ class Layout extends Component {
 		const { siteMetadata: metaData } = this.props.data.site;
 		const { location, children } = this.props
 		const slug = location.pathname.split("/careers/");
-		// console.log("metaData",metaData)
 		// Gomake impact header
 		let menu = [
 			{

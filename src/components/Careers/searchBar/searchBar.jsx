@@ -23,7 +23,6 @@ class SearchBar extends Component {
     if (typeof screen !== `undefined`) {
       screenWidth = screen.width
     }
-    // console.log("screenWidth",screenWidth)
     return screenWidth
   }
 
@@ -101,7 +100,6 @@ class SearchBar extends Component {
                 className="col-12 px-0 d-flex flex-row flex-wrap justify-content-center"
                 style={{ maxHeight: '150px', overflowY: 'scroll' }}
               >
-                {console.log('searchResult', searchResult)}
                 {searchResult.map((data, i) => {
                   return (
                     <div

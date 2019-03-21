@@ -144,7 +144,6 @@ class TestApply extends Component {
           err.response.data.errors.map(function(error) {
             let key = Object.keys(error)
             // error[key].forEach((element, index) => {
-            // console.log('Here', key[0].split("_"))
 
             var text = ''
 

@@ -32,9 +32,9 @@ class CareerLocation extends Component {
         label: 'Singapore',
       },
       {
-        locationName: 'bali-denpasar',
+        locationName: 'bali',
         imageLink: '../../images/careers/vietnam.png',
-        label: 'Bali, Denpasar',
+        label: 'Bali',
       },
       {
         locationName: 'bangkok',

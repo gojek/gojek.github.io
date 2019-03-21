@@ -26,7 +26,7 @@ class Categories extends Component {
         'bangalore',
         'jakarta',
         'singapore',
-        'bali-denpasar',
+        'bali',
         'bangkok',
         'manila',
       ],
@@ -44,7 +44,7 @@ class Categories extends Component {
       screenWidth = window.innerWidth
     }
     axios
-      .get(`https://api.lever.co/v0/postings/go-jek?mode=json`)
+      .get(`https://api.lever.co/v0/postings/gojek?mode=json`)
       .then(response => {
         this.setState(
           {
@@ -170,7 +170,7 @@ class Categories extends Component {
     const params = [
       {
         key: 'location',
-        value: this.state.locationName,
+        value: this.state.locationName.replace(/, /g, '-'),
       },
       {
         key: 'team',
@@ -185,7 +185,7 @@ class Categories extends Component {
     const params = [
       {
         key: 'location',
-        value: this.state.locationName,
+        value: this.state.locationName.replace(/, /g, '-'),
       },
       {
         key: 'team',
@@ -204,7 +204,7 @@ class Categories extends Component {
     const params = [
       {
         key: 'location',
-        value: this.state.locationName,
+        value: this.state.locationName.replace(/, /g, '-'),
       },
       {
         key: 'team',
@@ -276,7 +276,6 @@ class Categories extends Component {
                         </div> */}
           </React.Fragment>
         )}
-        {console.log('this.state.positions', this.state.positions)}
         <div className="d-flex flex-row flex-wrap justify-content-start my-3">
           {this.state.positions !== null &&
             this.state.positions.map((data, i) => {
@@ -291,12 +290,7 @@ class Categories extends Component {
                       subHeading={'2+ Years'}
                     />
                   )}
-                  {console.log(
-                    'this.state.positionname',
-                    this.state.positionname,
-                    ' this.state.positionData',
-                    this.state.positionData
-                  )}
+                  
                   {data.type === 'description' && (
                     <Description
                       positionName={this.state.positionname}

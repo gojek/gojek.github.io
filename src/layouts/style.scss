@@ -383,7 +383,7 @@ button.navbar-toggler {
   background-size: cover;
 }
 
-.bangalore-banner {
+.bengaluru-banner {
   background: url(/../images/careers/bangalore-banner.png) no-repeat center;
   background-size: cover;
 }
@@ -398,7 +398,7 @@ button.navbar-toggler {
   background-size: cover;
 }
 
-.ho-chi-minh-city-banner,.bali-denpasar-banner,
+.ho-chi-minh-city-banner,.bali-banner,
 .manila-banner {
   background: url(/../images/careers/ho-chi-minh-city-banner.png) no-repeat
     center;
@@ -710,6 +710,10 @@ html {
 // li {
 //   color: green;
 // }
+
+.job-points li {
+  padding: 8px 0px;
+}
 
 .modal-btn {
   cursor: pointer;

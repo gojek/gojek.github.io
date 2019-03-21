@@ -38,9 +38,8 @@ class Careers extends Component {
 
   componentDidMount() {
     axios
-      .get(`https://api.lever.co/v0/postings/go-jek?mode=json`)
+      .get(`https://api.lever.co/v0/postings/gojek?mode=json`)
       .then(response => {
-        console.log("repsonse",response)
         let placesAdded = []
         for (let i = 0; i < response.data.length; i++) {
           let count = 0
@@ -51,7 +50,6 @@ class Careers extends Component {
             placesAdded.push(response.data[i].categories.location)
           }
         }
-        console.log('places', placesAdded)
         this.setState({ jobResponseData: response, places: placesAdded })
         return response
       })

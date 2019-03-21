@@ -30,7 +30,6 @@ class Location extends Component {
     }
 
     render() {
-        console.log('here', this.props);
         return (
             <div className="first-section">
                 <Helmet>
