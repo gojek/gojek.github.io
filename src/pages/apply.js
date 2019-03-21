@@ -122,10 +122,9 @@ class TestApply extends Component {
       }
       axios({
         method: 'post',
-        url:
-          'https://jsapi.recruiterbox.com/v1/openings/' +
-          this.state.propsData.jobId +
-          '/apply?client_name=gojek',
+        url: `https://api.lever.co/v0/postings/gojek/${
+          this.state.propsData.jobId
+        }?key=zLOhG9i-dbX2GL69dRM1`,
         headers: {
           'Content-Type': 'application/json',
         },
