@@ -141,8 +141,17 @@ class Description extends Component {
               </section>
             </div>
           </div>
-
-          <TestApply applyData={applyData} />
+          {
+            console.log("positionData",positionData[0])
+          }
+          <div className="d-block text-center">
+            <a target="_blank"
+              href={positionData[0].hostedUrl + '/apply'}
+              className="apply btn btn-success px-5 apply  my-5"
+            >
+              APPLY FOR THIS JOB{' '}
+            </a>
+          </div>
         </div>
       </div>
     )

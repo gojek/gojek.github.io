@@ -81,12 +81,18 @@ class Categories extends Component {
         teamName: teamName,
         deletePositionId: null,
         positions: jobs.filter((data, i) => {
-          if (data.categories.team.replace(/ +/g, '') === teamName) {
+          if (
+            data.categories.team &&
+            data.categories.team.replace(/ +/g, '') === teamName
+          ) {
             return data
           }
         }),
         tempPositions: jobs.filter((data, i) => {
-          if (data.categories.team.replace(/ +/g, '') === teamName) {
+          if (
+            data.categories.team &&
+            data.categories.team.replace(/ +/g, '') === teamName
+          ) {
             return data
           }
         }),
@@ -144,7 +150,20 @@ class Categories extends Component {
         count = count + 1
       }
       if (count === 0) {
-        teams.push(jobs[i].categories.team)
+        if (
+          ![
+            'Digital',
+            'Finance',
+            'Strategic Finance',
+            'Community',
+            'Legal',
+            'Government Relations',
+            'Expansion',
+            'Growth',
+          ].includes(jobs[i].categories.team)
+        ) {
+          teams.push(jobs[i].categories.team)
+        }
       }
     }
     return teams
@@ -240,6 +259,7 @@ class Categories extends Component {
                       onClick={() => this.onChangeTeam(data)}
                       className={
                         this.state.teamName !== null &&
+                        data &&
                         data.replace(/ +/g, '') === this.state.teamName
                           ? 'career-categories  border-success '
                           : '' + ` scroll career-location`
@@ -290,7 +310,7 @@ class Categories extends Component {
                       subHeading={'2+ Years'}
                     />
                   )}
-                  
+
                   {data.type === 'description' && (
                     <Description
                       positionName={this.state.positionname}
