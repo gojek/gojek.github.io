@@ -32,6 +32,8 @@ class Location extends Component {
         .split('=')[1]
         .toLowerCase()
     }
+
+    console.log("locationNAme",locationName)
     return locationName
   }
 
