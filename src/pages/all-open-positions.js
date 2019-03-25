@@ -70,7 +70,8 @@ class allpositions extends Component {
             'Government Relations',
             'Expansion',
             'Growth',
-          ].includes(data.categories.team)
+          ].includes(data.categories.team) &&
+          data.id !== 'fcb8f18a-0414-43db-8314-6afa01460a8c'
         ) {
           return data
         }
@@ -81,7 +82,6 @@ class allpositions extends Component {
     }
     return fd
   }
- 
 
   getPositions = (places, jobsData) => {
     let screenWidth = null

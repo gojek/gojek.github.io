@@ -71,7 +71,8 @@ class Categories extends Component {
                     'Government Relations',
                     'Expansion',
                     'Growth',
-                  ].includes(data.categories.team)
+                  ].includes(data.categories.team) &&
+                  data.id !== 'fcb8f18a-0414-43db-8314-6afa01460a8c'
                 ) {
                   return data
                 }
@@ -147,6 +148,8 @@ class Categories extends Component {
         return data
       }
     })
+
+    console.log('dsvsdvdsv', id)
     this.removeData(deletePositionId, () => {
       positions.splice(ceilValue, 0, insertData)
     })

@@ -50,9 +50,44 @@ class Careers extends Component {
             placesAdded.push(response.data[i].categories.location)
           }
         }
-        this.setState({ jobResponseData: response, places: placesAdded })
+        this.setState({
+          jobResponseData: this.getFilterdata(response),
+          places: placesAdded,
+        })
         return response
       })
+  }
+
+  getFilterdata = response => {
+    console.log('before return', response)
+    let returnData = []
+    returnData.push(
+      response.data.filter((data, i) => {
+        if (
+          data.description !== '' &&
+          data.lists.length !== 0 &&
+          (data.lists && data.lists[0] && data.lists[0].content !== '') &&
+          (data.lists && data.lists[1] && data.lists[1].content !== '') &&
+          ![
+            'Digital',
+            'Finance',
+            'Strategic Finance',
+            'Community',
+            'Legal',
+            'Government Relations',
+            'Expansion',
+            'Growth',
+          ].includes(data.categories.team) &&
+          data.id !== 'fcb8f18a-0414-43db-8314-6afa01460a8c'
+        ) {
+          return data
+        }
+      })
+    )
+    const fd = {
+      data: returnData[0],
+    }
+    return fd
   }
 
   handleSubmit = e => {
