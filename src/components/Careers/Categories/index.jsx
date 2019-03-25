@@ -53,7 +53,28 @@ class Categories extends Component {
                 data.categories.location.toLowerCase() ===
                 urlLocationName.toLowerCase()
               ) {
-                return data
+                if (
+                  data.description !== '' &&
+                  data.lists.length !== 0 &&
+                  (data.lists &&
+                    data.lists[0] &&
+                    data.lists[0].content !== '') &&
+                  (data.lists &&
+                    data.lists[1] &&
+                    data.lists[1].content !== '') &&
+                  ![
+                    'Digital',
+                    'Finance',
+                    'Strategic Finance',
+                    'Community',
+                    'Legal',
+                    'Government Relations',
+                    'Expansion',
+                    'Growth',
+                  ].includes(data.categories.team)
+                ) {
+                  return data
+                }
               }
             }),
             screenWidth: screenWidth,
@@ -150,20 +171,7 @@ class Categories extends Component {
         count = count + 1
       }
       if (count === 0) {
-        if (
-          ![
-            'Digital',
-            'Finance',
-            'Strategic Finance',
-            'Community',
-            'Legal',
-            'Government Relations',
-            'Expansion',
-            'Growth',
-          ].includes(jobs[i].categories.team)
-        ) {
-          teams.push(jobs[i].categories.team)
-        }
+        teams.push(jobs[i].categories.team)
       }
     }
     return teams
@@ -301,15 +309,25 @@ class Categories extends Component {
             this.state.positions.map((data, i) => {
               return (
                 <React.Fragment key={i + 1}>
-                  {!data.type && (
-                    <PositionCard
-                      id={data.id}
-                      positionId={this.state.positionId}
-                      onChangeURL={id => this.onChangePosition(id)}
-                      heading={data.text}
-                      subHeading={'2+ Years'}
-                    />
-                  )}
+                  {!data.type &&
+                    !(
+                      data.description === '' ||
+                      data.lists.length === 0 ||
+                      (data.lists &&
+                        data.lists[0] &&
+                        data.lists[0].content === '') ||
+                      (data.lists &&
+                        data.lists[1] &&
+                        data.lists[1].content === '')
+                    ) && (
+                      <PositionCard
+                        id={data.id}
+                        positionId={this.state.positionId}
+                        onChangeURL={id => this.onChangePosition(id)}
+                        heading={data.text}
+                        subHeading={'2+ Years'}
+                      />
+                    )}
 
                   {data.type === 'description' && (
                     <Description

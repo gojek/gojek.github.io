@@ -141,9 +141,7 @@ class Description extends Component {
               </section>
             </div>
           </div>
-          {
-            console.log("positionData",positionData[0])
-          }
+      
           <div className="d-block text-center">
             <a target="_blank"
               href={positionData[0].hostedUrl + '/apply'}

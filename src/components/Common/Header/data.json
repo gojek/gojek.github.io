@@ -41,12 +41,7 @@
             "link": "/contact/",
             "type": "link"
         },
-        {
-            "id": "9",
-            "name": "Gomakeimpact",
-            "link": "/gomakeimpact/",
-            "type": "link"
-        },
+       
         {
             "id": "10",
             "name": "SuperApp",

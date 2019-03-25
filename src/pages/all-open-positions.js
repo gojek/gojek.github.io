@@ -25,7 +25,7 @@ class allpositions extends Component {
       positionname: null,
       deletePositionId: null,
       positionData: null,
-      jobsData:[]
+      jobsData: [],
     }
   }
 
@@ -47,9 +47,41 @@ class allpositions extends Component {
             tempPositions.push(response.data[i].categories.location)
           }
         }
-        this.getPositions(places, response)
+        this.getPositions(places, this.getFilterdata(response))
       })
   }
+
+  getFilterdata = response => {
+    console.log('before return', response)
+    let returnData = []
+    returnData.push(
+      response.data.filter((data, i) => {
+        if (
+          data.description !== '' &&
+          data.lists.length !== 0 &&
+          (data.lists && data.lists[0] && data.lists[0].content !== '') &&
+          (data.lists && data.lists[1] && data.lists[1].content !== '') &&
+          ![
+            'Digital',
+            'Finance',
+            'Strategic Finance',
+            'Community',
+            'Legal',
+            'Government Relations',
+            'Expansion',
+            'Growth',
+          ].includes(data.categories.team)
+        ) {
+          return data
+        }
+      })
+    )
+    const fd = {
+      data: returnData[0],
+    }
+    return fd
+  }
+ 
 
   getPositions = (places, jobsData) => {
     let screenWidth = null
@@ -57,6 +89,7 @@ class allpositions extends Component {
     if (typeof window !== `undefined`) {
       screenWidth = window.innerWidth
     }
+    console.log('jobsJson', jobsData)
 
     this.setState(
       {
@@ -335,9 +368,7 @@ class allpositions extends Component {
                                     <PositionCard
                                       id={data.id}
                                       positionId={this.state.positionId}
-                                      onChangeURL={id =>
-                                        this.onChangeURL(id)
-                                      }
+                                      onChangeURL={id => this.onChangeURL(id)}
                                       heading={data.text}
                                       subHeading={data.categories.team}
                                     />
