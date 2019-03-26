@@ -70,8 +70,18 @@ class allpositions extends Component {
             'Government Relations',
             'Expansion',
             'Growth',
+            'Accounting and Finance',
+            'Business Operations - Community',
+            'Marketplace',
+            'International Operations - Expansion',
+            'Business operations - Growth',
+            'Marketing and Communications - Digital',
           ].includes(data.categories.team) &&
-          data.id !== 'fcb8f18a-0414-43db-8314-6afa01460a8c'
+          ![
+            '9f1c11a2-384f-46db-90f1-2fb6821b84ef',
+            'b127d751-c254-43cc-99c1-fbcadb996ff6',
+            'b8984973-1b9a-410d-9366-4fe0cc17c954',
+          ].includes(data.id)
         ) {
           return data
         }
