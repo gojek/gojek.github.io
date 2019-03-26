@@ -393,17 +393,18 @@ button.navbar-toggler {
   background-size: cover;
 }
 
-.bangkok-banner {
-  background: url(/../images/careers/bangkok-banner.png) no-repeat center;
+.bangkok-banner,.bali-banner,
+.manila-banner,.gurugram-banner {
+  background: url(/../images/careers/job-illustration.png) no-repeat center;
   background-size: cover;
 }
 
-.ho-chi-minh-city-banner,.bali-banner,
-.manila-banner {
-  background: url(/../images/careers/ho-chi-minh-city-banner.png) no-repeat
-    center;
-  background-size: cover;
-}
+// .bali-banner,
+// .manila-banner {
+//   background: url(/../images/careers/ho-chi-minh-city-banner.png) no-repeat
+//     center;
+//   background-size: cover;
+// }
 
 .philippines-banner {
   background: url(/../images/careers/philippines-banner.png) no-repeat center;

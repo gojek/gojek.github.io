@@ -159,7 +159,6 @@ class Categories extends Component {
       }
     })
 
-    console.log('dsvsdvdsv', id)
     this.removeData(deletePositionId, () => {
       positions.splice(ceilValue, 0, insertData)
     })
@@ -338,7 +337,7 @@ class Categories extends Component {
                         positionId={this.state.positionId}
                         onChangeURL={id => this.onChangePosition(id)}
                         heading={data.text}
-                        subHeading={'2+ Years'}
+                        subHeading={''}
                       />
                     )}
 

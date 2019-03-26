@@ -52,7 +52,6 @@ class allpositions extends Component {
   }
 
   getFilterdata = response => {
-    console.log('before return', response)
     let returnData = []
     returnData.push(
       response.data.filter((data, i) => {
@@ -99,7 +98,6 @@ class allpositions extends Component {
     if (typeof window !== `undefined`) {
       screenWidth = window.innerWidth
     }
-    console.log('jobsJson', jobsData)
 
     this.setState(
       {

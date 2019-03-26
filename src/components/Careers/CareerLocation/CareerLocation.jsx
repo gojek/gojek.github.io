@@ -46,6 +46,11 @@ class CareerLocation extends Component {
         imageLink: '../../images/careers/vietnam.png',
         label: 'Manila',
       },
+      {
+        locationName: 'gurugram',
+        imageLink: '../../images/careers/philipines.png',
+        label: 'Gurugram',
+      },
     ]
     return (
       <section className="pb-5">

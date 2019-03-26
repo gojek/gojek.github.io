@@ -59,7 +59,7 @@ class Careers extends Component {
   }
 
   getFilterdata = response => {
-    console.log('before return', response)
+    // console.log('before return', response)
     let returnData = []
     returnData.push(
       response.data.filter((data, i) => {

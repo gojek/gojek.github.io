@@ -33,7 +33,7 @@ class Location extends Component {
         .toLowerCase()
     }
 
-    console.log("locationNAme",locationName)
+    // console.log('locationNAme', locationName)
     return locationName
   }
 
@@ -73,11 +73,7 @@ class Location extends Component {
         </div>
         <CountBanner
           props={this.props}
-          bannerImage={`${
-            this.getLocationName().toLowerCase() === 'gurugram'
-              ? 'bengaluru'
-              : this.getLocationName().toLowerCase()
-          }-banner`}
+          bannerImage={`${this.getLocationName().toLowerCase()}-banner`}
           height="75vh"
         />
         <Categories props={this.props} />
