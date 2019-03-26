@@ -80,6 +80,7 @@ class allpositions extends Component {
             '9f1c11a2-384f-46db-90f1-2fb6821b84ef',
             'b127d751-c254-43cc-99c1-fbcadb996ff6',
             'b8984973-1b9a-410d-9366-4fe0cc17c954',
+            'df136a0b-932d-41e9-80ae-106d20554445',
           ].includes(data.id)
         ) {
           return data
