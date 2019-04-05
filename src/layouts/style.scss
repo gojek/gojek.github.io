@@ -393,8 +393,10 @@ button.navbar-toggler {
   background-size: cover;
 }
 
-.bangkok-banner,.bali-banner,
-.manila-banner,.gurugram-banner {
+.bangkok-banner,
+.bali-banner,
+.manila-banner,
+.gurugram-banner {
   background: url(/../images/careers/job-illustration.png) no-repeat center;
   background-size: cover;
 }
@@ -970,4 +972,8 @@ input[type='file'] {
 .carousel-control-next .indicators,
 .carousel-control-prev .indicators {
   background-color: #000;
+}
+
+.description-font span,.description-font li {
+  font-size: 1rem !important;
 }

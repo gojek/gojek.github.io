@@ -31,7 +31,7 @@ class SearchBar extends Component {
       localStorage.setItem(
         'source',
         this.props.source === undefined
-          ? 'https://www.gojek.io/'
+          ? 'gojek.io'
           : this.props.source
       )
     }

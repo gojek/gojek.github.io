@@ -118,7 +118,7 @@ class TestApply extends Component {
         source:
           typeof localStorage !== `undefined`
             ? localStorage.getItem('source')
-            : 'https://gojek.io',
+            : 'gojek.io',
       }
       axios({
         method: 'post',

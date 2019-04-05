@@ -18,7 +18,7 @@ import CareerLocation from '../components/Careers/CareerLocation/CareerLocation'
 class SuperApp extends Component {
     componentWillMount() {
         if (typeof localStorage !== `undefined`) {
-            localStorage.setItem('source', 'gojek.io/superapp')
+            localStorage.setItem('source', 'superapp')
         }
     }
     

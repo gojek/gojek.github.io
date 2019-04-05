@@ -5,6 +5,10 @@ import Description from '../Description/Description.jsx'
 import PositionCard from '../PositionCard/positionCard.jsx'
 import axios from 'axios'
 
+var Scroll = require('react-scroll')
+var Element = Scroll.Element
+
+var scroller = Scroll.scroller
 class Categories extends Component {
   constructor(props) {
     super(props)
@@ -80,7 +84,6 @@ class Categories extends Component {
                   ].includes(data.categories.team) &&
                   ![
                     '9f1c11a2-384f-46db-90f1-2fb6821b84ef',
-                    'b127d751-c254-43cc-99c1-fbcadb996ff6',
                     'b8984973-1b9a-410d-9366-4fe0cc17c954',
                     'df136a0b-932d-41e9-80ae-106d20554445',
                   ].includes(data.id)
@@ -217,6 +220,11 @@ class Categories extends Component {
         value: data.replace(/ +/g, ''),
       },
     ]
+
+    scroller.scrollTo('myScrollToElement1', {
+      smooth: 'easeInOutQuint',
+      offset: -100,
+    })
     this.setQueryparams(params)
     this.getPositions(data.replace(/ +/g, ''))
   }
@@ -286,7 +294,7 @@ class Categories extends Component {
                           : '' + ` scroll career-location`
                       }
                     >
-                      <p className="neosans-bold font-md text-success text-uppercase my-1 py-3">
+                      <p className="neosans-bold font-md text-success text-uppercase my-1 py-3 px-2">
                         {data}
                       </p>
                     </div>
@@ -296,26 +304,28 @@ class Categories extends Component {
             })}
         </div>
         {this.state.positions !== null && (
-          <React.Fragment>
-            <p className="font-xl-l raleway-bold text-black ">
-              {this.state.positions.length > 0
-                ? `Open Positions in ${
-                    this.state.team === null
-                      ? this.state.teamName === 'SystemsandSecurity'
-                        ? 'Systems and Security'
-                        : this.state.teamName
-                      : this.state.team
-                  }`
-                : `Whoops! There are no open position in '${
-                    this.state.team === null
-                      ? this.state.teamName
-                      : this.state.team
-                  }' currently`}
-            </p>
-            {/* <div className="d-flex flex-row-reverse col-12 px-1">
+          <Element id="openPositions1" name="myScrollToElement1" className="">
+            <React.Fragment>
+              <p className="font-xl-l raleway-bold text-black ">
+                {this.state.positions.length > 0
+                  ? `Open Positions in ${
+                      this.state.team === null
+                        ? this.state.teamName === 'SystemsandSecurity'
+                          ? 'Systems and Security'
+                          : this.state.teamName
+                        : this.state.team
+                    }`
+                  : `Whoops! There are no open position in '${
+                      this.state.team === null
+                        ? this.state.teamName
+                        : this.state.team
+                    }' currently`}
+              </p>
+              {/* <div className="d-flex flex-row-reverse col-12 px-1">
                             <a href="/all-open-positions/" className=" py-3 col-md-3 col-6 btn-block text-success scroll career-location">View All Positions&nbsp;<i className="fa fa-arrow-right"></i></a>
                         </div> */}
-          </React.Fragment>
+            </React.Fragment>
+          </Element>
         )}
         <div className="d-flex flex-row flex-wrap justify-content-start my-3">
           {this.state.positions !== null &&
