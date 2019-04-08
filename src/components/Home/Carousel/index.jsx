@@ -59,7 +59,7 @@ class Carousel extends Component {
                             <Button
                                 type="outline"
                                 text="VIEW OPEN POSITIONS"
-                                link="/careers/#viewPosition"
+                                link="/all-open-positions/"
                                 position="left"
                             />
                         </div>
