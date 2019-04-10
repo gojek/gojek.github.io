@@ -10,7 +10,7 @@
 		"data": [
 			{
 				"id": "1",
-				"image": "../../images/advantages/employee-advantage-1.jpg",
+				"image": "../../images/advantages/employee-advantage-01.jpg",
 				"alt": "GOJEK advantage",
 				"text": "We care for our people. Employees can claim upto $200 annually towards expenses related to health and wellness. This includes gym memberships, buying a cycle, saunas and massages, sports equipment etc..."
 			},
@@ -22,7 +22,7 @@
 			},
 			{
 				"id": "3",
-				"image": "../../images/advantages/employee-advantage-3.jpg",
+				"image": "../../images/advantages/employee-advantage-03.jpg",
 				"alt": "GOJEK advantage",
 				"text": "Communicate. All broadband and mobile bills are reimbursed. We're after all a by-product of the mobile revolution!"
 			},
