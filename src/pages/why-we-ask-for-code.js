@@ -19,10 +19,10 @@ class GojekBlog extends Component {
         <div className="container">
           <div className="row">
             <div className="heading col-md-12 px-md-0">
-              <p className="text-success blog-date roboto-bold pt-4 mb-1">
+              {/* <p className="text-success blog-date roboto-bold pt-4 mb-1">
                 {' '}
                 October 4, 2018
-              </p>
+              </p> */}
               <h1 className="text-md-left text-black raleway-bold ">
                 Why we ask for code
               </h1>
@@ -153,7 +153,7 @@ class GojekBlog extends Component {
                   basics like using git.
                 </p>
 
-                <p className="py-2">
+                <p className="pt-2">
                   Most drop out not because we think their code is bad, but
                   because they fail fizz buzz. In fact, it’s so effective, from
                   the very next round — our ‘code pairing round’ — we’re done
@@ -166,6 +166,15 @@ class GojekBlog extends Component {
                     {' '}
                     this post.
                   </a>
+                </p>
+
+                <p className="py-2">
+                  We have no dearth of technical problems at GOJEK, and are
+                  looking for hackers with strong, hands-on engineering skills
+                  to join our team. The same team that has helped GOJEK become a
+                  Super App with an ecosystem aided by 2 million driver partners
+                  and 400,000 merchant partners. But why GOJEK? My colleague
+                  explains. Visit superapp.is and help us move Southeast Asia.
                 </p>
               </div>
             </div>
