@@ -196,6 +196,10 @@
       "path---superapp-a0e39f21c11f6a62c5ab.js",
       "path---superapp-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-why-we-ask-for-code-js": [
+      "component---src-pages-why-we-ask-for-code-js-8ce2fe8a01b0e38e9282.js",
+      "component---src-pages-why-we-ask-for-code-js-8ce2fe8a01b0e38e9282.js.map"
+    ],
     "path---careers-ux-engineer": [
       "path---careers-ux-engineer-6616e2cedfb4f0e0484c.js",
       "path---careers-ux-engineer-6616e2cedfb4f0e0484c.js.map"
@@ -311,9 +315,9 @@
       "path---careers-machine-learning-engineer-go-pay-79a83d2991e9959d81a8.js.map"
     ],
     "app": [
-      "app-eeeae4362b6463110a05.js",
+      "app-f1817f1475206802e208.js",
       "build-js-styles.css",
-      "app-eeeae4362b6463110a05.js.map",
+      "app-f1817f1475206802e208.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-all-open-positions-js": [
@@ -355,6 +359,10 @@
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---why-we-ask-for-code": [
+      "path---why-we-ask-for-code-a0e39f21c11f6a62c5ab.js",
+      "path---why-we-ask-for-code-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
