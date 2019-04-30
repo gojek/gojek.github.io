@@ -23,7 +23,7 @@ class GojekBlog extends Component {
                 {' '}
                 October 4, 2018
               </p> */}
-              <h1 className="text-md-left text-black raleway-bold ">
+              <h1 className="text-md-left pt-4 text-black raleway-bold ">
                 Why we ask for code
               </h1>
               <h6 className="roboto-regular pb-4 font-md ">
@@ -174,7 +174,7 @@ class GojekBlog extends Component {
                   to join our team. The same team that has helped GOJEK become a
                   Super App with an ecosystem aided by 2 million driver partners
                   and 400,000 merchant partners. But why GOJEK? My colleague
-                  explains. Visit superapp.is and help us move Southeast Asia.
+                  explains. Visit <a href = "http://superapp.is" target="_blank" >superapp.is</a> and help us move Southeast Asia.
                 </p>
               </div>
             </div>
