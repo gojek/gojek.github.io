@@ -137,10 +137,11 @@ class Categories extends Component {
           this.getDescription(
             window.location.search.split('&')[2].split('=')[1]
           )
-          window.scrollTo({
-            top: 1100,
-            behavior: 'smooth',
-          })
+
+          // window.scrollTo({
+          //   top: 1100,
+          //   behavior: 'smooth',
+          // })
         }
       }
     )
@@ -243,6 +244,10 @@ class Categories extends Component {
         value: positionSlug,
       },
     ]
+    scroller.scrollTo(positionSlug, {
+      smooth: 'easeInOutQuint',
+      offset: -100,
+    })
     this.setQueryparams(params)
     this.getPositions(this.state.teamName)
   }
