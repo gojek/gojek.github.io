@@ -8,7 +8,7 @@ const SecondPage = () => (
         <div className="section-wrapper">
           <div className="section">
             <div className="posting-headline">
-              <h2>Full Stack Engineer, GO-FOOD</h2>
+              <h2>Product Engineer, GO-FOOD</h2>
               <div className="posting-categories">
                 <div className="category-label">Bengaluru, Gurugram |</div>
                 <div className="category-label">Engineering – Product Engineering |</div>
