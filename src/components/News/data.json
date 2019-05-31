@@ -3,6 +3,18 @@
     "heading": "In the News",
     "data": [
       {
+        "id": "15",
+        "link":
+          "http://bwdisrupt.businessworld.in/article/GOJEK-Completes-10-Million-Trips-in-Six-Months-in-Singapore-/30-05-2019-171231/",
+        "image": "../../images/news/gojek-10million-trips.png",
+        "name":
+          "GOJEK Completes 10 Million Trips in Six Months in Singapore",
+        "date": "MAY 30 2019 ",
+        "text":
+          "Indonesia based ride-hailing platform GOJEK announced that it has hit the milestone of 10 million completed trips in Singapore according to a statement. This announcement coincides with the company celebrating six months of operations in Singapore, after officially launching its ride-hailing service on November 29, 2018.",
+        "mainBanner": true
+      },
+      {
         "id": "14",
         "link":
           "https://www.business-standard.com/article/companies/unlimited-leaves-and-meals-indonesia-s-go-jek-woos-india-talent-119052700016_1.html",
@@ -11,15 +23,15 @@
           "Unlimited leaves and meals: Indonesia's GOJEK woos India talent",
         "date": "MAY 27 2019 ",
         "text":
-          "Keto meals, personalised workspaces, airport pickups and drops, unlimited sick leaves, and casual leaves that don’t need any approvals — Indonesian ride-hailing company Go-Jek is leaving no stone unturned in wooing talent for its India engineering centre. ",
+          "Keto meals, personalised workspaces, airport pickups and drops, unlimited sick leaves, and casual leaves that don’t need any approvals — Indonesian ride-hailing company GOJEK is leaving no stone unturned in wooing talent for its India engineering centre. ",
         "subText": "(This article is behind a paywall)",
-        "mainBanner": true
+        "mainBanner": false
       },
       {
         "id": "13",
         "link":
           "/google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round",
-        "image": "../../images/news/News.jpg",
+        "image": "../../images/news/News-Investors.jpg",
         "name":
           "Google, JD.com, and Tencent lead first closing of GOJEK’s Series F funding round",
         "date": "FEBRUARY O1 2019 ",
@@ -35,7 +47,7 @@
         "name": "Pre-registration for drivers in Singapore commences",
         "date": " OCTOBER 29, 2018",
         "text":
-          "GOJEK has today launched a portal through which drivers can pre-register to use its platform. By signing up, drivers will have the opportunity to be among GO-JEK’s first driver-partners in Singapore.",
+          "GOJEK has today launched a portal through which drivers can pre-register to use its platform. By signing up, drivers will have the opportunity to be among GOJEK’s first driver-partners in Singapore.",
         "mainBanner": false
       },
       {

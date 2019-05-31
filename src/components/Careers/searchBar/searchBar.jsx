@@ -11,10 +11,10 @@ class SearchBar extends Component {
 
   onClickPositionFromSearch = data => {
     this.props.props.history.push(
-      `/open-positions?location=${data.categories.location.replace(/, /g, '-')}&team=${data.categories.team.replace(
-        / +/g,
-        ''
-      )}&position=${data.id}`
+      `/open-positions?location=${data.categories.location.replace(
+        /, /g,
+        '-'
+      )}&team=${data.categories.team.replace(/ +/g, '')}&position=${data.id}`
     )
   }
 
@@ -30,9 +30,7 @@ class SearchBar extends Component {
     if (typeof localStorage !== 'undefined') {
       localStorage.setItem(
         'source',
-        this.props.source === undefined
-          ? 'gojek.io'
-          : this.props.source
+        this.props.source === undefined ? 'gojek.io' : this.props.source
       )
     }
 

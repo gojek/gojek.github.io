@@ -13,7 +13,7 @@ class Card extends Component {
       return (
         <div className="row mx-0">
           <div className="col-md-8 order-sm-2 pb-sm-2 pb-md-5">
-            <img className="img-fluid" src={data.image} alt={data.name} />
+            <img className="img-fluid rounded" src={data.image} alt={data.name} />
           </div>
           <div className="col-md-4 order-sm-1 pb-sm-2 pb-md-5">
             <div className="card border-0">
@@ -48,7 +48,7 @@ class Card extends Component {
         <div className="col-md-4">
           <div className="card border-0">
             <img
-              className="card-img-top img-fluid"
+              className="card-img-top img-fluid rounded"
               src={data.image}
               alt={data.name}
               style={imgStyle}
