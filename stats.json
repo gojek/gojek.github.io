@@ -8,13 +8,17 @@
       "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js-79cbc87eb1574a07b51c.js",
       "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js-79cbc87eb1574a07b51c.js.map"
     ],
+    "path---tech-videos": [
+      "path---tech-videos-a0e39f21c11f6a62c5ab.js",
+      "path---tech-videos-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---full-stack-dev-go-food": [
       "path---full-stack-dev-go-food-a0e39f21c11f6a62c5ab.js",
       "path---full-stack-dev-go-food-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-f089b8ff3108b30ccd35.js",
-      "component---src-pages-index-js-f089b8ff3108b30ccd35.js.map"
+      "component---src-pages-index-js-71bb8000f672f852988f.js",
+      "component---src-pages-index-js-71bb8000f672f852988f.js.map"
     ],
     "path---events": [
       "path---events-a0e39f21c11f6a62c5ab.js",
@@ -77,8 +81,8 @@
       "component---src-pages-android-dev-go-food-js-b2619e71964bbb66d33c.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-cce5ff3ac08d4430c26a.js",
-      "component---src-layouts-index-js-cce5ff3ac08d4430c26a.js.map"
+      "component---src-layouts-index-js-2ac37b3eb9a8c9a1651d.js",
+      "component---src-layouts-index-js-2ac37b3eb9a8c9a1651d.js.map"
     ],
     "path---careers": [
       "path---careers-a0e39f21c11f6a62c5ab.js",
@@ -122,13 +126,9 @@
       "component---src-pages-careers-js-5d223113089e429e71eb.js",
       "component---src-pages-careers-js-5d223113089e429e71eb.js.map"
     ],
-    "component---src-pages-videos-js": [
-      "component---src-pages-videos-js-4484c0d4b9a8405bf482.js",
-      "component---src-pages-videos-js-4484c0d4b9a8405bf482.js.map"
-    ],
     "component---src-pages-articles-js": [
-      "component---src-pages-articles-js-ce983069ee21951ca9a6.js",
-      "component---src-pages-articles-js-ce983069ee21951ca9a6.js.map"
+      "component---src-pages-articles-js-b726e33ed9d663cd55a2.js",
+      "component---src-pages-articles-js-b726e33ed9d663cd55a2.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -137,6 +137,10 @@
     "path---contact": [
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-tech-videos-js": [
+      "component---src-pages-tech-videos-js-c8740841c90479c3dd25.js",
+      "component---src-pages-tech-videos-js-c8740841c90479c3dd25.js.map"
     ],
     "component---src-pages-thank-you-js": [
       "component---src-pages-thank-you-js-fe3c0aa936e430a8bd89.js",
@@ -151,9 +155,9 @@
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-ef2a0a9a89cb18225094.js",
+      "app-e98fa04535497ca30686.js",
       "build-js-styles.css",
-      "app-ef2a0a9a89cb18225094.js.map",
+      "app-e98fa04535497ca30686.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-all-open-positions-js": [
@@ -163,10 +167,6 @@
     "component---src-pages-description-js": [
       "component---src-pages-description-js-890253ba83515311e11c.js",
       "component---src-pages-description-js-890253ba83515311e11c.js.map"
-    ],
-    "path---videos": [
-      "path---videos-a0e39f21c11f6a62c5ab.js",
-      "path---videos-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---android-dev-go-food": [
       "path---android-dev-go-food-a0e39f21c11f6a62c5ab.js",
