@@ -13,16 +13,12 @@
       "path---full-stack-dev-go-food-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-6f254842f66a7a87c6bc.js",
-      "component---src-pages-index-js-6f254842f66a7a87c6bc.js.map"
+      "component---src-pages-index-js-f089b8ff3108b30ccd35.js",
+      "component---src-pages-index-js-f089b8ff3108b30ccd35.js.map"
     ],
     "path---events": [
       "path---events-a0e39f21c11f6a62c5ab.js",
       "path---events-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---blog": [
-      "path---blog-a0e39f21c11f6a62c5ab.js",
-      "path---blog-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---open-source": [
       "path---open-source-a0e39f21c11f6a62c5ab.js",
@@ -35,6 +31,10 @@
     "path---gojek-expansion": [
       "path---gojek-expansion-a0e39f21c11f6a62c5ab.js",
       "path---gojek-expansion-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---articles": [
+      "path---articles-a0e39f21c11f6a62c5ab.js",
+      "path---articles-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---": [
       "path----f2255a827d4f1ea0e410.js",
@@ -65,8 +65,8 @@
       "path---description-b38bad74df52107d737d.js.map"
     ],
     "component---src-pages-open-source-js": [
-      "component---src-pages-open-source-js-a4bcb68bda13f7e337e2.js",
-      "component---src-pages-open-source-js-a4bcb68bda13f7e337e2.js.map"
+      "component---src-pages-open-source-js-7cc449671c153ace9bd8.js",
+      "component---src-pages-open-source-js-7cc449671c153ace9bd8.js.map"
     ],
     "component---src-pages-go-jek-tech-to-hire-200-engineers-in-india-js": [
       "component---src-pages-go-jek-tech-to-hire-200-engineers-in-india-js-c9897a8c9964053a2362.js",
@@ -77,8 +77,8 @@
       "component---src-pages-android-dev-go-food-js-b2619e71964bbb66d33c.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-84c9838465782273d5d2.js",
-      "component---src-layouts-index-js-84c9838465782273d5d2.js.map"
+      "component---src-layouts-index-js-cce5ff3ac08d4430c26a.js",
+      "component---src-layouts-index-js-cce5ff3ac08d4430c26a.js.map"
     ],
     "path---careers": [
       "path---careers-a0e39f21c11f6a62c5ab.js",
@@ -113,14 +113,22 @@
       "component---src-pages-404-js-a61aa8ed034f92e8b6cb.js.map"
     ],
     "commons": [
-      "commons-2e54c78871d5df1314d2.js",
+      "commons-c9fddd7683ae303b2bcd.js",
       "build-js-styles.css",
-      "commons-2e54c78871d5df1314d2.js.map",
+      "commons-c9fddd7683ae303b2bcd.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-careers-js": [
-      "component---src-pages-careers-js-a71fa76d3dc98cfb1cc0.js",
-      "component---src-pages-careers-js-a71fa76d3dc98cfb1cc0.js.map"
+      "component---src-pages-careers-js-5d223113089e429e71eb.js",
+      "component---src-pages-careers-js-5d223113089e429e71eb.js.map"
+    ],
+    "component---src-pages-videos-js": [
+      "component---src-pages-videos-js-4484c0d4b9a8405bf482.js",
+      "component---src-pages-videos-js-4484c0d4b9a8405bf482.js.map"
+    ],
+    "component---src-pages-articles-js": [
+      "component---src-pages-articles-js-ce983069ee21951ca9a6.js",
+      "component---src-pages-articles-js-ce983069ee21951ca9a6.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -138,27 +146,27 @@
       "path---news-a0e39f21c11f6a62c5ab.js",
       "path---news-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-7da69f062e5c7b0af091.js",
-      "component---src-pages-blog-js-7da69f062e5c7b0af091.js.map"
-    ],
     "path---thank-you": [
       "path---thank-you-a0e39f21c11f6a62c5ab.js",
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-ff73d205b75add821447.js",
+      "app-ef2a0a9a89cb18225094.js",
       "build-js-styles.css",
-      "app-ff73d205b75add821447.js.map",
+      "app-ef2a0a9a89cb18225094.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-all-open-positions-js": [
-      "component---src-pages-all-open-positions-js-34e7518b9bb17f7ea8b8.js",
-      "component---src-pages-all-open-positions-js-34e7518b9bb17f7ea8b8.js.map"
+      "component---src-pages-all-open-positions-js-724fa1d07cdfead6e822.js",
+      "component---src-pages-all-open-positions-js-724fa1d07cdfead6e822.js.map"
     ],
     "component---src-pages-description-js": [
-      "component---src-pages-description-js-dd8752dcb93803eff103.js",
-      "component---src-pages-description-js-dd8752dcb93803eff103.js.map"
+      "component---src-pages-description-js-890253ba83515311e11c.js",
+      "component---src-pages-description-js-890253ba83515311e11c.js.map"
+    ],
+    "path---videos": [
+      "path---videos-a0e39f21c11f6a62c5ab.js",
+      "path---videos-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---android-dev-go-food": [
       "path---android-dev-go-food-a0e39f21c11f6a62c5ab.js",
@@ -181,8 +189,8 @@
       "path---gomakeimpact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-e51627f00447ca3d6797.js",
-      "component---src-pages-about-js-e51627f00447ca3d6797.js.map"
+      "component---src-pages-about-js-84b86ee4c85689cfa89c.js",
+      "component---src-pages-about-js-84b86ee4c85689cfa89c.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
