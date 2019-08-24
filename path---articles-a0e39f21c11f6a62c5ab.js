@@ -1,2 +1,2 @@
-webpackJsonp([56932394960959],{536:function(t,n){t.exports={pathContext:{}}}});
+webpackJsonp([56932394960959],{539:function(t,n){t.exports={pathContext:{}}}});
 //# sourceMappingURL=path---articles-a0e39f21c11f6a62c5ab.js.map
