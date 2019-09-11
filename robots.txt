@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /tech-jobs
+Sitemap: https://gojek.io/sitemap.xml
+Host: https://gojek.io

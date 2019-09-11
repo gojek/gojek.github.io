@@ -57,8 +57,8 @@
       "component---src-pages-contact-js-926f78b358850991889d.js.map"
     ],
     "component---src-pages-news-js": [
-      "component---src-pages-news-js-de943008770148e9166f.js",
-      "component---src-pages-news-js-de943008770148e9166f.js.map"
+      "component---src-pages-news-js-ab12ca79f699884c1659.js",
+      "component---src-pages-news-js-ab12ca79f699884c1659.js.map"
     ],
     "component---src-pages-gojek-expansion-js": [
       "component---src-pages-gojek-expansion-js-e655c421a6db8585c1b2.js",
@@ -93,8 +93,8 @@
       "component---src-pages-android-dev-go-food-js-d322e50ab331893db6f6.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-b78fc4537f172b6c1b77.js",
-      "component---src-layouts-index-js-b78fc4537f172b6c1b77.js.map"
+      "component---src-layouts-index-js-8123f5b179076f77afe7.js",
+      "component---src-layouts-index-js-8123f5b179076f77afe7.js.map"
     ],
     "path---careers": [
       "path---careers-a0e39f21c11f6a62c5ab.js",
@@ -158,6 +158,10 @@
       "component---src-pages-thank-you-js-eff79dc6fb896abcfc43.js",
       "component---src-pages-thank-you-js-eff79dc6fb896abcfc43.js.map"
     ],
+    "path---tech-jobs": [
+      "path---tech-jobs-a0e39f21c11f6a62c5ab.js",
+      "path---tech-jobs-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---senior-product-engineer-go-food": [
       "path---senior-product-engineer-go-food-a0e39f21c11f6a62c5ab.js",
       "path---senior-product-engineer-go-food-a0e39f21c11f6a62c5ab.js.map"
@@ -171,9 +175,9 @@
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-193c15a737f0c78bbea5.js",
+      "app-9b9556251b29afb72204.js",
       "build-js-styles.css",
-      "app-193c15a737f0c78bbea5.js.map",
+      "app-9b9556251b29afb72204.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-all-open-positions-js": [
@@ -187,6 +191,10 @@
     "path---android-dev-go-food": [
       "path---android-dev-go-food-a0e39f21c11f6a62c5ab.js",
       "path---android-dev-go-food-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-tech-jobs-js": [
+      "component---src-pages-tech-jobs-js-30a3db9da5623a903859.js",
+      "component---src-pages-tech-jobs-js-30a3db9da5623a903859.js.map"
     ],
     "component---src-pages-events-js": [
       "component---src-pages-events-js-34c375e87cf7f2d13731.js",
