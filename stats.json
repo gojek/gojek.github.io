@@ -57,8 +57,8 @@
       "component---src-pages-contact-js-926f78b358850991889d.js.map"
     ],
     "component---src-pages-news-js": [
-      "component---src-pages-news-js-ab12ca79f699884c1659.js",
-      "component---src-pages-news-js-ab12ca79f699884c1659.js.map"
+      "component---src-pages-news-js-604fe40e99ec98ddb44c.js",
+      "component---src-pages-news-js-604fe40e99ec98ddb44c.js.map"
     ],
     "component---src-pages-gojek-expansion-js": [
       "component---src-pages-gojek-expansion-js-e655c421a6db8585c1b2.js",
@@ -93,8 +93,8 @@
       "component---src-pages-android-dev-go-food-js-d322e50ab331893db6f6.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8123f5b179076f77afe7.js",
-      "component---src-layouts-index-js-8123f5b179076f77afe7.js.map"
+      "component---src-layouts-index-js-9a7f4070a0ede706d961.js",
+      "component---src-layouts-index-js-9a7f4070a0ede706d961.js.map"
     ],
     "path---careers": [
       "path---careers-a0e39f21c11f6a62c5ab.js",
@@ -175,9 +175,9 @@
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-9b9556251b29afb72204.js",
+      "app-81caccb417c2f274f45e.js",
       "build-js-styles.css",
-      "app-9b9556251b29afb72204.js.map",
+      "app-81caccb417c2f274f45e.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-all-open-positions-js": [
