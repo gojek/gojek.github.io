@@ -17,12 +17,12 @@
       "path---full-stack-dev-go-food-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-d0d6b5cf4417f2b01585.js",
-      "component---src-pages-index-js-d0d6b5cf4417f2b01585.js.map"
+      "component---src-pages-index-js-2c0c73adc4462863f17c.js",
+      "component---src-pages-index-js-2c0c73adc4462863f17c.js.map"
     ],
     "component---src-pages-the-secret-sauce-behind-search-personalisation-js": [
-      "component---src-pages-the-secret-sauce-behind-search-personalisation-js-fa4946f106294d1adf25.js",
-      "component---src-pages-the-secret-sauce-behind-search-personalisation-js-fa4946f106294d1adf25.js.map"
+      "component---src-pages-the-secret-sauce-behind-search-personalisation-js-9e1dd27d826fb03fd5be.js",
+      "component---src-pages-the-secret-sauce-behind-search-personalisation-js-9e1dd27d826fb03fd5be.js.map"
     ],
     "path---events": [
       "path---events-a0e39f21c11f6a62c5ab.js",
@@ -61,8 +61,8 @@
       "component---src-pages-contact-js-e57238b01c0d3188d1d7.js.map"
     ],
     "component---src-pages-news-js": [
-      "component---src-pages-news-js-b8393836e3e5dfba622e.js",
-      "component---src-pages-news-js-b8393836e3e5dfba622e.js.map"
+      "component---src-pages-news-js-2dda77db023536dba2d5.js",
+      "component---src-pages-news-js-2dda77db023536dba2d5.js.map"
     ],
     "component---src-pages-gojek-expansion-js": [
       "component---src-pages-gojek-expansion-js-e655c421a6db8585c1b2.js",
@@ -137,9 +137,9 @@
       "component---src-pages-404-js-a61aa8ed034f92e8b6cb.js.map"
     ],
     "commons": [
-      "commons-4167091af00c4c5d812a.js",
+      "commons-26338e73ffb8aa77beeb.js",
       "build-js-styles.css",
-      "commons-4167091af00c4c5d812a.js.map",
+      "commons-26338e73ffb8aa77beeb.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-careers-js": [
