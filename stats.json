@@ -4,9 +4,17 @@
       "component---src-pages-full-stack-dev-go-food-js-5aa4a6557541eb815655.js",
       "component---src-pages-full-stack-dev-go-food-js-5aa4a6557541eb815655.js.map"
     ],
+    "component---src-pages-kernel-js": [
+      "component---src-pages-kernel-js-ffac2a3f323a8cf6ce2a.js",
+      "component---src-pages-kernel-js-ffac2a3f323a8cf6ce2a.js.map"
+    ],
     "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js": [
       "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js-81d62b046d79a83e98e3.js",
       "component---src-pages-google-jdcom-and-tencent-lead-first-closing-of-gojeks-series-f-funding-round-js-81d62b046d79a83e98e3.js.map"
+    ],
+    "path---kernel": [
+      "path---kernel-a0e39f21c11f6a62c5ab.js",
+      "path---kernel-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tech-videos": [
       "path---tech-videos-a0e39f21c11f6a62c5ab.js",
@@ -199,9 +207,9 @@
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-662d9e95d0fed7148bc5.js",
+      "app-6b7f106e0a56830b93f1.js",
       "build-js-styles.css",
-      "app-662d9e95d0fed7148bc5.js.map",
+      "app-6b7f106e0a56830b93f1.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-all-open-positions-js": [
