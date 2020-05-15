@@ -16,6 +16,10 @@
       "path---kernel-a0e39f21c11f6a62c5ab.js",
       "path---kernel-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-events-firstplightningtalks-js": [
+      "component---src-pages-events-firstplightningtalks-js-8182ed93914d74aa7989.js",
+      "component---src-pages-events-firstplightningtalks-js-8182ed93914d74aa7989.js.map"
+    ],
     "path---tech-videos": [
       "path---tech-videos-a0e39f21c11f6a62c5ab.js",
       "path---tech-videos-a0e39f21c11f6a62c5ab.js.map"
@@ -207,10 +211,14 @@
       "path---thank-you-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-6b7f106e0a56830b93f1.js",
+      "app-f61e50a541bd8e1f38e3.js",
       "build-js-styles.css",
-      "app-6b7f106e0a56830b93f1.js.map",
+      "app-f61e50a541bd8e1f38e3.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---events-firstplightningtalks": [
+      "path---events-firstplightningtalks-a0e39f21c11f6a62c5ab.js",
+      "path---events-firstplightningtalks-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-all-open-positions-js": [
       "component---src-pages-all-open-positions-js-24e04367e4d49422318a.js",
