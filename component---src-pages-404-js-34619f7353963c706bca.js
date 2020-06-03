@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{w2l6:function(e,n,a){"use strict";a.r(n);var s=a("q1tI"),t=a.n(s);n.default=function(){return t.a.createElement("div",{className:"first-section "},t.a.createElement("img",{src:"../images//404.png",className:"img-fluid"}))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-34619f7353963c706bca.js.map
