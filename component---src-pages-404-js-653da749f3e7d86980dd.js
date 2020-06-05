@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{w2l6:function(e,a,n){"use strict";n.r(a);var s=n("q1tI"),t=n.n(s);a.default=function(){return t.a.createElement("div",{className:""},t.a.createElement("img",{src:"../images//404.png",className:"img-fluid"}))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-653da749f3e7d86980dd.js.map
